@@ -1,8 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="ExtraTranslation">
 
-    <string name="app_name">Migrate-NG</string>
-    <string name="gpe_label">Non-Google/Beta Edition</string>
+    <!--Version changes to be made in
+
+    app_name (Migrate-GPE or Migrate-NG)
+    gpe_label
+    current_version_name (must not have blank spaces)
+    current_version_codename
+    last_tested_label
+    release_state (must not have blank spaces)
+    changelog
+    build.gradle [versionCode, versionName]
+    MainActivity.java [showChangeLog()]
+    CommonToolsKotlin [THIS_VERSION]
+    CommonToolsKotlin [LAST_SUPPORTED_ANDROID_API]
+    build.gradle version in Migrate helper
+
+    -->
+
+    <!--please also update LAST_SUPPORTED_ANDROID_API in CommonToolsKotlin.kt-->
+
+    <string name="app_name">Migrate</string>
+    <string name="gpe_label"></string>
     <string name="current_version_name">3.0</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">release</string>
@@ -119,8 +138,7 @@
         \u2022 Verification of zips after backup is complete.\n
         \u2022 Many more changes and improvements…\n\n
         From 3.0 alpha to 3.0 release\n\n
-        \u2022 Wifi backup is disabled till it becomes stable.\n\n
-        <b>This is Non-Google edition of Migrate. It is the beta version. This edition retains in-app updates.</b>
+        \u2022 Wifi backup is disabled till it becomes stable.\n
     </string>
 
     <!--activity_main.xml-->
@@ -129,7 +147,6 @@
     <string name="restoreApp">In app restore</string>
     <string name="internal_storage">Internal storage</string>
     <string name="learn_about_sd_card_support">Learn about SD card support</string>
-    <string name="check_for_updates">Check for updates</string>
 
     <!--backup_layout.xml-->
     <string name="select_apps">Select apps</string>
@@ -687,13 +704,6 @@
     <string name="delete_error_backup_desc">Delete backup zip file if it finished with errors or was corrupted while backup.</string>
     <string name="zip_verification_title">Zip integrity check</string>
     <string name="zip_verification_desc">Verify if backup zips are corrupted and within the flashable memory constraints of the device.\nHIGHLY RECOMMENDED</string>
-    <string name="updates">Updates</string>
-    <string name="auto_check_updates">Auto check for updates</string>
-    <string name="auto_check_updates_desc">Check for updates at startup</string>
-    <string name="update_host">Select host for updates</string>
-    <string name="update_host_desc">Updates are stored as releases in GitHub/GitLab</string>
-    <string name="select_update_channel">Select update channel</string>
-    <string name="select_update_channel_desc">Stable channel or beta+stable</string>
     <string name="advanced">Advanced</string>
     <string name="max_zip_size">Max zip size</string>
     <string name="max_zip_size_desc">This is the maximum allowable size of a backup zip which can be safely flashed via TWRP.
