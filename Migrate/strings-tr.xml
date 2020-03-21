@@ -773,31 +773,31 @@
 
     <!--contributors.xml-->
     <string name="contr_3.0">
-        <b>Patrick Perfectly III mtl</b>: Providing logs, writing exhaustive troubleshooting guides… Basically keeping the app alive till now.\n
-        <b>Isaac Baihua</b>: Detecting a case where zip isn\'t being made if only extras are selected.\n
-        <b>@anoop142 (Anoop)</b>: Made the first SAR modified version of the app. That helped a lot in v3.0\n
-        <b>@cruzer_blaze (Gokul)</b>: Helped in scripts\n
-        <b>@indianets (Vijay)</b>: Made the script to restore split apks efficiently\n
-        <b>BillGoss(XDA)</b>: If no awk present in recovery, hence use busybox awk.\n
-        <b>AndDiSa(XDA)</b>: Fix no-newline correction.\n\n
-    Obviously I adequately thank all the thousands of users who use this app and help to make the app better. You mean a lot to me. Thanks.
+        <b>Patrick Perfectly III mtl</b>: Günlük sağlama, kapsamlı sorun giderme kılavuzları yazma… Temel olarak uygulamayı şimdiye kadar canlı tutma.\n
+        <b>Isaac Baihua</b>: Yalnızca ekstralar seçilirse zipin yapılamadığı bir durumu algılama.\n
+        <b>@anoop142 (Anoop)</b>: Uygulamanın ilk SAR değiştirilmiş sürümünü yaptı. Bu v3.0\'da çok yardımcı oldu\n
+        <b>@cruzer_blaze (Gokul)</b>: Komut dosyalarında yardımcı oldu\n
+        <b>@indianets (Vijay)</b>: Bölünmüş apk\'ları verimli bir şekilde geri yüklemek için komut dosyası yaptı\n
+        <b>BillGoss(XDA)</b>: Recovery\'de herhangi bir awk yoksa, bu nedenle busybox awk kullanma.\n
+        <b>AndDiSa(XDA)</b>: Yeni satır sonu doğrulamasını düzeltme.\n\n
+    Açıkçası bu uygulamayı kullanan ve uygulamayı daha iyi hale getirmeye yardımcı olan binlerce kullanıcının hepsine çok teşekkür ediyorum. Benim için çok şey ifade ediyorsunuz. Teşekkürler.
     </string>
-    <string name="prev_contri">Previous contributors</string>
-    <string name="thanks_to_stericson">Huge thanks to Stephen (stericdroid) for allowing me to liberally use his busybox builds</string>
-    <string name="thanks_to_magisk">Without topjohnwu\'s Magisk, this app would not be possible. I learned a lot from Magisk installer scripts.</string>
-    <string name="thanks_1">Tireless help for Xiaomi Mi A1:\n@ishubhamsingh\n@su_bin</string>
-    <string name="thanks_2">Huge bug hunters:\n
-        My classmate <b>Shivam</b> has tested the app more than me!\n
+    <string name="prev_contri">Önceki katkıda bulunanlar</string>
+    <string name="thanks_to_stericson">Busybox yapılarını serbestçe kullanmama izin verdiği için Stephen\'a (stericdroid) çok teşekkürler</string>
+    <string name="thanks_to_magisk">Topjohnwu\'nun Magisk\'i olmadan, bu uygulama mümkün olmazdı. Magisk yükleyici komut dosyalarından çok şey öğrendim.</string>
+    <string name="thanks_1">Xiaomi Mi için yorulmadan yardım A1:\n@ishubhamsingh\n@su_bin</string>
+    <string name="thanks_2">Büyük böcek avcıları:\n
+        Sınıf arkadaşım <b>Shivam</b> uygulamayı benden daha fazla test etti!\n
         @akshayrohida\n
         @raj3303\n
         \n
-        XDA member <b>djseltus</b>, for pointing to a new update-binary\n
-        <b>Vinyas N S</b>, for \"android.os.TransactionTooLargeException\" issue\n
-        <b>C Tab</b>, helped to find an issue with the helper app\n
-        XDA member <b>SevenSlevin</b> for detecting updater_script issue\n
-        XDA member <b>kdrag0n</b> for a number of helpful suggestions\n
+        XDA üyesi <b>djseltus</b>, yeni bir güncelleme ikiliğine işaret ettiği için\n
+        <b>Vinyas N S</b>, \"android.os.TransactionTooLargeException\" sorunu için\n
+        <b>C Tab</b>, yardımcı uygulamayla ilgili bir sorun bulmaya yardımcı oldu\n
+        XDA üyesi <b>SevenSlevin</b> updater_script sorununu tespit ettiği için\n
+        XDA üyesi <b>kdrag0n</b> bazı yararlı öneriler için\n
     </string>
-    <string name="thanks_3">The app wouldn\'t be possible without the whole group of tester:\n\n
+    <string name="thanks_3">Uygulama, aşağıdaki test kullanıcıları olmadan mümkün olmazdı:\n\n
         @TusharG03\n
         @arghyac35\n
         @pavanjadhaw\n
