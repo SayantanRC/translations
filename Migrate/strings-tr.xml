@@ -131,7 +131,7 @@
 
     <!--backup_layout.xml-->
     <string name="select_apps">Uygulama seç</string>
-    <string name="backupLabel">Yedekle</string>
+    <string name="backupLabel">Yedekleme</string>
     <string name="fullBackupLabel">Tam_yedek</string>
     <string name="permission">İzin</string>
     <string name="data">Veri</string>
@@ -234,7 +234,7 @@
     <string name="error_detecting_memory">Cihaz belleğini algılama hatası</string>
     <string name="error_checking_destination">Hedef kontrol edilirken hata oluştu</string>
     <string name="cannot_split">Bu uygulamalar çok büyük olduğu için yedekleme yapılamıyor!</string>
-    <string name="part">Bölüm</string>
+    <string name="part">Part</string>
     <string name="parts">parts</string>
     <string name="of">-</string>
     <string name="allowed">izin verildi</string>
@@ -636,9 +636,9 @@
     <string name="more_coming_soon">Daha fazlası çok yakında…</string>
 
     <!--miscellaneous-->
-    <string name="contact_via_telegram">Telegram ile ulaş</string>
+    <string name="contact_via_telegram">Telegram ile iletişim</string>
     <string name="contact_via_telegram_desc">Geri bildirim ve destek için lütfen Telegram grubumuzla iletişime geçin. Grup üyelerinden daha iyi ve daha hızlı destek alırsınız.\n\nTelegram\'da geliştiriciyle kişisel olarak iletişime geçmeyi de seçebilirsiniz.</string>
-    <string name="contact_dev">Geliştiriciye ulaş</string>
+    <string name="contact_dev">Geliştiriciyle iletişim</string>
     <string name="post_in_group">Grupta yayınla</string>
     <string name="select_mail">Gmail gibi bir posta uygulaması seç</string>
     <string name="select_telegram">Telegram\'ı aç ve Migrate grubunu seç</string>
@@ -664,7 +664,7 @@
     <string name="new_icon_method_desc">Bu, yedeklenen her uygulamanın simgelerini saklamak için ayrı bir .icon dosyası kullanır. İşaretlenmezse, uygulama simgeleri .json dosyasında saklanır.</string>
     <string name="tar_gz_integrity_title">tar.gz bütünlük kontrolü</string>
     <string name="tar_gz_integrity_desc">tar.gz dosyası olarak depolanan her uygulamanın veri yedeklemesinin bütünlüğünü kontrol eder</string>
-    <string name="sms_verify_title">SMS doğrulaması</string>
+    <string name="sms_verify_title">SMS doğrulama</string>
     <string name="sms_verify_desc">Yedekte depolanan SMS veritabanı dosyasının bütünlüğünü kontrol eder</string>
     <string name="calls_verify_title">Arama kayıtlarını doğrulama</string>
     <string name="calls_verify_desc">Yedekte depolanan arama kayıtları veritabanı dosyasının bütünlüğünü kontrol eder</string>
