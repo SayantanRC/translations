@@ -121,7 +121,7 @@
         Dari 3.0 alpha ke 3.0 riis\n\n
         \u2022 Cadangan Wifi dinonaktifkan hingga stabil.\n
     </string>
-	<string name="version_3.0.1">Version 3.0.1</string>
+	<string name="version_3.0.1">Versi 3.0.1</string>
     <string name="version_3.0.1_content">
         \u2022 Ditambahkan bahasa Turki (@Trexfat)\n
     </string>
@@ -803,7 +803,7 @@
         <b>BillGoss(XDA)</b>: Jika tidak ada awk yang ada dalam pemulihan, maka gunakan busybox awk.\n
         <b>AndDiSa(XDA)</b>: Perbaiki koreksi no-newline.\n\n
     Jelas saya sangat berterima kasih kepada semua ribuan pengguna yang menggunakan aplikasi ini dan membantu membuat aplikasi lebih baik. Kau sangat berarti bagiku.\n
-    Also a huge thank you to translators of the appJuga terimakasih banyak untuk para penerjemah. Terimakasih.
+    Juga terimakasih banyak untuk para penerjemah. Terimakasih.
     </string>
     <string name="prev_contri">Kontributor sebelumnya</string>
     <string name="thanks_to_stericson">Terima kasih banyak kepada Stephen (stericdroid) karena mengizinkan saya untuk secara bebas menggunakan build busybox-nya</string>
