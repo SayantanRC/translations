@@ -3,7 +3,7 @@
 
     <string name="app_name">Migrate</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.0</string>
+    <string name="current_version_name">3.0.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">release</string>
     <string name="last_tested_label">Son test: Android 10 üzerinde</string>
@@ -120,6 +120,10 @@
         \u2022 Many more changes and improvements…\n\n
         From 3.0 alpha to 3.0 release\n\n
         \u2022 Wifi backup is disabled till it becomes stable.\n
+    </string>
+  <string name="version_3.0.1">Version 3.0.1</string>
+    <string name="version_3.0.1_content">
+        \u2022 Türkçe çeviri eklendi (@Fatih Fırıncı)\n
     </string>
 
     <!--activity_main.xml-->
@@ -571,6 +575,7 @@
     <string name="changelog">Değişiklikler</string>
     <string name="lastLog">Son kayıtlar</string>
     <string name="contributors">Katkıda bulunanlar</string>
+   <string name="translate_the_app">Uygulamayı çevir</string>
     <string name="rateTheApp">Uygulamayı oyla</string>
     <string name="xda_thread">XDA konusu</string>
     <string name="other_options">Diğer seçenekler</string>
@@ -771,6 +776,16 @@
     </string>
     <string name="privacy_policy_footer">Bu kadar. Uygulamayı kullanmanın keyfini çıkarın. Telegram\'dan benimle iletişime geçmekten çekinmeyin.\n- SayantanRC</string>
 
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Çevirmek mi istiyorsunuz?</string>
+    <string name="translation_available_at">Strings.xml dosyası şurada mevcut:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Çeviri göndermek için README talimatlarını izleyin.
+    </string>
+    <string name="translators">Çevirmenler</string>
+    <string name="translators_list">
+        <b>@Fatih Fırıncı</b>: Türkçe
+    </string>
+
     <!--contributors.xml-->
     <string name="contr_3.0">
         <b>Patrick Perfectly III mtl</b>: Günlük sağlama, kapsamlı sorun giderme kılavuzları yazma… Temel olarak uygulamayı şimdiye kadar canlı tutma.\n
@@ -780,7 +795,8 @@
         <b>@indianets (Vijay)</b>: Bölünmüş apk\'ları verimli bir şekilde geri yüklemek için komut dosyası yaptı\n
         <b>BillGoss(XDA)</b>: Recovery\'de herhangi bir awk yoksa, bu nedenle busybox awk kullanma.\n
         <b>AndDiSa(XDA)</b>: Yeni satır sonu doğrulamasını düzeltme.\n\n
-    Açıkçası bu uygulamayı kullanan ve uygulamayı daha iyi hale getirmeye yardımcı olan binlerce kullanıcının hepsine çok teşekkür ediyorum. Benim için çok şey ifade ediyorsunuz. Teşekkürler.
+    Açıkçası bu uygulamayı kullanan ve uygulamayı daha iyi hale getirmeye yardımcı olan binlerce kullanıcının hepsine çok teşekkür ediyorum. Benim için çok şey ifade ediyorsunuz.\n
+    Ayrıca uygulamanın çevirmenleri için kocaman teşekkürler. Sağolun.
     </string>
     <string name="prev_contri">Önceki katkıda bulunanlar</string>
     <string name="thanks_to_stericson">Busybox yapılarını serbestçe kullanmama izin verdiği için Stephen\'a (stericdroid) çok teşekkürler</string>
@@ -819,5 +835,20 @@
     <string name="zip_batch_null_zipping_engine">Zip Toplu işlemi, sıkıştırmaya başlamadan önce boş</string>
     <string name="zip_batch_null_zip_verification">Zip Toplu İşlemi, zip doğrulamasından önce boş</string>
     <string name="improper_result_received">Yanlış sonuç alındı.</string>
+
+    <!--some branch specific strings-->
+    <!--Needs to be translated-->
+    <string name="label_for_gpe">Google Play Sürümü</string>
+    <string name="label_for_ng">Google Dışı/Beta Sürüm</string>
+    <string name="check_for_updates_ng">Güncellemeleri kontrol et</string>
+    <string name="switch_to_ng_in_gpe">Migrate-NG\'ye geç</string>
+    <string name="ng_desc">Migrate-NG, uygulamanın beta sürümüdür. Google Play\'deki sürüm kararlıdır. Beta sürümü, XDA konusundan indirmek için ayrı bir uygulama olarak mevcuttur.</string>
+    <string name="updates_ng">Güncellemeler</string>
+    <string name="auto_check_updates_ng">Güncellemeleri otomatik kontrol et</string>
+    <string name="auto_check_updates_desc_ng">Başlangıçta güncellemeleri kontrol et</string>
+    <string name="update_host_ng">Güncellemeler için host seç</string>
+    <string name="update_host_desc_ng">Güncellemeler GitHub/GitLab\'da sürüm olarak kaydedilir</string>
+    <string name="select_update_channel_ng">Güncelleme kanalını seç</string>
+    <string name="select_update_channel_desc_ng">Kararlı kanalı veya beta+kararlı</string>
 
 </resources>
