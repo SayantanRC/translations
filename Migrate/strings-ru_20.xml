@@ -125,6 +125,8 @@
     <string name="version_3.0.1_content">
         \u2022 Add turkish translation (@Trexfat)\n
         \u2022 Add russian translation (@vladrevers)\n
+        \u2022 Add indonesian translation (@rzlamrr)\n
+        \u2022 Add Simplified Chinese translation (@atfmxyl,@dwughjsd)\n
     </string>
 
     <!--activity_main.xml-->
@@ -785,8 +787,10 @@
     </string>
     <string name="translators">Переводчики</string>
     <string name="translators_list">
-        <b>@Trexfat</b>: Турецкий\n
-        <b>@vladrevers</b>: Русский
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Турецкий\n
+        <b>@rzlamrr</b>: Индонезийский\n
+        <b>@vladrevers</b>: Русский\n
+        <b>@atfmxyl,@dwughjsd</b>: Китайский (упрощенный)
     </string>
 
     <!--contributors.xml-->
