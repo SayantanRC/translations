@@ -123,7 +123,7 @@
     </string>
     <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
-        \u2022 Add turkish translation (@Trexfat)\n
+        \u2022 Add turkish translation (@Fatih Fırıncı)\n
     </string>
 
     <!--activity_main.xml-->
@@ -790,7 +790,7 @@
     </string>
     <string name="translators">Translators</string>
     <string name="translators_list">
-        <b>@Trexfat</b>: Turkish
+        <b>@Fatih Fırıncı</b>: Turkish
     </string>
 
     <!--contributors.xml-->
