@@ -790,7 +790,8 @@
     </string>
     <string name="translators">Translators</string>
     <string name="translators_list">
-        <b>@Fatih Fırıncı</b>: Turkish
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Turkish
+        <b>@rzlamrr</b>: Indonesia
     </string>
 
     <!--contributors.xml-->
