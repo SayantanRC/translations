@@ -124,6 +124,8 @@
     <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
         \u2022 Add turkish translation (@Trexfat)\n
+        \u2022 Add russian translation (@vladrevers)\n
+        \u2022 Add indonesian translation (@rzlamrr)\n
         \u2022 Add Simplified Chinese translation (@atfmxyl,@dwughjsd)\n
     </string>
 
@@ -791,8 +793,10 @@
     </string>
     <string name="translators">Translators</string>
     <string name="translators_list">
-        <b>@Trexfat</b>: Turkish
-                <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Turkish\n
+        <b>@rzlamrr</b>: Indonesia\n
+        <b>@vladrevers</b>: Russian\n
+        <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese
     </string>
 
     <!--contributors.xml-->

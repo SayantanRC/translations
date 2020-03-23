@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="ExtraTranslation">
+    tools:ignore="MissingTranslation,ExtraTranslation">
 
     <string name="app_name">Migrate</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.0</string>
+    <string name="current_version_name">3.0.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">rilis</string>
     <string name="last_tested_label">Terakhir dites di: Android 10</string>
@@ -120,6 +120,10 @@
         \u2022 Banyak lagi perubahan dan peningkatan…\n\n
         Dari 3.0 alpha ke 3.0 riis\n\n
         \u2022 Cadangan Wifi dinonaktifkan hingga stabil.\n
+    </string>
+	<string name="version_3.0.1">Versi 3.0.1</string>
+    <string name="version_3.0.1_content">
+        \u2022 Ditambahkan bahasa Turki (@Trexfat)\n
     </string>
 
     <!--activity_main.xml-->
@@ -578,6 +582,7 @@
     <string name="changelog">Changelog</string>
     <string name="lastLog">Log terakhir</string>
     <string name="contributors">Kontributor</string>
+	<string name="translate_the_app">Terjemahkan aplikasi</string>
     <string name="rateTheApp">Beri peringkat aplikasi</string>
     <string name="xda_thread">Utas XDA</string>
     <string name="other_options">Pilihan lain</string>
@@ -778,6 +783,17 @@
     </string>
     <string name="privacy_policy_footer">Itu saja. Nikmati menggunakan aplikasi. Jangan ragu untuk menghubungi saya di Telegram.\n- SayantanRC</string>
 
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Ingin menerjemahkan aplikasi?</string>
+    <string name="translation_available_at">Strings.xml tersedia di:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Ikuti petunjuk di README untuk mengirim sebuah terjemahan.
+    </string>
+    <string name="translators">Penerjemah</string>
+    <string name="translators_list">
+        <b>@Trexfat</b>: Turkish
+	<b>@rzlamrr</b>: Indonesia
+    </string>
+
     <!--contributors.xml-->
     <string name="contr_3.0">
         <b>Patrick Perfectly III mtl</b>: Memberikan log, menulis panduan pemecahan masalah lengkap ... Pada dasarnya menjaga aplikasi tetap hidup sampai sekarang.\n
@@ -787,7 +803,8 @@
         <b>@indianets (Vijay)</b>: Membuat skrip untuk mengembalikan aplikasi split secara efisien\n
         <b>BillGoss(XDA)</b>: Jika tidak ada awk yang ada dalam pemulihan, maka gunakan busybox awk.\n
         <b>AndDiSa(XDA)</b>: Perbaiki koreksi no-newline.\n\n
-    Jelas saya cukup berterima kasih kepada semua ribuan pengguna yang menggunakan aplikasi ini dan membantu membuat aplikasi lebih baik. Kau sangat berarti bagiku. Terima kasih.
+    Jelas saya sangat berterima kasih kepada semua ribuan pengguna yang menggunakan aplikasi ini dan membantu membuat aplikasi lebih baik. Kau sangat berarti bagiku.\n
+    Juga terimakasih banyak untuk para penerjemah. Terimakasih.
     </string>
     <string name="prev_contri">Kontributor sebelumnya</string>
     <string name="thanks_to_stericson">Terima kasih banyak kepada Stephen (stericdroid) karena mengizinkan saya untuk secara bebas menggunakan build busybox-nya</string>
@@ -827,4 +844,19 @@
     <string name="zip_batch_null_zip_verification">Zip Batch null sebelum verifikasi zip</string>
     <string name="improper_result_received">Kesalahan hasil yang diterima.</string>
 
+<!--some branch specific strings-->
+    <!--Needs to be translated-->
+    <string name="label_for_gpe">Edisi Google Play</string>
+    <string name="label_for_ng">Edisi Non-Google/Beta</string>
+    <string name="check_for_updates_ng">Periksa pembaruan</string>
+    <string name="switch_to_ng_in_gpe">Beralih ke Migrate-NG</string>
+    <string name="ng_desc">Migrate-NG adalah versi beta. Versi di Google Play sudah stabil. Versi beta tersedia sebagai aplikasi terpisah dan bisa diunduh di utas XDA.</string>
+    <string name="updates_ng">Pembaruan</string>
+    <string name="auto_check_updates_ng">Periksa pembaruan otomatis</string>
+    <string name="auto_check_updates_desc_ng">Periksa pembaruan saat startup</string>
+    <string name="update_host_ng">Pilih host pembaruan</string>
+    <string name="update_host_desc_ng">Pembaruan disimpan sebagai rilis di GitHub/GitLab</string>
+    <string name="select_update_channel_ng">Pilih jenis pembaruan</string>
+    <string name="select_update_channel_desc_ng">Stabil atau beta+stable</string>
+	
 </resources>
