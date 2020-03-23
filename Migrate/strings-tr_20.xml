@@ -124,6 +124,7 @@
   <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
         \u2022 Türkçe çeviri eklendi (@Fatih Fırıncı)\n
+        \u2022 Rusça çeviri eklendi (@vladrevers)\n
     </string>
 
     <!--activity_main.xml-->
@@ -783,7 +784,8 @@
     </string>
     <string name="translators">Çevirmenler</string>
     <string name="translators_list">
-        <b>@Fatih Fırıncı</b>: Türkçe
+        <b>@Fatih Fırıncı</b>: Türkçe\n
+        <b>@vladrevers</b>: Rusça
     </string>
 
     <!--contributors.xml-->
