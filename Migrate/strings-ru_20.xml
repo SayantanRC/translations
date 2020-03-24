@@ -130,7 +130,7 @@
     </string>
 
     <!--activity_main.xml-->
-    <string name="backupButton">Резервное коп-ние</string>
+    <string name="backupButton">Резервное копирование</string>
     <string name="restoreTwrp">Восстановление в TWRP</string>
     <string name="restoreApp">Восстановить в приложении</string>
     <string name="internal_storage">Внутреннее хранилище</string>
