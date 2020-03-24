@@ -9,5 +9,6 @@ Repo of translations
 5. The original `strings_nn.xml` and your `strings-xx_nn.xml` must be under the same directory.
 6. <b>Important</b>: In the main strings file, a string is `translators_list` is present. Please help yourself and add your name in it to show that you contributed. :)
 7. After translating, submit a pull request.
+	<b>Important</b>Please check other pull request before open yours in order to minimize asynchronous translations
 
 Thank you.
