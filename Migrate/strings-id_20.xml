@@ -123,7 +123,10 @@
     </string>
 	<string name="version_3.0.1">Versi 3.0.1</string>
     <string name="version_3.0.1_content">
-        \u2022 Ditambahkan bahasa Turki (@Trexfat)\n
+        \u2022 Ditambahkan bahasa turki (@Trexfat)\n
+        \u2022 Ditambahkan bahasa russia (@vladrevers)\n
+        \u2022 Ditambahkan bahasa indonesia (@rzlamrr)\n
+        \u2022 Ditambahkan bahasa Cina(Simplified) (@atfmxyl,@dwughjsd)\n
     </string>
 
     <!--activity_main.xml-->
@@ -414,7 +417,7 @@
     <string name="packet">Paket</string>
     <string name="moving_files">Memindahkan file</string>
     <string name="use_reflection">Gunakan refleksi?</string>
-    <string name="use_reflection_exp">Refleksi adalah cara eksperimental menghitung ukuran dalam Nougat dan di bawah. Ini mungkin cara yang lebih baik untuk menghitung ukuran. Direkomendasikan: Ya</string>
+    <string name="use_reflection_exp">Refleksi adalah cara eksperimental menghitung ukuran pada android Nougat dan dibawahnya. Ini mungkin cara yang lebih baik untuk menghitung ukuran. Direkomendasikan: Ya</string>
     <string name="use_usage_access_permission">Berikan izin akses penggunaan?</string>
     <string name="usage_access_permission_needed_desc">Metode baru, lebih cepat, dan lebih andal telah ditambahkan untuk menghitung ukuran aplikasi sebelum pencadangan. \n\nSilakan klik Lanjutkan, gulir dan pilih \"Migrate\" lalu aktifkan \"Izinkan akses penggunaan\"</string>
     <string name="storage_access_required">Tolong beri akses penyimpanan untuk menulis cadangan.</string>
@@ -426,7 +429,7 @@
     <string name="never_show">Jangan tampilkan lagi</string>
     <string name="unsupported_device">Perangkat tidak didukung.</string>
     <string name="cpu_arch_is">Arsitektur CPU Anda:</string>
-    <string name="currently_supported_cpu">Hanya <b> armeabi-v7a, arm64-v8a, x86, x86_64 </b> Arsitektur CPU saat ini belum didukung. Silakan hubungi melalui email untuk membantu mendukung perangkat Anda.</string>
+    <string name="currently_supported_cpu">Hanya <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> Arsitektur CPU saat ini belum didukung. Silakan hubungi melalui email untuk membantu mendukung perangkat Anda.</string>
     <string name="proceed">Proses</string>
     <string name="usage_permission_toast">Gulir dan pilih \"Migrate\" dan klik \"Izinkan akses penggunaan\"!</string>
     <string name="old_method_will_be_used">Gunakan metode terminal lama</string>
@@ -464,7 +467,7 @@
     <string name="agree_and_send">Setuju dan kirim</string>
     <string name="error_report_disclaimer">Terima kasih atas minat Anda untuk membantu meningkatkan aplikasi ini. Mulai sekarang, semua laporan kesalahan akan dikirim dalam grup Telegram kami - https://t.me/migrateApp.
         Dengan demikian, Anda akan mendapatkan solusi lebih cepat dari banyak orang di grup. \n\n
-        Dengan membagikan log, Anda setuju untuk <b>DI DEPAN UMUM</b> berbagi beberapa informasi.
+        Dengan membagikan log, Anda setuju untuk berbagi beberapa informasi <b>SECARA PUBLIK</b>.
     </string>
     <string name="not_joined_yet">Belum bergabung dengan grup kami?</string>
     <string name="send_logs_using">Kirim log melalui:</string>
@@ -480,7 +483,7 @@
 
     <!--backup_progress_layout.xml-->
     <string name="report">Laporkan</string>
-    <string name="minimizing_may_decrease_speed">Meminimalkan layar ini dapat menurunkan kecepatan cadangan!</string>
+    <string name="minimizing_may_decrease_speed">Meminimalkan aplikasi dapat menurunkan kecepatan cadangan!</string>
     
     <!--initial_guide.xml-->
     <string name="skip">Lewati</string>
@@ -488,8 +491,8 @@
     
     <!--initial_guide_0.xml-->
     <string name="greet1">Selamat datang di migrate!</string>
-    <string name="body_0_0">Migrate adalah alat untuk beralih antara berbagai ROM kustom dengan mudah. ​​\n\nIni membantu Anda mentransfer aplikasi, data, kontak, sms, dan banyak lagi lainnya.</string>
-    <string name="body_0_1">Tekan Lanjut untuk tur singkat.</string>
+    <string name="body_0_0">Migrate adalah alat untuk beralih antara berbagai ROM kustom dengan mudah. ​​\n\nMembantu Anda mentransfer aplikasi, data, kontak, sms, dan banyak lagi lainnya.</string>
+    <string name="body_0_1">Tekan Lanjut untuk pengenalan singkat.</string>
     
     <!--initial_guide_1.xml-->
     <string name="greet2">Cadangkan semuanya!</string>
@@ -499,7 +502,7 @@
     
     <!--initial_guide_2.xml-->
     <string name="greet3">Flash dengan ROM!</string>
-    <string name="body_2_0">Paket cadangan Migrate adalah file zip yang bisa diflash di TWRP. \n\nSebuah aplikasi pembantu mengambil alih proses pemulihan aplikasi setelah ROM baru Anda berhasil boot.</string>
+    <string name="body_2_0">Paket cadangan Migrate adalah file zip yang bisa diflash di TWRP. \n\nSebuah aplikasi pembantu akan mengambil alih proses pemulihan aplikasi setelah ROM baru Anda berhasil boot.</string>
     <string name="body_2_1">Setelah boot, Anda akan secara otomatis diminta untuk melanjutkan pemulihan</string>
 
     <!--initial_guide_3.xml-->
@@ -571,7 +574,7 @@
 
     <!--restore_6.xml-->
     <string name="step_6">Langkah 6 -\nSelesai!Nikmati!</string>
-    <string name="step_6_desc">Selesai!Nikmati ROM baru Anda!</string>
+    <string name="step_6_desc">Nikmati ROM baru Anda!</string>
 
     <!--drawer_menu.xml-->
     <string name="aboutThisApp">Tentang aplikasi</string>
@@ -601,7 +604,7 @@
         \u2022 Menggabungkan semua aplikasi dan data ke zip yang dapat di-flash di TWRP\n
         \u2022 Cadangkan berbagai ekstra seperti kontak, sms, log panggilan dll\n
         \u2022 Portabilitas lebih tinggi karena Anda hanya perlu membawa sedikit file zip\n
-        \u2022 Cadangan, jika perlu, dapat di-flash di perangkat lain.\n
+        \u2022 Jika perlu, Cadangan ini dapat di-flash di perangkat lain.\n
     </string>
     <string name="q3">Tapi mengapa tidak menggunakan cadangan nandroid saja?</string>
     <string name="a3">Cadangan Nandroid adalah opsi cadangan teraman yang tersedia. Namun Anda tidak dapat mengembalikan aplikasi dari satu cadangan nandroid ke ROM baru. \n
@@ -609,21 +612,21 @@
     </string>
     <string name="q4">Mengapa semua aplikasi dan data tidak dapat dipulihkan dari pemulihan itu sendiri?</string>
     <string name="a4">Pemulihan adalah lingkungan yang berbeda dari OS Android. Bayangkan menginstal game Windows dari distro Linux.\n\n
-    Jadi aplikasi pembantu disuntikkan ke partisi sistem, yang menyala saat boot sistem. Dibutuhkan izin root dan secara otomatis mengembalikan aplikasi dan data.
+    Jadi aplikasi pembantu disuntikkan ke partisi sistem, yang berjalan saat boot sistem. Dibutuhkan izin root dan secara otomatis mengembalikan aplikasi dan data.
     </string>
     <string name="q5">Apakah saya perlu mengunduh aplikasi Migrate dari Play Store untuk memulihkan zip cadangan?</string>
     <string name="a5">
-        Tidak!\n\n
+        TIDAK!\n\n
         Yang Anda butuhkan adalah TWRP dan ROM baru Anda sudah di-root. Saat mem-flash zip cadangan, aplikasi pembantu disuntikkan ke dalam sistem, yang membutuhkan proses pemulihan aplikasi.
     </string>
     <string name="q6">Apakah TWRP perlu? Tidak bisakah saya mengembalikan cadangan tanpa itu?</string>
     <string name="a6">
         TWRP diperlukan untuk mem-flash zip cadangan. Tanpa itu, Anda tidak dapat memulihkan cadangan. Pemulihan lain mungkin berhasil, tetapi tidak diuji. \n\n
-        Saat ini migrate tidak mendukung memulihkan zip dari aplikasi itu sendiri. Tapi itu adalah sesuatu yang bisa ditambahkan di masa depan.
+        Saat ini migrate tidak mendukung pemulihan zip dari aplikasi itu sendiri. Tapi itu adalah sesuatu yang bisa ditambahkan di masa depan.
     </string>
     <string name="q7">Apakah perlu menggunakan Magisk?</string>
     <string name="a7">
-        Aplikasi ini bekerja paling baik dengan Magisk. SuperSU belum diuji. Lineage OS su addon terkadang berfungsi tetapi terkadang memberikan kesalahan yang sangat aneh. Jadi tolong gunakan Magisk.
+        Aplikasi ini bekerja maksimal dengan Magisk. SuperSU belum diuji. Lineage OS su addon terkadang berfungsi tetapi terkadang memberikan kesalahan yang sangat aneh. Jadi tolong gunakan Magisk.
     </string>
     <string name="more_questions">Lebih banyak pertanyaan? Jangan ragu untuk menghubungi di Telegram</string>
 
@@ -645,7 +648,7 @@
     <string name="opcode8085">Konversi 8085 program menjadi kode hex</string>
     <string name="mdh">Akses Moto Display dengan lambaian tangan</string>
     <string name="bg_video">Putar video di latar belakang</string>
-    <string name="more_coming_soon">Selebihnya datang segera…</string>
+    <string name="more_coming_soon">Selebihnya akan datang segera…</string>
 
     <!--miscellaneous-->
     <string name="contact_via_telegram">Hubungi via Telegram</string>
@@ -666,7 +669,7 @@
     <!--preferences.xml-->
 
     <string name="disable_battery_optimisation">Nonaktifkan optimisasi baterai</string>
-    <string name="use_new_sizing_method">Gunakan metode baru untuk menghitung ukuran</string>
+    <string name="use_new_sizing_method">Gunakan metode baru untuk menghitung ukuran cadangan</string>
     <string name="use_new_sizing_method_desc">Jika diaktifkan, menggunakan StorageStats di Android 8+ dan dengan refleksi di versi yang lebih rendah.
         Jika dinonaktifkan, menggunakan perintah shell terminal untuk menghitung ukuran.</string>
     <string name="clear_to_reset">Hapus dan pilih OK untuk mengatur ulang ke nilai default</string>
@@ -681,7 +684,7 @@
     <string name="calls_verify_title">Verifikasi log panggilan</string>
     <string name="calls_verify_desc">Periksa integritas file database panggilan log yang disimpan dalam cadangan</string>
     <string name="perform_system_check_title">Lakukan pemeriksaan sistem</string>
-    <string name="perform_system_check_desc">Ini akan melakukan penyalinan apk dasar dan salinan data (dari aplikasi ini sendiri) melalui Su shell sebelum setiap pencadangan. Dengan demikian memeriksa apakah cadangan aplikasi lain akan berhasil atau tidak.</string>
+    <string name="perform_system_check_desc">Ini akan melakukan penyalinan apk dasar dan salinan data (dari aplikasi ini sendiri) melalui Su shell sebelum setiap pencadangan. Dengan demikian dapat memeriksa apakah cadangan aplikasi lain akan berhasil atau tidak.</string>
     <string name="separate_extras_title">Pisahkan cadangan ekstra</string>
     <string name="force_separate_extras">Paksa pisahkan ekstra</string>
     <string name="force_separate_extras_desc">Ekstra akan dicadangkan secara terpisah bahkan untuk cadangan kecil</string>
@@ -689,7 +692,7 @@
     <string name="delete_error_backup_title">Hapus cadangan dengan kesalahan</string>
     <string name="delete_error_backup_desc">Hapus file zip cadangan jika selesai dengan kesalahan atau rusak saat cadangan.</string>
     <string name="zip_verification_title">Pemeriksaan integritas zip</string>
-    <string name="zip_verification_desc">Verifikasi apakah ritsleting cadangan rusak dan berada dalam batasan memori perangkat. \nSANGAT DIANJURKAN</string>
+    <string name="zip_verification_desc">Verifikasi apakah zip cadangan rusak dan berada dalam batasan memori perangkat. \nSANGAT DIANJURKAN</string>
     <string name="advanced">Lanjutan</string>
     <string name="max_zip_size">Ukuran zip maksimal</string>
     <string name="max_zip_size_desc">Ini adalah ukuran maksimum zip cadangan yang dapat di-flash dengan aman melalui TWRP.
@@ -703,7 +706,7 @@
     <string name="detect_while_flashing_hint">(Deteksi saat berkedip)</string>
 
     <string name="use_file_list_in_zip_verification">Gunakan fileList.txt dalam verifikasi zip</string>
-    <string name="use_file_list_in_zip_verification_desc">Migrate membuat daftar file yang telah dicadangkan di file \"fileList.txt\" di dalam zip cadangan. Opsi ini akan membuat mesin verifikasi zip membandingkan file yang ada di zip dan entri dalam file ini.</string>
+    <string name="use_file_list_in_zip_verification_desc">Migrate membuat daftar file yang telah dicadangkan di file \"fileList.txt\" di dalam zip cadangan. Opsi ini akan membuat verifikasi zip membandingkan file yang ada di zip dan entri dalam file ini.</string>
 
     <!--app_search_layout.xml-->
     <string name="showing_apps_from">Menampilkan aplikasi dari kategori:</string>
@@ -711,7 +714,7 @@
 
     <!--ProgressShowActivity.kt-->
     <string name="force_stop">Paksa berhenti</string>
-    <string name="force_stop_alert_title">Berhenti paksa aplikasi?</string>
+    <string name="force_stop_alert_title">Hentikan paksa aplikasi?</string>
     <string name="force_stop_alert_desc">Berhenti secara paksa akan berusaha menghentikan seluruh aplikasi. Jika Anda telah menekan Batalkan, harap tunggu beberapa saat. \n\nSaat berhenti, Anda harus menghapus secara manual file cadangan apa pun yang dibuat.</string>
     <string name="kill_app">Oke, hentikan!</string>
     <string name="wait_to_cancel">Tunggu…</string>
@@ -723,12 +726,12 @@
 
     <!--privacy_policy.xml-->
     <string name="privacy_policy_header">Privacy policy</string>
-    <string name="privacy_policy_desc">Ini adalah diskusi formal-informal mengenai privasi data dan Migrasi, beberapa hal yang harus diperhatikan pengguna.
-    Ini dapat berubah pada pembaruan di masa mendatang, karena lebih banyak fitur ditambahkan.</string>
+    <string name="privacy_policy_desc">Ini adalah diskusi formal-informal mengenai privasi data dan Migrate, beberapa hal yang harus diperhatikan pengguna.
+    Ini dapat berubah pada pembaruan selanjutnya, karena lebih banyak fitur ditambahkan.</string>
     <string name="google_firebase">Google Firebase</string>
-    <string name="google_firebase_desc">Dari v3.0 dan seterusnya hanya pada edisi Google Play, Migrate menggunakan Firebase untuk analisis kerusakan. Tidak ada data pribadi pengguna yang dikirimkan. Versi Migrate-NG (tersedia di XDA) tidak lagi memiliki analytics crash.</string>
+    <string name="google_firebase_desc">Mulai dari v3.0 dan seterusnya hanya pada edisi Google Play, Migrate menggunakan Firebase untuk analisis kerusakan. Tidak ada data pribadi pengguna yang dikirimkan. Versi Migrate-NG (tersedia di XDA) tidak lagi memiliki analytics crash.</string>
     <string name="google_admob">Google Admob</string>
-    <string name="google_admob_desc">telah menggunakan layanan Admob Google untuk menampilkan Iklan. Itu tetap tidak berubah.</string>
+    <string name="google_admob_desc">Migrate telah menggunakan layanan Admob Google untuk menampilkan Iklan. Itu tetap tidak berubah.</string>
     <string name="data_that_is_read">Data yang dibaca oleh Migrate</string>
     <string name="data_that_is_read_desc">Untuk cadangan aplikasi, data berikut ini dibaca:\n
         1. Daftar paket yang diinstal\n
@@ -739,7 +742,7 @@
         Berikut ini diakses menggunakan izin ROOT:\n
         1. Aplikasi .apk (hanya disimpan)\n
         2. Data pribadi aplikasi (dikompresi dan disimpan)\n
-        Konten Apk aplikasi tidak dianalisis. Data pribadi aplikasi tidak dianalisis.\n\n
+        Konten Apk dan Data pribadi aplikasi tidak dianalisis.\n\n
 
         Untuk cadangan tambahan, hal berikut dibaca, hanya setelah izin dari pengguna: \n
         1. Data kontak (disimpan sebagai file vcf) \n
@@ -752,7 +755,7 @@
     </string>
     <string name="what_is_shared">Apa yang dibagikan</string>
     <string name="what_is_shared_desc">
-        Berbagi dalam konteks ini mengacu pada pelaporan sukarela log aplikasi. \n\n
+        Berbagi dalam konteks ini mengacu pada pelaporan log aplikasi. \n\n
         Saat membagikan log, Anda setuju untuk membagikan (secara publik, jika pada grup Telegram): \n\n
         - Beberapa struktur file internal aplikasi. Ini (dalam banyak kasus) tidak mengandung informasi sensitif yang dapat diidentifikasi secara pribadi. \n
         - Nama cadangan. \n
@@ -762,7 +765,7 @@
         Tidak ada upaya yang disengaja untuk mengidentifikasi atau menggunakan data pribadi pengguna secara tidak sah. \n\n
         Dalam kasus apa pun, Anda setuju bahwa baik pengembang, maupun aplikasi tidak bertanggung jawab atas pelanggaran privasi yang tidak disengaja.
         Jika Anda merasa bahwa log Anda mungkin berisi informasi sensitif, jangan bagikan.
-        Jika Anda sudah berbagi, silakan minta penghapusannya sesegera mungkin.
+        Jika Anda terlanjur, silakan hapus segera mungkin.
     </string>
     <string name="what_is_intentional">Apa itu \"Tidak ada upaya yang disengaja\"?</string>
     <string name="what_is_intentional_desc">
@@ -770,18 +773,18 @@
         Migrate menggunakan utilitas linux \"tar\" untuk mengompres file data. Dengan demikian, tar mencetak nama file yang telah diproses, dan ini juga membantu mengidentifikasi apakah ada kesalahan dalam proses. Isi file tidak dicetak. \n\n
         Biasanya tidak mungkin mendeteksi informasi yang dapat diidentifikasi secara pribadi dari output samar file tar.
         Tetapi dalam beberapa kasus yang jarang terjadi, pengembang mungkin tidak mengikuti praktik yang benar dan menempatkan informasi pada nama file itu sendiri.
-        Contoh: aplikasi obrolan menyimpan preferensi obrolan dengan peserta sebagai file dengan nama sebagai nomor telepon peserta. Dalam hal ini, tar akan mencetak nama file, sehingga memperlihatkan nomor telepon. Ini hanya satu contoh. \n\n
+        Contoh: aplikasi obrolan menyimpan preferensi obrolan dengan peserta sebagai file dengan nama sebagai nomor telepon peserta. Dalam hal ini, tar akan mencetak nama, sehingga memperlihatkan nomor telepon. Ini hanya satu contoh. \n\n
         Migrate tidak dapat mengambil tanggung jawab menempatkan filter khusus untuk masing-masing dari jutaan aplikasi di luar sana, takut mereka tidak sengaja membocorkan informasi apa pun. \n\n
         Sekali lagi ini adalah kasus yang SANGAT langka, dan biasanya selalu luput dari perhatian. Ini terjadi dengan versi Migrate sebelumnya dan saya mendapat saran dari beberapa pengguna bahwa ini diketahui semua orang. \n
         Anda dapat terus menggunakan Migrate seperti yang telah Anda lakukan.
     </string>
     <string name="avoid_unintentional_leak">Saya masih belum yakin.</string>
     <string name="avoid_unintentional_leak_desc">
-        Seperti yang dibahas sebelumnya, jika menurut Anda cadangan Anda berisi data yang sangat sensitif, jangan bagikan log. Tidak ada yang meninggalkan perangkat Anda jika Anda tidak secara sukarela membagikan log.
+        Seperti yang dibahas sebelumnya, jika menurut Anda cadangan Anda berisi data yang sangat sensitif, jangan bagikan log. Tidak ada yang memaksa jika Anda tidak ingin membagikan log.
         <b> Namun, juga perhatikan bahwa tanpa log hampir mustahil untuk memberikan segala jenis dukungan. \n\n </b>
         Atau, Anda dapat memilih untuk tidak membagikan \"Log proses\". \"Log kesalahan\" dan opsi lain biasanya paling penting.
     </string>
-    <string name="privacy_policy_footer">Itu saja. Nikmati menggunakan aplikasi. Jangan ragu untuk menghubungi saya di Telegram.\n- SayantanRC</string>
+    <string name="privacy_policy_footer">Itu saja. Nikmati aplikasi ini. Jangan ragu untuk menghubungi saya di Telegram.\n- SayantanRC</string>
 
     <!--translation_layout.xml-->
     <string name="want_to_translate">Ingin menerjemahkan aplikasi?</string>
@@ -790,38 +793,40 @@
     </string>
     <string name="translators">Penerjemah</string>
     <string name="translators_list">
-        <b>@Trexfat</b>: Turkish
-	<b>@rzlamrr</b>: Indonesia
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Turki\n
+        <b>@rzlamrr</b>: Indonesia\n
+        <b>@vladrevers</b>: Russia\n
+        <b>@atfmxyl,@dwughjsd</b>: Cina(Simplified)
     </string>
 
     <!--contributors.xml-->
     <string name="contr_3.0">
-        <b>Patrick Perfectly III mtl</b>: Memberikan log, menulis panduan pemecahan masalah lengkap ... Pada dasarnya menjaga aplikasi tetap hidup sampai sekarang.\n
-        <b>Isaac Baihua</b>: Mendeteksi kasus di mana zip tidak dibuat jika hanya extra yang dipilih.\n
+        <b>Patrick Perfectly III mtl</b>: Memberikan log, menulis panduan pemecahan masalah lengkap... Pada dasarnya membantu aplikasi tetap berkembang sampai sekarang.\n
+        <b>Isaac Baihua</b>: Menemukan isu di mana zip tidak dibuat jika hanya extra yang dipilih.\n
         <b>@anoop142 (Anoop)</b>: Membuat versi modifikasi aplikasi SAR yang pertama. Itu sangat membantu di v3.0\n
         <b>@cruzer_blaze (Gokul)</b>: Membantu skrip\n
         <b>@indianets (Vijay)</b>: Membuat skrip untuk mengembalikan aplikasi split secara efisien\n
         <b>BillGoss(XDA)</b>: Jika tidak ada awk yang ada dalam pemulihan, maka gunakan busybox awk.\n
-        <b>AndDiSa(XDA)</b>: Perbaiki koreksi no-newline.\n\n
-    Jelas saya sangat berterima kasih kepada semua ribuan pengguna yang menggunakan aplikasi ini dan membantu membuat aplikasi lebih baik. Kau sangat berarti bagiku.\n
+        <b>AndDiSa(XDA)</b>: Perbaikan koreksi no-newline.\n\n
+    Jelas saya sangat berterima kasih kepada semua ribuan pengguna yang menggunakan aplikasi ini dan membantu membuat aplikasi ini lebih baik. Kalian sangat berarti.\n
     Juga terimakasih banyak untuk para penerjemah. Terimakasih.
     </string>
     <string name="prev_contri">Kontributor sebelumnya</string>
     <string name="thanks_to_stericson">Terima kasih banyak kepada Stephen (stericdroid) karena mengizinkan saya untuk secara bebas menggunakan build busybox-nya</string>
-    <string name="thanks_to_magisk">Tanpa topjohnwu dan Magisk, aplikasi ini tidak akan mungkin. Saya belajar banyak dari skrip installer Magisk.</string>
+    <string name="thanks_to_magisk">Tanpa topjohnwu dan Magisk, aplikasi ini tidak akan mungkin berkembang. Saya belajar banyak dari skrip installer Magisk.</string>
     <string name="thanks_1">Bantuan tak kenal lelah untuk Xiaomi Mi A1:\n@ishubhamsingh\n@su_bin</string>
     <string name="thanks_2">Bug hunter:\n
-        Teman kelasku <b>Shivam</b> telah menguji aplikasi lebih dari saya!\n
+        Teman kelas saya <b>Shivam</b> yang telah menguji aplikasi!\n
         @akshayrohida\n
         @raj3303\n
         \n
-        Anggota XDA <b>djseltus</b>, untuk menunjuk ke update-binary baru\n
+        Anggota XDA <b>djseltus</b>, untuk update-binary baru\n
         <b>Vinyas N S</b>, untuk isu \"android.os.TransactionTooLargeException\" \n
         <b>C Tab</b>, membantu menemukan masalah dengan aplikasi pembantu\n
-        Anggota XDA <b>SevenSlevin</b> untuk mendeteksi isu updater_script\n
-        Anggota XDA <b>kdrag0n</b> menerbitkan sejumlah saran yang bermanfaat\n
+        Anggota XDA <b>SevenSlevin</b> untuk isu updater_script\n
+        Anggota XDA <b>kdrag0n</b> memberi sejumlah saran yang bermanfaat\n
     </string>
-    <string name="thanks_3">The app wouldn\'t be possible without the whole group of tester:\n\n
+    <string name="thanks_3">Aplikasi tidak akan berkembang tanpa adanya tester:\n\n
         @TusharG03\n
         @arghyac35\n
         @pavanjadhaw\n
