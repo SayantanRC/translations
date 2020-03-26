@@ -1,6 +1,8 @@
 # Translations
 Repo of translations
 
+For locale codes, check here: https://stackoverflow.com/questions/7973023/what-is-the-list-of-supported-languages-locales-on-android
+
 ## Steps
 1. Fork this repo.
 2. If you have already forked and want to update a translation, always update your repo. Check this answer: https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381
