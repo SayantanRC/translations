@@ -1,0 +1,391 @@
+<resources>
+
+    <string name="app_name">Migrate helper</string>
+    <string name="current_version_name">3.0.1_release</string>
+
+    <!--activity_main.xml-->
+    <string name="restore_main">Restore apps and data</string>
+    <string name="uninstallFromSystem">Uninstall from system</string>
+    <string name="uninstall_or_finalize">Uninstall app\nor Finalize restore</string>
+    <string name="temporary_disable">Temporary disable</string>
+    <string name="selective_restore">Choose what to restore</string>
+    <string name="please_use_magisk">Make sure to use Magisk</string>
+    <string name="lastLog">Last logs</string>
+    <string name="preferences">Preferences</string>
+    <string name="uninstall_by_twrp">Uninstall by twrp.</string>
+
+    <!--MainActivityKotlin.kt-->
+    <string name="storage_perm_needed">Storage permission needed</string>
+    <string name="grant">Grant</string>
+
+    <!--last_log_report.xml-->
+    <string name="seeProgressLog">See Progress log</string>
+    <string name="seeErrorLog">See Error log</string>
+    <string name="report_logs">Report logs</string>
+    <string name="progressLog">Progress log</string>
+    <string name="errorLog">Error log</string>
+
+    <!--SimpleLogDisplay.java-->
+    <string name="no_header">No header</string>
+    <string name="no_filepath">No filepath</string>
+    <string name="log_reading_error">Log reading error</string>
+
+    <!--MainActivity.java-->
+    <string name="too_fast">Whoa, too fast!!</string>
+    <string name="too_fast_desc">The app has not been explicitly tested on Android version above 10.\n\nPlease submit your feedback on whether the app works or not.</string>
+    <string name="dont_show_again">Don\'t show again</string>
+    <string name="apps_will_be_closed">Apps will be closed</string>
+    <string name="do_not_use_desc">Apps will be closed while restoring. Please do not use the device to avoid random crashes.
+        \n\nYou will get an option to minimize the app restore window, but it is not recommended.</string>
+    <string name="later">Nevermind, I will restore later.</string>
+    <string name="sure">Are you sure?</string>
+    <string name="howToRestore">Uninstalling requires root. You will also need to re-flash migrate zips to restore data later on.</string>
+    <string name="goAhead">Go ahead</string>
+    <string name="unsupported_device">Unsupported device.</string>
+    <string name="cpu_arch_is">Your CPU arch is:</string>
+    <string name="currently_supported_cpu">Only <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU architectures are currently supported. Please contact via mail to help support your device.</string>
+    <string name="select_mail">Select mailing app, example Gmail.</string>
+    <string name="select_telegram">Open Telegram and select the Migrate group</string>
+    <string name="contact">Contact via Telegram</string>
+    <string name="default_sms_app_must_be_changed">Default SMS app must be changed before uninstalling this helper app.</string>
+
+    <!--ProgressActivity.java-->
+    <string name="please_wait">Please wait</string>
+    <string name="waiting_for_contacts">Waiting for contacts restore</string>
+    <string name="waiting_for_contacts_desc">Migrate helper has detected that you have chosen to restore contact handling apps which may conflict with currently running contact restore operation.\n\n
+    App restore will continue after contacts are restored.
+    </string>
+    <string name="abort_title">This is highly not recommended!</string>
+    <string name="abort_desc">This may leave all apps unusable and a factory reset may be necessary</string>
+    <string name="let_it_continue">Let it continue</string>
+    <string name="abort_anyway">Abort anyway</string>
+    <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
+    <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
+    <string name="send_logs_first">Send logs first</string>-->
+
+    <!--extra_restore_prepare.xml-->
+    <string name="erp_title">Preparing to restore</string>
+    <string name="will_be_restored_later">To be restored after applications</string>
+    <string name="ready_to_be_restored">Ready to restore</string>
+    <string name="restore_starting_in">Restore starting in…</string>
+    <string name="number_of_selected_apps">Selected apps</string>
+    <string name="no_addon">No add-on</string>
+    <string name="denied">Denied</string>
+    <string name="ok_disable">OK, disable</string>
+    <string name="dont_disable">No, don\'t disable</string>
+    <string name="start">Start</string>
+
+    <!--restore_progress_layout.xml-->
+    <string name="close">CLOSE</string>
+    <string name="abort">Abort!</string>
+    <string name="minimize">Minimize</string>
+    <string name="report">Report</string>
+    <string name="minimizing_may_decrease_speed">Minimizing this screen may decrease restore speed!</string>
+
+    <!--RootRestoreTask.java-->
+    <string name="finished">Finished! No errors.</string>
+    <string name="finished_with_errors">Finished with errors!</string>
+    <string name="uninstall_prompt">Click FINISH to uninstall this app</string>
+    <string name="some_post_jobs_left">Click to open post restore jobs.</string>
+    <string name="change_dpi_and_reboot_prompt">Click FINISH to change DPI and reboot</string>
+    <string name="making_script">Making script</string>
+    <string name="finish">Finish</string>
+    <string name="finalize">Finalize</string>
+    <string name="restoreCancelled">Restore cancelled.</string>
+
+    <!--app_selector.xml-->
+    <string name="select_apps">Select what to restore</string>
+    <string name="restore">Restore</string>
+    <string name="app">App</string>
+    <string name="data">Data</string>
+    <string name="perm">Perm</string>
+    <string name="extras">Extras</string>
+    <string name="apps">Applications</string>
+
+    <!--AppSelector.java-->
+    <string name="requesting_root">Requesting root</string>
+    <string name="failed">Failed</string>
+    <string name="failed_desc">Please grant root permission.</string>
+    <string name="everything">Everything selected!</string>
+    <string name="reading_metadata">Reading metadata…</string>
+    <string name="initMessageShort">This can take up to 3 minutes.\n\nIn case you have waited more than 5 minutes\nClick CANCEL\nOpen Magisk app\nClose the Magisk app\nOpen this app and retry restoring</string>
+    <string name="are_you_rooted">Are you rooted?</string>
+    <string name="are_you_rooted_desc">Make sure to grant root. Root with Magisk if needed.</string>
+    <string name="code_error">Code error!</string>
+    <string name="selecting_all">Selecting everything</string>
+    <string name="starting_restore">Starting restore</string>
+    <string name="nothing_to_restore">Nothing to restore</string>
+    <string name="no_metadata_found">No metadata found\nFlash a Migrate package first</string>
+    <string name="null_adapter">Null adapter</string>
+    <string name="restore_contacts_dialog_header">Restore contacts</string>
+    <string name="proceed">Proceed</string>
+    <string name="reading_package_data">Reading package data</string>
+    <string name="restore_in_different_version_warning">The original backup was taken in a different Android version. Some apps may fail to restore</string>
+    <string name="originating_sdk">Originating backup SDKs</string>
+    <string name="current_sdk">Current SDK</string>
+    <string name="force_stop">Force stop</string>
+    <string name="force_stop_alert_title">Force stop app?</string>
+    <string name="force_stop_alert_desc">Force stopping will attempt to kill the whole app. If you have already pressed Cancel once, please wait for some time.</string>
+    <string name="kill_app">OK, kill it!</string>
+    <string name="wait_to_cancel">Wait…</string>
+    <string name="killing_programmatically">Killing programmatically</string>
+    <string name="use_notification_fix">Notification fix by deleting gms files</string>
+
+    <!--ExtraBackupsProgress.java-->
+    <string name="do_not_close">Please do not press back/home/recents or close this app.</string>
+    <string name="smsPermission">Sms permission needed</string>
+    <string name="smsPermission_desc">Please allow this app to be default sms app temporarily.\n<b>You will be prompted to change to the original sms app after restoration</b>
+    </string>
+    <string name="you_will_not_be_able_to_receive_sms">
+        Migrate helper cannot be set as an SMS app.\n\n
+        You will not be able to receive new SMS messages if you do not change the default messaging app.
+    </string>
+    <string name="change">Change</string>
+    <string name="leave_as_it_is">Leave it as it is</string>
+    <string name="callsPermission">Call logs permission needed</string>
+    <string name="callsPermission_desc">Please allow to write call logs.</string>
+    <string name="scanning">Scanning</string>
+    <string name="dpi_null">DPI file is null</string>
+    <string name="dpi_value_not_found">DPI value not found</string>
+    <string name="dpi_will_be_restored_in_the_end">Reboot needed for DPI change</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">
+        The screen DPI value from the backup will be restored once you press OK button after the backup is completed. Your device will be rebooted to affect the changes\n\n
+        Press OK to continue, Cancel to completely skip DPI change.
+    </string>
+    <string name="keyboard_null">Keyboard file is null</string>
+    <string name="keyboard_value_not_found">Keyboard value not found</string>
+    <string name="keyboard_corrupt">Keyboard file is corrupted</string>
+    <string name="keyboard_will_be_restored">will be set after app restore</string>
+    <string name="keyboard_not_in_restore_list">not in restore list</string>
+    <string name="filtering">Filtering\n</string>
+    <string name="please_do_not_press_back_button">Please do not press back button.</string>
+
+    <!--apps_not_installed_layout.xml-->
+    <string name="apps_not_installed_title">Following apps are chosen to be restored but was not backed up, nor is currently installed on the device.</string>
+    <string name="apps_not_installed_desc">If you continue, these apps will be ignored. However, you will not lose your data. You will have to download the apps from Google Play Store (or elsewhere) and can retry restoring them later. You need not flash the backup again.</string>
+
+    <!--UninstallService.java-->
+    <string name="reboot_recommended">!!!!!!! Changing DPI. Reboot recommended. !!!!!!!</string>
+
+    <!--RestoreA_DB.java-->
+    <string name="done">Done!</string>
+
+    <!--SmsBroadcastReceiver.java-->
+    <!--MmsBroadcastReceiver.java-->
+    <string name="new_sms_received">New sms received! Please change to your default messaging app.</string>
+
+    <!--ComposeSmsActivity.kt-->
+    <string name="please_change_sms_app">\"Migrate helper\" is not meant to be used as an sms app. Please change the default sms app</string>
+
+    <!--GetAppPackets.kt-->
+    <string name="path_not_valid_directory">is not valid directory</string>
+
+    <!--RootCopyTask.kt-->
+    <string name="no_busybox">Busybox not found!</string>
+
+    <!--ParentRestoreClass.kt-->
+    <string name="loading">Loading…</string>
+
+    <!--RestoreServiceKotlin.kt-->
+    <string name="cancelling">Cancelling…</string>
+    <string name="errorStartingRestore">Error starting Restore (onStartCommand).</string>
+
+    <!--AppRestoreAdapter.kt-->
+    <string name="packageName">Package :</string>
+    <string name="versionName">Version name :</string>
+    <string name="installer">Installer: </string>
+    <string name="play_store">Play Store</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">Data size :</string>
+    <string name="system_size">System size :</string>
+
+    <!--ParentGetter.kt-->
+    <string name="getting_apps">Getting apps</string>
+    <string name="getting_contacts">Getting contacts</string>
+    <string name="getting_sms">Getting sms</string>
+    <string name="getting_calls">Getting calls</string>
+    <string name="getting_settings">Getting settings</string>
+    <string name="getting_wifi">Getting Wifi details</string>
+
+    <!--error_report_layout.xml-->
+    <string name="report_header">Report via Telegram</string>
+    <string name="share_progress_logs">Share progress logs</string>
+    <string name="share_error_logs">Share error logs</string>
+    <string name="share_file_lists">Share list of files in backup</string>
+    <string name="share_script">Share script</string>
+    <string name="share_package_data">Share package-data</string>
+    <string name="send_to_tg">Send to Telegram</string>
+    <string name="agree_and_send">Agree and send</string>
+    <string name="error_report_disclaimer">Thanks for your interest in helping to improve this app. From now on, all error reports are to be sent in our Telegram group - https://t.me/migrateApp.
+        As such, you will get faster resolution from many people in the group.\n\n
+        By sharing logs, you agree to <b>PUBLICLY</b> share some information. Click \"Agree and send\" to proceed.
+    </string>
+    <string name="what_is_shared">What is shared?</string>
+    <string name="shared_desc">
+        On sharing logs, you agree to share (publicly, if on Telegram):\n\n
+        - Status of app and data restores (no private data).\n
+        - The backup name.\n
+        - Some backup details like number of backup parts.\n
+        - Device information like android version.\n\n
+        Migrate highly respects privacy of users. As such logs generated during back up of contacts, sms and call logs are NOT RECORDED and not sharable.
+        No intentional attempt is made to identify or make illicit use of personal data of users.\n\n
+        In any case, you agree that neither the developer, nor is the app responsible for any unintentional breach of privacy. In case you feel that your logs may contain sensitive information, please don\'t share them. In case you have already shared, please request for their deletion as soon as possible.
+    </string>
+    <string name="not_joined_yet">Not joined in our group yet?</string>
+    <string name="send_logs_using">Send logs using:</string>
+    <string name="log_files_do_not_exist">Log files do not exist</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh\" does not exist</string>
+    <string name="progress_log_does_not_exist">\"progressLog\" does not exist</string>
+    <string name="error_log_does_not_exist">\"errorLog\" does not exist</string>
+    <string name="package_data_does_not_exist">\"package-data\" does not exist</string>
+    <string name="file_lists_does_not_exist">File lists do not exist</string>
+    <string name="tg_not_installed">Our Telegram group helps to get quick resolutions to problems.</string>
+    <string name="tg_not_installed_desc">Please install Telegram and join our group.</string>
+    <string name="install_tg">Install Telegram</string>
+    <string name="join_group">Join group</string>
+    <string name="use_email_instead">Use old email</string>
+
+    <!--Restore engines-->
+    <string name="restoring_sms">Restoring sms</string>
+    <string name="restoring_calls">Restoring calls</string>
+    <string name="restoring_adb">Restoring ADB state</string>
+    <string name="restoring_font_scale">Restoring font scale</string>
+    <string name="restoring_keyboard">Restoring keyboard</string>
+    <string name="processing_dpi">Processing DPI</string>
+    <string name="processing_keyboard">Processing keyboard</string>
+    <string name="restoring_wifi">Restoring Wifi</string>
+    <string name="making_scripts">Making scripts</string>
+    <string name="waiting_for_vcf">Waiting for contacts restore</string>
+    <string name="restoring_apps">Restoring apps</string>
+    <string name="cleaning_up">Cleaning up files</string>
+    <string name="restoring_settings">Restoring settings</string>
+    <string name="script_file_does_not_exist">Script file does not exist</string>
+    <string name="settings_cancelled">Settings cancelled</string>
+    <string name="smsCalls_cancelled">SMS, calls cancelled</string>
+    <string name="restoring_smsCalls_by_addon">Restoring SMS, calls by addon</string>
+    <string name="init_smsCalls_addon">Initialising addon</string>
+
+    <!--ExtraRestorePrepare.kt-->
+    <string name="skip_apps">Skip all</string>
+    <string name="continue_">Skip these</string>
+    <string name="refresh">Refresh</string>
+    <string name="keyboard_not_present">Keyboard app not available</string>
+    <string name="keyboard_not_present_desc">The keyboard app is not installed and is neither present in the restore. You can install the app from Play Store or elsewhere.</string>
+    <string name="install_from_playstore">Play Store</string>
+    <string name="skip_keyboard">Skip keyboard and continue</string>
+    <string name="wifiPrepareTitle">Please enable wifi first</string>
+    <string name="wifiPrepareDesc">Please enable Wifi first (from notification panel)\n\n
+        Wifi restore is still unreliable. You may need to re-flash the backup and try again. Usually it gets always gets restored in the second try.
+    </string>
+    <string name="skip_wifi">Skip wifi</string>
+    <string name="settings_root_permission_error">Settings add-on root permission error</string>
+    <string name="grant_root_to_settings_addon">Please grant root access to Settings addon. You can Abort now, open Magisk and manually grant root permission to Migrate settings addon</string>
+    <string name="skip_settings">Skip settings</string>
+    <string name="addon_installer_data_null">Addon installer data is null. Settings, SMS, calls will not be restored.</string>
+    <string name="restore_only_apps">Restore only apps</string>
+    <string name="addon_not_installed">Add-on not installed.</string>
+
+    <!--RestoreSelectorKotlin.kt-->
+    <string name="contacts">Contacts</string>
+    <string name="sms">SMS messages</string>
+    <string name="calls">Call logs</string>
+    <string name="dpi">Screen DPI</string>
+    <string name="keyboard">Default keyboard</string>
+    <string name="applications">Applications</string>
+    <string name="adb_state">ADB state</string>
+    <string name="font_scale">Font scale</string>
+    <string name="wifi">Wifi config. file</string>
+    <string name="cancelled_loading">Cancelled loading</string>
+    <string name="cancelled">Cancelled</string>
+
+    <!--app_search_layout.xml-->
+    <string name="enter_app_name">App/package name</string>
+    <string name="no_apps">No apps available\nwith the given search!</string>
+
+    <!--post_restore_jobs.xml-->
+    <string name="next">Next</string>
+    <string name="set_manually">Set manually</string>
+    <string name="set_manually_desc">Please open the SMS app by clicking "Set manually" and set the SMS app. Once done, open this app again to do the remaining steps.</string>
+    <string name="reset_sms_app">Reset default SMS app</string>
+    <string name="reboot_for_sms">You may need to reboot your phone for the restored messages to appear. <b>You may also need to clear data of the sms app.</b></string>
+    <string name="uninstall_helper_app">Uninstall/disable</string>
+    <string name="change_dpi">Change DPI value</string>
+    <string name="wifi_was_restored">Wifi was restored. Reboot is needed.</string>
+    <string name="display_density">Display density</string>
+    <string name="reboot_is_necessary">Reboot is necessary!</string>
+    <string name="wifi_reboot_is_necessary">Wifi be enabled. Reboot is necessary!</string>
+    <string name="uninstall_app">Uninstall this app</string>
+    <string name="disable_app">Disable this app</string>
+    <string name="do_nothing">Just close</string>
+    <string name="change_to">Change to: </string>
+
+    <!--preferences.xml-->
+    <string name="ignore_read_errors">Ignore read errors</string>
+    <string name="ignore_read_errors_desc">This will ignore all errors during reading of metadata files</string>
+    <string name="ignore_extras">Ignore extras</string>
+    <string name="ignore_extras_desc">This will completely ignore reading and restoring extras like contacts, sms, calls, DPI etc</string>
+    <string name="restore_start_animation">Show restore start countdown</string>
+    <string name="restore_start_animation_desc">Show/hide the countdown animation before restore starts.</string>
+    <string name="loadIconsInList">Load icons in app list</string>
+    <string name="loadIconsInListDesc">Disable this in case of memory overflow crashes</string>
+    <string name="advanced">Advanced</string>
+    <string name="remount_data">Remount data</string>
+    <string name="remount_data_desc">This tries to find and remount /data partition as read-write. Usually this is not needed.</string>
+    <string name="install">Install</string>
+    <string name="load_extras_on_ui_thread">Load extras on ui thread</string>
+    <string name="load_extras_on_ui_thread_desc">Probable fix to some errors in restore selector screen.</string>
+    <string name="track_restore_finished">Track restore finished</string>
+    <string name="track_restore_finished_desc">Track when restore is finished to avoid resuming progress show activity. Do not disable unless you are sure.</string>
+    <string name="remount_all_to_uninstall">Remount all to uninstall</string>
+    <string name="remount_all_to_uninstall_desc">If uninstalling fails, remount all mount points and auto retry.</string>
+    <string name="clear_to_reset">Clear and press OK to reset to default value</string>
+    <string name="manual_cache">Specify path to migrate_cache</string>
+    <string name="manual_metadata_holder">Specify path to metadata holder</string>
+    
+    <!--uninstall_activity.xml-->
+    <string name="uninstall_desc">If doesn\'t work, delete the above directory. This option also deletes migrate_cache.</string>
+    <string name="temporary_disable_desc">App will stop giving notifications, but remain installed.</string>
+    <string name="delete_migrate_cache">Delete migrate_cache (recommended)</string>
+    <string name="reboot">Reboot (recommended)</string>
+
+    <!--UninstallServiceKotlin.kt-->
+    <string name="finishing">Finishing…</string>
+
+    <!--contacts_dialog_view.xml-->
+    <string name="select_provider">Please select <b>Contacts</b> app if asked to make a selection.</string>
+
+    <!--miscellaneous-->
+    <string name="notifHeader">Migrate package flashed!</string>
+    <string name="notifBody">Click to continue restoration!!</string>
+    <string name="error">Error</string>
+
+    <!--CommonToolsKotlin.kt-->
+    <string name="error_occurred">Error occurred!!</string>
+
+    <!--install_addons.xml-->
+    <string name="confirm_install_addon">Following add-ons need to be installed</string>
+    <string name="sms_calls_addon">SMS, calls add-on</string>
+    <string name="sms_calls_addon_desc">Restores SMS and calls.</string>
+    <string name="settings_addon">Settings add-on</string>
+    <string name="settings_addon_desc">Restores ADB, DPI, Font scale, Keyboard</string>
+    <string name="checking_settings_addon_root_access">Checking settings add-on root access</string>
+    <string name="please_grant_if_prompted">Please grant if prompted</string>
+    <string name="info">Info</string>
+
+    <!--AddonInstallerActivity.kt-->
+    <string name="no_addon_to_install">No add-on to install!</string>
+    <string name="press_abort_to_cancel">Press Abort! to cancel.</string>
+
+    <!--twrp_unpack_layout.xml-->
+    <string name="twrp_zip_files_under">TWRP zip files will be unpacked under:\n<b>[Internal storage]/Migrate/</b>\nPlease reboot to TWRP and flash.</string>
+    <string name="zip_only_helper">Uninstall only helper</string>
+    <string name="zip_helper_cache">Uninstall helper + migrate_cache</string>
+    <string name="extracted_under">Extracted under: [Internal storage]/Migrate/</string>
+
+    <!--Do not change!!-->
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
+
