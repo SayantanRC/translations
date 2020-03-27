@@ -253,7 +253,7 @@
     <string name="stock_android_desc">
         -在三星（TouchWiz/One UI），华为（EMUI），小米（MIUI）等定制ROM上可能会失败。\n
          -如果不确定您的ROM是否基于原生Android，最好不要选这个选项。\n
-         -示例（这些选项应在这些ROM中起作用）：LineageOS、AospExtended(AEX)、PixelExperience(PE)、CarbonROM、Resurrection Remix(RR)、Syberia(syb) 等</b>
+         -示例（这些选项应在这些ROM中起作用）：<b>LineageOS、AospExtended(AEX)、PixelExperience(PE)、CarbonROM、Resurrection Remix(RR)、Syberia(syb) 等</b>
     </string>
     <string name="go_ahead">继续</string>
     <string name="error_reading_keyboard_list">读取输入法列表时出错</string>
@@ -505,7 +505,7 @@
 
     <!--initial_guide_3.xml-->
     <string name="greet4">在使用前需要注意的几个事项…</string>
-    <string name="body_3_0"><请使用 Magisk ，LineageOS su 附加包可能会导致意外错误发生</string>
+    <string name="body_3_0"><b>请使用 Magisk</b>，LineageOS su 附加包可能会导致意外错误发生</string>
     <string name="body_3_1">这个程序还处于开发阶段。可能会存在未知错误。\n\n
         Migrate是基于root的应用程序。\n\n
         使用此应用程序即表示您已经知道root手机可能造成的风险，因此使用基于root的应用程序。\n\n
