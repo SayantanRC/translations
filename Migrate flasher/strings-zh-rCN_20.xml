@@ -1,0 +1,391 @@
+<resources>
+
+    <string name="app_name">Migrate 恢复助手</string>
+    <string name="current_version_name">3.0.1_release</string>
+
+    <!--activity_main.xml-->
+    <string name="restore_main">恢复应用程序和数据</string>
+    <string name="uninstallFromSystem">从系统卸载</string>
+    <string name="uninstall_or_finalize">卸载此应用完成还原\n\n或者临时禁用该程序</string>
+    <string name="temporary_disable">暂时停用</string>
+    <string name="selective_restore">选择要还原的内容</string>
+    <string name="please_use_magisk">请确保使用 Magisk</string>
+    <string name="lastLog">最近日志</string>
+    <string name="preferences">设置</string>
+    <string name="uninstall_by_twrp">通过twrp卸载</string>
+
+    <!--MainActivityKotlin.kt-->
+    <string name="storage_perm_needed">需要存储权限</string>
+    <string name="grant">授予</string>
+
+    <!--last_log_report.xml-->
+    <string name="seeProgressLog">查看进度日志</string>
+    <string name="seeErrorLog">查看错误日志</string>
+    <string name="report_logs">发送日志</string>
+    <string name="progressLog">进度日志</string>
+    <string name="errorLog">错误日志</string>
+
+    <!--SimpleLogDisplay.java-->
+    <string name="no_header">没有标题</string>
+    <string name="no_filepath">没有文件路径</string>
+    <string name="log_reading_error">日志读取错误</string>
+
+    <!--MainActivity.java-->
+    <string name="too_fast">哇，太快了！</string>
+    <string name="too_fast_desc">该应用尚未在高于 10 的 Android 版本上进行明确测试。\n\n请提交有关该应用是否可用的反馈。</string>
+    <string name="dont_show_again">不再提示</string>
+    <string name="apps_will_be_closed">应用将关闭</string>
+    <string name="do_not_use_desc">应用程序将在恢复过程中关闭,请不要使用手机,以避免可能会出现的随机错误。
+    \n\n您可以选择最小化应用还原界面,让应用在后台工作，但通常不建议这样做。</string>
+    <string name="later">没关系，我稍后再恢复。</string>
+    <string name="sure">你确定吗？</string>
+    <string name="howToRestore">卸载需要root。您还需要重新刷入Migrate的备份zip以恢复数据。</string>
+    <string name="goAhead">继续</string>
+    <string name="unsupported_device">不支持的设备</string>
+    <string name="cpu_arch_is">您的CPU架构是：</string>
+    <string name="currently_supported_cpu">当前仅支持 armeabi-v7a，arm64-v8a，x86，x86_64 CPU 架构。请通过邮件联系作者以帮助支持您的设备。</string>
+    <string name="select_mail">选择邮件应用程序，例如Gmail。</string>
+    <string name="select_telegram">打开 Telegram 并选择 Migrate 群组</string>
+    <string name="contact">联系我们</string>
+    <string name="default_sms_app_must_be_changed">必须先更改回默认短信应用，然后才能卸载 Migrate恢复助手应用。</string>
+
+    <!--ProgressActivity.java-->
+    <string name="please_wait">请耐心等待</string>
+    <string name="waiting_for_contacts">等待联系人还原</string>
+    <string name="waiting_for_contacts_desc">Migrate 恢复助手检测到您已选择还原一个通讯录管理应用，可能会与正在进行的通讯录还原操作冲突。\n\n
+    应用还原将在还原通讯录后继续。
+    </string>
+    <string name="abort_title">强烈不建议这样做！</string>
+    <string name="abort_desc">这可能会导致所有应用无法使用，并且可能需要恢复出厂设置</string>
+    <string name="let_it_continue">令其继续</string>
+    <string name="abort_anyway">无论如何都要中止</string>
+    <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
+    <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
+    <string name="send_logs_first">Send logs first</string>-->
+
+    <!--extra_restore_prepare.xml-->
+    <string name="erp_title">准备还原</string>
+    <string name="will_be_restored_later">在应用程序之后恢复</string>
+    <string name="ready_to_be_restored">准备还原</string>
+    <string name="restore_starting_in">恢复开始...</string>
+    <string name="number_of_selected_apps">选定的应用</string>
+    <string name="no_addon">没有add-on插件</string>
+    <string name="denied">被拒绝</string>
+    <string name="ok_disable">好的，禁用</string>
+    <string name="dont_disable">不，不要禁用</string>
+    <string name="start">开始</string>
+
+    <!--restore_progress_layout.xml-->
+    <string name="close">关闭</string>
+    <string name="abort">中止！</string>
+    <string name="minimize">最小化</string>
+    <string name="report">反馈</string>
+    <string name="minimizing_may_decrease_speed">最小化这个应用可能会降低还原速度！</string>
+
+    <!--RootRestoreTask.java-->
+    <string name="finished">完成了！没有出现错误。</string>
+    <string name="finished_with_errors">完成但遇到错误！</string>
+    <string name="uninstall_prompt">点按完成卸载该应用程序</string>
+    <string name="some_post_jobs_left">点按打开还原后作业。</string>
+    <string name="change_dpi_and_reboot_prompt">点按完成以更改DPI并重新启动</string>
+    <string name="making_script">正在生成脚本</string>
+    <string name="finish">完成</string>
+    <string name="finalize">完成</string>
+    <string name="restoreCancelled">恢复已取消</string>
+
+    <!--app_selector.xml-->
+    <string name="select_apps">选择要还原的内容</string>
+    <string name="restore">恢复</string>
+    <string name="app">应用</string>
+    <string name="data">数据</string>
+    <string name="perm">权限</string>
+    <string name="extras">附加数据</string>
+    <string name="apps">应用程序</string>
+
+    <!--AppSelector.java-->
+    <string name="requesting_root">请求 root 权限</string>
+    <string name="failed">失败</string>
+    <string name="failed_desc">请授予 root 权限</string>
+    <string name="everything">全选！</string>
+    <string name="reading_metadata">正在读取元数据…</string>
+    <string name="initMessageShort">这最多可能需要3分钟。\n\n如果您等待了5分钟以上\n点击取消\n打开Magisk 应用\n关闭Magisk应用\n打开此应用，然后重试还原</string>
+    <string name="are_you_rooted">您有 Root 权限吗？</string>
+    <string name="are_you_rooted_desc">请确保授予本程序 root 权限,如果没有别的情况，请使用 Magisk 获取 root 权限。</string>
+    <string name="code_error">代码错误！</string>
+    <string name="selecting_all">全选</string>
+    <string name="starting_restore">开始还原</string>
+    <string name="nothing_to_restore">未找到备份</string>
+    <string name="no_metadata_found">找不到元数据\n请先刷入 Migrate 备份数据包(已刷入还是找不到?解决办法在这里https://www.lanzous.com/i9ial6j)</string>
+    <string name="null_adapter">空适配器</string>
+    <string name="restore_contacts_dialog_header">恢复联系人</string>
+    <string name="proceed">继续</string>
+    <string name="reading_package_data">读取软件包数据</string>
+    <string name="restore_in_different_version_warning">原始备份是在其他 Android 版本中备份的。某些应用可能无法还原</string>
+    <string name="originating_sdk">原备份 SDK</string>
+    <string name="current_sdk">当前 SDK</string>
+    <string name="force_stop">强行停止</string>
+    <string name="force_stop_alert_title">强行停止应用程序？</string>
+    <string name="force_stop_alert_desc">强制停止将尝试杀死整个应用程序。如果您已经按过一次“取消”，请等待一段时间。</string>
+    <string name="kill_app">行，结束它的运行！</string>
+    <string name="wait_to_cancel">等待…</string>
+    <string name="killing_programmatically">正在使用 kill 命令结束</string>
+    <string name="use_notification_fix">删除 GMS 文件修复通知</string>
+
+    <!--ExtraBackupsProgress.java-->
+    <string name="do_not_close">请不要按返回 / 主页 / 多任务键关闭此应用程序。</string>
+    <string name="smsPermission">需要短信权限</string>
+    <string name="smsPermission_desc">请暂时将此应用设为默认的短信应用。\n恢复后将提示您更改为原始短信应用
+    </string>
+    <string name="you_will_not_be_able_to_receive_sms">
+        无法将 Migrate 恢复助手设置为短信应用程序。\n\n 
+        如果不更改默认短信应用，您将无法接收新的短信。
+     </string>
+    <string name="change">更改</string>
+    <string name="leave_as_it_is">维持原状</string>
+    <string name="callsPermission">需要通话记录权限</string>
+    <string name="callsPermission_desc">请允许写通话记录。</string>
+    <string name="scanning">正在扫描</string>
+    <string name="dpi_null">DPI文件为空</string>
+    <string name="dpi_value_not_found">找不到DPI数值</string>
+    <string name="dpi_will_be_restored_in_the_end">需要重新启动以更改DPI</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">
+        备份完成后，一旦按“确定”按钮，将恢复备份的屏幕DPI值。您的设备将重新启动以应用更改\n\n
+        点按确定继续，点按取消完全跳过 DPI 更改。
+    </string>
+    <string name="keyboard_null">键盘文件为空</string>
+    <string name="keyboard_value_not_found">找不到键盘应用设置值</string>
+    <string name="keyboard_corrupt">键盘文件已损坏</string>
+    <string name="keyboard_will_be_restored">将在应用还原后设置</string>
+    <string name="keyboard_not_in_restore_list">不在还原列表中</string>
+    <string name="filtering">筛选\n</string>
+    <string name="please_do_not_press_back_button">请不要按下返回键.</string>
+
+    <!--apps_not_installed_layout.xml-->
+    <string name="apps_not_installed_title">以下应用被选为要进行还原，但它们没有被备份，目前也未安装在设备上。</string>
+    <string name="apps_not_installed_desc">如果您继续，这些应用将被忽略。但是，您的数据不会丢失。您必须从 Google Play 商店（或其他地方）下载应用程序，并稍后尝试恢复应用数据。您无需再次刷入备份。</string>
+
+    <!--UninstallService.java-->
+    <string name="reboot_recommended">!!!!!!! 更改了DPI,建议重新启动手机 !!!!!!!</string>
+
+    <!--RestoreA_DB.java-->
+    <string name="done">完成！</string>
+
+    <!--SmsBroadcastReceiver.java-->
+    <!--MmsBroadcastReceiver.java-->
+    <string name="new_sms_received">收到新短信！请更改为默认的消息传递应用程序。</string>
+
+    <!--ComposeSmsActivity.kt-->
+    <string name="please_change_sms_app"> Migrate addon 并不旨在用作默认短信应用程序。请更改默认的短信应用</string>
+
+    <!--GetAppPackets.kt-->
+    <string name="path_not_valid_directory">无效的目录</string>
+
+    <!--RootCopyTask.kt-->
+    <string name="no_busybox">找不到 Busybox！</string>
+
+    <!--ParentRestoreClass.kt-->
+    <string name="loading">载入中...</string>
+
+    <!--RestoreServiceKotlin.kt-->
+    <string name="cancelling">正在取消...</string>
+    <string name="errorStartingRestore">启动还原时出错（在启动命令时）</string>
+
+    <!--AppRestoreAdapter.kt-->
+    <string name="packageName">包名 :</string>
+    <string name="versionName">版本号 :</string>
+    <string name="installer">安装来源: </string>
+    <string name="play_store">Play商店</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">数据大小 :</string>
+    <string name="system_size">系统大小 :</string>
+
+    <!--ParentGetter.kt-->
+    <string name="getting_apps">正在获取应用</string>
+    <string name="getting_contacts">正在获取通讯录</string>
+    <string name="getting_sms">正在获取短信</string>
+    <string name="getting_calls">正在获取电话</string>
+    <string name="getting_settings">正在获取设置</string>
+    <string name="getting_wifi">正在获取 Wi-Fi 详细信息</string>
+
+    <!--error_report_layout.xml-->
+    <string name="report_header">通过 Telegram 反馈</string>
+    <string name="share_progress_logs">发送进度日志</string>
+    <string name="share_error_logs">发送错误日志</string>
+    <string name="share_file_lists">发送备份中的文件列表</string>
+    <string name="share_script">发送脚本</string>
+    <string name="share_package_data">发送软件包数据</string>
+    <string name="send_to_tg">发送到 Telegram</string>
+    <string name="agree_and_send">同意并发送</string>
+    <string name="error_report_disclaimer">感谢您对帮助改进此应用程序的关注。
+    从现在开始，所有错误报告都将发送到我们的电报群组- https://t.me/migrateApp 。这样，您将从小组中的许多人那里获得更快的解决方案。\n\n
+     发送日志意味着您同意公开共享某些信息。点击“同意并发送”继续。
+    </string>
+    <string name="what_is_shared">会发送哪些数据？</string>
+    <string name="shared_desc">
+        发送日志则意味着您同意发送（如果发送到 Telegram 上则是公开的）：\n\n
+        -应用和数据的还原状态（不包含私密数据）。\n
+        -备份的名称。\n
+        -一些备份的信息，例如备份分卷的数量。\n
+        -设备信息，例如 Android 版本。\n\n
+        Migrate 高度尊重用户的隐私。因此，在备份通讯录、短信和通话记录时的生成的日志不会被记录且不会被发送。本应用不会故意识别或不当地使用用户的个人数据。\n\n
+        您同意在任何情况下都不追究开发人员或应用在无意之中侵犯您的隐私权的责任。
+        如果您认为您的日志包含了敏感信息，请不要发送出来。如果您已经将其公开，请尽快请求将其删除。
+    </string>
+    <string name="not_joined_yet">还没有加入我们的群组吗？</string>
+    <string name="send_logs_using">使用以下方式发送日志:</string>
+    <string name="log_files_do_not_exist">日志文件不存在</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh\" 不存在</string>
+    <string name="progress_log_does_not_exist">\"过程日志\" 不存在</string>
+    <string name="error_log_does_not_exist">\"错误日志\" 不存在</string>
+    <string name="package_data_does_not_exist">\"数据包\" 不存在</string>
+    <string name="file_lists_does_not_exist">文件列表不存在</string>
+    <string name="tg_not_installed">我们的 Telegram 小组可帮助您快速解决问题。</string>
+    <string name="tg_not_installed_desc">请安装 Telegram 并加入我们的小组。</string>
+    <string name="install_tg">安装 Telegram</string>
+    <string name="join_group">加入群组</string>
+    <string name="use_email_instead">旧的方法：电子邮件</string>
+
+    <!--Restore engines-->
+    <string name="restoring_sms">恢复短信</string>
+    <string name="restoring_calls">恢复通话记录</string>
+    <string name="restoring_adb">恢复 ADB 状态</string>
+    <string name="restoring_font_scale">恢复字体缩放比例</string>
+    <string name="restoring_keyboard">恢复键盘应用</string>
+    <string name="processing_dpi">处理DPI</string>
+    <string name="processing_keyboard">处理键盘</string>
+    <string name="restoring_wifi">恢复 Wi-Fi</string>
+    <string name="making_scripts">正在生成脚本</string>
+    <string name="waiting_for_vcf">等待联系人还原</string>
+    <string name="restoring_apps">恢复应用</string>
+    <string name="cleaning_up">正在清理文件</string>
+    <string name="restoring_settings">恢复设置</string>
+    <string name="script_file_does_not_exist">脚本文件不存在</string>
+    <string name="settings_cancelled">设定已取消</string>
+    <string name="smsCalls_cancelled">短信，通话记录已取消</string>
+    <string name="restoring_smsCalls_by_addon">恢复(短信，通话记录) 插件</string>
+    <string name="init_smsCalls_addon">初始化插件</string>
+
+    <!--ExtraRestorePrepare.kt-->
+    <string name="skip_apps">全部跳过</string>
+    <string name="continue_">跳过这些</string>
+    <string name="refresh">刷新</string>
+    <string name="keyboard_not_present">键盘应用不可用</string>
+    <string name="keyboard_not_present_desc">键盘应用未安装，并且也不在备份文件中。您可以从 Play 商店或其他地方安装该应用。</string>
+    <string name="install_from_playstore">Play商店</string>
+    <string name="skip_keyboard">跳过键盘并继续</string>
+    <string name="wifiPrepareTitle">请先启用 Wi-Fi</string>
+    <string name="wifiPrepareDesc">请首先从通知栏快速设置面板中启用 Wi-Fi \n\n
+        Wi-Fi 还原仍然不可靠。您可能需要重新刷入备份，然后重试,通常第二次尝试总是能成功。
+    </string>
+    <string name="skip_wifi">跳过 Wi-Fi</string>
+    <string name="settings_root_permission_error">设置 “add-on” root权限错误</string>
+    <string name="grant_root_to_settings_addon">请授予 “Migrate设置插件”root访问权限,您可以立即中止，打开Magisk并手动授予root权限给 “Migrate设置插件”</string>
+    <string name="skip_settings">跳过设定</string>
+    <string name="addon_installer_data_null">插件安装程序数据为空。 设置，短信，通话记录将不会恢复。</string>
+    <string name="restore_only_apps">仅还原应用</string>
+    <string name="addon_not_installed">未安装 Add-on </string>
+
+    <!--RestoreSelectorKotlin.kt-->
+    <string name="contacts">通讯录</string>
+    <string name="sms">短信</string>
+    <string name="calls">通话记录</string>
+    <string name="dpi">屏幕DPI</string>
+    <string name="keyboard">默认键盘应用（输入法）</string>
+    <string name="applications">应用程序</string>
+    <string name="adb_state">ADB 状态</string>
+    <string name="font_scale">字体缩放比例</string>
+    <string name="wifi">Wifi配置文件</string>
+    <string name="cancelled_loading">取消加载</string>
+    <string name="cancelled">取消</string>
+
+    <!--app_search_layout.xml-->
+    <string name="enter_app_name">应用/软件包名</string>
+    <string name="no_apps">当前条件下\n未搜索到应用！</string>
+
+    <!--post_restore_jobs.xml-->
+    <string name="next">下一步</string>
+    <string name="set_manually">手动设置</string>
+    <string name="set_manually_desc">请手动点按设置按钮并设置短信应用来打开短信应用。完成后，再次打开此应用程序以执行其余步骤。</string>
+    <string name="reset_sms_app">重置默认短信应用</string>
+    <string name="reboot_for_sms">您可能需要重新启动手机才能显示已恢复的消息。您可能还需要清除短信应用程序的数据。</string>
+    <string name="uninstall_helper_app">卸载/禁用</string>
+    <string name="change_dpi">更改DPI数值</string>
+    <string name="wifi_was_restored">WI-FI数据已恢复,需要重启</string>
+    <string name="display_density">屏幕像素密度</string>
+    <string name="reboot_is_necessary">必须重新启动！</string>
+    <string name="wifi_reboot_is_necessary">要启用Wi-Fi,需要先重新启动！</string>
+    <string name="uninstall_app">卸载此应用</string>
+    <string name="disable_app">禁用此应用</string>
+    <string name="do_nothing">就在附近</string>
+    <string name="change_to">更改为：</string>
+
+    <!--preferences.xml-->
+    <string name="ignore_read_errors">忽略读取错误</string>
+    <string name="ignore_read_errors_desc">忽略读取元数据文件期间的所有错误</string>
+    <string name="ignore_extras">忽略其他额外内容</string>
+    <string name="ignore_extras_desc">完全跳过通讯录，短信，通话记录，DPI 等数据的读取和还原。</string>
+    <string name="restore_start_animation">还原开始之前显示倒数</string>
+    <string name="restore_start_animation_desc">在还原开始之前显示/隐藏倒计时动画。</string>
+    <string name="loadIconsInList">在应用列表中加载图标</string>
+    <string name="loadIconsInListDesc">如果发生内存溢出崩溃，请禁用此功能</string>
+    <string name="advanced">高级</string>
+    <string name="remount_data">重新挂载data</string>
+    <string name="remount_data_desc">这将尝试查找/data分区并将其重新挂载为读写状态。 通常不需要。</string>
+    <string name="install">安装</string>
+    <string name="load_extras_on_ui_thread">在ui线程上加载其他内容</string>
+    <string name="load_extras_on_ui_thread_desc">修复了还原选择器屏幕中的某些错误。</string>
+    <string name="track_restore_finished">跟踪还原完成</string>
+    <string name="track_restore_finished_desc">跟踪还原完成的时间，以避免继续进度显示活动。 除非您确定，否则不要禁用。</string>
+    <string name="remount_all_to_uninstall">全部卸载以重新挂载</string>
+    <string name="remount_all_to_uninstall_desc">如果卸载失败，请重新挂载所有安装点并自动重试。</string>
+    <string name="clear_to_reset">清除并按确定以重置为默认值</string>
+    <string name="manual_cache">指定 migration_cache 路径</string>
+    <string name="manual_metadata_holder">指定元数据所在的路径</string>
+    
+    <!--uninstall_activity.xml-->
+    <string name="uninstall_desc">如果软件无法正常工作，请删除上述目录,此选项还会删除migration_cache</string>
+    <string name="temporary_disable_desc">应用程序将会停止发出通知，但仍保持安装状态。</string>
+    <string name="delete_migrate_cache">删除migrate_cache（推荐）</string>
+    <string name="reboot">重新启动（推荐）</string>
+
+    <!--UninstallServiceKotlin.kt-->
+    <string name="finishing">正在完成...</string>
+
+    <!--contacts_dialog_view.xml-->
+    <string name="select_provider">如果要求进行选择，请选择通讯录应用。</string>
+
+    <!--miscellaneous-->
+    <string name="notifHeader">备份数据包已刷入！</string>
+    <string name="notifBody">点按继续还原！！</string>
+    <string name="error">错误</string>
+
+    <!--CommonToolsKotlin.kt-->
+    <string name="error_occurred">发生了错误！！</string>
+
+    <!--install_addons.xml-->
+    <string name="confirm_install_addon">需 要 安 装 以 下 附 加 组 件</string>
+    <string name="sms_calls_addon">add-on短信，通话记录</string>
+    <string name="sms_calls_addon_desc">恢复短信和通话</string>
+    <string name="settings_addon">设置add-on</string>
+    <string name="settings_addon_desc">恢复ADB,DPI,字体比例,键盘</string>
+    <string name="checking_settings_addon_root_access">检查设置附加root访问权限</string>
+    <string name="please_grant_if_prompted">如果出现提示，请授予</string>
+    <string name="info">信息</string>
+
+    <!--AddonInstallerActivity.kt-->
+    <string name="no_addon_to_install">无需安装插件！</string>
+    <string name="press_abort_to_cancel">按中止！ 取消。</string>
+
+    <!--twrp_unpack_layout.xml-->
+    <string name="twrp_zip_files_under">TWRP zip文件将在以下位置解压缩:[Internal storage]/Migrate/\n 请重新启动到TWRP并刷新</string>
+    <string name="zip_only_helper">仅卸载助手</string>
+    <string name="zip_helper_cache">卸载Migrate恢复助手+ migrate_cache</string>
+    <string name="extracted_under">提取于: [Internal storage]/Migrate/</string>
+
+    <!--Do not change!!-->
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
+
