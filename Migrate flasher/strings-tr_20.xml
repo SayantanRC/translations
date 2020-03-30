@@ -1,0 +1,391 @@
+<resources>
+
+    <string name="app_name">Migrate helper</string>
+    <string name="current_version_name">3.0.1_release</string>
+
+    <!--activity_main.xml-->
+    <string name="restore_main">Uygulamaları ve verileri geri yükle</string>
+    <string name="uninstallFromSystem">Sistemden kaldır</string>
+    <string name="uninstall_or_finalize">Uygulamayı kaldır\nveya Geri yüklemeyi sonlandır</string>
+    <string name="temporary_disable">Geçici olarak devre dışı</string>
+    <string name="selective_restore">Neyi geri yükleyeceğinizi seçin</string>
+    <string name="please_use_magisk">Magisk\'i kullandığınızdan emin olun</string>
+    <string name="lastLog">Son günlükler</string>
+    <string name="preferences">Tercihler</string>
+    <string name="uninstall_by_twrp">Twrp ile kaldır.</string>
+
+    <!--MainActivityKotlin.kt-->
+    <string name="storage_perm_needed">Depolama izni gerekiyor</string>
+    <string name="grant">İzin ver</string>
+
+    <!--last_log_report.xml-->
+    <string name="seeProgressLog">İlerleme günlüğüne bak</string>
+    <string name="seeErrorLog">Hata günlüğüne bak</string>
+    <string name="report_logs">Günlükleri bildir</string>
+    <string name="progressLog">İlerleme günlüğü</string>
+    <string name="errorLog">Hata günlüğü</string>
+
+    <!--SimpleLogDisplay.java-->
+    <string name="no_header">Başlık yok</string>
+    <string name="no_filepath">Dosya yolu yok</string>
+    <string name="log_reading_error">Günlük okuma hatası</string>
+
+    <!--MainActivity.java-->
+    <string name="too_fast">Vay, çok hızlı!!</string>
+    <string name="too_fast_desc">Uygulama, 10\'un üzerindeki Android sürümünde açıkça test edilmedi.\n\nLütfen uygulamanın çalışıp çalışmadığına dair görüşlerinizi gönderin.</string>
+    <string name="dont_show_again">Bir daha gösterme</string>
+    <string name="apps_will_be_closed">Uygulamalar kapatılacak</string>
+    <string name="do_not_use_desc">Uygulamalar geri yüklenirken kapatılacak. Lütfen rastgele çökmeleri önlemek için cihazı kullanmayın.
+        \n\nUygulama geri yükleme penceresini simge durumuna küçültme seçeneği sunulur, ancak önerilmez.</string>
+    <string name="later">Boşver, daha sonra geri yükleyeceğim.</string>
+    <string name="sure">Emin misiniz?</string>
+    <string name="howToRestore">Kaldırma işlemi root gerektirir. Ayrıca, verileri daha sonra geri yüklemek için migrate zip\'lerini tekrar flaşlamanız gerekir.</string>
+    <string name="goAhead">Devam et</string>
+    <string name="unsupported_device">Desteklenmeyen cihaz.</string>
+    <string name="cpu_arch_is">CPU mimariniz:</string>
+    <string name="currently_supported_cpu">Yalnızca <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU mimarileri şu anda desteklenmektedir. Cihazınızı desteklemeye yardımcı olması için lütfen posta yoluyla iletişime geçin.</string>
+    <string name="select_mail">Posta uygulamasını seçin, örneğin Gmail.</string>
+    <string name="select_telegram">Telegram'ı aç ve Migrate grubunu seç</string>
+    <string name="contact">Telegram ile iletişim</string>
+    <string name="default_sms_app_must_be_changed">Bu yardımcı uygulama kaldırılmadan önce varsayılan SMS uygulaması değiştirilmelidir.</string>
+
+    <!--ProgressActivity.java-->
+    <string name="please_wait">Lütfen bekleyin</string>
+    <string name="waiting_for_contacts">Kişilerin geri yüklenmesi bekleniyor</string>
+    <string name="waiting_for_contacts_desc">Migrate helper, şu anda çalışan kişi geri yükleme işlemiyle çakışabilecek kişi işleme uygulamalarını geri yüklemeyi seçtiğinizi tespit etti.\n\n
+    Kişiler geri yüklendikten sonra uygulama geri yüklemesi devam edecek.
+    </string>
+    <string name="abort_title">Bu kesinlikle tavsiye edilmez!</string>
+    <string name="abort_desc">Bu, tüm uygulamaları kullanılamaz hale getirebilir ve fabrika ayarlarına sıfırlamayı gerektirebilir</string>
+    <string name="let_it_continue">Devam etsin</string>
+    <string name="abort_anyway">Yine de durdur</string>
+    <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
+    <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
+    <string name="send_logs_first">Send logs first</string>-->
+
+    <!--extra_restore_prepare.xml-->
+    <string name="erp_title">Geri yüklemeye hazırlanıyor</string>
+    <string name="will_be_restored_later">Uygulamalardan sonra geri yüklenecek</string>
+    <string name="ready_to_be_restored">Geri yüklemeye hazır</string>
+    <string name="restore_starting_in">Geri yükleme başlıyor…</string>
+    <string name="number_of_selected_apps">Seçilen uygulamalar</string>
+    <string name="no_addon">Eklenti yok</string>
+    <string name="denied">Reddedildi</string>
+    <string name="ok_disable">Tamam, devre dışı bırak</string>
+    <string name="dont_disable">Hayır, devre dışı bırakma</string>
+    <string name="start">Başlat</string>
+
+    <!--restore_progress_layout.xml-->
+    <string name="close">KAPAT</string>
+    <string name="abort">Durdur!</string>
+    <string name="minimize">Küçült</string>
+    <string name="report">Bildir</string>
+    <string name="minimizing_may_decrease_speed">Bu ekranı küçültmek geri yükleme hızını düşürebilir!</string>
+
+    <!--RootRestoreTask.java-->
+    <string name="finished">Tamamlandı! Hata yok.</string>
+    <string name="finished_with_errors">Hatalarla tamamlandı!</string>
+    <string name="uninstall_prompt">Bu uygulamayı kaldırmak için BİTİR\'i tıklayın</string>
+    <string name="some_post_jobs_left">Geri yükleme sonrası işleri açmak için tıklayın.</string>
+    <string name="change_dpi_and_reboot_prompt">DPI'yi değiştirmek ve yeniden başlatmak için BİTİR\'i tıklayın</string>
+    <string name="making_script">Komut dosyası oluşturuluyor</string>
+    <string name="finish">Bitir</string>
+    <string name="finalize">Tamamla</string>
+    <string name="restoreCancelled">Geri yükleme iptal edildi.</string>
+
+    <!--app_selector.xml-->
+    <string name="select_apps">Neyi geri yükleyeceğinizi seçin</string>
+    <string name="restore">Geri yükle</string>
+    <string name="app">Uyg</string>
+    <string name="data">Veri</string>
+    <string name="perm">İzin</string>
+    <string name="extras">Ekstralar</string>
+    <string name="apps">Uygulamalar</string>
+
+    <!--AppSelector.java-->
+    <string name="requesting_root">Root isteniyor</string>
+    <string name="failed">Başarısız</string>
+    <string name="failed_desc">Lütfen root izni verin.</string>
+    <string name="everything">Her şey seçildi!</string>
+    <string name="reading_metadata">Meta veriler okunuyor…</string>
+    <string name="initMessageShort">Bu 3 dakika kadar sürebilir.\n\n5 dakikadan fazla beklemeniz durumunda\nİPTAL\'e tıklayın\nMagisk uygulamasını açın\nMagisk uygulamasını kapatın\nBu uygulamayı açın ve tekrar geri yüklemeyi deneyin</string>
+    <string name="are_you_rooted">Rootlu musunuz?</string>
+    <string name="are_you_rooted_desc">Root izni verdiğinizden emin olun. Gerekirse Magisk ile rootlayın.</string>
+    <string name="code_error">Kod hatası!</string>
+    <string name="selecting_all">Her şeyi seç</string>
+    <string name="starting_restore">Geri yükleme başlatılıyor</string>
+    <string name="nothing_to_restore">Geri yüklenecek bir şey yok</string>
+    <string name="no_metadata_found">Meta veri bulunamadı\nÖnce bir Migrate paketini flashlayın</string>
+    <string name="null_adapter">Null adapter</string>
+    <string name="restore_contacts_dialog_header">Kişileri geri yükle</string>
+    <string name="proceed">Devam et</string>
+    <string name="reading_package_data">Paket verilerini okunuyor</string>
+    <string name="restore_in_different_version_warning">Orijinal yedekleme farklı bir Android sürümünde alındı. Bazı uygulamalar geri yüklenemeyebilir</string>
+    <string name="originating_sdk">Yedek SDK\'ların kaynağı</string>
+    <string name="current_sdk">Mevcut SDK</string>
+    <string name="force_stop">Durdurmaya zorla</string>
+    <string name="force_stop_alert_title">Uygulama durdurmaya zorlansın mı?</string>
+    <string name="force_stop_alert_desc">Durdurmaya zorlama tüm uygulamayı sonlandırmaya çalışacaktır. Zaten bir kez İptal\'e bastıysanız, lütfen bir süre bekleyin.</string>
+    <string name="kill_app">Tamam, sonlandır!</string>
+    <string name="wait_to_cancel">Bekleyin…</string>
+    <string name="killing_programmatically">Programlı olarak sonlandırılıyor</string>
+    <string name="use_notification_fix">Gms dosyalarını silerek bildirim düzeltmesi</string>
+
+    <!--ExtraBackupsProgress.java-->
+    <string name="do_not_close">Lütfen geri/ana ekran/son uygulamalar tuşuna basmayın veya bu uygulamayı kapatmayın.</string>
+    <string name="smsPermission">Sms izni gerekli</string>
+    <string name="smsPermission_desc">Lütfen bu uygulamanın geçici olarak varsayılan sms uygulaması olmasına izin verin.\n<b>Geri yüklemeden sonra orijinal sms uygulamasına geçmeniz istenir</b>
+    </string>
+    <string name="you_will_not_be_able_to_receive_sms">
+        Migrate helper SMS uygulaması olarak ayarlanamıyor.\n\n
+        Varsayılan mesajlaşma uygulamasını değiştirmezseniz yeni SMS mesajı alamazsınız.
+    </string>
+    <string name="change">Değiştir</string>
+    <string name="leave_as_it_is">Olduğu gibi bırak</string>
+    <string name="callsPermission">Arama kayıtları izni gerekiyor</string>
+    <string name="callsPermission_desc">Lütfen arama kayıtları yazmaya izin verin.</string>
+    <string name="scanning">Taranıyor</string>
+    <string name="dpi_null">DPI dosyası boş</string>
+    <string name="dpi_value_not_found">DPI değeri bulunamadı</string>
+    <string name="dpi_will_be_restored_in_the_end">DPI değişikliği için yeniden başlatma gerekiyor</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">
+        Yedekleme tamamlandıktan sonra Tamam düğmesine bastığınızda, yedeklemeden ekran DPI değeri geri yüklenecek. Değişikliklerin etkili olması için cihazınız yeniden başlatılacaktır\n\n
+        Devam etmek için Tamam\'a, DPI değişikliğini tamamen atlamak için İptal\'e basın.
+    </string>
+    <string name="keyboard_null">Klavye dosyası boş</string>
+    <string name="keyboard_value_not_found">Klavye değeri bulunamadı</string>
+    <string name="keyboard_corrupt">Klavye dosyası bozuk</string>
+    <string name="keyboard_will_be_restored">uygulama geri yüklendikten sonra ayarlanacak</string>
+    <string name="keyboard_not_in_restore_list">geri yükleme listesinde değil</string>
+    <string name="filtering">Filtreleme\n</string>
+    <string name="please_do_not_press_back_button">Lütfen geri düğmesine basmayın.</string>
+
+    <!--apps_not_installed_layout.xml-->
+    <string name="apps_not_installed_title">Aşağıdaki uygulamalar geri yüklenmek üzere seçildi, ancak yedeklenmedi veya şu anda cihaza yüklü değil.</string>
+    <string name="apps_not_installed_desc">Devam ederseniz, bu uygulamalar yok sayılır. Ancak, verilerinizi kaybetmezsiniz. Uygulamaları Google Play Store\'dan (veya başka bir yerden) indirmeniz gerekir ve daha sonra geri yüklemeyi tekrar deneyebilirsiniz. Yedeklemeyi tekrar flashlamanız gerekmez.</string>
+
+    <!--UninstallService.java-->
+    <string name="reboot_recommended">!!!!!!! DPI değiştirme. Yeniden başlatma önerilir. !!!!!!!</string>
+
+    <!--RestoreA_DB.java-->
+    <string name="done">Bitti!</string>
+
+    <!--SmsBroadcastReceiver.java-->
+    <!--MmsBroadcastReceiver.java-->
+    <string name="new_sms_received">Yeni sms alındı! Lütfen varsayılan mesajlaşma uygulamanızla değiştirin.</string>
+
+    <!--ComposeSmsActivity.kt-->
+    <string name="please_change_sms_app">\"Migrate helper\"ın bir sms uygulaması olarak kullanılması amaçlanmamıştır. Lütfen varsayılan sms uygulamasını değiştirin</string>
+
+    <!--GetAppPackets.kt-->
+    <string name="path_not_valid_directory">geçerli bir dizin değil</string>
+
+    <!--RootCopyTask.kt-->
+    <string name="no_busybox">Busybox bulunamadı!</string>
+
+    <!--ParentRestoreClass.kt-->
+    <string name="loading">Yükleniyor…</string>
+
+    <!--RestoreServiceKotlin.kt-->
+    <string name="cancelling">İptal ediliyor…</string>
+    <string name="errorStartingRestore">Geri Yükleme başlatılamadı (onStartCommand).</string>
+
+    <!--AppRestoreAdapter.kt-->
+    <string name="packageName">Paket :</string>
+    <string name="versionName">Sürüm adı :</string>
+    <string name="installer">Yükleyici: </string>
+    <string name="play_store">Play Store</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">Veri boyutu :</string>
+    <string name="system_size">Sistem boyutu :</string>
+
+    <!--ParentGetter.kt-->
+    <string name="getting_apps">Uygulamalar alınıyor</string>
+    <string name="getting_contacts">Kişiler alınıyor</string>
+    <string name="getting_sms">Sms\'ler alınıyor</string>
+    <string name="getting_calls">Aramalar alınıyor</string>
+    <string name="getting_settings">Ayarlar alınıyor</string>
+    <string name="getting_wifi">Wifi ayrıntıları alınıyor</string>
+
+    <!--error_report_layout.xml-->
+    <string name="report_header">Telegram yoluyla bildir</string>
+    <string name="share_progress_logs">İlerleme günlüklerini paylaş</string>
+    <string name="share_error_logs">Hata günlüklerini paylaş</string>
+    <string name="share_file_lists">Yedeklenen dosyaların listesini paylaş</string>
+    <string name="share_script">Komut dosyasını paylaş</string>
+    <string name="share_package_data">Paket verilerini paylaş</string>
+    <string name="send_to_tg">Telegram\'a gönder</string>
+    <string name="agree_and_send">Kabul et ve gönder</string>
+    <string name="error_report_disclaimer">Bu uygulamayı geliştirmek üzere yardım etmeye olan ilginiz için teşekkürler. Şu andan itibaren, tüm hata raporları Telegram grubumuza (https://t.me/migrateApp) gönderilecek.
+        Bu sayede, gruptaki birçok kişiden daha hızlı çözüm elde edeceksiniz.\n\n
+        Günlükleri paylaşarak, bazı bilgileri <b>KAMUYLA</b> paylaşmayı kabul edersiniz. Devam etmek için \"Kabul et ve gönder\"e tıklayın.
+    </string>
+    <string name="what_is_shared">Paylaşılan nedir?</string>
+    <string name="shared_desc">
+        Günlükleri paylaşırken, paylaşmayı kabul edersiniz (Telegram\'da ise herkese açık olarak)):\n\n
+        - Uygulamanın durumu ve veri geri yüklemeleri (özel veri yok).\n
+        - Yedek adı.\n
+        - Yedek parça sayısı gibi bazı yedekleme ayrıntıları.\n
+        - Android sürümü gibi cihaz bilgileri.\n\n
+        Migrate, kullanıcıların gizliliğine büyük saygı gösterir. Kişilerin yedeklenmesi sırasında oluşturulan bu günlükler, sms ve arama kayıtları KAYDEDİLMEMEKTEDİR ve paylaşılamaz.
+        Kullanıcıların kişisel verilerini belirlemek veya yasadışı olarak kullanmak için kasıtlı bir girişimde bulunulmamıştır.\n\n
+        Her durumda, geliştiricinin veya uygulamanın kasıtsız olarak gizliliğin ihlalinden sorumlu olmadığını kabul edersiniz. Günlüklerinizin hassas bilgiler içerebileceğini düşünüyorsanız, lütfen bunları paylaşmayın. Daha önce paylaşmış olmanız durumunda, lütfen en kısa zamanda silinmelerini isteyin.
+    </string>
+    <string name="not_joined_yet">Henüz grubumuza katılmadınız mı?</string>
+    <string name="send_logs_using">Şununla günlükleri gönder:</string>
+    <string name="log_files_do_not_exist">Günlük dosyaları mevcut değil</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh\" mevcut değil</string>
+    <string name="progress_log_does_not_exist">\"progressLog\" mevcut değil</string>
+    <string name="error_log_does_not_exist">\"errorLog\" mevcut değil</string>
+    <string name="package_data_does_not_exist">\"package-data\" mevcut değil</string>
+    <string name="file_lists_does_not_exist">Dosya listeleri mevcut değil</string>
+    <string name="tg_not_installed">Telegram grubumuz sorunlara hızlı çözüm bulmanıza yardımcı olur.</string>
+    <string name="tg_not_installed_desc">Lütfen Telegram\'ı yükleyin ve grubumuza katılın.</string>
+    <string name="install_tg">Telegram\'ı yükle</string>
+    <string name="join_group">Gruba katıl</string>
+    <string name="use_email_instead">Eski e-postayı kullan</string>
+
+    <!--Restore engines-->
+    <string name="restoring_sms">Sms\'ler geri yükleniyor</string>
+    <string name="restoring_calls">Aramalar geri yükleniyor</string>
+    <string name="restoring_adb">ADB durumu geri yükleniyor</string>
+    <string name="restoring_font_scale">Yazı tipi ölçeği geri yükleniyor</string>
+    <string name="restoring_keyboard">Klavye geri yükleniyor</string>
+    <string name="processing_dpi">DPI işleniyor</string>
+    <string name="processing_keyboard">Klavye işleniyor</string>
+    <string name="restoring_wifi">Wifi geri yükleniyor</string>
+    <string name="making_scripts">Komut dosyaları oluşturuluyor</string>
+    <string name="waiting_for_vcf">Kişilerin geri yüklenmesi bekleniyor</string>
+    <string name="restoring_apps">Uygulamalar geri yükleniyor</string>
+    <string name="cleaning_up">Dosyalar temizleniyor</string>
+    <string name="restoring_settings">Ayarlar geri yükleniyor</string>
+    <string name="script_file_does_not_exist">Komut dosyası yok</string>
+    <string name="settings_cancelled">Ayarlar iptal edildi</string>
+    <string name="smsCalls_cancelled">SMS, aramalar iptal edildi</string>
+    <string name="restoring_smsCalls_by_addon">Eklenti ile sms, aramalar geri yükleniyor</string>
+    <string name="init_smsCalls_addon">Eklenti başlatılıyor</string>
+
+    <!--ExtraRestorePrepare.kt-->
+    <string name="skip_apps">Tümünü atla</string>
+    <string name="continue_">Bunları atla</string>
+    <string name="refresh">Yenile</string>
+    <string name="keyboard_not_present">Klavye uygulaması mevcut değil</string>
+    <string name="keyboard_not_present_desc">Klavye uygulaması yüklü değil ve geri yükleme işleminde mevcut değil. Uygulamayı Play Store\'dan veya başka bir yerden yükleyebilirsiniz.</string>
+    <string name="install_from_playstore">Play Store</string>
+    <string name="skip_keyboard">Klavyeyi atla ve devam et</string>
+    <string name="wifiPrepareTitle">Lütfen önce wifi\'yi etkinleştirin</string>
+    <string name="wifiPrepareDesc">Lütfen önce wifi\'yi etkinleştirin (bildirim panelinden)\n\n
+        WiFi geri yükleme hala güvenilmez. Yedeklemeyi tekrar flashlamanız ve tekrar denemeniz gerekebilir. Genellikle ikinci denemede her zaman geri yüklenir.
+    </string>
+    <string name="skip_wifi">Wifi\'yi atla</string>
+    <string name="settings_root_permission_error">Ayarlar eklentisi root izni hatası</string>
+    <string name="grant_root_to_settings_addon">Lütfen Ayarlar eklentisine root erişimi verin. Şimdi iptal edebilir, Magisk\'i açabilir ve Migrate ayarlar eklentisine elle root izni verebilirsiniz</string>
+    <string name="skip_settings">Ayarları atla</string>
+    <string name="addon_installer_data_null">Eklenti yükleyici verileri boş. Ayarlar, SMS, aramalar geri yüklenmeyecek.</string>
+    <string name="restore_only_apps">Yalnızca uygulamaları geri yükle</string>
+    <string name="addon_not_installed">Eklenti yüklü değil.</string>
+
+    <!--RestoreSelectorKotlin.kt-->
+    <string name="contacts">Kişiler</string>
+    <string name="sms">SMS mesajları</string>
+    <string name="calls">Arama kayıtları</string>
+    <string name="dpi">Ekran DPI</string>
+    <string name="keyboard">Varsayılan klavye</string>
+    <string name="applications">Uygulamalar</string>
+    <string name="adb_state">ADB durumu</string>
+    <string name="font_scale">Yazı tipi ölçeği</string>
+    <string name="wifi">WiFi yapılandırma dosyası</string>
+    <string name="cancelled_loading">Yükleme iptal edildi</string>
+    <string name="cancelled">İptal edildi</string>
+
+    <!--app_search_layout.xml-->
+    <string name="enter_app_name">Uygulama/paket adı</string>
+    <string name="no_apps">Verilen aramada\nkullanılabilir uygulama yok!</string>
+
+    <!--post_restore_jobs.xml-->
+    <string name="next">İleri</string>
+    <string name="set_manually">Elle ayarla</string>
+    <string name="set_manually_desc">Lütfen "Elle ayarla"yı tıklayarak SMS uygulamasını açın ve SMS uygulamasını ayarlayın. Tamamlandığında, kalan adımları yapmak için bu uygulamayı tekrar açın.</string>
+    <string name="reset_sms_app">Varsayılan SMS uygulamasını sıfırla</string>
+    <string name="reboot_for_sms">Geri yüklenen mesajların görünmesi için telefonunuzu yeniden başlatmanız gerekebilir. <b>Ayrıca sms uygulamasının verilerini de temizlemeniz gerekebilir.</b></string>
+    <string name="uninstall_helper_app">Kaldır/devre dışı bırak</string>
+    <string name="change_dpi">DPI değerini değiştir</string>
+    <string name="wifi_was_restored">Wifi geri yüklendi. Yeniden başlatma gerekiyor.</string>
+    <string name="display_density">Ekran yoğunluğu</string>
+    <string name="reboot_is_necessary">Yeniden başlatma gerekli!</string>
+    <string name="wifi_reboot_is_necessary">Wifi etkin olmalı. Yeniden başlatma gerekli!</string>
+    <string name="uninstall_app">Bu uygulamayı kaldır</string>
+    <string name="disable_app">Bu uygulamayı devre dışı bırak</string>
+    <string name="do_nothing">Sadece kapat</string>
+    <string name="change_to">Değiştir: </string>
+
+    <!--preferences.xml-->
+    <string name="ignore_read_errors">Okuma hatalarını yoksay</string>
+    <string name="ignore_read_errors_desc">Bu, meta veri dosyalarının okunması sırasındaki tüm hataları yok sayar</string>
+    <string name="ignore_extras">Ekstraları yoksay</string>
+    <string name="ignore_extras_desc">Bu, kişiler, sms, aramalar DPI vb. gibi ekstraların okunmasını ve geri yüklenmesini tamamen yok sayar</string>
+    <string name="restore_start_animation">Geri yükleme başlangıç geri sayımını göster</string>
+    <string name="restore_start_animation_desc">Geri yükleme başlamadan önce geri sayım animasyonunu göster/gizle.</string>
+    <string name="loadIconsInList">Uygulama listesindeki simgeleri yükle</string>
+    <string name="loadIconsInListDesc">Bellek taşması çökmesi durumunda bunu devre dışı bırakın</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="remount_data">Data\'yı yeniden bağla</string>
+    <string name="remount_data_desc">Bu, /data bölümünü bulmaya ve read-write olarak yeniden bağlamaya çalışır.</string>
+    <string name="install">Yükle</string>
+    <string name="load_extras_on_ui_thread">Arayüz parçacığında ekstraları yükle</string>
+    <string name="load_extras_on_ui_thread_desc">Geri yükleme seçici ekranındaki bazı hatalara olası düzeltme.</string>
+    <string name="track_restore_finished">Geri yüklemenin tamamlanmasını izle</string>
+    <string name="track_restore_finished_desc">İlerleme gösterisi etkinliğinin sürdürülmesini önlemek için geri yüklemenin tamamlanmasını izler. Emin olmadığınız sürece devre dışı bırakmayın.</string>
+    <string name="remount_all_to_uninstall">Kaldırmak için tümünü yeniden bağla</string>
+    <string name="remount_all_to_uninstall_desc">Kaldırma başarısız olursa, tüm bağlama noktalarını yeniden bağlar ve otomatik yeniden dener.</string>
+    <string name="clear_to_reset">Varsayılan değere sıfırlamak için Temizleyin ve Tamam\'a basın</string>
+    <string name="manual_cache">Migrate önbelleğinin yolunu belirt</string>
+    <string name="manual_metadata_holder">Meta veri sahibinin yolunu belirt</string>
+    
+    <!--uninstall_activity.xml-->
+    <string name="uninstall_desc">Çalışmazsa yukarıdaki dizini silin. Bu seçenek ayrıca migrate önbelleğini de siler.</string>
+    <string name="temporary_disable_desc">Uygulama bildirim vermekten vazgeçecek, ancak yüklü kalacak.</string>
+    <string name="delete_migrate_cache">Migrate önbelleğini sil (önerilir)</string>
+    <string name="reboot">Yeniden başlat (önerilir)</string>
+
+    <!--UninstallServiceKotlin.kt-->
+    <string name="finishing">Bitiriliyor…</string>
+
+    <!--contacts_dialog_view.xml-->
+    <string name="select_provider">Seçim yapmanız istenirse lütfen <b>Kişiler</b> uygulamasını seçin.</string>
+
+    <!--miscellaneous-->
+    <string name="notifHeader">Migrate paketi flashlandı!</string>
+    <string name="notifBody">Geri yüklemeye devam etmek için tıklayın!!</string>
+    <string name="error">Hata</string>
+
+    <!--CommonToolsKotlin.kt-->
+    <string name="error_occurred">Hatq oluştu!!</string>
+
+    <!--install_addons.xml-->
+    <string name="confirm_install_addon">Aşağıdaki eklentilerin yüklenmesi gerekiyor</string>
+    <string name="sms_calls_addon">SMS, aramalar eklentisi</string>
+    <string name="sms_calls_addon_desc">SMS ve aramaları geri yükler.</string>
+    <string name="settings_addon">Ayarlar eklentisi</string>
+    <string name="settings_addon_desc">ADB, DPI, Yazı tipi ölçeği, Klavyeyi geri yükler</string>
+    <string name="checking_settings_addon_root_access">Ayarlar eklentisi root erişimi kontrol ediliyor</string>
+    <string name="please_grant_if_prompted">İstenirse lütfen verin</string>
+    <string name="info">Bilgi</string>
+
+    <!--AddonInstallerActivity.kt-->
+    <string name="no_addon_to_install">Yüklenecek eklenti yok!</string>
+    <string name="press_abort_to_cancel">İptal etmek için Durdur\'a basın.</string>
+
+    <!--twrp_unpack_layout.xml-->
+    <string name="twrp_zip_files_under">TWRP zip dosyaları şuraya çıkarılacak:\n<b>[Dahili depolamaI]/Migrate/</b>\nLütfen twrp\'de açın ve flashlayın.</string>
+    <string name="zip_only_helper">Yalnızca helper\'ı kaldır</string>
+    <string name="zip_helper_cache">Helper\'ı ve migrate önbelleğini kaldır</string>
+    <string name="extracted_under">Şuraya çıkarıldı: [Dahili depolama]/Migrate/</string>
+
+    <!--Do not change!!-->
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
+
