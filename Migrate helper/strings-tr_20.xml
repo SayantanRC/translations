@@ -45,7 +45,7 @@
     <string name="cpu_arch_is">CPU mimariniz:</string>
     <string name="currently_supported_cpu">Yalnızca <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU mimarileri şu anda desteklenmektedir. Cihazınızı desteklemeye yardımcı olması için lütfen posta yoluyla iletişime geçin.</string>
     <string name="select_mail">Posta uygulamasını seçin, örneğin Gmail.</string>
-    <string name="select_telegram">Telegram'ı aç ve Migrate grubunu seç</string>
+    <string name="select_telegram">Telegram\'ı aç ve Migrate grubunu seç</string>
     <string name="contact">Telegram ile iletişim</string>
     <string name="default_sms_app_must_be_changed">Bu yardımcı uygulama kaldırılmadan önce varsayılan SMS uygulaması değiştirilmelidir.</string>
 
@@ -87,7 +87,7 @@
     <string name="finished_with_errors">Hatalarla tamamlandı!</string>
     <string name="uninstall_prompt">Bu uygulamayı kaldırmak için BİTİR\'i tıklayın</string>
     <string name="some_post_jobs_left">Geri yükleme sonrası işleri açmak için tıklayın.</string>
-    <string name="change_dpi_and_reboot_prompt">DPI'yi değiştirmek ve yeniden başlatmak için BİTİR\'i tıklayın</string>
+    <string name="change_dpi_and_reboot_prompt">DPI\'yi değiştirmek ve yeniden başlatmak için BİTİR\'i tıklayın</string>
     <string name="making_script">Komut dosyası oluşturuluyor</string>
     <string name="finish">Bitir</string>
     <string name="finalize">Tamamla</string>
