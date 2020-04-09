@@ -1,0 +1,393 @@
+<resources>
+
+    <string name="app_name">Migrate helper</string>
+    <string name="current_version_name">3.0.1_release</string>
+
+    <!--activity_main.xml-->
+    <string name="restore_main">Pulihkan aplikadi dan data</string>
+    <string name="uninstallFromSystem">Copot dari sistem</string>
+    <string name="uninstall_or_finalize">Copot app/akhiri pemulihan</string>
+    <string name="temporary_disable">Nonaktifkan sementara</string>
+    <string name="selective_restore">Pilih apa yang akan dipulihkan</string>
+    <string name="please_use_magisk">Pastikan menggunakan Magisk</string>
+    <string name="lastLog">Log terakhir</string>
+    <string name="preferences">Preferensi</string>
+    <string name="uninstall_by_twrp">Copot dari twrp.</string>
+
+    <!--MainActivityKotlin.kt-->
+    <string name="storage_perm_needed">Diperlukan izin penyimpanan</string>
+    <string name="grant">Iiznkan</string>
+
+    <!--last_log_report.xml-->
+    <string name="seeProgressLog">Lihat log proses</string>
+    <string name="seeErrorLog">Lihat log error</string>
+    <string name="report_logs">Laporkan log</string>
+    <string name="progressLog">Log proses</string>
+    <string name="errorLog">Log eror</string>
+
+    <!--SimpleLogDisplay.java-->
+    <string name="no_header">Tanpa tajuk</string>
+    <string name="no_filepath">Tidak ada filepath</string>
+    <string name="log_reading_error">Kesalahan pembacaan log</string>
+
+    <!--MainActivity.java-->
+    <string name="too_fast">Ups, terlalu cepat!!</string>
+    <string name="too_fast_desc">Aplikasi belum diuji secara eksplisit pada versi Android di atas 10.\n\nSilakan kirimkan tanggapan Anda apakah aplikasi berfungsi atau tidak.</string>
+    <string name="dont_show_again">Jangan tampilkan lagi</string>
+    <string name="apps_will_be_closed">Aplikasi akan ditutup</string>
+    <string name="do_not_use_desc">Aplikasi akan ditutup saat memulihkan. Tolong jangan gunakan perangkat untuk menghindari crash.
+         \n\nAnda akan mendapat opsi untuk meminimalkan aplikasi, tetapi tidak disarankan.</string>
+    <string name="later">Bagaimanapun, saya akan memulihkan nanti.</string>
+    <string name="sure">Yakin?</string>
+    <string name="howToRestore">Menghapus instalan membutuhkan root. Anda juga perlu menginstal ulang migrate zip untuk mengembalikan data di lain waktu.</string>
+    <string name="goAhead">Lanjutkan</string>
+    <string name="unsupported_device">Perangkat tidak didukung.</string>
+    <string name="cpu_arch_is">Arsitektur CPU anda:</string>
+    <string name="currently_supported_cpu">Hanya arsitektur CPU <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> yang didukung. Silakan hubungi melalui email untuk membantu mendukung perangkat Anda.</string>
+    <string name="select_mail">Pilih aplikasi surat, misalnya Gmail.</string>
+    <string name="select_telegram">Buka Telegram dan pilih grup Migrate</string>
+    <string name="contact">Kontak melalui Telegram</string>
+    <string name="default_sms_app_must_be_changed">Aplikasi SMS default harus diubah sebelum menghapus instalasi aplikasi pembantu ini.</string>
+
+    <!--ProgressActivity.java-->
+    <string name="please_wait">Tunggu</string>
+    <string name="waiting_for_contacts">Menunggu pemulihan kontak</string>
+    <string name="waiting_for_contacts_desc">Migrate helper telah mendeteksi bahwa Anda telah memilih untuk memulihkan kontak yang menangani aplikasi yang mungkin bertentangan dengan operasi pemulihan kontak yang sedang berjalan.\n\n
+     Pemulihan aplikasi akan dilanjutkan setelah kontak dipulihkan.
+    </string>
+    <string name="abort_title">Ini sangat tidak disarankan!</string>
+    <string name="abort_desc">Ini dapat membuat semua aplikasi tidak dapat digunakan dan reset pabrik mungkin diperlukan</string>
+    <string name="let_it_continue">Lanjutkan</string>
+    <string name="abort_anyway">Batalkan</string>
+    <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
+    <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
+    <string name="send_logs_first">Send logs first</string>-->
+
+    <!--extra_restore_prepare.xml-->
+    <string name="erp_title">Persiapan pemulihan</string>
+    <string name="will_be_restored_later">Dipulihkan setelah aplikasi</string>
+    <string name="ready_to_be_restored">Siap melakukan pemulihan</string>
+    <string name="restore_starting_in">pemulihan akan dimulai dalam…</string>
+    <string name="number_of_selected_apps">Aplikasi yang dipilih</string>
+    <string name="no_addon">Tidak ada add-on</string>
+    <string name="denied">Ditolak</string>
+    <string name="ok_disable">OK, nonaktifkan</string>
+    <string name="dont_disable">Tidak, jangan nonaktifkna</string>
+    <string name="start">Mulai</string>
+
+    <!--restore_progress_layout.xml-->
+    <string name="close">TUTUP</string>
+    <string name="abort">Batalkan!</string>
+    <string name="minimize">Perkecil</string>
+    <string name="report">Laporkan</string>
+    <string name="minimizing_may_decrease_speed">Memperkecil layar ini dapat mengurangi kecepatan pemulihan!</string>
+
+    <!--RootRestoreTask.java-->
+    <string name="finished">Selesai! Tidak ada eror.</string>
+    <string name="finished_with_errors">Selesai dengan eror!</string>
+    <string name="uninstall_prompt">Klik SELESAI untuk menghapus instalasi aplikasi ini</string>
+    <string name="some_post_jobs_left">Click to open post restore jobs.</string>
+    <string name="change_dpi_and_reboot_prompt">Klik SELESAI untuk mengubah DPI dan reboot</string>
+    <string name="making_script">Membuat skrip</string>
+    <string name="SELESAI">SELESAI</string>
+    <string name="finalize">Finalize</string>
+    <string name="restoreCancelled">pemulihan dibatalakan.</string>
+
+    <!--app_selector.xml-->
+    <string name="select_apps">Pilih yang akan dipulihkan</string>
+    <string name="restore">Pulihkan</string>
+    <string name="app">Aplikasi</string>
+    <string name="data">Data</string>
+    <string name="perm">Izin</string>
+    <string name="extras">Extra</string>
+    <string name="apps">Applikasi</string>
+
+    <!--AppSelector.java-->
+    <string name="requesting_root">Meminta root</string>
+    <string name="failed">Gagal</string>
+    <string name="failed_desc">Tolong beri izin root.</string>
+    <string name="everything">Dipiih semua!</string>
+    <string name="reading_metadata">Membaca metadata…</string>
+    <string name="initMessageShort">Hal ini bisa memakan waktu hingga 3 menit.\n\nJika Anda telah menunggu lebih dari 5 menit\nKlik BATAL nBuka aplikasi Magisk\nTutup aplikasi Magisk\nBuka aplikasi ini dan coba kembali memulihkan</string>
+    <string name="are_you_rooted">Apakah root?</string>
+    <string name="are_you_rooted_desc">Pastikan untuk memberikan root. Root dengan Magisk jika perlu.</string>
+    <string name="code_error">kode eror!</string>
+    <string name="selecting_all">Memilih semua</string>
+    <string name="starting_restore">Memulai pemulihan</string>
+    <string name="nothing_to_restore">Tidak ada yang perlu dipulihkan</string>
+    <string name="no_metadata_found">Metadata tidak ditemukan\nFlash Migrate zip dahulu</string>
+    <string name="null_adapter">Adapter null</string>
+    <string name="restore_contacts_dialog_header">Pulihkan kontak</string>
+    <string name="proceed">Sedang diproses</string>
+    <string name="reading_package_data">Membaca paket data</string>
+    <string name="restore_in_different_version_warning">Cadangan asli diambil dalam versi Android yang berbeda. Beberapa aplikasi mungkin gagal dipulihkan</string>
+    <string name="originating_sdk">Menyamakan dari SDK cadangan</string>
+    <string name="current_sdk">SDK sekarang</string>
+    <string name="force_stop">Paksa tutup</string>
+    <string name="force_stop_alert_title">Paksa tutup aplikasi?</string>
+    <string name="force_stop_alert_desc">Paksa tutup akan menghetikan seluruh aplikasi. Jika Anda sudah menekan Batal, harap tunggu beberapa saat.</string>
+    <string name="kill_app">OK, tutup!</string>
+    <string name="wait_to_cancel">Tunggu…</string>
+    <string name="killing_programmatically">Sedang menutup</string>
+    <string name="use_notification_fix">Perbaikan notifikasi dengan menghapus file gms</string>
+
+    <!--ExtraBackupsProgress.java-->
+    <string name="do_not_close">Tolong jangan tekan kembali/home/recent atau tutup aplikasi ini.</string>
+    <string name="smsPermission">Diperlukan izin sms</string>
+    <string name="smsPermission_desc">Izinkan aplikasi ini menjadi aplikasi sms default sementara.\n<b>Anda akan diminta untuk mengubah ke aplikasi sms asli setelah dipulihkan</b>
+    </string>
+    <string name="you_will_not_be_able_to_receive_sms">
+        Migrate helper tidak dapat ditetapkan sebagai aplikasi SMS.\n\n
+         Anda tidak akan dapat menerima pesan SMS baru jika Anda tidak mengubah aplikasi pengiriman pesan default.
+    </string>
+    <string name="change">Ubah</string>
+    <string name="leave_as_it_is">Biarkan</string>
+    <string name="callsPermission">Diperlukan izin log panggilan</string>
+    <string name="callsPermission_desc">Tolong izinkan untuk menulis log panggilan.</string>
+    <string name="scanning">Memindai</string>
+    <string name="dpi_null">File DPI null</string>
+    <string name="dpi_value_not_found">Nilai DPI tidak ditemukan</string>
+    <string name="dpi_will_be_restored_in_the_end">Reboot diperlukan untuk perubahan DPI</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">
+        Nilai DPI layar dari cadangan akan dipulihkan setelah Anda menekan tombol OK setelah cadangan selesai. Perangkat Anda akan di-boot ulang\n\n
+         Tekan OK untuk melanjutkan, Batal untuk sepenuhnya melewatkan perubahan DPI.
+    </string>
+    <string name="keyboard_null">File Keyboard null</string>
+    <string name="keyboard_value_not_found">Nilai Keyboard tidak ditemukan</string>
+    <string name="keyboard_corrupt">File Keyboard korup</string>
+    <string name="keyboard_will_be_restored">akan ditetapkan setelah pemulihan aplikasi</string>
+    <string name="keyboard_not_in_restore_list">tidak ada didftar pemulihan</string>
+    <string name="filtering">\n</string>
+    <string name="please_do_not_press_back_button">jangan tekan tombol kembali.</string>
+
+    <!--apps_not_installed_layout.xml-->
+    <string name="apps_not_installed_title">Aplikasi berikut dipilih untuk dipulihkan tapi tidak dicadangkan, atau telah terinstall diperangkat.</string>
+    <string name="apps_not_installed_desc">Jika dilanjutkan, aplikasi tersebut akan dihiraukan. Tapi, tidak akan kehilangan data. You will have to download the apps from Google Play Store (or elsewhere) and can retry restoring them later. You need not flash the backup again.</string>
+
+    <!--UninstallService.java-->
+    <string name="reboot_recommended">!!!!!!! Mengubah DPI. Disaranakn untuk Reboot. !!!!!!!</string>
+
+    <!--RestoreA_DB.java-->
+    <string name="done">Selesai!</string>
+
+    <!--SmsBroadcastReceiver.java-->
+    <!--MmsBroadcastReceiver.java-->
+    <string name="new_sms_received">Ada sms baru! Silakan ubah ke aplikasi pesan default.</string>
+
+    <!--ComposeSmsActivity.kt-->
+    <string name="please_change_sms_app">\"Migrate helper\" tidal berarti digunakan untuk aplikasi sms. Silakan ubah aplikasi pesan default</string>
+
+    <!--GetAppPackets.kt-->
+    <string name="path_not_valid_directory">direktori tidak valid</string>
+
+    <!--RootCopyTask.kt-->
+    <string name="no_busybox">Busybox tidak ditemukan!</string>
+
+    <!--ParentRestoreClass.kt-->
+    <string name="loading">Memuat…</string>
+
+    <!--RestoreServiceKotlin.kt-->
+    <string name="cancelling">Mmebatalkan…</string>
+    <string name="errorStartingRestore">Eror memulai Pemulihan (onStartCommand).</string>
+
+    <!--AppRestoreAdapter.kt-->
+    <string name="packageName">Paket :</string>
+    <string name="versionName">Versi :</string>
+    <string name="installer">Penginstall: </string>
+    <string name="play_store">Play Store</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">Ukuran Data :</string>
+    <string name="system_size">Ukuran Sistem :</string>
+
+    <!--ParentGetter.kt-->
+    <string name="getting_apps">Mendapatkan app</string>
+    <string name="getting_contacts">Mendapatkan kontak</string>
+    <string name="getting_sms">Mendapatkan sms</string>
+    <string name="getting_calls">Mendapatkan panggilan</string>
+    <string name="getting_settings">Mendapatkan pengaturan</string>
+    <string name="getting_wifi">Mendapatkan informasi Wifi</string>
+
+    <!--error_report_layout.xml-->
+    <string name="report_header">Laporkan via Telegram</string>
+    <string name="share_progress_logs">Bagikan log proses</string>
+    <string name="share_error_logs">Bagikan log eror</string>
+    <string name="share_file_lists">Bagikan daftar file yang dicadangkan</string>
+    <string name="share_script">Bagikan skrip</string>
+    <string name="share_package_data">Bagikan packet-data</string>
+    <string name="send_to_tg">Kirim ke Telegram</string>
+    <string name="agree_and_send">Setuju dan kirim</string>
+    <string name="error_report_disclaimer">Terima kasih atas minat Anda untuk membantu meningkatkan aplikasi ini. Mulai sekarang, semua laporan kesalahan akan dikirim dalam grup Telegram kami - https://t.me/migrateApp.
+        Dengan demikian, Anda akan mendapatkan solusi lebih cepat dari banyak orang di grup. \n\n
+        Dengan membagikan log, Anda setuju untuk berbagi beberapa informasi <b>SECARA PUBLIK</b>. Klik \"Setuju dan kirim\" untuk memproses.
+    </string>
+    <string name="what_is_shared">Apa yang dibagikan?</string>
+    <string name="shared_desc">
+        Saat membagikan log, Anda setuju untuk membagikan (secara publik, jika pada grup Telegram): \n\n
+        - Beberapa struktur file internal aplikasi. Ini (dalam banyak kasus) tidak mengandung informasi sensitif yang dapat diidentifikasi secara pribadi. \n
+        - Nama cadangan. \n
+        - Beberapa detail cadangan seperti jumlah bagian cadangan. \n
+        - Informasi perangkat seperti versi android. \n\n
+        Migrate sangat menghormati privasi pengguna. Karena log seperti itu dihasilkan selama cadangan Kontak, sms dan log panggilan TIDAK DICATAT dan tidak dapat dibagi.
+        Tidak ada upaya yang disengaja untuk mengidentifikasi atau menggunakan data pribadi pengguna secara tidak sah. \n\n
+        Dalam kasus apa pun, Anda setuju bahwa baik pengembang, maupun aplikasi tidak bertanggung jawab atas pelanggaran privasi yang tidak disengaja.
+        Jika Anda merasa bahwa log Anda mungkin berisi informasi sensitif, jangan bagikan.
+        Jika Anda terlanjur, silakan hapus segera mungkin.
+    </string>
+    <string name="not_joined_yet">Belum gabung grup?</string>
+    <string name="send_logs_using">Kirim log dengan:</string>
+    <string name="log_files_do_not_exist">File log tidak ada</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh\" tidak ada</string>
+    <string name="progress_log_does_not_exist">\"progressLog\" tidak ada</string>
+    <string name="error_log_does_not_exist">\"errorLog\" tidak ada</string>
+    <string name="package_data_does_not_exist">\"package-data\" tidak ada</string>
+    <string name="file_lists_does_not_exist">Daftar file tidak ada</string>
+    <string name="tg_not_installed">Grup Telegram kami membantu mendapatkan solusi cepat untuk masalah.</string>
+    <string name="tg_not_installed_desc">Silakan pasang Telegram dan bergabung dengan grup kami.</string>
+    <string name="install_tg">Pasang Telegram</string>
+    <string name="join_group">Gabung grup</string>
+    <string name="use_email_instead">Gunakan email lama</string>
+
+    <!--Restore engines-->
+    <string name="restoring_sms">Memulihkan sms</string>
+    <string name="restoring_calls">Memulihkan panggilan</string>
+    <string name="restoring_adb">Memulihkan status ADB</string>
+    <string name="restoring_font_scale">Memulihkan ukuran font</string>
+    <string name="restoring_keyboard">Memulihkan keyboard</string>
+    <string name="processing_dpi">Memproses DPI</string>
+    <string name="processing_keyboard">Memproses keyboard</string>
+    <string name="restoring_wifi">Memulihkan Wifi</string>
+    <string name="making_scripts">Membuat skrip</string>
+    <string name="waiting_for_vcf">Menunggu kontak pulih</string>
+    <string name="restoring_apps">Memulihkan aplikasi</string>
+    <string name="cleaning_up">Membersihkan file</string>
+    <string name="restoring_settings">Memulihkan pengaturan</string>
+    <string name="script_file_does_not_exist">File skrip tidak ada</string>
+    <string name="settings_cancelled">Pengaturan dibatalkan</string>
+    <string name="smsCalls_cancelled">SMS, panggilan dibatalkan</string>
+    <string name="restoring_smsCalls_by_addon">Menginisialisasi addon</string>
+    <string name="init_smsCalls_addon">Menginisialisasi addon</string>
+
+    <!--ExtraRestorePrepare.kt-->
+    <string name="skip_apps">Lewati semua</string>
+    <string name="continue_">Lewati</string>
+    <string name="refresh">Segarkan</string>
+    <string name="keyboard_not_present">Aplikasi keyboard tidak tersedia</string>
+    <string name="keyboard_not_present_desc">Aplikasi keyboard tidak diinstal dan tidak ada dalam pemulihan. Anda dapat menginstal aplikasi dari Play Store atau lainnya.</string>
+    <string name="install_from_playstore">Play Store</string>
+    <string name="skip_keyboard">Lewati keyboard dan lanjutkan</string>
+    <string name="wifiPrepareTitle">Silakan aktifkan wifi terlebih dahulu</string>
+    <string name="wifiPrepareDesc">Harap aktifkan Wifi terlebih dahulu (dari panel notifikasi)\n\n
+         Pemulihan wifi masih tidak bisa dilakukan. Anda mungkin perlu mem-flash kembali cadangan dan coba lagi. Biasanya akan selalu dipulihkan pada percobaan kedua.
+    </string>
+    <string name="skip_wifi">Lewati wifi</string>
+    <string name="settings_root_permission_error">Izin root pengaturan add-on eror</string>
+    <string name="grant_root_to_settings_addon">Tolong beri akses root ke addon. Anda dapat Batalkan sekarang, buka Magisk dan secara manual memberikan izin root ke Migrasi addon pengaturan</string>
+    <string name="skip_settings">Lewati pengaturan</string>
+    <string name="addon_installer_data_null">Data pemasang addon null. Pengaturan, SMS, panggilan tidak akan dikembalikan.</string>
+    <string name="restore_only_apps">Hanaya pulihkan aplikasi</string>
+    <string name="addon_not_installed">Add-on tak terpasang.</string>
+
+    <!--RestoreSelectorKotlin.kt-->
+    <string name="contacts">Kontak</string>
+    <string name="sms">SMS</string>
+    <string name="calls">Log panggilan</string>
+    <string name="dpi">DPI</string>
+    <string name="keyboard">Keyboard default</string>
+    <string name="applications">Aplikasi</string>
+    <string name="adb_state">Status ADB</string>
+    <string name="font_scale">Ukuran Font</string>
+    <string name="wifi">File Wifi config.</string>
+    <string name="cancelled_loading">Pemuatan dibatalkan</string>
+    <string name="cancelled">Dibatalakan</string>
+
+    <!--app_search_layout.xml-->
+    <string name="enter_app_name">App/nama paket</string>
+    <string name="no_apps">Tidak ada aplikasi yang tersedia\ndengan pencarian yang diberikan!</string>
+
+    <!--post_restore_jobs.xml-->
+    <string name="next">Lanjut</string>
+    <string name="set_manually">Set manual</string>
+    <string name="set_manually_desc">Silakan buka aplikasi SMS dengan mengklik "Set manual" dan atur aplikasi SMS. Setelah selesai, buka aplikasi ini lagi untuk melakukan langkah-langkah yang tersisa.</string>
+    <string name="reset_sms_app">Setel ulang aplikasi SMS default</string>
+    <string name="reboot_for_sms">Anda mungkin perlu me-reboot perangkat Anda agar pesan yang dipulihkan muncul. <b>You may also need to clear data of the sms app.</b></string>
+    <string name="uninstall_helper_app">Copot/nonaktifkan</string>
+    <string name="change_dpi">Ubah nilai DPI</string>
+    <string name="wifi_was_restored">Wifi dipulihkan. Reboot diperlukan.</string>
+    <string name="display_density">Density layar</string>
+    <string name="reboot_is_necessary">Reboot diperlukan!</string>
+    <string name="wifi_reboot_is_necessary">WiFi diaktifkan. Reboot diperlukan!</string>
+    <string name="uninstall_app">Copot aplikasi</string>
+    <string name="disable_app">Nonaktifkan aplikasi</string>
+    <string name="do_nothing">Hanya tutup</string>
+    <string name="change_to">Ubah ke: </string>
+
+    <!--preferences.xml-->
+    <string name="ignore_read_errors">Abaikan eror</string>
+    <string name="ignore_read_errors_desc">Ini akan mengabaikan semua kesalahan saat membaca file metadata</string>
+    <string name="ignore_extras">Abaikan ketra</string>
+    <string name="ignore_extras_desc">Ini sepenuhnya akan mengabaikan pemulihan ekstra seperti kontak, sms, panggilan, DPI dll</string>
+    <string name="restore_start_animation">Tampilkan kembalikan hitungan mundur</string>
+    <string name="restore_start_animation_desc">Tampilkan/sembunyikan animasi hitung mundur sebelum pemulihan dimulai.</string>
+    <string name="loadIconsInList">Muat ikon di daftar aplikasi</string>
+    <string name="loadIconsInListDesc">Nonaktifkan ini jika crash melebihi memori</string>
+    <string name="advanced">Lanjutan</string>
+    <string name="remount_data">Remount data</string>
+    <string name="remount_data_desc">Ini mencoba mencari dan me-remount partisi /data sebagai read-write. Biasanya ini tidak diperlukan.</string>
+    <string name="install">Pasang</string>
+    <string name="load_extras_on_ui_thread">Muat ekstra pada utas ui</string>
+    <string name="load_extras_on_ui_thread_desc">Memperbaiki kemungkinan untuk beberapa kesalahan dalam mengembalikan layar pilihan.</string>
+    <string name="track_restore_finished">Lacak pemulihan selesai</string>
+    <string name="track_restore_finished_desc">Lacak ketika pemulihan selesai agar tidak menampilkan kembali aktivitas proses. Jangan menonaktifkan kecuali Anda yakin.</string>
+    <string name="remount_all_to_uninstall">Remount semua untuk menghapus instalan</string>
+    <string name="remount_all_to_uninstall_desc">Jika gagal mencopot, pasang kembali semua mount point dan coba lagi otomatis.</string>
+    <string name="clear_to_reset">Bersihkan dan tekan OK untuk mengatur ulang ke nilai default</string>
+    <string name="manual_cache">Tentukan jalur ke migrate_cache</string>
+    <string name="manual_metadata_holder">Tentukan jalur ke metadata holder</string>
+    
+    <!--uninstall_activity.xml-->
+    <string name="uninstall_desc">Jika tidak berhasil, hapus direktori di atas. Opsi ini juga menghapus migrate_cache.</string>
+    <string name="temporary_disable_desc">Aplikasi akan berhenti memberi notifikasi, tetapi tetap dipasang.</string>
+    <string name="delete_migrate_cache">Hapus migrate_cache (disarankan)</string>
+    <string name="reboot">Reboot (disarankan)</string>
+
+    <!--UninstallServiceKotlin.kt-->
+    <string name="finishing">Selesai…</string>
+
+    <!--contacts_dialog_view.xml-->
+    <string name="select_provider">Silakan pilih aplikasi <b>Kontak</b> jika ditanyakan.</string>
+
+    <!--miscellaneous-->
+    <string name="notifHeader">Paket Migrate terinstall!</string>
+    <string name="notifBody">Klik untuk melanjutkan pemulihan!!</string>
+    <string name="error">Eror</string>
+
+    <!--CommonToolsKotlin.kt-->
+    <string name="error_occurred">Terjadi kesalahan!!</string>
+
+    <!--install_addons.xml-->
+    <string name="confirm_install_addon">Add-ons yang perlu dipasang</string>
+    <string name="sms_calls_addon">SMS, panggilan add-on</string>
+    <string name="sms_calls_addon_desc">Memulihkan SMS and paggilan.</string>
+    <string name="settings_addon">Pengaturan add-on</string>
+    <string name="settings_addon_desc">Memulihkan ADB, DPI, ukuran Font, Keyboard</string>
+    <string name="checking_settings_addon_root_access">Memeriksa akses root add-on</string>
+    <string name="please_grant_if_prompted">Harap izinkan jika diminta</string>
+    <string name="info">Info</string>
+
+    <!--AddonInstallerActivity.kt-->
+    <string name="no_addon_to_install">Tidak ada add-on yang perlu dipasang!</string>
+    <string name="press_abort_to_cancel">tekan Batalkan! untuk membatalkan.</string>
+
+    <!--twrp_unpack_layout.xml-->
+    <string name="twrp_zip_files_under">File zip TWRP akan diekstrak di:\n<b>[Penyimpanan Internal]/Migrate/</b>\nSilakan reboot TWRP dan flash.</string>
+    <string name="zip_only_helper">Copot helper saja</string>
+    <string name="zip_helper_cache">Copot helper + migrate_cache</string>
+    <string name="extracted_under">Diekstrak di: [Penyimpanan Internal]/Migrate/</string>
+
+    <!--Do not change!!-->
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
+
