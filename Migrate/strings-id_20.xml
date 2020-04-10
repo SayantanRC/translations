@@ -403,7 +403,7 @@
     <string name="reading_data">Membaca data cadangan</string>
     <string name="making_app_script">Membuat file tambahan aplikasi</string>
     <string name="just_a_minute">Sebentar…</string>
-    <string name="starting_engine">Mulai pencadangan</string>
+    <string name="starting_engine">Cadangkan</string>
     <string name="root_permission_denied">Izin root ditolak!</string>
     <string name="root_permission_denied_desc">Pastikan perangkat Anda di-root dan Anda telah mengizinkan izin root. \n\n
     Jika ROM Anda sudah di-root, coba install Magisk.
