@@ -3,7 +3,7 @@
 
     <string name="app_name">Migrate</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.0.1</string>
+    <string name="current_version_name">3.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">rilis</string>
     <string name="last_tested_label">Terakhir dites di: Android 10</string>
@@ -403,7 +403,7 @@
     <string name="reading_data">Membaca data cadangan</string>
     <string name="making_app_script">Membuat file tambahan aplikasi</string>
     <string name="just_a_minute">Sebentar…</string>
-    <string name="starting_engine">Cadangkan</string>
+    <string name="starting_engine">Mulai pencadangan</string>
     <string name="root_permission_denied">Izin root ditolak!</string>
     <string name="root_permission_denied_desc">Pastikan perangkat Anda di-root dan Anda telah mengizinkan izin root. \n\n
     Jika ROM Anda sudah di-root, coba install Magisk.
@@ -435,6 +435,11 @@
     <string name="old_method_will_be_used">Gunakan metode terminal lama</string>
     <string name="update_available">Pembaruan tersedia!</string>
     <string name="download">Unduh</string>
+    <string name="test_the_app">Silakan uji aplikasi satu kali.</string>
+    <string name="test_the_app_desc">Aplikasi ini sangat bergantung pada perangkat Anda dan pemulihan, dan karena itu beberapa atau semua fungsi mungkin tidak berfungsi untuk perangkat Anda.
+        \n\nUntuk mencegah kehilangan data, harap cadangkan satu aplikasi kecil (dengan data), lalu hapus instalannya dan coba pulihkan aplikasi. Periksa apakah itu berfungsi dengan baik. Jika Anda puas, Anda dapat menggunakan aplikasi ini untuk melakukan migrasi ke ROM lain.
+        \n\nDan seperti biasa, menyimpan cadangan nandroid selalu merupakan ide yang baik.
+    </string>
 
     <!--AppListAdapter.java-->
     <string name="packageName">Paket :</string>
