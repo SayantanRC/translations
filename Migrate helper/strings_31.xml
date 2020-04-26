@@ -1,7 +1,23 @@
 <resources>
 
     <string name="app_name">Migrate helper</string>
-    <string name="current_version_name">3.0.1_release</string>
+    <string name="current_version_name">3.1.1_release</string>
+
+    <!--changelog-->
+    <string name="changelog">Changelog</string>
+    <string name="version_3_1">Version 3.1</string>
+    <string name="version_3_1_content">
+        \u2022 More fixes to no data restore\n
+        \u2022 Detect errors in app restore\n
+        \u2022 Probable fix to crashes while loading app list\n
+        \u2022 Also delete system apk if installed as a user app\n
+        \u2022 Use root to extract twrp uninstall zips, if file permission is denied\n
+        \u2022 Add changelog and contact options\n
+    </string>
+    <string name="version_3_1_1">Version 3.1.1</string>
+    <string name="version_3_1_1_content">
+        \u2022 Fix to apps with symbols\n
+    </string>
 
     <!--activity_main.xml-->
     <string name="restore_main">Restore apps and data</string>
@@ -12,11 +28,15 @@
     <string name="please_use_magisk">Make sure to use Magisk</string>
     <string name="lastLog">Last logs</string>
     <string name="preferences">Preferences</string>
+    <string name="contact_on_telegram">Contact on Telegram</string>
     <string name="uninstall_by_twrp">Uninstall by twrp.</string>
 
     <!--MainActivityKotlin.kt-->
     <string name="storage_perm_needed">Storage permission needed</string>
     <string name="grant">Grant</string>
+    <string name="contact_desc">Our Telegram group has many members, you will get quicker help on the group. In case your issue is not resolved, kindly contact developer.</string>
+    <string name="contact_developer">Contact developer</string>
+    <string name="contact_group">Message on group</string>
 
     <!--last_log_report.xml-->
     <string name="seeProgressLog">See Progress log</string>
@@ -177,9 +197,6 @@
     <!--ComposeSmsActivity.kt-->
     <string name="please_change_sms_app">\"Migrate helper\" is not meant to be used as an sms app. Please change the default sms app</string>
 
-    <!--GetAppPackets.kt-->
-    <string name="path_not_valid_directory">is not valid directory</string>
-
     <!--RootCopyTask.kt-->
     <string name="no_busybox">Busybox not found!</string>
 
@@ -200,6 +217,7 @@
     <string name="system_size">System size :</string>
 
     <!--ParentGetter.kt-->
+    <string name="path_not_valid_directory">is not valid directory</string>
     <string name="getting_apps">Getting apps</string>
     <string name="getting_contacts">Getting contacts</string>
     <string name="getting_sms">Getting sms</string>
@@ -212,6 +230,7 @@
     <string name="share_progress_logs">Share progress logs</string>
     <string name="share_error_logs">Share error logs</string>
     <string name="share_file_lists">Share list of files in backup</string>
+    <string name="share_raw_lists">Share raw list of files</string>
     <string name="share_script">Share script</string>
     <string name="share_package_data">Share package-data</string>
     <string name="send_to_tg">Send to Telegram</string>
@@ -239,6 +258,7 @@
     <string name="error_log_does_not_exist">\"errorLog\" does not exist</string>
     <string name="package_data_does_not_exist">\"package-data\" does not exist</string>
     <string name="file_lists_does_not_exist">File lists do not exist</string>
+    <string name="raw_lists_does_not_exist">Raw file lists do not exist</string>
     <string name="tg_not_installed">Our Telegram group helps to get quick resolutions to problems.</string>
     <string name="tg_not_installed_desc">Please install Telegram and join our group.</string>
     <string name="install_tg">Install Telegram</string>
@@ -337,13 +357,17 @@
     <string name="track_restore_finished">Track restore finished</string>
     <string name="track_restore_finished_desc">Track when restore is finished to avoid resuming progress show activity. Do not disable unless you are sure.</string>
     <string name="remount_all_to_uninstall">Remount all to uninstall</string>
+    <string name="remove_system_apk">Remove apk from system (if present)</string>
     <string name="remount_all_to_uninstall_desc">If uninstalling fails, remount all mount points and auto retry.</string>
+    <string name="load_multiple_icons">Load multiple app icons.</string>
+    <string name="load_multiple_icons_desc">This will attempt to load as many app icons as possible on the app selector screen. Turning on may result in crashes.</string>
+    <string name="check_low_memory_icons">Check low memory before loading icons</string>
     <string name="clear_to_reset">Clear and press OK to reset to default value</string>
     <string name="manual_cache">Specify path to migrate_cache</string>
     <string name="manual_metadata_holder">Specify path to metadata holder</string>
-    
+
     <!--uninstall_activity.xml-->
-    <string name="uninstall_desc">If doesn\'t work, delete the above directory. This option also deletes migrate_cache.</string>
+    <string name="uninstall_desc">If doesn\'t work, delete the above directory.</string>
     <string name="temporary_disable_desc">App will stop giving notifications, but remain installed.</string>
     <string name="delete_migrate_cache">Delete migrate_cache (recommended)</string>
     <string name="reboot">Reboot (recommended)</string>
@@ -381,6 +405,9 @@
     <string name="zip_only_helper">Uninstall only helper</string>
     <string name="zip_helper_cache">Uninstall helper + migrate_cache</string>
     <string name="extracted_under">Extracted under: [Internal storage]/Migrate/</string>
+    <string name="unpack_failed">Unpack failed</string>
+    <string name="use_root_to_unpack">File permission is being denied. Use root?</string>
+
 
     <!--Do not change!!-->
     <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
