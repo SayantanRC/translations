@@ -1,7 +1,23 @@
 <resources>
 
     <string name="app_name">Migrate helper</string>
-    <string name="current_version_name">3.0.1_release</string>
+    <string name="current_version_name">3.1.1_release</string>
+
+    <!--changelog--> <!-- original translation -->
+    <string name="changelog">Список изменений</string>
+    <string name="version_3_1">Version 3.1</string>
+    <string name="version_3_1_content">
+        \u2022 More fixes to no data restore\n
+        \u2022 Detect errors in app restore\n
+        \u2022 Probable fix to crashes while loading app list\n
+        \u2022 Also delete system apk if installed as a user app\n
+        \u2022 Use root to extract twrp uninstall zips, if file permission is denied\n
+        \u2022 Add changelog and contact options\n
+    </string>
+    <string name="version_3_1_1">Version 3.1.1</string>
+    <string name="version_3_1_1_content">
+        \u2022 Fix to apps with symbols\n
+    </string>
 
     <!--activity_main.xml-->
     <string name="restore_main">Восстановление приложений и данных</string>
@@ -12,11 +28,15 @@
     <string name="please_use_magisk">Обязательно используйте Magisk</string>
     <string name="lastLog">Последние логи</string>
     <string name="preferences">Настройки</string>
+    <string name="contact_on_telegram">Связаться через Telegram</string>
     <string name="uninstall_by_twrp">Удаление в twrp.</string>
 
     <!--MainActivityKotlin.kt-->
     <string name="storage_perm_needed">Необходимо разрешение на доступ к файлам</string>
     <string name="grant">Предоставить</string>
+    <string name="contact_desc">В нашей Telegram-группе много участников, в ней быстрее предоставляется помощь, если ваша проблема не была решена в группе, пожалуйста, свяжитесь с разработчиком.</string>
+    <string name="contact_developer">Связаться с разработчиком</string>
+    <string name="contact_group">Написать в группу приложения</string>
 
     <!--last_log_report.xml-->
     <string name="seeProgressLog">Посмотреть лог Резервного копирования</string>
@@ -177,9 +197,6 @@
     <!--ComposeSmsActivity.kt-->
     <string name="please_change_sms_app">\"Migrate helper\" не предназначен для использования в качестве приложения для SMS. Пожалуйста, измените приложение для SMS по умолчанию</string>
 
-    <!--GetAppPackets.kt-->
-    <string name="path_not_valid_directory">недопустимый путь</string>
-
     <!--RootCopyTask.kt-->
     <string name="no_busybox">Busybox не найдено!</string>
 
@@ -200,6 +217,7 @@
     <string name="system_size">Занимает в /system :</string>
 
     <!--ParentGetter.kt-->
+    <string name="path_not_valid_directory">недопустимый путь</string>
     <string name="getting_apps">Получение приложений</string>
     <string name="getting_contacts">Получение контактов</string>
     <string name="getting_sms">Получение SMS</string>
@@ -212,6 +230,7 @@
     <string name="share_progress_logs">Поделиться логами резервного копирования</string>
     <string name="share_error_logs">Поделиться логами ошибок</string>
     <string name="share_file_lists">Поделиться списком файлов в резервной копии</string>
+    <string name="share_raw_lists">Поделиться необработанным списком файлов</string>
     <string name="share_script">Поделиться скриптом</string>
     <string name="share_package_data">Поделиться package-data</string>
     <string name="send_to_tg">Отправить в Telegram</string>
@@ -222,7 +241,6 @@
     </string>
     <string name="what_is_shared">Что означает \"делиться\"?</string>
     <string name="shared_desc">
-        Делиться в этом контексте относится к добровольной отправки логов приложения.\n\n
         Отправляя логи, вы соглашаетесь поделиться (публично, если в Telegram группе):\n\n
         - Состоянием приложения и данными восстановления (без личных данных).\n
         - Именем резервной копии.\n
@@ -240,6 +258,7 @@
     <string name="error_log_does_not_exist">Отсутствует \"errorLog\"</string>
     <string name="package_data_does_not_exist">Отсутствует \"package-data\"</string>
     <string name="file_lists_does_not_exist">Отсутствует список файлов</string>
+    <string name="raw_lists_does_not_exist">Отсутствует необработанный список файлов</string>
     <string name="tg_not_installed">Наша группа в Telegram помогает быстро решать проблемы</string>
     <string name="tg_not_installed_desc">Пожалуйста, установите Telegram и присоединитесь к нашей группе.</string>
     <string name="install_tg">Установить Telegram</string>
@@ -338,13 +357,17 @@
     <string name="track_restore_finished">Отслеживать завершение восстановления</string>
     <string name="track_restore_finished_desc">Отслеживать завершение восстановления, чтобы избежать возобновления activity показа продвижения. Не отключайте, если вы не уверены.</string>
     <string name="remount_all_to_uninstall">Перемонтировать всё для удаления</string>
+    <string name="remove_system_apk">Удалить apk из системы (если есть)</string>
     <string name="remount_all_to_uninstall_desc">Если удаление не удалось, перемонтировать все точки монтирования и автоматически повторить попытку.</string>
+    <string name="load_multiple_icons">Массовая загрузка значков приложений.</string>
+    <string name="load_multiple_icons_desc">Пытаться загрузить как можно больше значков на экране выбора приложений. Включение может привести к сбоям.</string>
+    <string name="check_low_memory_icons">Проверять отсутствие нехватки памяти перед загрузкой значков</string>
     <string name="clear_to_reset">Очистите и нажмите OK, чтобы восстановить значение по умолчанию</string>
     <string name="manual_cache">Путь к migrate_cache</string>
     <string name="manual_metadata_holder">Путь к кэшу метаданных</string>
-    
+
     <!--uninstall_activity.xml-->
-    <string name="uninstall_desc">Этот параметр также удаляет migrate_cache.\nЕсли это не сработает, удалите указанный выше каталог.</string>
+    <string name="uninstall_desc">Если это не сработает, удалите указанный выше каталог.</string>
     <string name="temporary_disable_desc">Приложение не будет отображаться в панели уведомлений, но останется установленным.</string>
     <string name="delete_migrate_cache">Удалить migrate_cache (рекомендуется)</string>
     <string name="reboot">Перезагрузка (рекомендуется)</string>
@@ -382,6 +405,9 @@
     <string name="zip_only_helper">Удалить только вспомогательное приложение</string>
     <string name="zip_helper_cache">Удалить вспомогательное приложение + migrate_cache</string>
     <string name="extracted_under">Извлечено в: [Внутреннее хранилище]/Migrate/</string>
+    <string name="unpack_failed">Не удалось распаковать</string>
+    <string name="use_root_to_unpack">В доступе к файлу отказано. Использовать root-доступ?</string>
+    
 
     <!--Do not change!!-->
     <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
