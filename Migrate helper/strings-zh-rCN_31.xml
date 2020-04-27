@@ -3,6 +3,22 @@
     <string name="app_name">Migrate 恢复助手</string>
     <string name="current_version_name">3.0.1_release</string>
 
+    <!--changelog-->
+    <string name="changelog">更新日志</string>
+    <string name="version_3_1">版本 3.1</string>
+    <string name="version_3_1_content">
+        \u2022 修复了还原没有数据的问题\n
+        \u2022 检测应用还原中的错误\n
+        \u2022 修复加载应用程序列表时可能崩溃的问题\n
+        \u2022 如果作为用户应用程序安装，还删除系统apk\n
+        \u2022 如果文件权限被拒绝，则使用root提取 卸载卡刷包\n
+        \u2022 添加更新日志和联系方式\n
+    </string>
+    <string name="version_3_1_1">版本 3.1.1</string>
+    <string name="version_3_1_1_content">
+        \u2022 修复带有符号的应用\n
+    </string>
+
     <!--activity_main.xml-->
     <string name="restore_main">恢复应用程序和数据</string>
     <string name="uninstallFromSystem">从系统卸载</string>
@@ -12,11 +28,15 @@
     <string name="please_use_magisk">请确保使用 Magisk</string>
     <string name="lastLog">最近日志</string>
     <string name="preferences">设置</string>
+    <string name="contact_on_telegram">通过 Telegram 联系</string>
     <string name="uninstall_by_twrp">通过twrp卸载</string>
 
     <!--MainActivityKotlin.kt-->
     <string name="storage_perm_needed">需要存储权限</string>
     <string name="grant">授予</string>
+    <string name="contact_desc">我们的 Telegram 小组有很多成员，您可以在小组里获得更多的帮助。 如果您的问题仍未解决，请与开发人员联系。</string>
+    <string name="contact_developer">联系开发者</string>
+    <string name="contact_group">发送消息到群组</string>
 
     <!--last_log_report.xml-->
     <string name="seeProgressLog">查看进度日志</string>
@@ -177,9 +197,6 @@
     <!--ComposeSmsActivity.kt-->
     <string name="please_change_sms_app"> Migrate addon 并不旨在用作默认短信应用程序。请更改默认的短信应用</string>
 
-    <!--GetAppPackets.kt-->
-    <string name="path_not_valid_directory">无效的目录</string>
-
     <!--RootCopyTask.kt-->
     <string name="no_busybox">找不到 Busybox！</string>
 
@@ -200,6 +217,7 @@
     <string name="system_size">系统大小 :</string>
 
     <!--ParentGetter.kt-->
+    <string name="path_not_valid_directory">无效的目录</string>
     <string name="getting_apps">正在获取应用</string>
     <string name="getting_contacts">正在获取通讯录</string>
     <string name="getting_sms">正在获取短信</string>
@@ -212,6 +230,7 @@
     <string name="share_progress_logs">发送进度日志</string>
     <string name="share_error_logs">发送错误日志</string>
     <string name="share_file_lists">发送备份中的文件列表</string>
+    <string name="share_raw_lists">发送原始文件列表</string>
     <string name="share_script">发送脚本</string>
     <string name="share_package_data">发送软件包数据</string>
     <string name="send_to_tg">发送到 Telegram</string>
@@ -239,6 +258,7 @@
     <string name="error_log_does_not_exist">\"错误日志\" 不存在</string>
     <string name="package_data_does_not_exist">\"数据包\" 不存在</string>
     <string name="file_lists_does_not_exist">文件列表不存在</string>
+    <string name="raw_lists_does_not_exist">原始文件列表不存在</string>
     <string name="tg_not_installed">我们的 Telegram 小组可帮助您快速解决问题。</string>
     <string name="tg_not_installed_desc">请安装 Telegram 并加入我们的小组。</string>
     <string name="install_tg">安装 Telegram</string>
@@ -322,7 +342,7 @@
     <!--preferences.xml-->
     <string name="ignore_read_errors">忽略读取错误</string>
     <string name="ignore_read_errors_desc">忽略读取元数据文件期间的所有错误</string>
-    <string name="ignore_extras">忽略其他额外内容</string>
+    <string name="ignore_extras">忽略其他附加数据</string>
     <string name="ignore_extras_desc">完全跳过通讯录，短信，通话记录，DPI 等数据的读取和还原。</string>
     <string name="restore_start_animation">还原开始之前显示倒数</string>
     <string name="restore_start_animation_desc">在还原开始之前显示/隐藏倒计时动画。</string>
@@ -337,7 +357,11 @@
     <string name="track_restore_finished">跟踪还原完成</string>
     <string name="track_restore_finished_desc">跟踪还原完成的时间，以避免继续进度显示活动。 除非您确定，否则不要禁用。</string>
     <string name="remount_all_to_uninstall">全部卸载以重新挂载</string>
+    <string name="remove_system_apk">从系统中删除APK(如果有的话)</string>
     <string name="remount_all_to_uninstall_desc">如果卸载失败，请重新挂载所有安装点并自动重试。</string>
+    <string name="load_multiple_icons">加载多个应用程序图标</string>
+    <string name="load_multiple_icons_desc">这将尝试在应用选择器屏幕上加载尽可能多的应用图标。 开启可能会导致崩溃。</string>
+    <string name="check_low_memory_icons">加载图标之前检查低内存</string>
     <string name="clear_to_reset">清除并按确定以重置为默认值</string>
     <string name="manual_cache">指定 migration_cache 路径</string>
     <string name="manual_metadata_holder">指定元数据所在的路径</string>
@@ -381,6 +405,9 @@
     <string name="zip_only_helper">仅卸载助手</string>
     <string name="zip_helper_cache">卸载Migrate恢复助手+ migrate_cache</string>
     <string name="extracted_under">提取于: [Internal storage]/Migrate/</string>
+    <string name="unpack_failed">解包失败</string>
+    <string name="use_root_to_unpack">文件权限被拒绝了,使用 ROOT吗?</string>
+
 
     <!--Do not change!!-->
     <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
