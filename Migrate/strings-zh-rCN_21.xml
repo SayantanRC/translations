@@ -3,7 +3,7 @@
 
     <string name="app_name">Migrate</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.0.1</string>
+    <string name="current_version_name">3.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">release</string>
     <string name="last_tested_label">最后测试:Android 10</string>
@@ -121,12 +121,10 @@
         从3.0 Alpha到3.0版本\n\n
         •禁用Wifi备份，直到其它得稳定为止。\n\n这是非Google版本的Migrate,它是测试版,此版本保留了应用内更新。\n
     </string>
-        <string name="version_3.0.1">Version 3.0.1</string>
+    <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
-        \u2022 添加土耳其语翻译 (@Trexfat)\n
-        \u2022 添加俄语翻译 (@vladrevers)\n
-        \u2022 添加印尼语翻译 (@rzlamrr)\n
-        \u2022 添加简体中文翻译 (@atfmxyl,@dwughjsd)\n
+        \u2022 Add turkish translation (@Trexfat)\n
+        \u2022 Add Simplified Chinese translation (@atfmxyl,@dwughjsd)\n
     </string>
 
     <!--activity_main.xml-->
@@ -171,7 +169,7 @@
 
     <!--in_app_restore-->
     <string name="in_app_restore">应用内还原</string>
-    
+
     <!--zip_picker.xml-->
     <string name="select_storage">选择存储</string>
     <string name="expected_zip_location">备份zip应该在Migrate目录下</string>
@@ -267,14 +265,14 @@
     <string name="selected_keyboard_not_present_in_backup">备份中不存在</string>
     <string name="selected_keyboard_not_present_in_backup_desc">备份应用程序列表没有选定的输入法。请返回“选择应用程序”页面，然后选择输入法应用程序。</string>
     <string name="extra_backups_help">
-         联系人：将联系人数据备份为vcf\n
-         短信：备份短信\n
-         通话记录：备份通话记录。 这不包括收藏夹\n
-         屏幕DPI：备用当前屏幕密度\n
-         默认键盘：备份默认键盘选择。 需要手动选择\n
-         应用安装程序：系统认为从Play商店或F-droid安装了还原的应用。\n
-         ADB状态：备份ADB状态（USB调试）\n
-         字体比例：备份字体大小\n
+        联系人：将联系人数据备份为vcf\n
+        短信：备份短信\n
+        通话记录：备份通话记录。 这不包括收藏夹\n
+        屏幕DPI：备用当前屏幕密度\n
+        默认键盘：备份默认键盘选择。 需要手动选择\n
+        应用安装程序：系统认为从Play商店或F-droid安装了还原的应用。\n
+        ADB状态：备份ADB状态（USB调试）\n
+        字体比例：备份字体大小\n
         \n
         在项目上打勾后，单击该项目以获取更多选项。
         </string>
@@ -326,7 +324,7 @@
     <string name="compared_zip_contents">检验 zip 内容</string>
     <string name="compared_fileList_contents">校验文件列表内容</string>
     <string name="zip_size_too_big">Zip 大小大于最大允许大小。请转到设置->最大Zip大小 进行设置</string>
-    <string name="storing_wifi_data">存储WiFi数据</string>
+    <string name="storing_wifi_data">Storing wifi data</string>
     <string name="testing_system">测试系统</string>
     <string name="writing_settings">写入设置</string>
     <string name="making_package_flash_ready">正在制作可刷入的恢复数据包</string>
@@ -389,7 +387,7 @@
     <string name="bootloop_warning">循环重启警告！</string>
     <string name="bootloop_warning_desc">备份和还原系统应用程序可能会导致不断重启,请谨慎操作。</string>
 
-    
+
     <!--BackupService.java-->
     <string name="error_loading_engine">加载引擎时出错</string>
 
@@ -435,6 +433,11 @@
     <string name="old_method_will_be_used">使用旧的终端方法</string>
     <string name="update_available">更新可用!</string>
     <string name="download">下载</string>
+    <string name="test_the_app">请测试一次该应用程序。</string>
+    <string name="test_the_app_desc">此应用严重依赖您的设备和恢复，因此某些或全部功能可能不适用于您的设备。
+        \n\n为防止数据丢失，请备份一个带有数据的小应用程序，然后将其卸载并尝试还原该应用程序。检查它是否工作正常。如果您满意，则可以使用此应用程序迁移到另一个ROM。
+        \n\n与往常一样，维护nandroid备份始终是一个好主意。
+    </string>
 
     <!--AppListAdapter.java-->
     <string name="packageName">包名 :</string>
@@ -453,7 +456,7 @@
 
     <!--VerificationEngine.kt-->
     <string name="defect_no">错误数：</string>
-    
+
     <!--keyboard_selector.xml-->
     <string name="select_default_keyboard_from_enabled">从启用的键盘应用中选择默认键盘应用</string>
     <string name="present_in_backup">存在于备份中</string>
@@ -484,22 +487,22 @@
     <!--backup_progress_layout.xml-->
     <string name="report">报告</string>
     <string name="minimizing_may_decrease_speed">最小化此屏幕可能会降低还原速度！</string>
-    
+
     <!--initial_guide.xml-->
     <string name="skip">跳过</string>
     <string name="accept">我已确定</string>
-    
+
     <!--initial_guide_0.xml-->
     <string name="greet1">欢迎使用 Migrate！</string>
     <string name="body_0_0">Migrate 是在各种第三方 ROM 之间轻松转移的重要工具。\n\n它可以帮助您转移应用程序，数据，联系人，短信等等。</string>
     <string name="body_0_1">Press Next for a short tour.</string>
-    
+
     <!--initial_guide_1.xml-->
     <string name="greet2">全部备份！</string>
     <string name="body_1_0">备份所有应用程序</string>
     <string name="body_1_1">应用\n应用程序数据\n应用权限</string>
     <string name="body_1_2">其他附加数据</string>
-    
+
     <!--initial_guide_2.xml-->
     <string name="greet3">Flash with the ROM!</string>
     <string name="body_2_0">Migrate 是在各种第三方 ROM 之间轻松转移的重要工具。\n\n它可以帮助您转移应用程序，数据，联系人，短信等等。</string>
@@ -593,7 +596,7 @@
     <string name="contact">联系我们</string>
     <string name="contact_over_telegram">Telegram 群组</string>
     <string name="older_builds">旧的版本</string>
-    
+
     <!--help_page.xml-->
     <string name="q1">应用程序备份中的“权限”是什么意思？</string>
     <string name="a1"><i>权限</i> 是指应用程序的权限.Migrate可以备份授予Android Marshmallow（6.0）及更高版本的应用程序的精细权限。\n
@@ -753,7 +756,7 @@
 
      读取的所有数据均存储在设备本地
 </string>
-    <string name="what_is_shared">什么是"反馈"</string>
+    <string name="what_is_shared">What is shared</string>
     <string name="what_is_shared_desc">
         在这种情况下，反馈是指自愿发送应用程序日志\n\n
         发送日志则意味着您将会发送（如果发送到 Telegram 上则是公开的）:\n\n
@@ -793,10 +796,8 @@
     </string>
     <string name="translators">翻译提供人员</string>
     <string name="translators_list">
-        <b>@Fatih Fırıncı(@Trexfat)</b>: 土耳其语\n
-        <b>@rzlamrr</b>: 印尼语\n
-        <b>@vladrevers</b>: 俄语\n
-        <b>@atfmxyl,@dwughjsd</b>: 简体中文
+        <b>@Trexfat</b>: Turkish
+        <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese
     </string>
 
     <!--contributors.xml-->
@@ -818,7 +819,7 @@
     <string name="thanks_2">Bug 挖掘人员：\n
         我的同学 Shivam 测试这个应用的次数比我还多！\n
         @akshayrohida\n 
-        @raj3303\n 
+        @ raj3303\n 
         \n
         XDA 用户 djseltus，提供了新的 update-binary\n
         Vinyas N S，解决了 “android.os.TransactionTooLargeException” 问题\n
