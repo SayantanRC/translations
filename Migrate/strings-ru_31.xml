@@ -2,11 +2,12 @@
     tools:ignore="MissingTranslation,ExtraTranslation">
 
     <string name="app_name">Migrate</string>
+    <string name="display_name">@string/app_name</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.1</string>
+    <string name="current_version_name">3.1.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">release</string>
-    <string name="last_tested_label">Протестированно на: Android 10</string>
+    <string name="last_tested_label">Проверено на: Android 10</string>
 
     <!--about_app.xml-->
     <string name="made_with_android_studio">Сделано в Android Studio</string>
@@ -123,10 +124,36 @@
     </string>
     <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
+        \u2022 Probable fix to freezing in app size calculation\n
         \u2022 Add turkish translation (@Trexfat)\n
         \u2022 Add russian translation (@vladrevers)\n
         \u2022 Add indonesian translation (@rzlamrr)\n
         \u2022 Add Simplified Chinese translation (@atfmxyl,@dwughjsd)\n
+    </string>
+    <string name="version_3.0.3">Version 3.0.3</string>
+    <string name="version_3.0.3_content">
+        \u2022 Changes to make the app compliant with Google Play policies.\n
+        \u2022 Remove alternate method for app size calculation below android Nougat.\n
+        \u2022 Probable fix to No metadata found after restore.\n
+        \u2022 Some other fixes.\n
+    </string>
+    <string name="version_3.1">Version 3.1</string>
+    <string name="version_3.1_content">
+        \u2022 Updated helper to fix no data restore.\n
+        \u2022 Updated helper.\n
+        \u2022 Show warning for first time use.\n
+        \u2022 Record raw list of files in backup.\n
+    </string>
+    <string name="version_3.1.1">Version 3.1.1</string>
+    <string name="version_3.1.1_content">
+        Version 3.1.1
+        \u2022 Updated helper to restore apps with problematic characters.\n
+        \u2022 Add build number to logs.\n
+        Version 3.1
+        \u2022 Updated helper to fix no data restore.\n
+        \u2022 Updated helper.\n
+        \u2022 Show warning for first time use.\n
+        \u2022 Record raw list of files in backup.\n
     </string>
 
     <!--activity_main.xml-->
@@ -158,7 +185,7 @@
     <string name="enter_backup_name">Введите имя резервной копии</string>
     <string name="sd_card">SD-карта</string>
     <string name="advanced_options">Расширенные настройки</string>
-    <string name="ignore_cache">Игнорировать кеш приложений</string>
+    <string name="ignore_cache">Игнорировать кэш приложений</string>
 
     <!--learn_about_sd_card.xml-->
     <string name="p1">1. Поддержка SD-карты является экспериментальной и требует наличия модуля для magisk.</string>
@@ -171,7 +198,7 @@
 
     <!--in_app_restore-->
     <string name="in_app_restore">Восстановить в приложении</string>
-    
+
     <!--zip_picker.xml-->
     <string name="select_storage">Выберите хранилище</string>
     <string name="expected_zip_location">Zip(Резервная копия) должен находиться в каталоге Migrate.</string>
@@ -181,7 +208,7 @@
     <!--extra_backups-->
     <string name="extras">Дополнительные РК</string>
     <string name="contacts_label">Контакты</string>
-    <string name="sms_label">SMS сообщения</string>
+    <string name="sms_label">SMS-сообщения</string>
     <string name="call_log_label">Журнал вызовов</string>
     <string name="keyboard_label">Клавиатура по умолчанию</string>
     <string name="dpi_label">DPI Экрана</string>
@@ -189,20 +216,20 @@
     <string name="no_default_adb_scale">Система не имеет значения по умолчанию для ADB. В большинстве случаев это означает, что оно установлено на 0 (ADB отключен)
     Вы хотите сделать резервную копию этого значения как 0?</string>
     <string name="installer_label">Установщики приложений</string>
-    <string name="wifi_label">Файл паролей Wifi</string>
+    <string name="wifi_label">Файл паролей Wi-Fi</string>
     <string name="fontScale_label">Масштаб шрифта</string>
     <string name="no_default_font_scale">Система не имеет значения масштаба шрифта по умолчанию. В большинстве случаев это означает, что он установлен на 1.0.
     Вы хотите сделать резервную копию этого значения как 1.0?</string>
     <string name="yes_recommended">Да (Рекомендуется)</string>
     <string name="only_for_android_8">Только для Android Oreo и выше (8.0+)</string>
-    <string name="filtering_duplicates">Филтрация\nдубликатов</string>
+    <string name="filtering_duplicates">Фильтрация\nдубликатов</string>
     <string name="reading_sms">Получения списка SMS</string>
     <string name="reading_calls">Получения списка вызовов</string>
     <string name="reading">Получения списка...</string>
     <string name="reading_error">Ошибка получения списка</string>
     <string name="no_app_selected">Нет выбранных приложений!</string>
     <string name="filtering_apps">Фильтрация приложений</string>
-    <string name="tap_to_see_values">Нажмите, чтобы увидеть значения</string>
+    <string name="tap_to_see_values">Нажмите, чтобы увидеть значение</string>
     <string name="adb_enabled">Отладка по ADB включена</string>
     <string name="adb_disabled">Отладка по ADB отключена</string>
     <string name="adb_unknown">Состояние ADB неизвестно! Значение не будет сохранено.</string>
@@ -213,6 +240,7 @@
 
     <!--ExtraBackups.java-->
     <string name="not_recommended">Не рекомендуется!</string>
+    <string name="new_method_not_available_below_oreo">Новый метод для расчета размера не доступен на версиях Android ниже Oreo. Используйте терминальный метод.</string>
     <string name="contacts_not_recommended">Резервное копирование и восстановление контактов не рекомендуется, <b>если вы собираетесь войти в Google</b> на вашей следующей прошивке. В этом случае восстановление контактов приведет к ненужному дублированию контактов.</string>
     <string name="dont_backup">Не делать РК</string>
     <string name="backup_contacts_anyway">Сделать РК контактов в любом случае</string>
@@ -226,9 +254,9 @@
     <string name="long_press_to_force_stop">Длительное нажатия Отмена принудлительно остановит приложения</string>
     <string name="required_storage">Migrate необходимо больше свободного места:</string>
     <string name="will_be_compressed">Нам нужен приблизительный размер, чтобы скопировать файлы приложения. Окончательный пакет займет гораздо меньше места, чем предполагаемый размер из-за сжатия.</string>
-    <string name="contacts_access_needed">Необходимо разрешения на просмотр контактов для их резервного копирования</string>
-    <string name="sms_access_needed">Необходимо разрешения на просмотр SMS для их резервного копирования</string>
-    <string name="calls_access_needed">Необходимо разрешения на просмотр журнала вызовов для его резервного копирования</string>
+    <string name="contacts_access_needed">Необходимо разрешение на просмотр контактов для их резервного копирования</string>
+    <string name="sms_access_needed">Необходимо разрешение на просмотр SMS для их резервного копирования</string>
+    <string name="calls_access_needed">Необходимо разрешение на просмотр журнала вызовов для его резервного копирования</string>
     <string name="error_reading_contacts">Ошибка получения списка контактов</string>
     <string name="error_reading_sms">Ошибка считывания SMS-сообщений</string>
     <string name="error_reading_calls">Ошибка считывания журнала вызовов</string>
@@ -259,7 +287,7 @@
     </string>
     <string name="go_ahead">Продолжить</string>
     <string name="error_reading_keyboard_list">Ошибка получения списка клавиатур</string>
-    <string name="no_keyboard_enabled">Нет включеных клавиатур!</string>
+    <string name="no_keyboard_enabled">Нет включенных клавиатур!</string>
     <string name="no_keyboard_enabled_desc">Пожалуйста, перейдите в\n
         Настройки -> Система -> Языки и ввод -> Виртуальная клавиатура -> Управление клавиатурами\n
         и включите клавиатуру
@@ -268,11 +296,11 @@
     <string name="selected_keyboard_not_present_in_backup_desc">В списке приложений для резервного копирования не выбранна эта клавиатура. Вернитесь на страницу \"Выбор приложений\" и выберите приложение клавиатуры.</string>
     <string name="extra_backups_help">
         <b>Контакты</b> : Резервное копирование контактов в VCF-файл\n
-        <b>SMS сообщения</b> : Резервное копирование текстовых сообщений\n
+        <b>SMS-сообщения</b> : Резервное копирование текстовых сообщений\n
         <b>Журнал вызовов</b> : Резервное копирование журнала вызовов. Метки избранных не сохраняются\n
         <b>DPI Экрана</b> : Резервное копирование текущей плотности экрана\n
         <b>Клавиатура по умолчанию</b> : Резервное копирование клавиатуры по умолчанию. Неоходимо самостоятельно выбрать нужную\n
-        <b>Установщики приложений</b> : Система будет считать что восстановленные приложения были установлены Play Маркет-ом или F-droid.\n
+        <b>Установщики приложений</b> : Система будет считать что восстановленные приложения были установлены Play Маркетом или F-droid.\n
         <b>Состояние ADB</b> : Резервное копирование состояния ADB (Отладка по USB)\n
         <b>Масштаб шрифта</b> : Резервное копирование размера (масштаба) шрифта\n
         \n
@@ -326,7 +354,7 @@
     <string name="compared_zip_contents">Сравнение содержимого zip</string>
     <string name="compared_fileList_contents">Сравнение содержимого из списком файлов</string>
     <string name="zip_size_too_big">Размер zip больше максимально-допустимого. Пожалуйста, перейдите в Настройки -> Макс. Размер zip</string>
-    <string name="storing_wifi_data">Сохранение данных Wi-Fi</string>
+    <string name="storing_wifi_data">Сохранение настроек Wi-Fi</string>
     <string name="testing_system">Проверка system</string>
     <string name="writing_settings">Настройки записи</string>
     <string name="making_package_flash_ready">Создание пакета готового для прошивки</string>
@@ -336,7 +364,7 @@
     <string name="verifying_tar">Проверка tar</string>
     <string name="correcting_errors">Исправление ошибок</string>
     <string name="backing_contacts">Резервное копирование контактов</string>
-    <string name="backing_sms">Резервное копирование sms</string>
+    <string name="backing_sms">Резервное копирование SMS</string>
     <string name="backing_calls">Резервное копирование вызовов</string>
     <string name="verifying_calls">Проверка вызовов</string>
     <string name="verifying_sms">Проверка sms</string>
@@ -349,7 +377,7 @@
     <string name="errorStartingBackup">Ошибка начального этапа резервного копирования (onStartCommand).</string>
     <string name="deletingFiles">Удаление файлов</string>
     <string name="backupFinishedWithErrors">Резервное копирование завершено с ошибками!</string>
-    <string name="backupFinishedWithWarnings">езервное копирование завершено с предупреждениями!</string>
+    <string name="backupFinishedWithWarnings">Резервное копирование завершено с предупреждениями!</string>
     <string name="backupPartHadErrors">В части резервной копии была ошибка.</string>
     <string name="incompleteZip">Не все файлы вышло объединить.</string>
     <string name="no_keyboard_data">Нет данных клавиатуры</string>
@@ -370,16 +398,21 @@
     <string name="backupNameCannotBeEmpty">Имя резервной копии не может быть пустым</string>
     <string name="backup_activity_help_0">
         <b>App</b> : Резервное копирование APK\n
-        <b>Data</b> : резервное копирование всех личных данных приложения\n
-        <b>Perm</b> : резервное копирование всех разрешений предоставленных во время работы приложения\n
+        <b>Data</b> : Резервное копирование всех приватных данных приложения\n
+        <b>Perm</b> : Резервное копирование всех разрешений предоставленных во время работы приложения\n
         \n<i>Ниже приведен пример разрешений предоставленных во время работы приложения для Google Фото</i>\n
     </string>
-    <string name="backup_activity_help_1">Раньше выбор данных приложения(<b>Data</b>) означал, что вам также нужно сделать резервную копию его apk-файла(<b>App</b>). Это больше не так. Более того, Migrate теперь запоминает приложения, выбранные для резервного копирования. Обратите внимание, что если вы решили создать только резервную копию apk-файла приложения(<b>App</b>), а не данных(<b>Data</b>) и/или разрешений(<b>Perm</b>), то, если приложение еще не установлено перед началом восстановления с помощью <b>Migrate helper</b>, данные и/или разрешение этого приложения не будут восстановлены.</string>
+    <string name="backup_activity_help_1">
+        \n
+        Раньше выбор данных приложения(<b>Data</b>) означал, что вам также нужно сделать резервную копию его apk-файла(<b>App</b>). Это больше не так. Более того, Migrate теперь запоминает приложения, выбранные для резервного копирования.
+        Обратите внимание, что если вы решили создать только резервную копию apk-файла приложения(<b>App</b>), а не данных(<b>Data</b>) и/или разрешений(<b>Perm</b>), то, если приложение еще не установлено перед началом восстановления с помощью <b>Migrate helper</b>,
+        данные и/или разрешение этого приложения не будут восстановлены.
+    </string>
     <string name="backup_activity_help_2">
         \n
-        <b>Приложение с белым названием:</b> Обычные пользовательские приложения\n
-        <b>Приложение с желтым названием:</b> Системные приложения, которые были обновлены в Google Play или в другом источнике. Обновленные APK находятся в каталогах <b>/data</b> а не в <b>/system</b>.\n
-        <b>Приложение с красным названием:</b> Системные приложения без установленных обновлений.
+        <b>Приложения с белым названием:</b> Обычные пользовательские приложения\n
+        <b>Приложения с желтым названием:</b> Системные приложения, которые были обновлены в Google Play или из другого источника. Обновленные APK находятся в каталогах раздела <b>/data</b>, а не <b>/system</b>.\n
+        <b>Приложения с красным названием:</b> Системные приложения без установленных обновлений.
     </string>
     <string name="bootloop_warning">Bootloop предупреждение!</string>
     <string name="bootloop_warning_desc">Восстановление системных приложений может привести к невозможности полной загрузки(bootloop). Пожалуйста, действуйте с осторожностью.</string>
@@ -388,7 +421,7 @@
     <!--BackupService.java-->
     <string name="error_loading_engine">Ошибка загрузки движка резервного копирования</string>
 
-    <!--MainActivity.java-->
+    <!--MainActivityKotlin.kt-->
     <string name="too_fast">Вау, слишком быстро!!</string>
     <string name="too_fast_desc">Приложение не было явно протестировано на версии Android выше Pie (9.0).\n\nПожалуйста, оставьте свой отзыв о том, работает ли приложение.</string>
     <string name="dont_show_again">Не показывать снова</string>
@@ -398,10 +431,10 @@
     <string name="reading_data">Чтение данных резервных копий</string>
     <string name="making_app_script">Создание вспомогательных файлов приложения</string>
     <string name="just_a_minute">Минуточку…</string>
-    <string name="starting_engine">Запуск дивжка резервного копирования</string>
+    <string name="starting_engine">Запуск движка резервного копирования</string>
     <string name="root_permission_denied">В root-доступе отказано!!</string>
     <string name="root_permission_denied_desc">Пожалуйста, убедитесь, что ваше устройство имеет root и что вы предоставили root-доступ приложению.\n\n
-    Если в вашей прошивке root был предустановленым - попробуйте прошить Magisk.
+    Если в вашей прошивке root был предустановленным - попробуйте прошить Magisk.
     </string>
     <string name="making_packets">Создание zip-пакетов</string>
     <string name="making_batches">Создание zip batches</string>
@@ -411,8 +444,6 @@
     <string name="adding">Adding</string>
     <string name="packet">Добавление</string>
     <string name="moving_files">Перемещение файлов</string>
-    <string name="use_reflection">Использовать рефлексию?</string>
-    <string name="use_reflection_exp">Рефлексия - это экспериментальный способ расчета размера для Nougat и ниже. Это может дать лучший результать при расчете размера. Рекомендуется: Да</string>
     <string name="use_usage_access_permission">Предоставить разрешение на доступ к данным?</string>
     <string name="usage_access_permission_needed_desc">Добавлен новый, более быстрый и надежный метод для расчета размера приложений перед резервным копированием.\n\nПожалуйста, нажмите Приступить, найдите и выберите \"Migrate\", затем включите \"Доступ к истории использования\"</string>
     <string name="storage_access_required">Пожалуйста, предоставьте доступ к хранилищу для возможности сохранения резервных копий.</string>
@@ -431,13 +462,13 @@
     <string name="update_available">Доступно обновление!</string>
     <string name="download">Скачать</string>
     <string name="test_the_app">Пожалуйста, проверьте приложение один раз.</string>
-    <string name="test_the_app_desc">Это приложение в значительной степени зависит от вашего устройства и восстановления, и поэтому некоторые или все функции могут не работать для вашего устройства.
-        \n\nЧтобы предотвратить потерю данных, сделайте резервную копию одного небольшого приложения (с данными), затем удалите его и попробуйте восстановить приложение. Проверьте, работает ли он нормально. Если вы удовлетворены, вы можете использовать это приложение для перехода на другой ROM.
-        \n\nИ, как всегда, поддержание резервной копии Nandroid - это всегда хорошая идея.
+    <string name="test_the_app_desc">Это приложение в значительной степени зависит от вашего устройства и TWRP, поэтому некоторые (или все) функции могут не работать для вашего устройства.
+        \n\nЧтобы предотвратить потерю данных, сделайте резервную копию одного небольшого приложения (с данными), затем удалите его и попробуйте восстановить. Проверьте, работает ли оно нормально. Если вы удовлетворены результатом, вы можете использовать это приложение при переходе на другие прошивки.
+        \n\nИ, как всегда, сделать резервную копию Nandroid - это всегда хорошая идея.
     </string>
 
     <!--AppListAdapter.java-->
-    <string name="packageName">Название пакета :</string>
+    <string name="packageName">Имя пакета :</string>
     <string name="versionName">Версия :</string>
     <string name="uid">UID :</string>
     <string name="sourceDir">Расположение APK:</string>
@@ -449,11 +480,11 @@
     <string name="not_set">Не задавать</string>
 
     <!--AppBackupEngine.kt-->
-    <string name="script_file_does_not_exist">Отстутсвует файл скрипта</string>
+    <string name="script_file_does_not_exist">Отсутствует файл скрипта</string>
 
     <!--VerificationEngine.kt-->
     <string name="defect_no">Номер дефекта:</string>
-    
+
     <!--keyboard_selector.xml-->
     <string name="select_default_keyboard_from_enabled">Выбрать клавиатуру по умолчанию(из включенных)</string>
     <string name="present_in_backup">Присутствует в резервной копии</string>
@@ -463,11 +494,12 @@
     <string name="share_progress_logs">Поделиться логами резервного копирования</string>
     <string name="share_error_logs">Поделиться логами ошибок</string>
     <string name="share_script">Поделиться скриптом</string>
+    <string name="share_rawList">Поделиться необработанным списком файлов</string>
     <string name="send_to_tg">Отправить в Telegram</string>
     <string name="agree_and_send">Согласиться и отправить</string>
     <string name="error_report_disclaimer">Спасибо за ваш интерес к тому, чтобы помочь улучшить это приложение. Отныне все отчеты об ошибках должны отправляться в нашу Telegram группу - https://t.me/migrateApp.
         Таким образом, вы получите более быстрое решение от многих людей в группе.\n\n
-        Распространеняя логи, вы соглашаетесь <b>ПУБЛИЧНО</b> делиться некоторой информацией.
+        Распространяя логи, вы соглашаетесь <b>ПУБЛИЧНО</b> делиться некоторой информацией.
     </string>
     <string name="not_joined_yet">Еще не присоединились к нашей группе?</string>
     <string name="send_logs_using">Отправить логи используя:</string>
@@ -484,22 +516,22 @@
     <!--backup_progress_layout.xml-->
     <string name="report">Отправить отчёт</string>
     <string name="minimizing_may_decrease_speed">Сворачивание этого экрана может привести к снижению скорости резервного копирования!</string>
-    
+
     <!--initial_guide.xml-->
     <string name="skip">Пропустить</string>
     <string name="accept">Согласен</string>
-    
+
     <!--initial_guide_0.xml-->
     <string name="greet1">Добро пожаловать в Migrate!</string>
-    <string name="body_0_0">Migrate - это жизненно важный инструмент для быстрого перехода между различными кастомными прошивками.\n\nОн поможет вам перенести ваши приложения, данные, контакты, смс и многое другое.</string>
+    <string name="body_0_0">Migrate - это жизненно важный инструмент для быстрого перехода между различными кастомными прошивками.\n\nОн поможет вам перенести ваши приложения, данные, контакты, SMS и многое другое.</string>
     <string name="body_0_1">Нажмите Далее для краткого ознакомления.</string>
-    
+
     <!--initial_guide_1.xml-->
     <string name="greet2">Резервное копирование всего!</string>
     <string name="body_1_0">Резервное копирование всех приложений</string>
     <string name="body_1_1">Приложения\nДанные приложений\nРазрешения приложений</string>
     <string name="body_1_2">Вдобавок</string>
-    
+
     <!--initial_guide_2.xml-->
     <string name="greet3">Прошить с прошивкой!</string>
     <string name="body_2_0">Резервные копии Migrate - это прошиваемые ZIP-файлы для TWRP.\n\nВспомогательное приложение берет на себя процесс восстановления приложений после загрузки вашей новой прошивки.</string>
@@ -536,7 +568,7 @@
     <string name="step_2">Шаг 2 -\nПрошить zip с резервной копией!</string>
     <string name="step_2_desc">
         По умолчанию созданный вами zip-файл резервной копии должен находиться в:\n
-        <b>Внутренняя память ->\nMigrate ->\n[backup_name.zip или backup_name -> parts.zip]</b>\n\n
+        <b>Внутреннее хранилище ->\nMigrate ->\n[backup_name.zip или backup_name -> parts.zip]</b>\n\n
         В главном меню TWRP нажмите Установить -> Перейдите к zip-файлу резервной копии и установите его.\n\n
         <b>Важно:</b> Пожалуйста, не делайте очистки Data после прошивки zip-архивов резервной копии.
     </string>
@@ -592,7 +624,7 @@
     <string name="contact">Связаться через Telegram</string>
     <string name="contact_over_telegram">Телеграмма группа</string>
     <string name="older_builds">Устаревшие сборки на AFH</string>
-    
+
     <!--help_page.xml-->
     <string name="q1">Что такое Perm в резервной копии приложения?</string>
     <string name="a1"><i>Perm</i> означает разрешения приложения. Migrate может создавать резервные копии разрешений предоставленных во время работы приложения, для Android Marshmallow (6.0) и выше.\n
@@ -610,7 +642,7 @@
     Это приложение является обязательным инструментом для удобного перехода на другие прошивки. Nandroid Backup не справляется с этой задачей.
     </string>
     <string name="q4">Почему все приложения и данные не могут быть восстановлены сразу в recovery?</string>
-    <string name="a4">Recovery - это другая среда, которая отличается от ОС Android. Визуализально напоминает установку игры для Windows из дистрибутива Linux.\n\n
+    <string name="a4">Recovery - это другая среда, которая отличается от ОС Android. Визуально напоминает установку игры для Windows из дистрибутива Linux.\n\n
     Таким образом, в системный раздел внедряется вспомогательное приложение, которое запускается при загрузке системы. Оно запрашивает root-доступ и получает возможность автоматического восстановление приложений с данными.
     </string>
     <string name="q5">Нужно ли загружать приложение Migrate из Play Store, чтобы восстановить резервную копию?</string>
@@ -643,7 +675,7 @@
 
     <!--other_apps.xml-->
     <string name="instamean">Общесистемный онлайн словарь</string>
-    <string name="pickRingStop">Поднимите телефон, чтобы заглушить звук входящего звонка</string>
+    <string name="pickRingStop">Поднимите телефон, чтобы заглушить звук входящего вызова</string>
     <string name="opcode8085">Конвертер 8085 программ в шестнадцатеричный код</string>
     <string name="mdh">Доступ к Moto Display движениям руки</string>
     <string name="bg_video">Воспроизведение видео в фоновом режиме</string>
@@ -656,10 +688,6 @@
     <string name="post_in_group">Пост в группе</string>
     <string name="select_mail">Выберите почтовое приложение, например Gmail</string>
     <string name="select_telegram">Откройте Telegram и зайдите в группу Migrate.</string>
-    <!--<string name="sem_apology">Семестровое извинения!</string>
-    <string name="sem_apology_desc">Из-за предстоящих учебных семестров я не смогу сосредоточиться на разработке приложений в течение месяца или около того. Я прошу прощения.\n\n
-    Тем временем, пожалуйста, продолжайте использовать приложение и делитесь отчетами об ошибках. Ваша любовь и поддержка очень много значит для меня. Спасибо!\n\n
-    - SayantanRC</string>-->
 
     <string name="copied_app">Это приложение было скопировано и является фальшивым.</string>
     <string name="copied_app_exp">Пожалуйста, получите оригинальное приложение от BaltiApps, нажав кнопку Установить.</string>
@@ -669,23 +697,26 @@
 
     <string name="disable_battery_optimisation">Отключить экономию заряда батареи</string>
     <string name="use_new_sizing_method">Новый метод для расчета размера</string>
-    <string name="use_new_sizing_method_desc">Использовать StorageStats в Android 8+ и рефлексию в более низких версиях.
-        Если отключено, будет использоваться shell команда терминала для вычисления размера.</string>
+    <string name="show_backup_summary">Показывать сводку резервной копии</string>
+    <string name="show_backup_summary_desc">Отображать диалоговое окно с именами прошиваемых zip-файлов</string>
+    <string name="use_new_sizing_method_desc">Использовать StorageStats в Android 8+.
+        Если отключено, для вычисления размера будет использоваться shell-команда терминала.</string>
+    <string name="only_for_oreo_and_above">Только для Android Oreo и выше</string>
     <string name="clear_to_reset">Очистите и нажмите OK, чтобы восстановить значение по умолчанию</string>
-    <string name="autoselect_extras_title">Автовыбор дополнительных РК</string>
-    <string name="autoselect_extras_desc">Автоматически выбирать дополнительные параметры РК, такие как контакты и смс, если ранее вы уже создавали их резервную копию</string>
+    <string name="autoselect_extras_title">Авто. выбор дополнительных РК</string>
+    <string name="autoselect_extras_desc">Автоматически выбирать дополнительные параметры РК, такие как контакты и SMS, если ранее вы уже создавали их резервную копию</string>
     <string name="new_icon_method_title">Новый метод для хранения значков</string>
     <string name="new_icon_method_desc">Использовать отдельный файл .icon для хранения значков каждого приложения, для которого выполняется резервное копирование. Если выключено, значки приложений будут храниться в .json файле.</string>
     <string name="tar_gz_integrity_title">Проверка целостности tar.gz</string>
     <string name="tar_gz_integrity_desc">Проверять целостность резервной копии данных каждого приложения, хранящегося в файле tar.gz</string>
-    <string name="sms_verify_title">Проверка целесности SMS</string>
+    <string name="sms_verify_title">Проверка целостности SMS</string>
     <string name="sms_verify_desc">Проверять целостность файла базы данных SMS, хранящегося в резервной копи</string>
     <string name="calls_verify_title">Проверка журнала вызовов</string>
-    <string name="calls_verify_desc">Проверять целостность файла базы данных журнала звонков, хранящегося в резервной копии</string>
+    <string name="calls_verify_desc">Проверять целостность файла базы данных журнала вызовов, хранящегося в резервной копии</string>
     <string name="perform_system_check_title">Проверка system</string>
     <string name="perform_system_check_desc">Выполнять простое копирование apk и данных(этого приложения) через Su shell перед каждым резервным копированием. Таким образом проверяется, будет ли возможным успешное создания резервной копии других приложений.</string>
     <string name="separate_extras_title">Отделять дополнительные РК</string>
-    <string name="separate_extras_desc">Не хранить дополнительные РК (контакты, смс и т.д.) и приложения в одном zip-файле. Применимо только для резервных копий, имеющих более одной части.</string>
+    <string name="separate_extras_desc">Не хранить дополнительные РК (контакты, SMS и т.д.) и приложения в одном zip-файле. Применимо только для резервных копий, имеющих более одной части.</string>
     <string name="force_separate_extras">Принудительно отделять дополнительные РК</string>
     <string name="force_separate_extras_desc">Дополнительные РК будет сохраняться отдельно даже для небольших резервных копий.</string>
     <string name="delete_error_backup_title">Удалять резервные копии с ошибками</string>
@@ -704,7 +735,7 @@
     <string name="manual_buildprop">Путь к build.prop прошивки</string>
     <string name="detect_while_flashing_hint">(Определить во время прошивки)</string>
 
-    <string name="use_file_list_in_zip_verification">Использовать fileList.txt в zip для подтверждения целесности</string>
+    <string name="use_file_list_in_zip_verification">Использовать fileList.txt в zip для подтверждения целостности</string>
     <string name="use_file_list_in_zip_verification_desc">Migrate хранит список файлов, которые он сохранял, в файле \"fileList.txt\" внутри zip-архива резервной копии. Этот параметр заставит механизм проверки zip сравнивать файлы, присутствующие в zip и записи в этом файле.</string>
 
     <!--app_search_layout.xml-->
@@ -717,7 +748,12 @@
     <string name="force_stop_alert_desc">Принудительная остановка попытается убить все процессы приложения. Если вы уже нажали \"Отмена\" один раз, лучше подождите некоторое время.\n\nПри принудительной остановке вам придется вручную удалить все остаточные файлы созданные для резервной копии.</string>
     <string name="kill_app">ОК, убить процесс!</string>
     <string name="wait_to_cancel">Подождать…</string>
-    <string name="killing_programmatically">Убивать программно</string>
+    <string name="killing_programmatically">Убить программно</string>
+
+    <!--zip_name_show.xml-->
+    <string name="please_flash_all">Пожалуйста, прошейте все zip-файлы!</string>
+    <string name="backup_name">Имя резервной копии</string>
+    <string name="zips_created">Zip-файлы созданы</string>
 
     <!--MainBackupEngine.kt-->
     <string name="test_apk_not_found">Тестовый apk не найден или создан неправильно</string>
@@ -740,7 +776,7 @@
         5. Установщики пакетов приложений\n
         С использованием ROOT осуществляется доступ до:\n
         1. Apk приложений (только для сохранения)\n
-        2. Личных данных приложений (хранятся сжатыми)\n
+        2. Приватных данных приложений (хранятся сжатыми)\n
         Содержимое apk-файлов приложений не анализируется. Личные данные приложений не анализируются.\n\n
 
         Для дополнительных резервных копий и только после разрешения пользователя, считываются следующие данные:\n
@@ -748,19 +784,19 @@
         2. Данные SMS (хранятся в виде db файла)\n
         3. Журналы вызовов (хранятся в виде db файла)\n
         4. DPI Экрана, клавиатура по умолчанию, состояние ADB, масштаб шрифта\n
-        5. Файл настроек сохранённых Wi-Fi (Android 8.0+)\n\n
+        5. Конфигурационный файл хранилища Wi-Fi (Android 8.0+)\n\n
 
         Все полученные данные хранятся локально на устройстве
     </string>
-    <string name="what_is_shared">Что такое общий доступ</string>
+    <string name="what_is_shared">Что означает \"делиться\"?</string>
     <string name="what_is_shared_desc">
-        Общее использование в этом контексте относится к добровольной отправки логов приложения.\n\n
+        Делиться в этом контексте относится к добровольной отправки логов приложения.\n\n
         Отправляя логи, вы соглашаетесь поделиться (публично, если в Telegram группе):\n\n
         - Внутренней файловой структурой приложений. Это (в большинстве случаев) не содержит личную, идентифицируемую вас, конфиденциальную информацию.\n
         - Именем резервной копии.\n
         - Некоторыми детали резервного копирования, например количеством частей резервной копии.\n
         - Информацией об устройстве, например версией Android.\n\n
-        Migrate высоко ценит конфиденциальность пользователей. Поскольку такие логи НЕ ЗАПИСЫВАЮТСЯ во время резервного копирования контактов, смс и журнала вызовов, следовательно и не распространяются.
+        Migrate высоко ценит конфиденциальность пользователей. Поскольку такие логи НЕ ЗАПИСЫВАЮТСЯ во время резервного копирования контактов, SMS и журнала вызовов, следовательно и не распространяются.
         Никаких преднамеренных попыток идентификации или незаконного использования персональных данных пользователей не предпринимается.\n\n
         В любом случае вы соглашаетесь с тем, что ни разработчик, ни приложение не несут ответственности за непреднамеренное нарушение конфиденциальности.
         Если вы считаете, что ваши логи могут содержать конфиденциальную информацию, не делитесь ими.
@@ -769,11 +805,11 @@
     <string name="what_is_intentional">Что такое \"отсутствие намеренной попытки\"?</string>
     <string name="what_is_intentional_desc">
         Как разработчик, я хочу, чтобы пользователи поняли этот момент. Опять же, это применимо, только если вы решите поделиться логами.\n\n
-        Migrate использует линукс-утилиту \"tar\" для сжатия файлов с данными. Таким образом tar записывает имена файлов, которые он обработал и это также помогает определить, есть ли какие-либо ошибки в процессе. Содержимое файлов не записывается.\n\n
+        Migrate использует linux-утилиту \"tar\" для сжатия файлов с данными. Таким образом tar записывает имена файлов, которые он обработал и это также помогает определить, есть ли какие-либо ошибки в процессе. Содержимое файлов не записывается.\n\n
         Обычно невозможно получить личную информацию из зашифрованного вывода tar файлов.
         Но в некоторых редких случаях разработчики других приложений могут не следовать надлежащей практике и размещать информацию в самом имени файла.
         Пример: приложение чата, в котором сохраняются его настройки с участником в виде файла, в качестве имени файла - номера телефона участника. В этом случае tar напечатает имя файла, указав номер телефона. Это всего лишь один пример.\n\n
-        Migrate не может взять на себя ответственность за эфективность настройки фильтра для каждого из миллионов приложений, опасаясь, что бы они по ошибке не пропустили какую-либо информацию.\n\n
+        Migrate не может взять на себя ответственность за эффективность настройки фильтра для каждого из миллионов приложений, опасаясь, что бы они по ошибке не пропустили какую-либо информацию.\n\n
         Опять же, это ОЧЕНЬ редкий случай и обычно он всегда остается незамеченным. Но это произошло с предыдущими версиями Migrate, и я получил предложение от нескольких пользователей, чтобы об этом было известно всем.\n
         Вы можете продолжать использовать Migrate, как и раньше.
     </string>
@@ -800,13 +836,17 @@
 
     <!--contributors.xml-->
     <string name="contr_3.0">
-        <b>Patrick Perfectly III mtl</b>: ведение логов, составление исчерпывающих инструкций по устранению неполадок... По сути это поддерживает жизнь приложение до сих пор.\n
-        <b>Isaac Baihua</b>: Обнаружение случая, когда не создается zip, если выбраны только дополнительные резервные копии(без приложений их данных и разрешений).\n
+        <b>@ivanliao0601, @joeri9enzz, @iamansingh</b>: Тестирование изменений процесса прошивки, добавленных в версии 3.1.\n
+        <b>@wojnar0, Jeroen, @bolumstar</b>: Тестирование изменений процесса прошивки, добавленных в версии v3.0.3\n
+        <b>@YourFavNigga</b>: Обнаружил неправильное определение пользовательских приложений как системных.\n
+        <b>Patrick Perfectly III mtl</b>: ведение логов и составление исчерпывающих инструкций по устранению неполадок... По сути его вклад поддерживает жизнь приложения до сих пор.\n
+        <b>Isaac Baihua</b>: Обнаружение случая, когда не создается zip, если выбраны только дополнительные резервные копии(без приложений, их данных и разрешений).\n
         <b>@anoop142 (Anoop)</b>: Создал первую SAR-модифицированную версию приложения. Это очень помогло в v3.0\n
         <b>@cruzer_blaze (Gokul)</b>: Помог с скриптами\n
         <b>@indianets (Vijay)</b>: Написал скрипт для эффективного восстановления split apks\n
-        <b>BillGoss(XDA)</b>: Если в рекавери нет awk, необходимо использовать awk busybox.\n
-        <b>AndDiSa(XDA)</b>: Исправил коррекцию не-новой строки.\n\n
+        <b>BillGoss(XDA)</b>: Если в recovery нет awk, необходимо использовать awk busybox.\n
+        <b>AndDiSa(XDA)</b>: Исправил коррекцию не-новой строки.\n
+        <b>ANKIT</b>: Помог исправить зависание приложения при расчете размера\n\n
     Очевидно, что я благодарен всем тысячам пользователей, которые используют это приложение и помогают сделать его лучше. Ты очень много значишь для меня.\n
     Также огромное спасибо переводчикам приложения. Спасибо.
     </string>
@@ -819,11 +859,11 @@
         @akshayrohida\n
         @raj3303\n
         \n
-        Учачтник XDA <b>djseltus</b>, за указание на новый update-binary\n
+        Участник XDA <b>djseltus</b>, за указание на новый update-binary\n
         <b>Vinyas N S</b>, за обнаружения \"android.os.TransactionTooLargeException\"\n
         <b>C Tab</b>, помог найти проблему с вспомогательным приложением\n
-        Учачтник XDA <b>SevenSlevin</b> за обнаружение проблемы с updater_script\n
-        Учачтник XDA <b>kdrag0n</b> за ряд полезных предложений\n
+        Участник XDA <b>SevenSlevin</b> за обнаружение проблемы с updater_script\n
+        Участник XDA <b>kdrag0n</b> за ряд полезных предложений\n
     </string>
     <string name="thanks_3">Приложение было бы неосуществимым без целой группы тестировщиков:\n\n
         @TusharG03\n
@@ -845,7 +885,7 @@
     <string name="file_list_not_in_zip_batch">Отсутствует список файлов zipBatch</string>
     <string name="zip_batch_null_updater">Zip Batch имеет значение null перед updater_script</string>
     <string name="zip_batch_null_zipping_engine">Zip Batch имеет нулевое значение перед началом архивации</string>
-    <string name="zip_batch_null_zip_verification">Zip Batch имеет нулевое значение перед проверкой целесности zip</string>
+    <string name="zip_batch_null_zip_verification">Zip Batch имеет нулевое значение перед проверкой целостности zip</string>
     <string name="improper_result_received">Получен неправильный результат.</string>
 
     <!--some branch specific strings-->
