@@ -2,6 +2,7 @@
     tools:ignore="MissingTranslation,ExtraTranslation">
 
     <string name="app_name">Migrate</string>
+    <string name="display_name">@string/app_name</string>
     <string name="gpe_label"></string>
     <string name="current_version_name">3.1</string>
     <string name="current_version_codename">Mercury</string>
@@ -110,21 +111,49 @@
     <string name="version_3.0">版本 3.0</string>
     <string name="version_3.0_content">
         从2.1到3.0\n\n
-        •应用程序用Kotlin语言重写\n
-        •添加了许多新的设置。\n
-        •现在可以在Google Play上下载Migrate Helper应用程序。\n
-        •recovery中的许多修复。 支持SAR和Android 10。\n
+        •应用程序用 Kotlin 语言重写\n
+        •添加了许多新的设置\n
+        •现在可以在Google Play上下载 Migrate Helper 应用程序\n
+        •recovery中的许多修复,支持 SAR 和Android 10\n
         •添加了用于备份应用安装程序，字体大小，adb状态的选项\n
-        •在首选项中设置最大zip大小。\n
+        •在应用设置中设置最大zip大小\n
         •备份完成后验证zip。\n
         •更多更改和改进…\n\n
         从3.0 Alpha到3.0版本\n\n
-        •禁用Wifi备份，直到其它得稳定为止。\n\n这是非Google版本的Migrate,它是测试版,此版本保留了应用内更新。\n
+        •禁用Wifi备份，直到其它得稳定为止。\n\n这是非Google版本的 Migrate ,它是测试版,此版本保留了应用内更新。\n
     </string>
     <string name="version_3.0.1">Version 3.0.1</string>
     <string name="version_3.0.1_content">
-        \u2022 Add turkish translation (@Trexfat)\n
-        \u2022 Add Simplified Chinese translation (@atfmxyl,@dwughjsd)\n
+        \u2022 解决冻结应用大小计算的问题\n
+        \u2022 添加土耳其语翻译(@Trexfat)\n
+        \u2022 添加俄语翻译 (@vladrevers)\n
+        \u2022 添加印尼语翻译 (@rzlamrr)\n
+        \u2022 添加简体中文翻译 (@atfmxyl,@dwughjsd)\n
+    </string>
+    <string name="version_3.0.3">版本 3.0.3</string>
+    <string name="version_3.0.3_content">
+        \u2022 改动应用程序使之符合 Play商店策略\n
+        \u2022 删除了 Android Nougat 下用于计算应用大小的替代方法\n
+        \u2022 可能修复了是还原后找不到元数据的问题\n
+        \u2022 一些其他的修复\n
+    </string>
+    <string name="version_3.1">版本 3.1</string>
+    <string name="version_3.1_content">
+        \u2022 更新了恢复助手,用于修复还原应用没有数据的问题\n
+        \u2022 更新了恢复助手\n
+        \u2022 在第一次使用时显示警告\n
+        \u2022 记录备份中的原始文件列表\n
+    </string>
+    <string name="version_3.1.1">版本 3.1.1</string>
+    <string name="version_3.1.1_content">
+        版本 3.1.1
+        \u2022 更新了恢复助手,用以恢复字符有问题的应用程序\n
+        \u2022 将内部版本号添加到更新日志\n
+        版本 3.1
+        \u2022 更新了恢复助手,用于修复还原应用没有数据的问题\n
+        \u2022 更新了恢复助手\n
+        \u2022 在第一次使用时显示警告\n
+        \u2022 记录备份中的原始文件列表\n
     </string>
 
     <!--activity_main.xml-->
@@ -177,7 +206,7 @@
     <string name="up_one_dir">上一级</string>
 
     <!--extra_backups-->
-    <string name="extras">附加功能</string>
+    <string name="extras">附加数据</string>
     <string name="contacts_label">通讯录</string>
     <string name="sms_label">短信</string>
     <string name="call_log_label">通话记录</string>
@@ -211,6 +240,7 @@
 
     <!--ExtraBackups.java-->
     <string name="not_recommended">不建议！</string>
+    <string name="new_method_not_available_below_oreo">Android Oreo以下提供了不用于计算大小的新方法。 使用终端模式。</string>
     <string name="contacts_not_recommended">如果您打算在下一个ROM上使用Google登录，则不建议使用联系人备份和还原。恢复联系人将不必要地复制相同的联系人条目。</string>
     <string name="dont_backup">不要备份</string>
     <string name="backup_contacts_anyway">仍然要备份通讯录</string>
@@ -414,8 +444,6 @@
     <string name="adding">添加中</string>
     <string name="packet">包</string>
     <string name="moving_files">移动文件</string>
-    <string name="use_reflection">使用reflection方法？</string>
-    <string name="use_reflection_exp">使用反射 (reflection) 方法，一种在 Android 7.0 及以下版本使用的实验性方法计算备份大小，也许效果更好，推荐打开。</string>
     <string name="use_usage_access_permission">授予使用情况访问权限？</string>
     <string name="usage_access_permission_needed_desc">添加了一种新的，更快，更可靠的方法来在备份之前计算应用程序的大小。\n\n请点击继续，滑动并选择“Migrate”，然后开启“允许查看使用情况”开关</string>
     <string name="storage_access_required">请授予存储访问权限以写入备份。</string>
@@ -466,6 +494,7 @@
     <string name="share_progress_logs">发送进度日志</string>
     <string name="share_error_logs">发送错误日志</string>
     <string name="share_script">发送脚本</string>
+    <string name="share_rawList">发送原始文件列表</string>
     <string name="send_to_tg">发送到 Telegram</string>
     <string name="agree_and_send">同意并发送</string>
     <string name="error_report_disclaimer">感谢您对帮助改进此应用程序的关注,从现在开始，所有错误报告都将在我们的 Telegram 群组-https://t.me/migrateApp中发送。
@@ -560,7 +589,7 @@
     <string name="step_4_desc_2">如果您没有看到通知，请打开Migrate恢复助手应用。\n
         打开时，您应该会看到如下屏幕:</string>
     <string name="step_4_desc_3">
-    还原应用程序和数据：授予root权限，然后选择要还原的应用程序和附加功能。\n\n
+    还原应用程序和数据：授予root权限，然后选择要还原的应用程序和附加数据。\n\n
     卸载应用程序或完成还原：选择此项以执行还原操作，卸载帮助程序并重新启动设备。
 </string>
     <string name="step_4_troubleshoot">如果您没有该应用，请使用内置的Android文件管理器（或从Google Play商店下载到文件管理器,或者下载询问酷安用户“梦想妤乐”），然后从内部存储/Migrate目录中安装“helper.apk”</string>
@@ -660,10 +689,6 @@
     <string name="post_in_group">发送到群组</string>
     <string name="select_mail">选择邮件应用，例如Gmail</string>
     <string name="select_telegram">打开 Telegram 并选择 Migrate 群组</string>
-    <!--<string name="sem_apology">Semester apology!</string>
-    <string name="sem_apology_desc">Due to upcoming semesters, I will not be able to focus on the app development for a month or so. I am sorry.\n\n
-    Meanwhile, please continue using the app and share bug reports. Your love and support means a lot to me. Thanks!\n\n
-    - SayantanRC</string>-->
 
     <string name="copied_app">此应用被非法复制且为盗版</string>
     <string name="copied_app_exp">请通过单击“安装”按钮从 BaltiApps 获取原始应用程序。</string>
@@ -673,10 +698,12 @@
 
     <string name="disable_battery_optimisation">禁用电池优化</string>
     <string name="use_new_sizing_method">使用新方法计算大小</string>
+    <string name="show_backup_summary">显示备份概要</string>
+    <string name="show_backup_summary_desc">显示一个对话框，其中包含要压缩的zip名称</string>
     <string name="use_new_sizing_method_desc">启用此功能将使用Android 8+中的StorageStats以及较低版本中的reflection。
     禁用此功能将使用terminal shell命令来计算大小。</string>
     <string name="clear_to_reset">清除并按确定以重置为默认值</string>
-    <string name="autoselect_extras_title">自动选择附加功能</string>
+    <string name="autoselect_extras_title">自动选择附加数据备份</string>
     <string name="autoselect_extras_desc">如果您之前已经备份过，自动勾选通讯录和短信等附加数据</string>
     <string name="new_icon_method_title">新的图标方法</string>
     <string name="new_icon_method_desc">这将使用单独的.icon文件存储要备份的每个应用程序的图标。如果未选中，则应用程序图标将存储在.json文件中。</string>
@@ -723,6 +750,11 @@
     <string name="wait_to_cancel">等待...</string>
     <string name="killing_programmatically">正在使用 kill 命令结束</string>
 
+    <!--zip_name_show.xml-->
+    <string name="please_flash_all">请刷入所有 zip</string>
+    <string name="backup_name">备份名字</string>
+    <string name="zips_created">创建了 Zip</string>
+
     <!--MainBackupEngine.kt-->
     <string name="test_apk_not_found">未找到或未正确创建测试APK</string>
     <string name="test_data_not_found">未找到或未正确创建测试APK</string>
@@ -756,7 +788,7 @@
 
      读取的所有数据均存储在设备本地
 </string>
-    <string name="what_is_shared">What is shared</string>
+    <string name="what_is_shared">什么是反馈</string>
     <string name="what_is_shared_desc">
         在这种情况下，反馈是指自愿发送应用程序日志\n\n
         发送日志则意味着您将会发送（如果发送到 Telegram 上则是公开的）:\n\n
@@ -770,7 +802,7 @@
         如果您认为您的日志包含了敏感信息，请不要发送出来
         如果您已经将其分享, 请尽快请求将其删除。
     </string>
-    <string name="what_is_intentional">什么叫“不会故意”？</string>
+    <string name="what_is_intentional">什么叫“注意隐私”？</string>
     <string name="what_is_intentional_desc">
     作为开发人员，我希望用户理解以下信息。
     这些信息只在您准备分享日志时需要注意。\n\n
@@ -796,21 +828,27 @@
     </string>
     <string name="translators">翻译提供人员</string>
     <string name="translators_list">
-        <b>@Trexfat</b>: Turkish
-        <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese
+        <b>@Fatih Fırıncı(@Trexfat)</b>: 土耳其语\n
+        <b>@rzlamrr</b>: 印尼语\n
+        <b>@vladrevers</b>: 俄语\n
+        <b>@atfmxyl,@dwughjsd</b>: 简体中文
     </string>
 
     <!--contributors.xml-->
     <string name="contr_3.0">
-        Patrick Perfectly III mtl：提供log，编写详细 的故障排除指南……基本上保证了该应用程序直到现在仍处于活动状态。\n
-        梦想妤乐（Isaac Baihua）：如果不备份app仅选择其他额外数据备份选项，从而出现未制作可刷入zip的情况。\n
-        @ anoop142（Anoop）：制作了该应用程序的第一个SAR修改版本。 在v3.0中起到了很大作用\n
-        @cruzer_blaze（Gokul）：在脚本中提供了帮助\n
-        @indianets（Vijay）：使脚本有效地还原了拆分的apk\n
-        BillGoss（XDA）：如果恢复中没有awk，请使用busybox awk。\n
-        AndDiSa（XDA）：修复无换行校正。\n\n
+        <b>@ivanliao0601, @joeri9enzz, @iamansingh</b>: 测试了 3.1 版本中对恢复 zip 包的改动\n
+        <b>@wojnar0, Jeroen, @bolumstar</b>: 测试了 3.0.3 版本中对恢复 zip 包的改动\n
+        <b>@YourFavNigga</b>: 将用户应用程序错误检测为系统应用程序\n
+        <b>Patrick Perfectly III mtl</b>: 提供log，编写详细的故障排除指南……基本上保证了该应用程序直到现在仍处于活动状态\n
+        <b>Isaac Baihua</b>: 如果不备份app仅选择其他额外数据备份选项，从而出现未制作可刷入zip的情况\n
+        <b>@anoop142 (Anoop)</b>: 制作了该应用程序的第一个SAR修改版本。 在v3.0中起到了很大作用\n
+        <b>@cruzer_blaze (Gokul)</b>: 在脚本中提供了帮助\n
+        <b>@indianets (Vijay)</b>: 使脚本有效地还原了拆分的apk\n
+        <b>BillGoss(XDA)</b>: 如果恢复中没有awk，请使用busybox awk\n
+        <b>AndDiSa(XDA)</b>: 修复无换行校正\n
+        <b>ANKIT</b>: 帮助修复了应用程序在计算大小中的挂起\n\n
         我非常感谢所有测试了处于alpha状态的这个应用程序的用户，而不是处于Alpha状态的用户，
-    你对我来说也很重要。 谢谢:-)
+        你对我来说也很重要。 谢谢:-)
     </string>
     <string name="prev_contri">以前的贡献人员</string>
     <string name="thanks_to_stericson">非常感谢 Stephen（stericdroid）允许我自由地使用他的 busybox 构建</string>
