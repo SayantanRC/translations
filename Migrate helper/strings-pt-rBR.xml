@@ -1,0 +1,417 @@
+<resources>
+
+    <string name="app_name">Migrate helper</string>
+    <string name="current_version_name">3.1.1_release</string>
+
+    <!--changelog-->
+    <string name="changelog">Novidades</string>
+    <string name="version_3_1">Versão 3.1</string>
+    <string name="version_3_1_content">
+        \u2022 Mais correções para nenhuma restauração de dados\n
+        \u2022 Detectar erros na restauração do aplicativo\n
+        \u2022 Correção provável para falhas ao carregar a lista de aplicativos\n
+        \u2022 Exclua também o APK do sistema, se instalado como um aplicativo de usuário\n
+        \u2022 Use Root para extrair ZIPs de desinstalação do TWRP, se a permissão do arquivo for negada\n
+        \u2022 Adicionar registro de alterações e opções de contato\n
+    </string>
+    <string name="version_3_1_1">Versão 3.1.1</string>
+    <string name="version_3_1_1_content">
+        \u2022 Corrigir aplicativos com símbolos\n
+    </string>
+
+    <!--activity_main.xml-->
+    <string name="restore_main">Restaurar aplicativos e dados</string>
+    <string name="uninstallFromSystem">Desinstalar do sistema</string>
+    <string name="uninstall_or_finalize">Desinstalar aplicativo\nem finalizar restauração</string>
+    <string name="temporary_disable">Desativação temporária</string>
+    <string name="selective_restore">Escolha o que restaurar</string>
+    <string name="please_use_magisk">Certifique-se de usar o Magisk</string>
+    <string name="lastLog">Últimos registros</string>
+    <string name="preferences">Preferências</string>
+    <string name="contact_on_telegram">Contato no Telegram</string>
+    <string name="uninstall_by_twrp">Desinstalar pelo TWRP.</string>
+
+    <!--MainActivityKotlin.kt-->
+    <string name="storage_perm_needed">Permissão de armazenamento necessária</string>
+    <string name="grant">Conceder</string>
+    <string name="contact_desc">Nosso grupo de Telegram possui muitos membros. Você obterá uma ajuda mais rápida do grupo.. Caso seu problema não seja resolvido, entre em contato com o desenvolvedor.</string>
+    <string name="contact_developer">Entre em contato com o desenvolvedor</string>
+    <string name="contact_group">Mensagem no grupo</string>
+
+    <!--last_log_report.xml-->
+    <string name="seeProgressLog">Consulte registro de progresso</string>
+    <string name="seeErrorLog">Consulte registro de erros</string>
+    <string name="report_logs">Logs de relatório</string>
+    <string name="progressLog">Log de progresso</string>
+    <string name="errorLog">Log de erro</string>
+
+    <!--SimpleLogDisplay.java-->
+    <string name="no_header">Nenhum cabeçalho</string>
+    <string name="no_filepath">Nenhum caminho de arquivo</string>
+    <string name="log_reading_error">Erro de leitura de log</string>
+
+    <!--MainActivity.java-->
+    <string name="too_fast">Uau, mais rápido que Rubens Barrichello!!</string>
+    <string name="too_fast_desc">O aplicativo não foi testado explicitamente na versão Android acima de 10.\n\nEnvie seus comentários sobre se o aplicativo funciona ou não.</string>
+    <string name="dont_show_again">Não mostre novamente</string>
+    <string name="apps_will_be_closed">Os aplicativos serão fechados</string>
+    <string name="do_not_use_desc">Os aplicativos serão fechados durante a restauração. Por favor, não use o dispositivo para evitar falhas aleatórias.
+        \n\nVocê terá uma opção para minimizar a janela de restauração do aplicativo, mas não é recomendado.</string>
+    <string name="later">Deixa pra lá, vou restaurar depois.</string>
+    <string name="sure">Você tem certeza?</string>
+    <string name="howToRestore">A desinstalação requer Root. Você também precisará re-flash migrar zips para restaurar dados mais tarde.</string>
+    <string name="goAhead">Continue</string>
+    <string name="unsupported_device">Dispositivo não suportado.</string>
+    <string name="cpu_arch_is">Your CPU arch is:</string>
+    <string name="currently_supported_cpu">Somente <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> Atualmente, as arquiteturas de CPU são suportadas. Entre em contato via e-mail para ajudar no suporte ao seu dispositivo.</string>
+    <string name="select_mail">Selecione o aplicativo de correio, por exemplo, Gmail.</string>
+    <string name="select_telegram">Abra o Telegram e selecione o grupo Migrate</string>
+    <string name="contact">Contato via Telegram</string>
+    <string name="default_sms_app_must_be_changed">O aplicativo de SMS padrão deve ser alterado antes de desinstalar este aplicativo auxiliar.</string>
+
+    <!--ProgressActivity.java-->
+    <string name="please_wait">Por favor, espere</string>
+    <string name="waiting_for_contacts">Aguardando restauração de contatos</string>
+    <string name="waiting_for_contacts_desc">Migrate helper detectou que você optou por restaurar aplicativos de tratamento de contatos que podem entrar em conflito com a operação de restauração de contatos em execução no momento.\n\n
+    A restauração do aplicativo continuará depois que os contatos forem restaurados.
+    </string>
+    <string name="abort_title">Isso não é recomendado!</string>
+    <string name="abort_desc">Isso pode deixar todos os aplicativos inutilizáveis ​​e uma redefinição de fábrica pode ser necessária</string>
+    <string name="let_it_continue">Deixe continuar</string>
+    <string name="abort_anyway">Abortar de qualquer maneira</string>
+    <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
+    <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
+    <string name="send_logs_first">Send logs first</string>-->
+
+    <!--extra_restore_prepare.xml-->
+    <string name="erp_title">Preparando para restaurar</string>
+    <string name="will_be_restored_later">Para ser restaurado após aplicativos</string>
+    <string name="ready_to_be_restored">Pronto para restaurar</string>
+    <string name="restore_starting_in">Restaurar a partir de…</string>
+    <string name="number_of_selected_apps">Aplicativos selecionados</string>
+    <string name="no_addon">Nenhum complemento</string>
+    <string name="denied">Negado</string>
+    <string name="ok_disable">OK, desative</string>
+    <string name="dont_disable">Não desative</string>
+    <string name="start">Começar</string>
+
+    <!--restore_progress_layout.xml-->
+    <string name="close">FECHAR</string>
+    <string name="abort">Abortar!</string>
+    <string name="minimize">Minimizar</string>
+    <string name="report">Relatório</string>
+    <string name="minimizing_may_decrease_speed">Minimizar esta tela pode diminuir a velocidade de restauração!</string>
+
+    <!--RootRestoreTask.java-->
+    <string name="finished">Finalizado! Sem erros.</string>
+    <string name="finished_with_errors">Finalizado com erros!</string>
+    <string name="uninstall_prompt">Clique em "TERMINAR" para desinstalar este aplicativo</string>
+    <string name="some_post_jobs_left">Clique para abrir trabalhos de restauração pós.</string>
+    <string name="change_dpi_and_reboot_prompt">Clique em "TERMINAR" para alterar o DPI e reiniciar</string>
+    <string name="making_script">Fazendo script</string>
+    <string name="finish">Terminar</string>
+    <string name="finalize">Finalizar</string>
+    <string name="restoreCancelled">Restauração cancelada.</string>
+
+    <!--app_selector.xml-->
+    <string name="select_apps">Selecione o que restaurar</string>
+    <string name="restore">Restaurar</string>
+    <string name="app">Aplicativo</string>
+    <string name="data">Dados</string>
+    <string name="perm">Permissões</string>
+    <string name="extras">Extras</string>
+    <string name="apps">Aplicativos</string>
+
+    <!--AppSelector.java-->
+    <string name="requesting_root">Solicitando Root</string>
+    <string name="failed">Falhou</string>
+    <string name="failed_desc">Conceda permissão de Root.</string>
+    <string name="everything">Tudo selecionado!</string>
+    <string name="reading_metadata">Lendo Metadados…</string>
+    <string name="initMessageShort">Isso pode levar até 3 minutos.\n\nCaso você tenha esperado mais de 5 minutos\nClique em CANCELAR\nAbra o aplicativo Magisk\nFeche o aplicativo Magisk\nAbra este aplicativo e tente restaurar novamente</string>
+    <string name="are_you_rooted">Você está enraizado?</string>
+    <string name="are_you_rooted_desc">Certifique-se de conceder Root. Root com Magisk, se necessário.</string>
+    <string name="code_error">Erro de código!</string>
+    <string name="selecting_all">Selecionando tudo</string>
+    <string name="starting_restore">Iniciando a restauração</string>
+    <string name="nothing_to_restore">Nada para restaurar</string>
+    <string name="no_metadata_found">Nenhum metadado encontrado\nFlash um pacote Migrate primeiro</string>
+    <string name="null_adapter">Adaptador nulo</string>
+    <string name="restore_contacts_dialog_header">Restaurar contatos</string>
+    <string name="proceed">Continuar</string>
+    <string name="reading_package_data">Lendo dados do pacote</string>
+    <string name="restore_in_different_version_warning">O backup original foi obtido em uma versão diferente do Android. Alguns aplicativos podem falhar ao restaurar</string>
+    <string name="originating_sdk">Origem dos SDKs de backup</string>
+    <string name="current_sdk">SDK atual</string>
+    <string name="force_stop">Forçar parada</string>
+    <string name="force_stop_alert_title">Forçar parada do aplicativo?</string>
+    <string name="force_stop_alert_desc">A parada forçada tentará matar o aplicativo inteiro. Se você já pressionou "Cancelar" uma vez, aguarde um pouco.</string>
+    <string name="kill_app">OK, mate!</string>
+    <string name="wait_to_cancel">Esperar…</string>
+    <string name="killing_programmatically">Matando programaticamente</string>
+    <string name="use_notification_fix">Correção de notificação excluindo arquivos GMS</string>
+
+    <!--ExtraBackupsProgress.java-->
+    <string name="do_not_close">Por favor, não pressione voltar/início/recentes ou fechar este aplicativo.</string>
+    <string name="smsPermission">Permissão de SMS necessária</string>
+    <string name="smsPermission_desc">Por favor, permita que este aplicativo seja o aplicativo de SMS padrão temporariamente.\n<b>Você será solicitado a alterar para o aplicativo sms original após a restauração</b>
+    </string>
+    <string name="you_will_not_be_able_to_receive_sms">
+        Migrate helper não pode ser definido como um aplicativo de SMS.\n\n
+        Você não poderá receber novas mensagens se não alterar o aplicativo de mensagens padrão.
+    </string>
+    <string name="change">Mudar</string>
+    <string name="leave_as_it_is">Deixe como está</string>
+    <string name="callsPermission">Permissão de registros de chamadas necessária</string>
+    <string name="callsPermission_desc">Por favor, permita escrever registros de chamadas.</string>
+    <string name="scanning">Escaneando</string>
+    <string name="dpi_null">O arquivo de DPI é nulo</string>
+    <string name="dpi_value_not_found">Valor de DPI não encontrado</string>
+    <string name="dpi_will_be_restored_in_the_end">Reinicialização necessária para alteração de DPI</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">
+        O valor de DPI da tela do backup será restaurado quando você pressionar o botão "OK" após a conclusão do backup.. Seu dispositivo será reiniciado para afetar as alterações\n\n
+        Pressione "OK" para continuar, "Cancelar" para ignorar completamente a alteração de DPI.
+    </string>
+    <string name="keyboard_null">O arquivo do teclado é nulo</string>
+    <string name="keyboard_value_not_found">Valor do teclado não encontrado</string>
+    <string name="keyboard_corrupt">O arquivo do teclado está corrompido</string>
+    <string name="keyboard_will_be_restored">será definido após a restauração do aplicativo</string>
+    <string name="keyboard_not_in_restore_list">não está na lista de restauração</string>
+    <string name="filtering">Filtragem\n</string>
+    <string name="please_do_not_press_back_button">Por favor, não pressione o botão "Voltar".</string>
+
+    <!--apps_not_installed_layout.xml-->
+    <string name="apps_not_installed_title">Os aplicativos a seguir foram escolhidos para serem restaurados, mas não receberam backup, nem estão atualmente instalados no dispositivo.</string>
+    <string name="apps_not_installed_desc">Se você continuar, esses aplicativos serão ignorados. No entanto, você não perderá seus dados. Você precisará baixar os aplicativos da Google Play (ou de outro local) e pode tentar restaurá-los mais tarde. Você não precisa piscar o backup novamente.</string>
+
+    <!--UninstallService.java-->
+    <string name="reboot_recommended">!!!!!!! Alterando o DPI. Reinicialização recomendada. !!!!!!!</string>
+
+    <!--RestoreA_DB.java-->
+    <string name="done">Feito!</string>
+
+    <!--SmsBroadcastReceiver.java-->
+    <!--MmsBroadcastReceiver.java-->
+    <string name="new_sms_received">Novas mensagens recebidas! Altere para o seu aplicativo de mensagens padrão.</string>
+
+    <!--ComposeSmsActivity.kt-->
+    <string name="please_change_sms_app">\"Migrate helper\" não deve ser usado como um aplicativo de SMS. Altere o aplicativo de SMS padrão</string>
+
+    <!--RootCopyTask.kt-->
+    <string name="no_busybox">Busybox não encontrado!</string>
+
+    <!--ParentRestoreClass.kt-->
+    <string name="loading">Carregando…</string>
+
+    <!--RestoreServiceKotlin.kt-->
+    <string name="cancelling">Cancelando…</string>
+    <string name="errorStartingRestore">Erro ao iniciar a restauração (onStartCommand).</string>
+
+    <!--AppRestoreAdapter.kt-->
+    <string name="packageName">Pacote :</string>
+    <string name="versionName">Nome da versão :</string>
+    <string name="installer">instalador: </string>
+    <string name="play_store">Google Play</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">Tamanho dos dados :</string>
+    <string name="system_size">Tamanho do sistema :</string>
+
+    <!--ParentGetter.kt-->
+    <string name="path_not_valid_directory">diretório não é válido</string>
+    <string name="getting_apps">Obtendo aplicativos</string>
+    <string name="getting_contacts">Obtendo contatos</string>
+    <string name="getting_sms">Obtendo SMS</string>
+    <string name="getting_calls">Recebendo chamadas</string>
+    <string name="getting_settings">Obtendo configurações</string>
+    <string name="getting_wifi">Obtendo detalhes de Wi-Fi</string>
+
+    <!--error_report_layout.xml-->
+    <string name="report_header">Relatório via Telegram</string>
+    <string name="share_progress_logs">Compartilhar logs de progresso</string>
+    <string name="share_error_logs">Compartilhar logs de erro</string>
+    <string name="share_file_lists">Compartilhar lista de arquivos no backup</string>
+    <string name="share_raw_lists">Compartilhar lista bruta de arquivos</string>
+    <string name="share_script">Compartilhar script</string>
+    <string name="share_package_data">Compartilhar dados do pacote</string>
+    <string name="send_to_tg">Enviar para o Telegram</string>
+    <string name="agree_and_send">Concorde e envie</string>
+    <string name="error_report_disclaimer">Obrigado pelo seu interesse em ajudar a melhorar este aplicativo. A partir de agora, todos os relatórios de erros serão enviados ao nosso grupo de Telegram - https://t.me/migrateApp.
+        Dessa forma, você obterá uma resolução mais rápida de muitas pessoas no grupo.\n\n
+        Ao compartilhar logs, você concorda em <b>PUBLICAMENTE</b> compartilhe algumas informações. Clique em "Concordo e envie" para prosseguir.
+    </string>
+    <string name="what_is_shared">O que é compartilhado?</string>
+    <string name="shared_desc">
+        Ao compartilhar logs, você concorda em compartilhar (publicamente, se estiver no Telegram):\n\n
+        - Status do aplicativo e restaurações de dados (nenhum dado privado).\n
+        - O nome do backup.\n
+        - Alguns detalhes de backup, como número de partes de backup.\n
+        - Informações do dispositivo, como a versão android.\n\n
+        O Migrate respeita altamente a privacidade dos usuários. Como tais logs gerados durante o backup de contatos, sms e logs de chamadas NÃO SÃO GRAVADOS e não podem ser compartilhados.
+        Nenhuma tentativa intencional é feita para identificar ou fazer uso ilícito de dados pessoais dos usuários.\n\n
+        De qualquer forma, você concorda que nem o desenvolvedor nem o aplicativo são responsáveis ​​por qualquer violação involuntária da privacidade. Caso você sinta que seus registros podem conter informações confidenciais, não as compartilhe. Caso você já tenha compartilhado, solicite a exclusão o mais rápido possível.
+    </string>
+    <string name="not_joined_yet">Ainda não entrou no nosso grupo?</string>
+    <string name="send_logs_using">Envie logs usando:</string>
+    <string name="log_files_do_not_exist">Arquivos de log não existem</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh\" não existe</string>
+    <string name="progress_log_does_not_exist">\"progressLog\" não existe</string>
+    <string name="error_log_does_not_exist">\"errorLog\" não existe</string>
+    <string name="package_data_does_not_exist">\"package-data\ "não existe</string>
+    <string name="file_lists_does_not_exist">Listas de arquivos não existem</string>
+    <string name="raw_lists_does_not_exist">Listas de arquivos brutos não existem</string>
+    <string name="tg_not_installed">Nosso grupo Telegram ajuda a obter resoluções rápidas para problemas.</string>
+    <string name="tg_not_installed_desc">Instale o Telegram e faça parte do nosso grupo.</string>
+    <string name="install_tg">Instalar Telegram</string>
+    <string name="join_group">Juntar-se ao grupo</string>
+    <string name="use_email_instead">Usar e-mail antigo</string>
+
+    <!--Restore engines-->
+    <string name="restoring_sms">Restaurando SMS</string>
+    <string name="restoring_calls">Restaurando chamadas</string>
+    <string name="restoring_adb">Restaurando o estado do ADB</string>
+    <string name="restoring_font_scale">Restaurando a escala da fonte</string>
+    <string name="restoring_keyboard">Restaurando o teclado</string>
+    <string name="processing_dpi">Processando a DPI</string>
+    <string name="processing_keyboard">Processando o teclado</string>
+    <string name="restoring_wifi">Restaurando o Wi-Fi</string>
+    <string name="making_scripts">Fazendo scripts</string>
+    <string name="waiting_for_vcf">Aguardando restauração de contatos</string>
+    <string name="restoring_apps">Restaurando aplicativos</string>
+    <string name="cleaning_up">Limpando arquivos</string>
+    <string name="restoring_settings">Restoring settings</string>
+    <string name="script_file_does_not_exist">O arquivo de script não existe</string>
+    <string name="settings_cancelled">Configurações canceladas</string>
+    <string name="smsCalls_cancelled">SMS, chamadas canceladas</string>
+    <string name="restoring_smsCalls_by_addon">Restaurando SMS, chamadas pelo complemento</string>
+    <string name="init_smsCalls_addon">Iniciando complemento</string>
+
+    <!--ExtraRestorePrepare.kt-->
+    <string name="skip_apps">Pular tudo</string>
+    <string name="continue_">Ignorar estes</string>
+    <string name="refresh">Atualizar</string>
+    <string name="keyboard_not_present">Aplicativo de teclado não disponível</string>
+    <string name="keyboard_not_present_desc">O aplicativo de teclado não está instalado e não está presente na restauração. Você pode instalar o aplicativo na Google Play ou em outro lugar.</string>
+    <string name="install_from_playstore">Google Play</string>
+    <string name="skip_keyboard">Pule o teclado e continue</string>
+    <string name="wifiPrepareTitle">Ative o Wi-Fi primeiro</string>
+    <string name="wifiPrepareDesc">Ative o Wi-Fi primeiro (no painel de notificações)\n\n
+        A restauração Wi-Fi ainda não é confiável. Pode ser necessário re-piscar o backup e tentar novamente. Normalmente, ele sempre é restaurado na segunda tentativa.
+    </string>
+    <string name="skip_wifi">Pular Wi-Fi</string>
+    <string name="settings_root_permission_error">Erro de permissão de Root do complemento de configurações</string>
+    <string name="grant_root_to_settings_addon">Conceda acesso Root ao complemento Configurações. Você pode abortar agora, abrir o Magisk e conceder manualmente permissão Root ao Migrate para complemento Configurações</string>
+    <string name="skip_settings">Ignorar configurações</string>
+    <string name="addon_installer_data_null">Os dados do instalador do complemento são nulos. Configurações, SMS, chamadas não serão restauradas.</string>
+    <string name="restore_only_apps">Restaurar apenas aplicativos</string>
+    <string name="addon_not_installed">Complemento não instalado.</string>
+
+    <!--RestoreSelectorKotlin.kt-->
+    <string name="contacts">Contatos</string>
+    <string name="sms">Mensagens SMS</string>
+    <string name="calls">Registro de chamadas</string>
+    <string name="dpi">DPI da tela</string>
+    <string name="keyboard">Teclado padrão</string>
+    <string name="applications">Aplicativos</string>
+    <string name="adb_state">Estado do ADB</string>
+    <string name="font_scale">Escala de fonte</string>
+    <string name="wifi">Wi-Fi config. de Arquivo</string>
+    <string name="cancelled_loading">Carregamento cancelado</string>
+    <string name="cancelled">Cancelado</string>
+
+    <!--app_search_layout.xml-->
+    <string name="enter_app_name">Nome do aplicativo/pacote</string>
+    <string name="no_apps">Nenhum aplicativo disponível\com a pesquisa especificada!</string>
+
+    <!--post_restore_jobs.xml-->
+    <string name="next">Próximo</string>
+    <string name="set_manually">Definir manualmente</string>
+    <string name="set_manually_desc">Abra o aplicativo de SMS clicando em "Definir manualmente" e defina o aplicativo de SMS. Depois de concluído, abra este aplicativo novamente para executar as etapas restantes.</string>
+    <string name="reset_sms_app">Reset default SMS app</string>
+    <string name="reboot_for_sms">Pode ser necessário reiniciar o telefone para que as mensagens restauradas apareçam. <b>Você também pode precisar limpar os dados do aplicativo de SMS.</b></string>
+    <string name="uninstall_helper_app">Desinstalar/desativar</string>
+    <string name="change_dpi">Alterar o valor do DPI</string>
+    <string name="wifi_was_restored">Wi-Fi foi restaurado. É necessário reiniciar.</string>
+    <string name="display_density">Densidade de exibição</string>
+    <string name="reboot_is_necessary">É necessário reiniciar!</string>
+    <string name="wifi_reboot_is_necessary">WI-FI esteja ativado. É necessário reiniciar!</string>
+    <string name="uninstall_app">Desinstalar este aplicativo</string>
+    <string name="disable_app">Desativar este aplicativo</string>
+    <string name="do_nothing">Apenas perto</string>
+    <string name="change_to">Mudar para: </string>
+
+    <!--preferences.xml-->
+    <string name="ignore_read_errors">Ignorar erros de leitura</string>
+    <string name="ignore_read_errors_desc">Isso ignorará todos os erros durante a leitura dos arquivos de metadados</string>
+    <string name="ignore_extras">Ignorar extras</string>
+    <string name="ignore_extras_desc">Isso ignorará completamente a leitura e a restauração de extras, como contatos, SMS, chamadas, DPI etc</string>
+    <string name="restore_start_animation">Mostrar contagem inicial de restauração</string>
+    <string name="restore_start_animation_desc">Mostrar/ocultar a animação da contagem regressiva antes do início da restauração.</string>
+    <string name="loadIconsInList">Carregar ícones na lista de aplicativos</string>
+    <string name="loadIconsInListDesc">Desative isso em caso de falha de estouro de memória</string>
+    <string name="advanced">Avançado</string>
+    <string name="remount_data">Remontar Dados</string>
+    <string name="remount_data_desc">Isso tenta encontrar a partição de Dados e remontar como leitura e gravação. Geralmente isso não é necessário.</string>
+    <string name="install">Instalar</string>
+    <string name="load_extras_on_ui_thread">Carregar extras no thread da interface do usuário</string>
+    <string name="load_extras_on_ui_thread_desc">Correção provável de alguns erros na tela do seletor de restauração.</string>
+    <string name="track_restore_finished">Restauração da faixa concluída</string>
+    <string name="track_restore_finished_desc">Acompanhe quando a restauração for concluída para evitar a retomada da atividade de exibição de progresso. Não desative a menos que tenha certeza.</string>
+    <string name="remount_all_to_uninstall">Remonte tudo para desinstalar</string>
+    <string name="remove_system_apk">Remover APK do sistema (se houver))</string>
+    <string name="remount_all_to_uninstall_desc">Se a desinstalação falhar, remonte todos os pontos de montagem e tente novamente automaticamente.</string>
+    <string name="load_multiple_icons">Carregar vários ícones.</string>
+    <string name="load_multiple_icons_desc">Isso tentará carregar o maior número possível de ícones na tela do seletor de aplicativos. Ativar pode resultar em falhas.</string>
+    <string name="check_low_memory_icons">Verificar pouca memória antes de carregar os ícones</string>
+    <string name="clear_to_reset">Limpe e pressione OK para redefinir o valor padrão</string>
+    <string name="manual_cache">Especifique o caminho para migrate_cache</string>
+    <string name="manual_metadata_holder">Especifique o caminho para o detentor de metadados</string>
+
+    <!--uninstall_activity.xml-->
+    <string name="uninstall_desc">Se não funcionar, exclua o diretório acima.</string>
+    <string name="temporary_disable_desc">O aplicativo deixará de mostrar notificações, mas permanecerá instalado.</string>
+    <string name="delete_migrate_cache">Excluir migrate_cache (recomendado)</string>
+    <string name="reboot">Reiniciar (recomendado)</string>
+
+    <!--UninstallServiceKotlin.kt-->
+    <string name="finishing">Finalizando…</string>
+
+    <!--contacts_dialog_view.xml-->
+    <string name="select_provider">Por favor, selecione <b>Contatos</b> aplicativo se solicitado a fazer uma seleção.</string>
+
+    <!--miscellaneous-->
+    <string name="notifHeader">Pacote Migrate flasheado!</string>
+    <string name="notifBody">Clique para continuar a restauração!!</string>
+    <string name="error">Erro</string>
+
+    <!--CommonToolsKotlin.kt-->
+    <string name="error_occurred">Ocorreu um erro!!</string>
+
+    <!--install_addons.xml-->
+    <string name="confirm_install_addon">Os seguintes complementos precisam ser instalados</string>
+    <string name="sms_calls_addon">SMS, complemento de chamadas</string>
+    <string name="sms_calls_addon_desc">Restaura SMS e chamadas.</string>
+    <string name="settings_addon">Complemento de configurações</string>
+    <string name="settings_addon_desc">Restaura ADB, DPI, escala de fonte, teclado</string>
+    <string name="checking_settings_addon_root_access">Verificando o acesso Root do complemento de configurações</string>
+    <string name="please_grant_if_prompted">Permitir, se solicitado</string>
+    <string name="info">Informações</string>
+
+    <!--AddonInstallerActivity.kt-->
+    <string name="no_addon_to_install">Nenhum complemento para instalar!</string>
+    <string name="press_abort_to_cancel">Pressione "Abortar!" para cancelar.</string>
+
+    <!--twrp_unpack_layout.xml-->
+    <string name="twrp_zip_files_under">Os arquivos ZIP do TWRP serão descompactados no:\n<b>[Armazenamento Interno]/Migrate/</b>\nPor favor, reinicie no TWRP e faça o flash.</string>
+    <string name="zip_only_helper">Desinstalar apenas helper</string>
+    <string name="zip_helper_cache">Desinstalar helper + migrate_cache</string>
+    <string name="extracted_under">Extraído para: [Armazenamento Interno]/Migrate/</string>
+    <string name="unpack_failed">Falha ao descompactar</string>
+    <string name="use_root_to_unpack">A permissão do arquivo está sendo negada. Usar Root?</string>
+
+
+    <!--Do not change!!-->
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
