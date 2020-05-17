@@ -1,0 +1,382 @@
+<resources>
+
+<string name="app_name">Ayudante de Migrate</string>
+    <string name="current_version_name">3.1.1_release</string>
+
+    
+    <string name="changelog">Registro de cambios</string>
+    <string name="version_3_1">Versión 3.1</string>
+    <string name="version_3_1_content">\u2022 Más correcciones para la restauración sin datos \n        \u2022 Detectar errores en la restauración de la aplicación \n        \u2022 Solución probable para bloqueos al cargar la lista de aplicaciones \n        \u2022 También elimine el apk del sistema si está instalado como una aplicación de usuario \n        \u2022 Utilice la raíz para extraer las cremalleras de desinstalación twrp, si se deniega el permiso del archivo \n        \u2022 Agregar registro de cambios y opciones de contacto \n</string>
+    <string name="version_3_1_1">Version 3.1.1</string>
+    <string name="version_3_1_1_content">\u2022 Corregir a aplicaciones con símbolos \n</string>
+
+    
+    <string name="restore_main">Restaurar aplicaciones y datos</string>
+    <string name="uninstallFromSystem">Desinstalar del sistema</string>
+    <string name="uninstall_or_finalize">Desinstalar la aplicación \ni finalizar la restauración</string>
+    <string name="temporary_disable">Deshabilitar temporalmente</string>
+    <string name="selective_restore">Elige qué restaurar</string>
+    <string name="please_use_magisk">Asegúrese de usar Magisk</string>
+    <string name="lastLog">Últimos registros</string>
+    <string name="preferences">Preferencias</string>
+    <string name="contact_on_telegram">Contacto en Telegram</string>
+    <string name="uninstall_by_twrp">Desinstalar por twrp.</string>
+
+    
+    <string name="storage_perm_needed">Se necesita permiso de almacenamiento</string>
+    <string name="grant">Conceder</string>
+    <string name="contact_desc">Nuestro grupo de Telegram tiene muchos miembros, obtendrá ayuda más rápida sobre el grupo. En caso de que su problema no se resuelva, póngase en contacto con el desarrollador.</string>
+    <string name="contact_developer">Contactar desarrollador</string>
+    <string name="contact_group">Mensaje en grupo</string>
+
+    
+    <string name="seeProgressLog">Ver registro de progreso</string>
+    <string name="seeErrorLog">Ver registro de errores</string>
+    <string name="report_logs">Informe de registros</string>
+    <string name="progressLog">Registro de progreso</string>
+    <string name="errorLog">Registro de errores</string>
+
+    
+    <string name="no_header">Sin encabezado</string>
+    <string name="no_filepath">Sin ruta de archivo</string>
+    <string name="log_reading_error">Error de lectura de registro</string>
+
+    
+    <string name="too_fast">¡Vaya, demasiado rápido!</string>
+    <string name="too_fast_desc">La aplicación no se ha probado explícitamente en la versión de Android anterior a 10. \n\nEnvíe sus comentarios sobre si la aplicación funciona o no.</string>
+    <string name="dont_show_again">No mostrar de nuevo</string>
+    <string name="apps_will_be_closed">Las aplicaciones estarán cerradas</string>
+    <string name="do_not_use_desc">Las aplicaciones se cerrarán durante la restauración. No utilice el dispositivo para evitar bloqueos aleatorios.         \n\nObtendrá una opción para minimizar la ventana de restauración de la aplicación, pero no se recomienda.</string>
+    <string name="later">No importa, restauraré más tarde.</string>
+    <string name="sure">¿Estás seguro?</string>
+    <string name="howToRestore">La desinstalación requiere root. También deberá volver a flashear las migraciones de archivos zip para restaurar los datos más adelante.</string>
+    <string name="goAhead">Adelante</string>
+    <string name="unsupported_device">Dispositivo no compatible</string>
+    <string name="cpu_arch_is">Su arco de CPU es:</string>
+    <string name="currently_supported_cpu">Solamente<b> armeabi-v7a, arm64-v8a, x86, x86_64</b> Las arquitecturas de CPU son compatibles actualmente. Póngase en contacto por correo para ayudar a su dispositivo.</string>
+    <string name="select_mail">Seleccione la aplicación de correo, por ejemplo, Gmail.</string>
+    <string name="select_telegram">Abra Telegram y seleccione el grupo Migrate</string>
+    <string name="contact">Contacto a través de Telegram</string>
+    <string name="default_sms_app_must_be_changed">La aplicación de SMS predeterminada debe cambiarse antes de desinstalar esta aplicación auxiliar.</string>
+
+    
+    <string name="please_wait">por favor espera</string>
+    <string name="waiting_for_contacts">Esperando la restauración de contactos</string>
+    <string name="waiting_for_contacts_desc">Migrate Helper ha detectado que ha elegido restaurar las aplicaciones de manejo de contactos que pueden entrar en conflicto con la operación de restauración de contactos actualmente en ejecución.     La restauración de la aplicación continuará después de que se restablezcan los contactos.</string>
+    <string name="abort_title">¡Esto no es muy recomendable!</string>
+    <string name="abort_desc">Esto puede dejar todas las aplicaciones inutilizables y puede ser necesario un restablecimiento de fábrica</string>
+    <string name="let_it_continue">Deja que continúe</string>
+    <string name="abort_anyway">Abortar de todos modos</string>
+    
+
+    
+    <string name="erp_title">Preparando para restaurar</string>
+    <string name="will_be_restored_later">Para ser restaurado después de las aplicaciones</string>
+    <string name="ready_to_be_restored">Listo para restaurar</string>
+    <string name="restore_starting_in">Restaurar a partir de ...</string>
+    <string name="number_of_selected_apps">Aplicaciones seleccionadas</string>
+    <string name="no_addon">Sin complemento</string>
+    <string name="denied">Negado</string>
+    <string name="ok_disable">Listo, deshabilitar</string>
+    <string name="dont_disable">No, no deshabilites</string>
+    <string name="start">Comenzar</string>
+
+    
+    <string name="close">Cerrar</string>
+    <string name="abort">¡Abortar!</string>
+    <string name="minimize">Minimizar</string>
+    <string name="report">Reporte</string>
+    <string name="minimizing_may_decrease_speed">¡Minimizar esta pantalla puede disminuir la velocidad de restauración!</string>
+
+    
+    <string name="finished">¡Terminado! Sin errores.</string>
+    <string name="finished_with_errors">Terminado con errores!</string>
+    <string name="uninstall_prompt">Haga clic en FINALIZAR para desinstalar esta aplicación</string>
+    <string name="some_post_jobs_left">Haga clic para abrir trabajos posteriores a la restauración.</string>
+    <string name="change_dpi_and_reboot_prompt">Haga clic en FINALIZAR para cambiar DPI y reiniciar</string>
+    <string name="making_script">Hacer guion</string>
+    <string name="finish">Terminar</string>
+    <string name="finalize">Finalizar</string>
+    <string name="restoreCancelled">Restauración cancelada.</string>
+
+    
+    <string name="select_apps">Selecciona qué restaurar</string>
+    <string name="restore">Restaurar</string>
+    <string name="app">App</string>
+    <string name="data">Datos</string>
+    <string name="perm">Permanente</string>
+    <string name="extras">Extras</string>
+    <string name="apps">Aplicaciones</string>
+
+    
+    <string name="requesting_root">Raíz raíz</string>
+    <string name="failed">Ha fallado</string>
+    <string name="failed_desc">Por favor otorgue permiso de root.</string>
+    <string name="everything">¡Todo seleccionado!</string>
+    <string name="reading_metadata">Leyendo metadatos ...</string>
+    <string name="initMessageShort">Esto puede demorar hasta 3 minutos. \N \nEn caso de que haya esperado más de 5 minutos \nHaga clic en CANCELAR \nAbra la aplicación Magisk \nCierre la aplicación Magisk \nAbra esta aplicación y vuelva a intentar la restauración</string>
+    <string name="are_you_rooted">¿Estás enraizado?</string>
+    <string name="are_you_rooted_desc">Asegúrate de otorgar root. Rootear con Magisk si es necesario.</string>
+    <string name="code_error">¡Error de código!</string>
+    <string name="selecting_all">Seleccionando todo</string>
+    <string name="starting_restore">Iniciando restauración</string>
+    <string name="nothing_to_restore">Nada que restaurar</string>
+    <string name="no_metadata_found">No se encontraron metadatos \nFlash un paquete Migrate primero</string>
+    <string name="null_adapter">Adaptador nulo</string>
+    <string name="restore_contacts_dialog_header">Restaurar contactos</string>
+    <string name="proceed">Continuar</string>
+    <string name="reading_package_data">Lectura de datos del paquete</string>
+    <string name="restore_in_different_version_warning">La copia de seguridad original se tomó en una versión diferente de Android. Algunas aplicaciones pueden fallar al restaurar</string>
+    <string name="originating_sdk">SDK de respaldo de origen</string>
+    <string name="current_sdk">SDK actual</string>
+    <string name="force_stop">Parada forzosa</string>
+    <string name="force_stop_alert_title">¿Aplicación de detención forzada?</string>
+    <string name="force_stop_alert_desc">La detención forzada intentará matar toda la aplicación. Si ya presionó Cancelar una vez, espere un momento.</string>
+    <string name="kill_app">Listo, ¡cierra la app!</string>
+    <string name="wait_to_cancel">Espere…</string>
+    <string name="killing_programmatically">Matar programáticamente</string>
+    <string name="use_notification_fix">Notificación arreglada eliminando archivos gms</string>
+
+    
+    <string name="do_not_close">No presione Atrás /Inicio /Recientes ni cierre esta aplicación.</string>
+    <string name="smsPermission">Se necesita permiso de SMS</string>
+    <string name="smsPermission_desc">Permita que esta aplicación sea la aplicación sms predeterminada temporalmente. \N<b> Se le pedirá que cambie a la aplicación sms original después de la restauración.</b> </string>
+    <string name="you_will_not_be_able_to_receive_sms">El asistente de Migrate no se puede configurar como una aplicación de SMS. \N \n        No podrá recibir nuevos mensajes SMS si no cambia la aplicación de mensajería predeterminada.</string>
+    <string name="change">Cambio</string>
+    <string name="leave_as_it_is">Déjalo así</string>
+    <string name="callsPermission">Se requiere permiso de registro de llamadas</string>
+    <string name="callsPermission_desc">Por favor permita escribir registros de llamadas.</string>
+    <string name="scanning">Exploración</string>
+    <string name="dpi_null">El archivo DPI es nulo</string>
+    <string name="dpi_value_not_found">Valor de DPI no encontrado</string>
+    <string name="dpi_will_be_restored_in_the_end">Reinicio necesario para el cambio de DPI</string>
+    <string name="dpi_will_be_restored_in_the_end_desc">El valor de DPI de la pantalla de la copia de seguridad se restaurará una vez que presione el botón OK después de completar la copia de seguridad. Su dispositivo se reiniciará para afectar los cambios \n\n        Presione OK para continuar, Cancelar para omitir por completo el cambio de DPI.</string>
+    <string name="keyboard_null">El archivo del teclado es nulo</string>
+    <string name="keyboard_value_not_found">Valor de teclado no encontrado</string>
+    <string name="keyboard_corrupt">El archivo del teclado está dañado</string>
+    <string name="keyboard_will_be_restored">se establecerá después de restaurar la aplicación</string>
+    <string name="keyboard_not_in_restore_list">no en la lista de restauración</string>
+    <string name="filtering">Filtrado \n</string>
+    <string name="please_do_not_press_back_button">Por favor no presione el botón Atrás.</string>
+
+    
+    <string name="apps_not_installed_title">Las siguientes aplicaciones se eligen para restaurar, pero no se realizó una copia de seguridad ni está instalada actualmente en el dispositivo.</string>
+    <string name="apps_not_installed_desc">Si continúa, estas aplicaciones serán ignoradas. Sin embargo, no perderá sus datos. Tendrá que descargar las aplicaciones de Google Play Store (o en otro lugar) y puede volver a intentar restaurarlas más tarde. No necesita actualizar la copia de seguridad nuevamente.</string>
+
+    
+    <string name="reboot_recommended">¡¡¡¡¡¡¡Cambio de DPI. Reinicio recomendado!!!!!!!</string>
+
+    
+    <string name="done">¡Hecho!</string>
+
+    
+    
+    <string name="new_sms_received">¡Nuevo SMS recibido! Cambie a su aplicación de mensajería predeterminada.</string>
+
+    
+    <string name="please_change_sms_app">\"Migrate helper \" no está destinado a ser utilizado como una aplicación de SMS. Cambia la aplicación de SMS predeterminada</string>
+
+    
+    <string name="no_busybox">¡Busybox no encontrado!</string>
+
+    
+    <string name="loading">Cargando…</string>
+
+    
+    <string name="cancelling">Cancelado…</string>
+    <string name="errorStartingRestore">Error al iniciar la restauración (onStartCommand).</string>
+
+    
+    <string name="packageName">Paquete:</string>
+    <string name="versionName">Nombre de la versión:</string>
+    <string name="installer">Instalador:</string>
+    <string name="play_store">Play Store</string>
+    <string name="f_droid">F-Droid</string>
+    <string name="data_size">Tamaño de datos :</string>
+    <string name="system_size">Tamaño del sistema:</string>
+
+    
+    <string name="path_not_valid_directory">no es un directorio válido</string>
+    <string name="getting_apps">Obteniendo aplicaciones</string>
+    <string name="getting_contacts">Conseguir contactos</string>
+    <string name="getting_sms">Recibiendo sms</string>
+    <string name="getting_calls">Recibiendo llamadas</string>
+    <string name="getting_settings">Obteniendo configuraciones</string>
+    <string name="getting_wifi">Obteniendo detalles de Wifi</string>
+
+    
+    <string name="report_header">Informe a través de Telegram</string>
+    <string name="share_progress_logs">Compartir registros de progreso</string>
+    <string name="share_error_logs">Compartir registros de errores</string>
+    <string name="share_file_lists">Compartir lista de archivos en copia de seguridad</string>
+    <string name="share_raw_lists">Compartir lista de archivos sin procesar</string>
+    <string name="share_script">Compartir guión</string>
+    <string name="share_package_data">Compartir datos del paquete</string>
+    <string name="send_to_tg">Enviar a Telegram</string>
+    <string name="agree_and_send">Acepta y envía</string>
+    <string name="error_report_disclaimer">Gracias por su interés en ayudar a mejorar esta aplicación. A partir de ahora, todos los informes de errores se enviarán a nuestro grupo de Telegram: https://t.me/migrateApp.         Como tal, obtendrá una resolución más rápida de muchas personas en el grupo. \N \n        Al compartir registros, usted acepta<b> EN PÚBLICO</b> compartir alguna información Haga clic en "Aceptar y enviar" para continuar.</string>
+    <string name="what_is_shared">¿Qué se comparte?</string>
+    <string name="shared_desc">Al compartir registros, acepta compartir (públicamente, si está en Telegram): \n\n        - Estado de la aplicación y las restauraciones de datos (sin datos privados). \N         - El nombre de la copia de seguridad. \N         - Algunos detalles de la copia de seguridad, como el número de partes de la copia de seguridad. \N         - Información del dispositivo como la versión de Android. \N \n        Migrate respeta mucho la privacidad de los usuarios. Como tales registros generados durante la copia de seguridad de los contactos, los sms y los registros de llamadas NO SE GRABAN y no se pueden compartir.         No se hace ningún intento intencional para identificar o hacer un uso ilícito de los datos personales de los usuarios. \N \n        En cualquier caso, usted acepta que ni el desarrollador ni la aplicación son responsables de cualquier violación involuntaria de la privacidad. En caso de que sienta que sus registros pueden contener información confidencial, no los comparta. En caso de que ya haya compartido, solicite su eliminación lo antes posible.</string>
+    <string name="not_joined_yet">¿Aún no te has unido a nuestro grupo?</string>
+    <string name="send_logs_using">Enviar registros usando:</string>
+    <string name="log_files_do_not_exist">Los archivos de registro no existen</string>
+    <string name="restore_script_does_not_exist">\"the_restore_script.sh \" no existe</string>
+    <string name="progress_log_does_not_exist">\"progressLog \" no existe</string>
+    <string name="error_log_does_not_exist">\"errorLog \" no existe</string>
+    <string name="package_data_does_not_exist">\"paquete de datos \" no existe</string>
+    <string name="file_lists_does_not_exist">Las listas de archivos no existen</string>
+    <string name="raw_lists_does_not_exist">Las listas de archivos sin formato no existen</string>
+    <string name="tg_not_installed">Nuestro grupo de Telegram ayuda a obtener soluciones rápidas a los problemas.</string>
+    <string name="tg_not_installed_desc">Instala Telegram y únete a nuestro grupo.</string>
+    <string name="install_tg">Instalar Telegram</string>
+    <string name="join_group">Unirse al grupo</string>
+    <string name="use_email_instead">Usar correo electrónico antiguo</string>
+
+    
+    <string name="restoring_sms">Restaurando SMS</string>
+    <string name="restoring_calls">Restaurando llamadas</string>
+    <string name="restoring_adb">Restaurando el estado ADB</string>
+    <string name="restoring_font_scale">Restaurando la escala de fuente</string>
+    <string name="restoring_keyboard">Restaurando teclado</string>
+    <string name="processing_dpi">Procesamiento de DPI</string>
+    <string name="processing_keyboard">Procesamiento de teclado</string>
+    <string name="restoring_wifi">Restaurando Wifi</string>
+    <string name="making_scripts">Hacer guiones</string>
+    <string name="waiting_for_vcf">Esperando la restauración de contactos</string>
+    <string name="restoring_apps">Restaurando aplicaciones</string>
+    <string name="cleaning_up">Limpiando archivos</string>
+    <string name="restoring_settings">Restaurando configuraciones</string>
+    <string name="script_file_does_not_exist">El archivo de script no existe</string>
+    <string name="settings_cancelled">Configuraciones canceladas</string>
+    <string name="smsCalls_cancelled">SMS, llamadas canceladas</string>
+    <string name="restoring_smsCalls_by_addon">Restauración de SMS, llamadas por complemento</string>
+    <string name="init_smsCalls_addon">Complemento de inicialización</string>
+
+    
+    <string name="skip_apps">Saltar todo</string>
+    <string name="continue_">Sáltate estos</string>
+    <string name="refresh">Actualizar</string>
+    <string name="keyboard_not_present">Aplicación de teclado no disponible</string>
+    <string name="keyboard_not_present_desc">La aplicación de teclado no está instalada y tampoco está presente en la restauración. Puede instalar la aplicación desde Play Store o desde otro lugar.</string>
+    <string name="install_from_playstore">Play Store</string>
+    <string name="skip_keyboard">Saltar teclado y continuar</string>
+    <string name="wifiPrepareTitle">Por favor habilite wifi primero</string>
+    <string name="wifiPrepareDesc">Primero habilite Wifi (desde el panel de notificaciones) \n\n        La restauración de Wifi aún no es confiable. Es posible que deba volver a actualizar la copia de seguridad e intentar nuevamente. Por lo general, siempre se restaura en el segundo intento.</string>
+    <string name="skip_wifi">Saltar wifi</string>
+    <string name="settings_root_permission_error">Error de permiso de root del complemento de configuración</string>
+    <string name="grant_root_to_settings_addon">Otorgue acceso de root al complemento Configuración. Puede Abortar ahora, abrir Magisk y otorgar manualmente permiso de root al complemento de configuración de Migrate</string>
+    <string name="skip_settings">Saltar configuraciones</string>
+    <string name="addon_installer_data_null">Los datos del instalador de complementos son nulos. Configuración, SMS, llamadas no serán restauradas.</string>
+    <string name="restore_only_apps">Restaurar solo aplicaciones</string>
+    <string name="addon_not_installed">Complemento no instalado.</string>
+
+    
+    <string name="contacts">Contactos</string>
+    <string name="sms">Mensajes SMS</string>
+    <string name="calls">Registros de llamadas</string>
+    <string name="dpi">DPI de pantalla</string>
+    <string name="keyboard">Teclado predeterminado</string>
+    <string name="applications">Aplicaciones</string>
+    <string name="adb_state">Estado ADB</string>
+    <string name="font_scale">Escala de fuente</string>
+    <string name="wifi">Wifi config. archivo</string>
+    <string name="cancelled_loading">Carga cancelada</string>
+    <string name="cancelled">Cancelado</string>
+
+    
+    <string name="enter_app_name">Nombre de la aplicación /paquete</string>
+    <string name="no_apps">¡No hay aplicaciones disponibles \ncon la búsqueda dada!</string>
+
+    
+    <string name="next">próximo</string>
+    <string name="set_manually">Establecer manualmente</string>
+    <string name="set_manually_desc">Abra la aplicación de SMS haciendo clic en "Establecer manualmente" y configure la aplicación de SMS. Una vez hecho esto, abra esta aplicación nuevamente para realizar los pasos restantes.</string>
+    <string name="reset_sms_app">Restablecer la aplicación de SMS predeterminada</string>
+    <string name="reboot_for_sms">Es posible que deba reiniciar su teléfono para que aparezcan los mensajes restaurados.<b> También es posible que deba borrar los datos de la aplicación sms.</b>  </string>
+    <string name="uninstall_helper_app">Desinstalar /deshabilitar</string>
+    <string name="change_dpi">Cambiar valor de DPI</string>
+    <string name="wifi_was_restored">Wifi fue restaurado. Se necesita reiniciar.</string>
+    <string name="display_density">Densidad de pantalla</string>
+    <string name="reboot_is_necessary">Reiniciar es necesario!</string>
+    <string name="wifi_reboot_is_necessary">Wifi habilitado. Reiniciar es necesario!</string>
+    <string name="uninstall_app">Desinstala esta aplicación</string>
+    <string name="disable_app">Deshabilitar esta aplicación</string>
+    <string name="do_nothing">Solo cierra</string>
+    <string name="change_to">Cambiar a:</string>
+
+    
+    <string name="ignore_read_errors">Ignorar errores de lectura</string>
+    <string name="ignore_read_errors_desc">Esto ignorará todos los errores durante la lectura de archivos de metadatos.</string>
+    <string name="ignore_extras">Ignorar extras</string>
+    <string name="ignore_extras_desc">Esto ignorará por completo la lectura y restauración de extras como contactos, sms, llamadas, DPI, etc.</string>
+    <string name="restore_start_animation">Mostrar cuenta atrás de inicio de restauración</string>
+    <string name="restore_start_animation_desc">Mostrar /ocultar la animación de cuenta regresiva antes de que comience la restauración.</string>
+    <string name="loadIconsInList">Cargar íconos en la lista de aplicaciones</string>
+    <string name="loadIconsInListDesc">Deshabilite esto en caso de desbordamientos de memoria</string>
+    <string name="advanced">Avanzado</string>
+    <string name="remount_data">Remontar datos</string>
+    <string name="remount_data_desc">Esto intenta encontrar y volver a montar /partición de datos como lectura-escritura. Por lo general, esto no es necesario.</string>
+    <string name="install">Instalar en pc</string>
+    <string name="load_extras_on_ui_thread">Cargar extras en la interfaz de usuario</string>
+    <string name="load_extras_on_ui_thread_desc">Solución probable a algunos errores en la pantalla del selector de restauración.</string>
+    <string name="track_restore_finished">Restauración de pista terminada</string>
+    <string name="track_restore_finished_desc">Realice un seguimiento cuando finalice la restauración para evitar reanudar la actividad del programa de progreso. No deshabilite a menos que esté seguro.</string>
+    <string name="remount_all_to_uninstall">Vuelva a montar todo para desinstalar</string>
+    <string name="remove_system_apk">Eliminar apk del sistema (si está presente)</string>
+    <string name="remount_all_to_uninstall_desc">Si la desinstalación falla, vuelva a montar todos los puntos de montaje y vuelva a intentarlo automáticamente.</string>
+    <string name="load_multiple_icons">Cargue varios íconos de aplicaciones.</string>
+    <string name="load_multiple_icons_desc">Esto intentará cargar tantos íconos de aplicaciones como sea posible en la pantalla del selector de aplicaciones. Encenderlo puede provocar bloqueos.</string>
+    <string name="check_low_memory_icons">Verifique la poca memoria antes de cargar iconos</string>
+    <string name="clear_to_reset">Borre y presione OK para restablecer el valor predeterminado</string>
+    <string name="manual_cache">Especificar ruta a migrate_cache</string>
+    <string name="manual_metadata_holder">Especificar ruta al titular de metadatos</string>
+
+    
+    <string name="uninstall_desc">Si no funciona, elimine el directorio anterior.</string>
+    <string name="temporary_disable_desc">La aplicación dejará de dar notificaciones, pero permanecerá instalada.</string>
+    <string name="delete_migrate_cache">Eliminar migrate_cache (recomendado)</string>
+    <string name="reboot">Reiniciar (recomendado)</string>
+
+    
+    <string name="finishing">Refinamiento…</string>
+
+    
+    <string name="select_provider">Por favor seleccione<b> Contactos</b> aplicación si se le pide que haga una selección.</string>
+
+    
+    <string name="notifHeader">¡Paquete de Migrate flasheado!</string>
+    <string name="notifBody">Haga clic para continuar la restauración !!</string>
+    <string name="error">Error</string>
+
+    
+    <string name="error_occurred">¡¡Se produjo un error!!</string>
+
+    
+    <string name="confirm_install_addon">Se deben instalar los siguientes complementos</string>
+    <string name="sms_calls_addon">SMS, complemento de llamadas</string>
+    <string name="sms_calls_addon_desc">Restaura SMS y llamadas.</string>
+    <string name="settings_addon">Complemento de configuración</string>
+    <string name="settings_addon_desc">Restaura ADB, DPI, escala de fuente, teclado</string>
+    <string name="checking_settings_addon_root_access">Comprobación del acceso raíz del complemento de configuración</string>
+    <string name="please_grant_if_prompted">Por favor conceda si se le solicita</string>
+    <string name="info">Informacion</string>
+
+    
+    <string name="no_addon_to_install">¡Sin complemento para instalar!</string>
+    <string name="press_abort_to_cancel">Presione Abortar! cancelar.</string>
+
+    
+    <string name="twrp_zip_files_under">Los archivos zip TWRP se descomprimirán en: \n<b> [Almacenamiento interno] /Migrate /</b> \nReinicia a TWRP y actualiza.</string>
+    <string name="zip_only_helper">Desinstalar solo ayudante</string>
+    <string name="zip_helper_cache">Desinstalar helper migrate_cache</string>
+    <string name="extracted_under">Extraído bajo: [Almacenamiento interno] /Migrate /</string>
+    <string name="unpack_failed">Desempaquetado fallido</string>
+    <string name="use_root_to_unpack">Se ha denegado el permiso de archivo. ¿Usar root?</string>
+
+
+    
+    <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
+    <string name="actionTWRP" translatable="false">Migrate_helper_fix_TWRP</string>
+    <string name="actionRestoreComplete" translatable="false">Migrate_restore_complete</string>
+    <string name="actionRestoreOnProgress" translatable="false">Migrate_restore_progress</string>
+</resources>
