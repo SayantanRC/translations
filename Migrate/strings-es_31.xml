@@ -2,7 +2,7 @@
     tools:ignore="MissingTranslation,ExtraTranslation">
 
 <string name="app_name">Migrate</string>
-    <string name="display_name">@ string /app_name</string>
+    <string name="display_name">@string/app_name</string>
     <string name="gpe_label"></string>
     <string name="current_version_name">3.1.1</string>
     <string name="current_version_codename">Mercurio</string>
@@ -606,7 +606,13 @@
     <string name="want_to_translate">¿Quieres traducir?</string>
     <string name="translation_available_at">El archivo strings.xml está disponible en: \n<a href="https://github.com/SayantanRC/translations"> https://github.com/SayantanRC/translations</a> \norte     Siga las instrucciones README para enviar una traducción.</string>
     <string name="translators">Traductores</string>
-    <string name="translators_list"><b> @Fatih bakeri (@trexfat)</b> : Turco \n<b> @rzlamrr</b> : Indonesia \n<b> @vladrevers</b> : Ruso \n<b> @ atfmxyl, @ dwughjsd</b> : Chino simplificado</string>
+    <string name="translators_list">
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Turco\n
+        <b>@rzlamrr</b>: Indonesia\n
+        <b>@vladrevers</b>: Ruso\n
+        <b>@atfmxyl,@dwughjsd</b>: Chino simplificado\n
+        <b>@Louis_Unnoficial</b>: Portugués (Brasil)
+    </string>
    
     <string name="contr_3.0"><b> @ ivanliao0601, @ joeri9enzz, @iamansingh</b> : Cambios de prueba agregados al flasheo en v3.1 \n<b> @ wojnar0, Jeroen, @bolumstar</b> : Cambios de prueba agregados al parpadeo en v3.0.3 \n<b> @YourFavNigga</b> : Detección incorrecta de aplicaciones de usuario como aplicaciones del sistema. \n<b> Patrick perfectamente III mtl</b> : Proporcionar registros, escribir guías exhaustivas de resolución de problemas ... Básicamente, mantener la aplicación activa hasta ahora. \n<b> Isaac Baihua</b> : Detectando un caso en el que no se está haciendo zip si solo se seleccionan extras. \n<b> @ anoop142 (Anoop)</b> : Hizo la primera versión modificada SAR de la aplicación. Eso ayudó mucho en v3.0 \n<b> @cruzer_blaze (Gokul)</b> : Ayudado en scripts \n<b> @indianets (Vijay)</b> : Hizo el script para restaurar las aplicaciones divididas de manera eficiente \n<b> BillGoss (XDA)</b> : Si no hay awk presente en la recuperación, use busybox awk. \n<b> AndDiSa (XDA)</b> : Corregir corrección sin línea nueva. \n<b> ANKIT</b> : Ayudó a corregir el bloqueo de la aplicación en el cálculo del tamaño \n\n    Obviamente agradezco adecuadamente a todos los miles de usuarios que usan esta aplicación y ayudan a mejorarla. Significas mucho para mí. \n     También un gran agradecimiento a los traductores de la aplicación. Gracias.</string>
     <string name="prev_contri">Colaboradores anteriores</string>
