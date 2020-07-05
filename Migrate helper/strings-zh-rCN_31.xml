@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">Migrate 恢复助手</string>
-    <string name="current_version_name">3.0.1_release</string>
+    <string name="current_version_name">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t3.1.1_release\n\n\n\n\n\n\n\n友情提示:\n\t\t\t\t\t\t\t\t\t如果在这个应用内无法卸载这个应用，以及无法删除 migrate_cache。可以尝试点击"通过twrp来卸载" 来生成卸载卡刷包。</string>
 
     <!--changelog-->
     <string name="changelog">更新日志</string>
@@ -77,7 +77,7 @@
     </string>
     <string name="abort_title">强烈不建议这样做！</string>
     <string name="abort_desc">这可能会导致所有应用无法使用，并且可能需要恢复出厂设置</string>
-    <string name="let_it_continue">令其继续</string>
+    <string name="let_it_continue">仍要继续</string>
     <string name="abort_anyway">无论如何都要中止</string>
     <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
     <string name="change_dpi_and_reboot">Change DPI and reboot?</string>
@@ -336,7 +336,7 @@
     <string name="wifi_reboot_is_necessary">要启用Wi-Fi,需要先重新启动！</string>
     <string name="uninstall_app">卸载此应用</string>
     <string name="disable_app">禁用此应用</string>
-    <string name="do_nothing">就在附近</string>
+    <string name="do_nothing">直接关闭</string>
     <string name="change_to">更改为：</string>
 
     <!--preferences.xml-->

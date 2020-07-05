@@ -4,13 +4,13 @@
     <string name="app_name">Migrate</string>
     <string name="display_name">@string/app_name</string>
     <string name="gpe_label"></string>
-    <string name="current_version_name">3.1</string>
+    <string name="current_version_name">3.1.1</string>
     <string name="current_version_codename">Mercury</string>
     <string name="release_state">release</string>
     <string name="last_tested_label">最后测试:Android 10</string>
 
     <!--about_app.xml-->
-    <string name="made_with_android_studio">用Android Studio 开发</string>
+    <string name="made_with_android_studio">由Android Studio 开发</string>
     <string name="codename">开发代号:</string>
     <string name="version">版本:</string>
     <string name="release_state_label">发布状态:</string>
@@ -249,7 +249,7 @@
     <string name="current_app">当前应用：</string>
     <string name="available_space">可用空间：</string>
     <string name="calculated_total">计算总数:</string>
-    <string name="last_app">Last app:</string>
+    <string name="last_app">剩余 app:</string>
     <string name="insufficient_storage">存储空间不足！</string>
     <string name="long_press_to_force_stop">长按取消以强制停止应用程序</string>
     <string name="required_storage">Migrate 需要更多可用空间:</string>
@@ -354,7 +354,7 @@
     <string name="compared_zip_contents">检验 zip 内容</string>
     <string name="compared_fileList_contents">校验文件列表内容</string>
     <string name="zip_size_too_big">Zip 大小大于最大允许大小。请转到设置->最大Zip大小 进行设置</string>
-    <string name="storing_wifi_data">Storing wifi data</string>
+    <string name="storing_wifi_data">储存 WiFi 数据</string>
     <string name="testing_system">测试系统</string>
     <string name="writing_settings">写入设置</string>
     <string name="making_package_flash_ready">正在制作可刷入的恢复数据包</string>
@@ -421,8 +421,8 @@
     <!--BackupService.java-->
     <string name="error_loading_engine">加载引擎时出错</string>
 
-    <!--MainActivity.java-->
-    <string name="too_fast">哇，太快了！</string>
+    <!--MainActivityKotlin.kt-->
+    <string name="too_fast">哇，太快了！o(*￣▽￣*)ブ</string>
     <string name="too_fast_desc">该应用尚未在高于 9.0 的 Android 版本上进行明确测试。\n\n请提交有关该应用是否可用的反馈。</string>
     <string name="dont_show_again">不再提示</string>
     <string name="dont_show_stock_warning">不再提示</string>
@@ -450,9 +450,9 @@
     <string name="checking_permissions">检查存储权限和 root</string>
     <string name="rate_dialog_title">您的意见很重要</string>
     <string name="rate_dialog_message">如果这个应用程序对您有帮助，请考虑给予五星评分或好评。</string>
-    <string name="sure">当然</string>
-    <string name="later">以后</string>
-    <string name="never_show">不再显示</string>
+    <string name="sure">当然乐意</string>
+    <string name="later">以后再说</string>
+    <string name="never_show">不再提示</string>
     <string name="unsupported_device">不支持的设备</string>
     <string name="cpu_arch_is">您的CPU架构是：</string>
     <string name="currently_supported_cpu">当前仅支持 armeabi-v7a，arm64-v8a，x86，x86_64 CPU 架构。请通过邮件联系作者以帮助支持你的设备。</string>
@@ -524,7 +524,7 @@
     <!--initial_guide_0.xml-->
     <string name="greet1">欢迎使用 Migrate！</string>
     <string name="body_0_0">Migrate 是在各种第三方 ROM 之间轻松转移的重要工具。\n\n它可以帮助您转移应用程序，数据，联系人，短信等等。</string>
-    <string name="body_0_1">Press Next for a short tour.</string>
+    <string name="body_0_1">点击下一步进入应用介绍</string>
 
     <!--initial_guide_1.xml-->
     <string name="greet2">全部备份！</string>
@@ -533,7 +533,7 @@
     <string name="body_1_2">其他附加数据</string>
 
     <!--initial_guide_2.xml-->
-    <string name="greet3">Flash with the ROM!</string>
+    <string name="greet3">和 ROM 一起刷入!</string>
     <string name="body_2_0">Migrate 是在各种第三方 ROM 之间轻松转移的重要工具。\n\n它可以帮助您转移应用程序，数据，联系人，短信等等。</string>
     <string name="body_2_1">启动后，系统会自动提示您继续还原</string>
 
