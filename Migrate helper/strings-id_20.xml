@@ -4,7 +4,7 @@
     <string name="current_version_name">3.0.1_release</string>
 
     <!--activity_main.xml-->
-    <string name="restore_main">Pulihkan aplikadi dan data</string>
+    <string name="restore_main">Pulihkan aplikasi dan data</string>
     <string name="uninstallFromSystem">Copot dari sistem</string>
     <string name="uninstall_or_finalize">Copot app/akhiri pemulihan</string>
     <string name="temporary_disable">Nonaktifkan sementara</string>
@@ -27,7 +27,7 @@
 
     <!--SimpleLogDisplay.java-->
     <string name="no_header">Tanpa tajuk</string>
-    <string name="no_filepath">Tidak ada filepath</string>
+    <string name="no_filepath">Tidak ada jalur file</string>
     <string name="log_reading_error">Kesalahan pembacaan log</string>
 
     <!--MainActivity.java-->
@@ -72,7 +72,7 @@
     <string name="no_addon">Tidak ada add-on</string>
     <string name="denied">Ditolak</string>
     <string name="ok_disable">OK, nonaktifkan</string>
-    <string name="dont_disable">Tidak, jangan nonaktifkna</string>
+    <string name="dont_disable">Tidak, jangan nonaktifkan</string>
     <string name="start">Mulai</string>
 
     <!--restore_progress_layout.xml-->
@@ -100,7 +100,7 @@
     <string name="data">Data</string>
     <string name="perm">Izin</string>
     <string name="extras">Extra</string>
-    <string name="apps">Applikasi</string>
+    <string name="apps">Aplikasi</string>
 
     <!--AppSelector.java-->
     <string name="requesting_root">Meminta root</string>
@@ -156,7 +156,7 @@
     <string name="keyboard_value_not_found">Nilai Keyboard tidak ditemukan</string>
     <string name="keyboard_corrupt">File Keyboard korup</string>
     <string name="keyboard_will_be_restored">akan ditetapkan setelah pemulihan aplikasi</string>
-    <string name="keyboard_not_in_restore_list">tidak ada didftar pemulihan</string>
+    <string name="keyboard_not_in_restore_list">tidak ada didaftar pemulihan</string>
     <string name="filtering">\n</string>
     <string name="please_do_not_press_back_button">jangan tekan tombol kembali.</string>
 
@@ -175,7 +175,7 @@
     <string name="new_sms_received">Ada sms baru! Silakan ubah ke aplikasi pesan default.</string>
 
     <!--ComposeSmsActivity.kt-->
-    <string name="please_change_sms_app">\"Migrate helper\" tidal berarti digunakan untuk aplikasi sms. Silakan ubah aplikasi pesan default</string>
+    <string name="please_change_sms_app">\"Migrate helper\" tidak berarti digunakan untuk aplikasi sms. Silakan ubah aplikasi pesan default</string>
 
     <!--GetAppPackets.kt-->
     <string name="path_not_valid_directory">direktori tidak valid</string>
@@ -284,7 +284,7 @@
     <string name="grant_root_to_settings_addon">Tolong beri akses root ke addon. Anda dapat Batalkan sekarang, buka Magisk dan secara manual memberikan izin root ke Migrasi addon pengaturan</string>
     <string name="skip_settings">Lewati pengaturan</string>
     <string name="addon_installer_data_null">Data pemasang addon null. Pengaturan, SMS, panggilan tidak akan dikembalikan.</string>
-    <string name="restore_only_apps">Hanaya pulihkan aplikasi</string>
+    <string name="restore_only_apps">Hanya pulihkan aplikasi</string>
     <string name="addon_not_installed">Add-on tak terpasang.</string>
 
     <!--RestoreSelectorKotlin.kt-->
@@ -324,7 +324,7 @@
     <!--preferences.xml-->
     <string name="ignore_read_errors">Abaikan eror</string>
     <string name="ignore_read_errors_desc">Ini akan mengabaikan semua kesalahan saat membaca file metadata</string>
-    <string name="ignore_extras">Abaikan ketra</string>
+    <string name="ignore_extras">Abaikan ekstra</string>
     <string name="ignore_extras_desc">Ini sepenuhnya akan mengabaikan pemulihan ekstra seperti kontak, sms, panggilan, DPI dll</string>
     <string name="restore_start_animation">Tampilkan kembalikan hitungan mundur</string>
     <string name="restore_start_animation_desc">Tampilkan/sembunyikan animasi hitung mundur sebelum pemulihan dimulai.</string>
@@ -367,7 +367,7 @@
     <!--install_addons.xml-->
     <string name="confirm_install_addon">Add-ons yang perlu dipasang</string>
     <string name="sms_calls_addon">SMS, panggilan add-on</string>
-    <string name="sms_calls_addon_desc">Memulihkan SMS and paggilan.</string>
+    <string name="sms_calls_addon_desc">Memulihkan SMS and panggilan.</string>
     <string name="settings_addon">Pengaturan add-on</string>
     <string name="settings_addon_desc">Memulihkan ADB, DPI, ukuran Font, Keyboard</string>
     <string name="checking_settings_addon_root_access">Memeriksa akses root add-on</string>
