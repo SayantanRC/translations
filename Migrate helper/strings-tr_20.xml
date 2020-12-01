@@ -360,7 +360,7 @@
     <string name="error">Hata</string>
 
     <!--CommonToolsKotlin.kt-->
-    <string name="error_occurred">Hatq oluştu!!</string>
+    <string name="error_occurred">Hata oluştu!!</string>
 
     <!--install_addons.xml-->
     <string name="confirm_install_addon">Aşağıdaki eklentilerin yüklenmesi gerekiyor</string>
