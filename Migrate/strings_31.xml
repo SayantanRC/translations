@@ -829,10 +829,11 @@
     <string name="translators">Translators</string>
     <string name="translators_list">
         <b>@Fatih Fırıncı(@Trexfat)</b>: Turkish\n
-        <b>@rzlamrr</b>: Indonesia\n
+        <b>@rzlamrr</b>: Indonesian\n
         <b>@vladrevers</b>: Russian\n
         <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese\n
-        <b>@Louis_Unnoficial</b>: Portuguese (Brazil)
+        <b>@Louis_Unnoficial</b>: Portuguese (Brazil)\n
+		<b>Ivor Benderavage (@ivorysoap)</b>: French
     </string>
 
     <!--contributors.xml-->
