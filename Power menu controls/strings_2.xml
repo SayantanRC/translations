@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Power menu controls</string>
+
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Version 1.0</string>
+    <string name="version_1.0_content"># Initial release</string>
+    <string name="version_2.0" >Version 2.0</string>
+    <string name="version_2.0_content">
+        # Add screenshot\n
+        # Add bluetooth toggle\n
+        # Add split screen\n
+        # Add Paytm QR scan for Indian users\n
+        # [Root needed] Add NFC toggle\n
+        # [Root needed] Add Data toggle\n
+        # Add Preferences screen\n
+        # Link added to help with translations\n
+        # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
+        # Update status when changed from long pressing the control\n
+    </string>
+
+    <string name="settings_structure">Phone settings</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Brightness</string>
+    <string name="brightness_desc">Screen brightness</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Auto brightness</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Flash torch</string>
+    <string name="flash_desc">Flash as torch</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Total silence</string>
+    <string name="total_silence_desc">Disable all sound</string>
+    <string name="do_not_disturb_active">DND active!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Screen timeout</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Rotation lock</string>
+    <string name="rotation_lock_desc">Lock orientation</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Wake lock</string>
+    <string name="wakelock_desc">Keep screen awake</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Media volume</string>
+    <string name="media_volume_desc">Music stream vol.</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Alarm volume</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Ringtone volume</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Battery percentage</string>
+    <string name="battery_desc">Battery percentage, battery saver state</string>
+    <string name="charging">Charging</string>
+    <string name="discharging">Discharging</string>
+    <string name="battery_saver">Battery saver</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (India)</string>
+    <string name="scan_and_pay">Scan QR and pay</string>
+    <string name="loading">Loading… Please wait</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Screenshot</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Hold for options</string>
+    <string name="please_wait">Please wait…</string>
+
+    <!--Data.kt-->
+    <string name="data">Data</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Enter split screen</string>
+    <string name="split_screen">Split screen</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Toggle bluetooth. No root needed.</string>
+
+    <string name="muted">Muted</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Generic control</string>
+    <string name="generic_control_desc">Generic control description</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Modify system permission needed.</string>
+    <string name="modify_system_permission_desc">Click \"Proceed\" to open settings and grant permission.</string>
+    <string name="overlay_permission">Overlay permission needed.</string>
+    <string name="overlay_permission_desc">Click \"Proceed\" to grant permission to draw over other apps.</string>
+    <string name="battery_inaccurate">Battery service may be inaccurate.</string>
+    <string name="battery_inaccurate_desc">Battery percentages, battery saver state, charging state shown by the control may not be correct for all devices from all manufacturers.\n\n
+        This control cannot toggle battery savings mode. Please long press on it to open settings and toggle it.\n\n
+        Click \"Proceed\" to enable this toggle.</string>
+    <string name="proceed">Proceed</string>
+    <string name="rate_dialog_title">Your opinion is important</string>
+    <string name="rate_dialog_message">If this app has helped you, please consider giving a rating and/or a review.</string>
+    <string name="sure">Sure</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="specific_apps">Quick apps</string>
+    <string name="specific_apps_disclaimer">The apps listed below belong to the respective organizations/developers.\nThese apps maybe removed in future if requested by the app developers or Google.\n
+    </string>
+    <string name="request_accessibility">Enable accessibility service.</string>
+    <string name="request_accessibility_desc">Without this permission, the app screen is blocked.\n\nClick \"Proceed\" to open settings and grant permission.</string>
+    <string name="paytm_not_installed">Paytm app is not installed.</string>
+    <string name="kindly_install_from_store">Kindly install from Google Play Store.</string>
+    <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
+    <string name="screenshot_accessibility_desc">Without this permission, cannot send request to system to capture screen.</string>
+    <string name="split_screen_accessibility_desc">We can only request split screen with this permission.</string>
+    <string name="root_options">Root options</string>
+    <string name="root_options_desc">Useful for people with rooted devices.\n<b>If you are NOT rooted, many of the below options can be long pressed in power menu for further options.</b></string>
+    <string name="root_not_available">Root not available or permission denied!</string>
+    <string name="nfc_no_root">You can long press the NFC control to open settings and manually toggle NFC.</string>
+    <string name="data_no_root">You can long press the Data control to open Data usage page and manually turn it on.</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Permissions</string>
+    <string name="can_write">Can modify settings</string>
+    <string name="can_overdraw">Can draw over apps</string>
+    <string name="accessibility_granted">Accessibility granted</string>
+
+    <!--menu.xml-->
+    <string name="about">About</string>
+    <string name="translate">Contribute to translation</string>
+    <string name="app_intro">App intro</string>
+    <string name="rate_app">Rate app</string>
+    <string name="changelog">Changelog</string>
+    <string name="contact_telegram">Contact on Telegram</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Want to translate?</string>
+    <string name="translation_available_at">The strings.xml file is available at:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Follow the README instructions to submit a translation.
+    </string>
+    <string name="translators">Translators</string>
+    <string name="translators_list">
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Hello!</string>
+    <string name="desc_0_0">This is a short tour on how to use this app!</string>
+    <string name="desc_0_1">Click next to proceed. Or skip to close this tutorial. You can always watch this later.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Step 1: Select the controls</string>
+    <string name="desc_1_0">In the main screen of the app, select the controls you need</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Step 2: Add to power menu</string>
+    <string name="desc_2_0">1. Long press power button.</string>
+    <string name="desc_2_0_0">If you have never added a control before, click the highlighted blue box area</string>
+    <string name="desc_2_0_1">Then go to Step 4.</string>
+    <string name="desc_2_1_0">If some controls are already present:</string>
+    <string name="desc_2_1">2. Click the 3 dot menu.</string>
+    <string name="desc_2_2">3. Click "Add controls"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Step 3: Add to power menu</string>
+    <string name="desc_3_0">Click Other apps</string>
+    <string name="desc_3_1">This screen will only appear if you already have added some controls to power menu before installing this app. Else proceed to next step.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Step 4: Enable controls</string>
+    <string name="desc_4_0">1. Click this app name</string>
+    <string name="desc_4_1">2. Check the boxes of the controls.</string>
+    <string name="desc_4_2">3. Finally, click Save.</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Done!</string>
+    <string name="desc_5_0">You can now go back to home screen. If you long press power menu, you should see the controls.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Made with Android Studio</string>\
+    <string name="version">Version:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Preferences</string>
+    <string name="brightness_algo">Brightness slider algorithm</string>
+    <string-array name="brighness_algo_values">
+        <item>Linear</item>
+        <item>Logarithmic</item>
+    </string-array>
+    <string name="screenshot_delay">Screenshot delay (in milli-seconds)</string>
+    <string name="split_screen_delay">Split screen delay (in milli-seconds)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">Auto wakelock off</string>
+    <string name="turn_off_wakelock_desc">Turn off wakelock if screen is manually turned off.</string>
+    
+</resources>
