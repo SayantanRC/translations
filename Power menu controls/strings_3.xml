@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Power menu controls</string>
-
     <string name="current_version_name">2.0</string>
 
     <!--changelog-->
@@ -14,7 +12,11 @@
         # Add Paytm QR scan for Indian users\n
         # [Root needed] Add NFC toggle\n
         # [Root needed] Add Data toggle\n
+        # Add Message center for important announcements.\n
         # Add Preferences screen\n
+        # Link to XDA page\n
+        # [Bug fix] App crash on Total silence in DND\n
+        # [Bug fix] Ringtone not muting\n
         # Link added to help with translations\n
         # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
         # Update status when changed from long pressing the control\n
@@ -135,6 +137,8 @@
     <string name="root_not_available">Root not available or permission denied!</string>
     <string name="nfc_no_root">You can long press the NFC control to open settings and manually toggle NFC.</string>
     <string name="data_no_root">You can long press the Data control to open Data usage page and manually turn it on.</string>
+    <string name="new_message">New message received!</string>
+    <string name="view">View</string>
 
 
     <!--header_view.xml-->
@@ -150,6 +154,7 @@
     <string name="rate_app">Rate app</string>
     <string name="changelog">Changelog</string>
     <string name="contact_telegram">Contact on Telegram</string>
+    <string name="check_on_xda">Checkout on XDA</string>
 
     <!--translation_layout.xml-->
     <string name="want_to_translate">Want to translate?</string>
@@ -221,5 +226,10 @@
     </string-array>
     <string name="turn_off_wakelock">Auto wakelock off</string>
     <string name="turn_off_wakelock_desc">Turn off wakelock if screen is manually turned off.</string>
-    
+
+    <!--messages_activity.xml-->
+    <string name="messages">Messages / Announcements</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">No messages!</string>    
 </resources>
