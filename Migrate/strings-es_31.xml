@@ -99,7 +99,12 @@
         \u2022 La copia de seguridad por Wifi está deshabilitada hasta que se estabilice.\n
     </string>
     <string name="version_3.0.1">Version 3.0.1</string>
-    <string name="version_3.0.1_content">\u2022 Solución probable a la congelación en el cálculo del tamaño de la aplicación \n        \u2022 Agregar traducción al turco (@Trexfat) \n        \u2022 Añadir traducción al ruso (@vladrevers) \n        \u2022 Añadir traducción al indonesio (@rzlamrr) \n        \u2022 Añadir traducción al chino simplificado (@ atfmxyl, @ dwughjsd) \n</string>
+    <string name="version_3.0.1_content">        \u2022 Probable solución a la congelación en el cálculo del tamaño de la aplicación\n
+        \u2022 - Añadir traducción al turco (@Trexfat)\n
+        \u2022 Añadir la traducción al ruso (@vladrevers)\n
+        \u2022 Añadir traducción al indonesio (@rzlamrr)\n
+        \u2022 Añadir la traducción al chino simplificado (@atfmxyl,@dwughjsd)\n
+    </string>
     <string name="version_3.0.3">Version 3.0.3</string>
     <string name="version_3.0.3_content">\u2022 Cambios para que la aplicación cumpla con las políticas de Google Play. \n        \u2022 Eliminar método alternativo para el cálculo del tamaño de la aplicación debajo de Android Nougat. \n        \u2022 Solución probable a No se encontraron metadatos después de la restauración. \n        \u2022 Algunas otras correcciones. \n</string>
     <string name="version_3.1">Versión 3.1</string>
@@ -595,7 +600,9 @@
     <string name="privacy_policy_footer">Eso es todo. Disfruta usando la aplicación. No dude en ponerse en contacto conmigo en Telegram. \n- SayantanRC</string>
     <!--translation_layout.xml-->
     <string name="want_to_translate">¿Quieres traducir?</string>
-    <string name="translation_available_at">El archivo strings.xml está disponible en: \n<a href="https://github.com/SayantanRC/translations"> https://github.com/SayantanRC/translations</a> \norte     Siga las instrucciones README para enviar una traducción.</string>
+    <string name="translation_available_at">El archivo strings.xml está disponible en:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Siga las instrucciones del README para enviar una traducción.
+    </string>
     <string name="translators">Traductores</string>
     <string name="translators_list">        <b>Peter Cuevas (@peter9811)</b>: Español\n
         <b>@Fatih Fırıncı (@Trexfat)</b>: Turco\n
@@ -606,7 +613,20 @@
         <b>Ivor Benderavage (@ivorysoap)</b>: Francés
     </string>
     <!--contributors.xml-->
-    <string name="contr_3.0"><b> @ ivanliao0601, @ joeri9enzz, @iamansingh</b> : Cambios de prueba agregados al flasheo en v3.1 \n<b> @ wojnar0, Jeroen, @bolumstar</b> : Cambios de prueba agregados al parpadeo en v3.0.3 \n<b> @YourFavNigga</b> : Detección incorrecta de aplicaciones de usuario como aplicaciones del sistema. \n<b> Patrick perfectamente III mtl</b> : Proporcionar registros, escribir guías exhaustivas de resolución de problemas ... Básicamente, mantener la aplicación activa hasta ahora. \n<b> Isaac Baihua</b> : Detectando un caso en el que no se está haciendo zip si solo se seleccionan extras. \n<b> @ anoop142 (Anoop)</b> : Hizo la primera versión modificada SAR de la aplicación. Eso ayudó mucho en v3.0 \n<b> @cruzer_blaze (Gokul)</b> : Ayudado en scripts \n<b> @indianets (Vijay)</b> : Hizo el script para restaurar las aplicaciones divididas de manera eficiente \n<b> BillGoss (XDA)</b> : Si no hay awk presente en la recuperación, use busybox awk. \n<b> AndDiSa (XDA)</b> : Corregir corrección sin línea nueva. \n<b> ANKIT</b> : Ayudó a corregir el bloqueo de la aplicación en el cálculo del tamaño \n\n    Obviamente agradezco adecuadamente a todos los miles de usuarios que usan esta aplicación y ayudan a mejorarla. Significas mucho para mí. \n     También un gran agradecimiento a los traductores de la aplicación. Gracias.</string>
+    <string name="contr_3.0">        <b>@ivanliao0601, @joeri9enzz, @iamansingh</b>: Cambios de prueba añadidos al flasheo en la v3.1\n
+        <b>@wojnar0, Jeroen, @bolumstar</b>: Cambios de prueba añadidos al flasheo en la v3.0.3\n
+        <b>@YourFavNigga</b>: Detección errónea de las apps de usuario como apps del sistema.\n
+        <b>Patrick Perfectly III mtl</b>: Proporcionando logs, escribiendo exhaustivas guías de solución de problemas... Básicamente manteniendo la aplicación viva hasta ahora.\n
+        <b>Isaac Baihua</b>: Detectando un caso en el que el zip no se está haciendo si sólo se seleccionan los extras.\n
+        <b>@anoop142 (Anoop)</b>: Realizada la primera versión modificada por SAR de la app. Eso ayudó mucho en la v3.0\n
+        <b>@cruzer_blaze (Gokul)</b>: Ayudó en los scripts\n
+        <b>@indianets (Vijay)</b>: Hizo el script para restaurar apks divididos de manera eficiente\n
+        <b>BillGoss(XDA)</b>: Si no hay awk presente en el recovery, por lo tanto usa busybox awk.\n
+        <b>AndDiSa(XDA)</b>: Corregir la corrección de no-newline.\n
+        <b>ANKIT</b>: Ayudó a arreglar el cuelgue de la aplicación en el cálculo del tamaño\n\n
+    Obviamente agradezco adecuadamente a todos los miles de usuarios que usan esta app y ayudan a mejorarla. Significáis mucho para mí.\n
+    También un enorme agradecimiento a los traductores de la app. Gracias.
+    </string>
     <string name="prev_contri">Colaboradores anteriores</string>
     <string name="thanks_to_stericson">Muchas gracias a Stephen (stericdroid) por permitirme usar libremente sus compilaciones de busybox</string>
     <string name="thanks_to_magisk">Sin el Magisk de topjohnwu, esta aplicación no sería posible. Aprendí mucho de los scripts de instalación de Magisk.</string>
