@@ -1,0 +1,237 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog--> <!-- original translate -->
+    <string name="version_1.0" >Version 1.0</string>
+    <string name="version_1.0_content"># Initial release</string>
+    <string name="version_2.0" >Version 2.0</string>
+    <string name="version_2.0_content">
+        # Add screenshot\n
+        # Add bluetooth toggle\n
+        # Add split screen\n
+        # Add Paytm QR scan for Indian users\n
+        # [Root needed] Add NFC toggle\n
+        # [Root needed] Add Data toggle\n
+        # Add Message center for important announcements.\n
+        # Add Preferences screen\n
+        # Link to XDA page\n
+        # [Bug fix] App crash on Total silence in DND\n
+        # [Bug fix] Ringtone not muting\n
+        # Link added to help with translations\n
+        # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
+        # Update status when changed from long pressing the control\n
+    </string>
+
+    <string name="settings_structure">Налаштування телефону</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Яскравість</string>
+    <string name="brightness_desc">Яскравість екрану</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Автоматична яскравість</string>
+    <string name="enabled">Увімкнено</string>
+    <string name="disabled">Вимкнено</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Ліхтарик</string>
+    <string name="flash_desc">Ліхтарик спалахом</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Повна тиша</string>
+    <string name="total_silence_desc">Вимкнути всі звуки</string>
+    <string name="do_not_disturb_active">Увімкнено \"Не турбувати\"!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Час вимкнення екрану</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Вимкнути автоповорот</string>
+    <string name="rotation_lock_desc">Не змінювати орієнтацію екрану</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Блокування сплячого режиму</string>
+    <string name="wakelock_desc">Не вимикати екран</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Гучність музики</string>
+    <string name="media_volume_desc">Громкость музыкального потока</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Гучність будильника</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Гучність рингтону</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Відсоток заряду батареї</string>
+    <string name="battery_desc">Відсоток заряду батареї, стан енергозбереження</string>
+    <string name="charging">Зарядка</string>
+    <string name="discharging">Розрядження</string>
+    <string name="battery_saver">Режим енергозбереження</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (India)</string>
+    <string name="scan_and_pay">Відсканувати QR і оплатити</string>
+    <string name="loading">Завантаження</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Скріншот</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Утримуйте для відображення варіантів</string>
+    <string name="please_wait">Будь ласка почекайте…</string>
+
+    <!--Data.kt-->
+    <string name="data">Дані</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Перейти в режим розділення екрану</string>
+    <string name="split_screen">Розділити екран</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Перемикач bluetooth. Немає необхідності в root-доступі.</string>
+
+    <string name="muted">Приглушено</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Загальні елементи керування</string> <!-- Not sure if this is correct -->
+    <string name="generic_control_desc">Опис загальних елементів керування</string> <!-- Not sure if this is correct -->
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Необхідний дозвіл на зміну налаштувань системи.</string>
+    <string name="modify_system_permission_desc">Натисніть кнопку \"Продовжити\", щоб відкрити налаштування та надати дозвіл.</string>
+    <string name="overlay_permission">Необхідний дозвіл на показ поверх додатків.</string>
+    <string name="overlay_permission_desc">Натисніть кнопку \"Продовжити\", щоб надати дозвіл на показ поверх додатків.</string>
+    <string name="battery_inaccurate">Сервіс батареї може бути неточним.</string>
+    <string name="battery_inaccurate_desc">Відсоток заряду батареї, стан енергозбереження та зарядки, що відображається елементом управління, може бути правильним не для всіх пристроїв і виробників.\n\n
+        Цей елемент керування не може перемикати режим економії заряду батареї. Будь ласка, довго натискайте на нього, щоб самостійно переключити в Налаштуваннях.\n\n
+        Натисніть кнопку \"Продовжити\", щоб увімкнути цей перемикач.</string>
+    <string name="proceed">Продовжити</string>
+    <string name="rate_dialog_title">Мені важлива ваша думка.</string>
+    <string name="rate_dialog_message">Якщо цей додаток допоміг вам, подумайте про те, щоб поставити йому оцінку або залишити відгук.</string>
+    <string name="sure">Так, звичайно</string>
+    <string name="thank_you">Дякую!</string>
+    <string name="specific_apps">Швидкі додатки</string>
+    <string name="specific_apps_disclaimer">Перелічені нижче додатки належать відповідним організаціям/розробникам.\nЦі додатки можуть бути видалені в майбутньому, за запитом їх розробників або самостійно компанією Google.\n
+    </string>
+    <string name="request_accessibility">Увімкніть сервіс спеціальних можливостей.</string>
+    <string name="request_accessibility_desc">Без цього дозволу блокується екран додатку.\n\nНатисніть кнопку \"Продовжити\", щоб відкрити налаштування і надати дозвіл.</string> <!-- Not sure if this is correct -->
+    <string name="paytm_not_installed">Додаток Paytm не встановлено.</string>
+    <string name="kindly_install_from_store">Будь ласка, встановіть його з Google Play Store.</string>
+    <!--<string name="google_lens_not_installed">Google Lens не установлен.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) не установлен.</string>-->
+    <string name="screenshot_accessibility_desc">Без цього дозволу неможливо надіслати запит до системи на отримання знімку екрану.</string>
+    <string name="split_screen_accessibility_desc">Додаток може запросити поділ екрану тільки з цим дозволом.</string>
+    <string name="root_options">Параметри з root-доступом</string>
+    <string name="root_options_desc">Корисно для людей з root-доступом на пристрої.\n<b>Якщо у вас немає root-доступу, багато з наведених нижче параметрів можна відкрити тривалим натисканням по ним в меню живлення, для отримання додаткових параметрів.</b></string>
+    <string name="root_not_available">Немає або відмовлено в root-доступі!</string>
+    <string name="nfc_no_root">Ви можете утримувати кнопку управління NFC, щоб перейти в системні налаштування і самостійно перемкнути стан NFC.</string>
+    <string name="data_no_root">Ви можете утримувати кнопку управління даними, щоб перейти в системні налаштування і самостійно ввімкнути використання даних (мобільний інтернет).</string>
+    <string name="new_message">Отримано нове повідомлення!</string>
+    <string name="view">Переглянути</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Дозволи</string>
+    <string name="can_write">Зміна налаштувань системи</string>
+    <string name="can_overdraw">Показ поверх додатків</string>
+    <string name="accessibility_granted">Сервіс спеціальних можливостей працює</string>
+
+    <!--menu.xml-->
+    <string name="about">Про додаток</string>
+    <string name="translate">Брати участь у перекладі</string>
+    <string name="app_intro">Вступний екран</string>
+    <string name="rate_app">Оцінити додаток</string>
+    <string name="changelog">Перелік змін</string>
+    <string name="contact_telegram">Зв'язатися через Telegram</string>
+    <string name="check_on_xda">Перевірити XDA</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Хочете перекласти на свою мову?</string>
+    <string name="translation_available_at">Файл strings.xml доступний за посиланням:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Щоб відправити свій переклад дотримуйтесь інструкції в README.
+    </string>
+    <string name="translators">Перекладачі</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Іспанська\n
+        <b>@vladrevers</b>: Російська, Українська\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Пропустити</string>
+    <string name="finish">Готово</string>
+    <string name="next">Далі</string>
+    <string name="prev">Назад</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Привіт!</string>
+    <string name="desc_0_0">Це короткий огляд використання додатку</string>
+    <string name="desc_0_1">Натисніть \"Далі\", щоб продовжити. Або \"Пропустити\", щоб закрити цей урок. Ви завжди зможете повернутися до його перегляду.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Крок 1. Виберіть елементи керування</string>
+    <string name="desc_1_0">На основному екрані додатку виберіть потрібні елементи керування</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Крок 2: Додати пункти в меню живлення</string>
+    <string name="desc_2_0">1. Натисніть і утримуйте кнопку живлення.</string>
+    <string name="desc_2_0_0">Якщо ви ніколи раніше не додавали елемент управління, натисніть по виділеній синім області краю.</string> <!-- Not sure if this is correct -->
+    <string name="desc_2_0_1">Потім перейдіть до кроку 4.</string>
+    <string name="desc_2_1_0">Якщо деякі елементи керування вже присутні:</string>
+    <string name="desc_2_1">1. Натисніть кнопку меню (у вигляді трьох крапок)</string>
+    <string name="desc_2_2">2. Натисніть кнопку \"Додати елементи керування\"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Крок 3: Додати в меню живлення</string>
+    <string name="desc_3_0">Натисніть "Інші додатки"</string>
+    <string name="desc_3_1">Цей екран з'явиться якщо ви вже додавали деякі елементи управління в меню живлення, перед установкою цього додатка. В іншому випадку переходьте до наступного кроку.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Крок 4: ввімкнення елементів керування</string>
+    <string name="desc_4_0">1. Натисніть на назву цього додатка</string>
+    <string name="desc_4_1">2. Установіть прапорці на панелі керування</string>
+    <string name="desc_4_2">3. Натисніть кнопку \"Зберегти\"</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Готово!</string>
+    <string name="desc_5_0">Тепер ви можете повернутися на основний екран додатку. Якщо ви будете утримувати кнопку живлення, ви повинні побачити елементи управління.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Зроблено в Android Studio</string>\
+    <string name="version">Версія:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Налаштування</string>
+    <string name="brightness_algo">Алгоритм повзунка яскравості</string>
+    <string-array name="brighness_algo_values">
+        <item>Лінійний</item>
+        <item>Логарифмічний</item>
+    </string-array>
+    <string name="screenshot_delay">Затримка зняття скріншоту (в мілісекундах)</string>
+    <string name="split_screen_delay">Затримка розділення екрана (в мілісекундах)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">Автоматичне відключення блокування сплячого режиму</string>
+    <string name="turn_off_wakelock_desc">Відключати блокування сплячого режиму, якщо екран вимкнено самостійно.</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Повідомлення / Оголошення</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Немає повідомлень!</string>    
+</resources>
