@@ -1,0 +1,237 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog--> <!-- original translate -->
+    <string name="version_1.0" >Version 1.0</string>
+    <string name="version_1.0_content"># Initial release</string>
+    <string name="version_2.0" >Version 2.0</string>
+    <string name="version_2.0_content">
+        # Add screenshot\n
+        # Add bluetooth toggle\n
+        # Add split screen\n
+        # Add Paytm QR scan for Indian users\n
+        # [Root needed] Add NFC toggle\n
+        # [Root needed] Add Data toggle\n
+        # Add Message center for important announcements.\n
+        # Add Preferences screen\n
+        # Link to XDA page\n
+        # [Bug fix] App crash on Total silence in DND\n
+        # [Bug fix] Ringtone not muting\n
+        # Link added to help with translations\n
+        # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
+        # Update status when changed from long pressing the control\n
+    </string>
+
+    <string name="settings_structure">Настройки устройства</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Яркость</string>
+    <string name="brightness_desc">Яркость экрана</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Автоматическая яркость</string>
+    <string name="enabled">Вкл</string>
+    <string name="disabled">Выкл.</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Фонарик</string>
+    <string name="flash_desc">Фонарик вспышкой</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Полная тишина</string>
+    <string name="total_silence_desc">Отключить все звуки</string>
+    <string name="do_not_disturb_active">Включено \"Не беспокоить\"!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Время отключения экрана</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Отключить автоповорот</string>
+    <string name="rotation_lock_desc">Не менять ориентацию экрана</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Блокировка сна</string>
+    <string name="wakelock_desc">Не отключать экран</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Громкость музыки</string>
+    <string name="media_volume_desc">Громкость музыкального потока</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Громкость будильника</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Громкость рингтона</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Процент заряда батареи</string>
+    <string name="battery_desc">Процент заряда батареи, состояние энергосбережения</string>
+    <string name="charging">Идет зарядка</string>
+    <string name="discharging">Разряжение</string>
+    <string name="battery_saver">Режим энергосбережения</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (India)</string>
+    <string name="scan_and_pay">Отсканировать QR и оплатить</string>
+    <string name="loading">Загрузка…</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Скриншот</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Удерживайте для отображения вариантов</string>
+    <string name="please_wait">Пожалуйста подождите…</string>
+
+    <!--Data.kt-->
+    <string name="data">Данные</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Перейти в режим разделения экрана</string>
+    <string name="split_screen">Разделить экран</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Переключатель bluetooth. Нет необходимости в root-доступе.</string>
+
+    <string name="muted">Приглушенно</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Общие элементы управления</string> <!-- Not sure if this is correct -->
+    <string name="generic_control_desc">Описание общих элементов управления</string> <!-- Not sure if this is correct -->
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Необходимо разрешение на изменение системных настроек.</string>
+    <string name="modify_system_permission_desc">Нажмите кнопку \"Продолжить\", чтобы открыть настройки и предоставить разрешение.</string>
+    <string name="overlay_permission">Необходимо разрешение на отображение поверх других приложений.</string>
+    <string name="overlay_permission_desc">Нажмите кнопку \"Продолжить\", чтобы предоставить разрешение на отображение поверх других приложений.</string>
+    <string name="battery_inaccurate">Сервис батареи может быть неточным.</string>
+    <string name="battery_inaccurate_desc">Процент заряда батареи, состояние энергосбережения и зарядки, отображаемое элементом управления, может быть правильным не для всех устройств и производителей.\n\n
+        Этот элемент управления не может переключать режим экономии заряда батареи. Пожалуйста, долго нажимайте на него, чтобы вручную переключить в настройках.\n\n
+        Нажмите кнопку \"Продолжить\", чтобы включить этот переключатель.</string>
+    <string name="proceed">Продолжить</string>
+    <string name="rate_dialog_title">Мне важно ваше мнение.</string>
+    <string name="rate_dialog_message">Если это приложение помогло вам, подумайте о том, чтобы поставить оценку или оставить отзыв.</string>
+    <string name="sure">Да, конечно</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="specific_apps">Быстрые приложения</string>
+    <string name="specific_apps_disclaimer">Перечисленные ниже приложения принадлежат соответствующим организациям/разработчикам.\nЭти приложения могут быть удалены в будущем, по запросу их разработчиков или самостоятельно компанией Google.\n
+    </string>
+    <string name="request_accessibility">Включите сервис специальных возможностей.</string>
+    <string name="request_accessibility_desc">Без этого разрешения блокируется экран приложения.\n\nНажмите кнопку \"Продолжить\", чтобы открыть настройки и предоставить разрешение.</string> <!-- Not sure if this is correct -->
+    <string name="paytm_not_installed">Приложение Paytm не установлено.</string>
+    <string name="kindly_install_from_store">Пожалуйста, установите его из Google Play Store.</string>
+    <!--<string name="google_lens_not_installed">Google Lens не установлен.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) не установлен.</string>-->
+    <string name="screenshot_accessibility_desc">Без этого разрешения невозможно отправить запрос в систему на получение снимка экрана.</string>
+    <string name="split_screen_accessibility_desc">Приложение может запросить разделение экрана только с этим разрешением.</string>
+    <string name="root_options">Параметры с root-доступом</string>
+    <string name="root_options_desc">Полезно для людей с root-доступом на устройстве.\n<b>Если у вас НЕТ root-доступа, многие из приведенных ниже параметров можно открыть длительным нажатием по ним в меню питания, для получения дополнительных параметров.</b></string>
+    <string name="root_not_available">Нет или отказано в root-доступе!</string>
+    <string name="nfc_no_root">Вы можете удерживать кнопку управления NFC, чтобы перейти в системные настройки и вручную переключить состояние NFC.</string>
+    <string name="data_no_root">Вы можете удерживать кнопку управления данными, чтобы перейти в системные настройки и вручную включить передачу данных.</string>
+    <string name="new_message">Получено новое сообщение!</string>
+    <string name="view">Посмотреть</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Разрешения</string>
+    <string name="can_write">Изменения системных настроек</string>
+    <string name="can_overdraw">Отображения поверх других приложений</string>
+    <string name="accessibility_granted">Используется сервис спец. возможностей</string>
+
+    <!--menu.xml-->
+    <string name="about">О приложении</string>
+    <string name="translate">Участвовать в переводе</string>
+    <string name="app_intro">Вступительный экран</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="changelog">Список изменений</string>
+    <string name="contact_telegram">Связаться через Telegram</string>
+    <string name="check_on_xda">Проверить XDA</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Хотите перевести на свой язык?</string>
+    <string name="translation_available_at">Файл strings.xml доступен по адресу:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Чтобы отправить свой перевод следуйте инструкции в README.
+    </string>
+    <string name="translators">Переводчики</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Испанский\n
+        <b>@vladrevers</b>: Русский, Украинский\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Пропустить</string>
+    <string name="finish">Готово</string>
+    <string name="next">Далее</string>
+    <string name="prev">Назад</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Привет!</string>
+    <string name="desc_0_0">Это краткий обзор использования этого приложения</string>
+    <string name="desc_0_1">Нажмите \"Далее\", чтобы продолжить. Или \"Пропустить\", чтобы закрыть этот урок. Вы всегда сможете вернуться к его просмотру.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Шаг 1. Выберите элементы управления</string>
+    <string name="desc_1_0">На главном экране приложения выберите нужные элементы управления</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Шаг 2: Добавить пункты в меню питания</string>
+    <string name="desc_2_0">1. Нажмите и удерживайте кнопку питания.</string>
+    <string name="desc_2_0_0">Если вы никогда раньше не добавляли элемент управления, нажмите по выделенную синим область поля.</string> <!-- Not sure if this is correct -->
+    <string name="desc_2_0_1">Затем переходите к шагу 4.</string>
+    <string name="desc_2_1_0">Если некоторые элементы управления уже присутствуют:</string>
+    <string name="desc_2_1">1. Нажмите кнопку меню (в виде трёх точек)</string>
+    <string name="desc_2_2">2. Нажмите кнопку \"Добавить элементы управления\"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Шаг 3: Добавить в меню питания</string>
+    <string name="desc_3_0">Нажмите \"Другие приложения\"</string>
+    <string name="desc_3_1">Этот экран появится если вы уже добавляли некоторые элементы управления в меню питания, перед установкой этого приложения. В противном случае переходите к следующему шагу.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Шаг 4: Включение элементов управления</string>
+    <string name="desc_4_0">1. Нажмите на название этого приложения</string>
+    <string name="desc_4_1">2. Установите флажки на панели управления</string>
+    <string name="desc_4_2">3. Нажмите кнопку \"Сохранить\"</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Готово!</string>
+    <string name="desc_5_0">Теперь вы можете вернуться на главный экран. Если вы будете удерживать кнопку питания, вы должны увидеть элементы управления.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Сделано в Android Studio</string>\
+    <string name="version">Версия:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Настройки</string>
+    <string name="brightness_algo">Алгоритм ползунка яркости</string>
+    <string-array name="brighness_algo_values">
+        <item>Линейный</item>
+        <item>Логарифмический</item>
+    </string-array>
+    <string name="screenshot_delay">Задержка снятия скриншота (в миллисекундах)</string>
+    <string name="split_screen_delay">Задержка разделения экрана (в миллисекундах)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">Автоматическое отключения блокировки сна</string>
+    <string name="turn_off_wakelock_desc">Отключать блокировку сна, если экран выключен вручную.</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Сообщения / Объявления</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Нет сообщений!</string>    
+</resources>
