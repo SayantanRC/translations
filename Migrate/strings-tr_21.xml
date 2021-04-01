@@ -367,7 +367,7 @@
     </string>
     <string name="backup_activity_help_1">
         \n
-        Önceden, bir uygulamanın <b>Veri</b>lerini seçmek <b>Uygulama</b>yı da yedeklemeniz gerektiği anlamına geliyordu. Artık durum böyle değil. Ayrıca, Migrate artık yedekleme için seçilen uygulamaları hatırlıyor. <b>Uygulama</b>yı değil bir uygulamanın <b>Veri</b>lerini ve/veya <b>İzin</b>lerini yedeklemeye karar verdiyseniz, uygulamanın <b>Migrate yardımcısı</b> aracılığıyla geri yüklemeye başlamadan önce yüklenmemişse, söz konusu uygulamanın, <b>Veri</b>leri ve/veya <b>İzin</b>lerinin geri yüklenmeyeceğini lütfen unutmayın.
+        Önceden, bir uygulamanın <b>Veri</b>lerini seçmek <b>Uygulama</b>yı da yedeklemeniz gerektiği anlamına geliyordu. Artık durum böyle değil. Ayrıca, Migrate artık yedekleme için seçilen uygulamaları hatırlıyor. <b>Uygulama</b>yı yedeklememeye karar verip, bir uygulamanın <b>Veri</b>lerini ve/veya <b>İzin</b>lerini yedeklemeye karar verdiyseniz, uygulama <b>Migrate yardımcısı</b> aracılığıyla geri yüklemeye başlamadan önce henüz yüklenmemişse, bu uygulamanın <b>Veri</b>leri ve/veya <b>İzin</b>leri geri yüklenmeyecektir.
     </string>
     <string name="backup_activity_help_2">
         \n
