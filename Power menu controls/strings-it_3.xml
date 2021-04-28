@@ -1,0 +1,237 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Version 1.0</string>
+    <string name="version_1.0_content"># Rilascio iniziale</string>
+    <string name="version_2.0" >Version 2.0</string>
+    <string name="version_2.0_content">
+        # Aggiunto screenshot\n
+        # Aggiunta opzione per attivare/disattivare il bluetooth\n
+        # Aggiunto lo schermo diviso\n
+        # Aggiunto scan Paytm QR per gli utenti indiani\n
+        # [Root richiesto] Aggiunta opzione per attivare/disattivare l'NFC\n
+        # [Root richiesto] Aggiunta opzione per attivare/disattivare i Dati mobili\n
+        # Aggiunto centro messaggi per gli annunci importanti.\n
+        # Aggiunta schermata delle preferenze\n
+        # Link alla pagina XDA\n
+        # [Correzione di bug] Crash dell'app su silenzio totale in modalità Non Disturbare\n
+        # [Correzione di bug] Suoneria non veniva mutata\n
+        # Link aggiunto all'aiuto con le traduzioni\n
+        # Disattiva il wakelock se lo schermo è bloccato manualmente. Può essere disabilitato dalla schermata delle preferenze.
+        # Aggiorna lo stato quando si cambia premendo a lungo il controllo.
+    </string>
+
+    <string name="settings_structure">Impostazioni telefono</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Luminosità</string>
+    <string name="brightness_desc">Luminosità dello schermo</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Luminosità automatica</string>
+    <string name="enabled">Attivato</string>
+    <string name="disabled">Disattivato</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Torcia flash</string>
+    <string name="flash_desc">Flash come torcia</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Silenzio totale</string>
+    <string name="total_silence_desc">Disattiva tutti i souni</string>
+    <string name="do_not_disturb_active">Modalità non disturbare attivata!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Timeout dello schermo</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Rotation lock</string>
+    <string name="rotation_lock_desc">Lock orientation</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Wakelock</string>
+    <string name="wakelock_desc">Mantieni lo schermo attivo</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Volume media</string>
+    <string name="media_volume_desc">Volume della riproduzione multimediale</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Volume sveglia</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Volume suoneria</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Percentuale batteria</string>
+    <string name="battery_desc">Percentuale batteria, stato del risparmio batteria</string>
+    <string name="charging">In carica</string>
+    <string name="discharging">In scarica</string>
+    <string name="battery_saver">Risparmio batteria</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (India)</string>
+    <string name="scan_and_pay">Scannerizza QR e paga</string>
+    <string name="loading">Caricamento… Perfavore aspetta</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Screenshot</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Tieni premuto per le opzioni</string>
+    <string name="please_wait">Perfavore aspetta…</string>
+
+    <!--Data.kt-->
+    <string name="data">Dati</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Entra nello schermo diviso</string>
+    <string name="split_screen">Schermo diviso</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Attiva/disattiva il bluetooth. Root non richiesto.</string>
+
+    <string name="muted">Mutato</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Controlli generali</string>
+    <string name="generic_control_desc">Descrizione controlli generali</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Modifica il permesso di sistema necessario.</string>
+    <string name="modify_system_permission_desc">Clicca \"Procedi\" per aprire le impostazioni e concedere il permesso.</string>
+    <string name="overlay_permission">È necessaria un'autorizzazione di sovrapposizione.</string>
+    <string name="overlay_permission_desc">Clicca \"Procedi\" per concedere il permesso di disegnare sopra altre applicazioni.</string>
+    <string name="battery_inaccurate">Il servizio batteria potrebbe essere impreciso.</string>
+    <string name="battery_inaccurate_desc">Le percentuali della batteria, lo stato di risparmio della batteria, lo stato della carica mostrati dal controllo potrebbero non essere corretti per tutti i dispositivi di tutti i produttori.\n\n
+        Questo controllo non può attivare la modalità di risparmio della batteria. Si prega di premere a lungo su di esso per aprire le impostazioni e attivarla.\n\n
+        Fai clic su "\Procedi\" per attivare questa funzione.
+    <string name="proceed">Procedi</string>
+    <string name="rate_dialog_title">La tua opinione è importante</string>
+    <string name="rate_dialog_message">Se questa app ti ha aiutato, per favore considera di dare una valutazione e/o una recensione.</string>
+    <string name="sure">Sicuro</string>
+    <string name="thank_you">Grazie!</string>
+    <string name="specific_apps">App rapide</string>
+    <string name="specific_apps_disclaimer">Le app elencate di seguito appartengono alle rispettive organizzazioni/sviluppatori.\nQueste app potrebbero essere rimosse in futuro se richiesto dagli sviluppatori di app o da Google.\n
+    </string>
+    <string name="request_accessibility">Abilita il servizio di accessibilità.
+    <string name="request_accessibility_desc">Senza questo permesso, lo schermo dell'app è bloccato.\n\nClicca su "Procedi\" per aprire le impostazioni e concedere il permesso.</string>
+    <string name="paytm_not_installed">L'app Paytm non è installata.</string>
+    <string name="kindly_install_from_store">Si prega di installare da Google Play Store.</string>
+    <!--<string name="google_lens_not_installed">Google Lens non è installato.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) non è installato.</string>-->
+    <string name="screenshot_accessibility_desc">Senza questa autorizzazione, non è possibile inviare una richiesta al sistema per catturare lo schermo.</string>
+    <string name="split_screen_accessibility_desc">Possiamo richiedere lo split screen solo con questo permesso.</string>
+    <string name="root_options">Opzioni root</string>
+    <string name="root_options_desc">Utile per le persone con dispositivi con permessi di root.\n<b>Se non possiedi i permessi di root, molte delle opzioni seguenti possono essere premute a lungo nel menu di alimentazione per ulteriori opzioni.</b></string>
+    <string name="root_not_available">Root non disponibile o permesso negato!
+    <string name="nfc_no_root">Puoi premere a lungo il controllo NFC per aprire le impostazioni e attivare manualmente l'NFC.
+    <string name="data_no_root">Puoi premere a lungo il comando Dati mobili per aprire la pagina di utilizzo dei dati e attivarla manualmente.</string>
+    <string name="new_message">Nuovo messaggio ricevuto!
+    <string name="view">Visualizza</string>
+
+    <!--header_view.xml-->
+    <string name="permissions">Permessi</string>
+    <string name="can_write">Può modificare le impostazioni</string>
+    <string name="can_overdraw">Può disegnare sopra le app</string>
+    <string name="accessibility_granted">Accessibilità ottenuta</string>
+
+    <!--menu.xml-->
+    <string name="about">Informazioni sull'app</string>
+    <string name="translate">Contribuisci alle traduzioni</string>
+    <string name="app_intro">Introduzione dell'app</string>
+    <string name="rate_app">Valuta l'app</string>
+    <string name="changelog">Registro delle modifiche</string>
+    <string name="contact_telegram">Contattami su Telegram</string>
+    <string name="check_on_xda">Controlla su XDA</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Vuoi tradurre l'app?</string>
+    <string name="translation_available_at">Il file strings.xml è disponibile su:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Segui le istruzioni del README per inviare una traduzione.
+    </string>
+    <string name="translators">Traduttori</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Spanish\n
+        <b>@vladrevers</b>: Russian, Ukrainian\n
+        <b>@maicol07</b>: Italian\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Salta</string>
+    <string name="finish">Termina</string>
+    <string name="next">Prossimo</string>
+    <string name="prev">Precedente</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Ciao!</string>
+    <string name="desc_0_0">Questo è un breve tour per mostrarti come funziona l'app!</string>
+    <string name="desc_0_1">Premi prossimo per procedere. O Salta per saltare il tutorial. Puoi sempre rivederlo successivamente.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Passaggio 1: Seleziona i controlli</string>
+    <string name="desc_1_0">Nella schermata principale dell'applicazione, seleziona i controlli di cui hai bisogno</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Passaggio 2: Aggiungi al menu di alimentazione</string>
+    <string name="desc_2_0">1. Tieni premuto il pulsante di alimentazione.</string>
+    <string name="desc_2_0_0">Se non hai mai aggiunto un controllo prima, clicca sull'area evidenziata della casella blu</string>
+    <string name="desc_2_0_1">Poi vai al passaggio 4.</string>
+    <string name="desc_2_1_0">Se alcuni controlli sono già presenti:</string>
+    <string name="desc_2_1">2. Fare clic sul menu a 3 punti.</string>
+    <string name="desc_2_2">3. Fare clic su "Aggiungi controlli".</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Passaggio 3: Aggiungi al menu di alimentazione</string>
+    <string name="desc_3_0">Clicca Altre app</string>
+    <string name="desc_3_1">Questa schermata apparirà solo se hai già aggiunto alcuni controlli al menu di alimentazione prima di installare questa applicazione. Altrimenti procedi al passaggio successivo.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Passaggio 4: Attiva i controlli</string>
+    <string name="desc_4_0">1. Clicca il nome di questa app</string>
+    <string name="desc_4_1">2. Spunta le caselle dei controlli.</string>
+    <string name="desc_4_2">3. Infine, clicca su Salva.</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Fatto!</string>
+    <string name="desc_5_0">Ora puoi andare alla schermata iniziale. Se premi a lungo il pulsante di accensione, dovresti vedere i controlli.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Creato con Android Studio</string>\
+    <string name="version">Versione:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Preferenze</string>
+    <string name="brightness_algo">Algoritmo cursore della luminosità</string>
+    <string-array name="brighness_algo_values">
+        <item>Linear</item>
+        <item>Logarithmic</item>
+    </string-array>
+    <string name="screenshot_delay">Ritardo screenshot (in millisecondi)</string>
+    <string name="split_screen_delay">Ritardo dello schermo diviso (in millisecondi)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">Disattivare automaticamente wakelock</string>
+    <string name="turn_off_wakelock_desc">Disattivare il wakelock se lo schermo viene spento manualmente.</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Messagi / Annunci</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Nessun messaggio!</string>    
+</resources>
