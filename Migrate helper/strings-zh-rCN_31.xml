@@ -51,7 +51,7 @@
     <string name="log_reading_error">日志读取错误</string>
 
     <!--MainActivity.java-->
-    <string name="too_fast">哇，太快了！</string>
+    <string name="too_fast">可以，很快啊！</string>
     <string name="too_fast_desc">该应用尚未在高于 10 的 Android 版本上进行明确测试。\n\n请提交有关该应用是否可用的反馈。</string>
     <string name="dont_show_again">不再提示</string>
     <string name="apps_will_be_closed">应用将关闭</string>

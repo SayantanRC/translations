@@ -155,6 +155,19 @@
         \u2022 在第一次使用时显示警告\n
         \u2022 记录备份中的原始文件列表\n
     </string>
+    <string name="version_4.0">版本 4.0</string>
+    <string name="version_4.0_content">
+        \u2022 支持 Android 11\n
+        \u2022 添加消息中心用以显示重要的公告。\n
+        \u2022 恢复助手现在可以尝试重新安装恢复失败的APK\n
+        \u2022 添加 “仅使用 Migrate flasher ” 备份选项\n
+        \u2022 将应用程序图标另存为png文件\n
+        \u2022 在“附加备份”中显示选择用于备份的应用程序数量\n
+        \u2022 在计算备份大小时保持屏幕常亮\n
+        \u2022 保存附加备份选择的最后状态\n
+        \u2022 不要在系统测试中重新挂载 data分区\n
+        \u2022 一些其他的更改\n
+    </string>
 
     <!--activity_main.xml-->
     <string name="backupButton">备份</string>
@@ -745,9 +758,9 @@
     <!--ProgressShowActivity.kt-->
     <string name="force_stop">强行停止</string>
     <string name="force_stop_alert_title">强行停止应用程序？</string>
-    <string name="force_stop_alert_desc">强行停止将尝试终止应用运行。如果您已经点按过一次“取消”，请等待一段时间。\n\n强行停止后，您将必须手动删除所有已经产生的备份文件。</string>
-    <string name="kill_app">行，结束它的运行！</string>
-    <string name="wait_to_cancel">等待...</string>
+    <string name="force_stop_alert_desc">强行停止将尝试终止应用运行。如果您已经点按过一次“取消”按钮，请等待一段时间。\n\n强行停止后，您将必须手动删除所有已经产生的备份文件。</string>
+    <string name="kill_app">好，结束软件的运行！</string>
+    <string name="wait_to_cancel">等待中...</string>
     <string name="killing_programmatically">正在使用 kill 命令结束</string>
 
     <!--zip_name_show.xml-->
@@ -833,6 +846,7 @@
         <b>@vladrevers</b>: 俄语\n
         <b>@atfmxyl,@dwughjsd</b>: 简体中文\n
         <b>@Louis_Unnoficial</b>: 葡萄牙语（巴西）
+        <b>Ivor Benderavage (@ivorysoap)</b>: 法语
     </string>
 
     <!--contributors.xml-->
@@ -887,7 +901,7 @@
     <string name="zip_batch_null_updater">更新程序脚本之前，Zip Batch为空</string>
     <string name="zip_batch_null_zipping_engine">开始压缩之前，Zip batch为空</string>
     <string name="zip_batch_null_zip_verification">zip压缩包验证之前，Zip Batch为空</string>
-    <string name="improper_result_received">收到不正确的结果</string>
+    <string name="improper_result_received">接收到不正确的结果</string>
 
     <!--some branch specific strings-->
     <!--Needs to be translated-->
@@ -895,7 +909,7 @@
     <string name="label_for_ng">非Google /Beta版Edithion</string>
     <string name="check_for_updates_ng">检查更新</string>
     <string name="switch_to_ng_in_gpe">切换到 Migrate-NG</string>
-    <string name="ng_desc">Migrate-NG 是该应用程序的测试版。 Google Play上的版本是稳定版。 Beta版可以作为单独的应用程序下载到XDA帖子上。</string>
+    <string name="ng_desc">Migrate-NG 为测试版, Google Play上发布的版本是稳定版。 Beta版可以作为单独的应用程序到XDA的帖子上下载。</string>
     <string name="updates_ng">更新</string>
     <string name="auto_check_updates_ng">自动检查更新</string>
     <string name="auto_check_updates_desc_ng">启动时检查更新</string>
