@@ -1,0 +1,238 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >版本 1.0</string>
+    <string name="version_1.0_content"># 最初发布版本</string>
+    <string name="version_2.0" >版本 2.0</string>
+    <string name="version_2.0_content">
+         ＃添加屏幕截图\n
+         ＃添加蓝牙开关\n
+         ＃添加分屏\n
+         ＃为印度用户添加Paytm QR扫描\n
+         ＃[需要Root权限]添加NFC切换\n
+         ＃[需要Root权限]添加数据切换\n
+         ＃添加消息中心以获取重要的公告。\n
+         ＃添加首选项屏幕\n
+         ＃链接到XDA页面\n
+         ＃[错误修复] DND完全静音时应用崩溃\n
+         ＃[错误修复]铃声不静音\n
+         ＃添加链接以帮助翻译\n
+         ＃如果手动屏幕锁定，则关闭唤醒锁。 可以从首选项屏幕禁用。\n
+         ＃从长按控件更改状态时更新状态\n
+    </string>
+
+    <string name="settings_structure">手机 设置</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">亮度</string>
+    <string name="brightness_desc">屏幕亮度</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">自动亮度</string>
+    <string name="enabled">启用</string>
+    <string name="disabled">禁用</string>
+
+    <!--Flash.kt-->
+    <string name="flash">手电筒</string>
+    <string name="flash_desc">手电筒</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">静音</string>
+    <string name="total_silence_desc">禁止所有音</string>
+    <string name="do_not_disturb_active">启用勿扰</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">屏幕超时</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">锁定屏幕旋转</string>
+    <string name="rotation_lock_desc">锁定屏幕旋转方向</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">唤醒锁</string>
+    <string name="wakelock_desc">跳过屏幕唤醒锁</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">媒体音量</string>
+    <string name="media_volume_desc">媒体音量</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">闹钟音量</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">铃声音量</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">电量百分比</string>
+    <string name="battery_desc">电池电量百分比，省电状态</string>
+    <string name="charging">开始充电</string>
+    <string name="discharging">停止充电</string>
+    <string name="battery_saver">省电模式</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm 支付</string>
+    <string name="paytm_pay_india">Paytm (印度)</string>
+    <string name="scan_and_pay">扫描QR并付款</string>
+    <string name="loading">加载中... 请等待</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">截屏</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">保留选择权</string>
+    <string name="please_wait">请等待…</string>
+
+    <!--Data.kt-->
+    <string name="data">Data</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">进入分屏</string>
+    <string name="split_screen">分屏</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_desc">切换蓝牙,不需要root</string>
+
+    <string name="muted">静音</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">通用控制</string>
+    <string name="generic_control_desc">通用控制描述</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">需要"修改系统设置权限"</string>
+    <string name="modify_system_permission_desc">点击\"继续\" 以打开设置并授予权限。</string>
+    <string name="overlay_permission">需要显示在其他应用上层权限</string>
+    <string name="overlay_permission_desc">点击 \"继续\" 以授予应用程序的权限</string>
+    <string name="battery_inaccurate">电池电池百分比，节电状态，控件显示的充电状态可能不适用于所有制造商的所有设备。
+    <string name="battery_inaccurate_desc">电池百分比，节电状态，控件显示的充电状态可能不适用于所有制造商的所有设备。\n\n
+        这个控件无法切换省电模式。 请长按以打开设置并进行切换。\n\n
+        点击 \"继续\"以启用此切换。</string>
+    <string name="proceed">继续</string>
+    <string name="rate_dialog_title">您的意见很重要</string>
+    <string name="rate_dialog_message">如果这个软件对您有帮助，请考虑给予五星好评。</string>
+    <string name="sure">当然</string>
+    <string name="thank_you">非常感谢!</string>
+    <string name="specific_apps">友情app</string>
+    <string name="specific_apps_disclaimer">下面列出的应用属于各自的组织/开发人员。\n如果应用开发人员或Google要求，这些应用将来可能会被删除。\n
+    </string>
+    <string name="request_accessibility">启用辅助功能服务。</string>
+    <string name="request_accessibility_desc">没有这个权限的发,软件运行时屏幕可能会锁上\n\n点击 \"继续\" 以打开设置并授予权限</string>
+    <string name="paytm_not_installed">Paytm app 没有安装</string>
+    <string name="kindly_install_from_store">请从Google Play商店安装</string>
+    <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
+    <string name="screenshot_accessibility_desc">没有这个权限,程序将没有办法向系统发送截屏请求。</string>
+    <string name="split_screen_accessibility_desc">我们只能在拥有此权限的情况下请求分屏显示。</string>
+    <string name="root_options">Root 选项</string>
+    <string name="root_options_desc">对于设备已经Root了的人很有用。\n<b>如果您没有Root权限，可以在电源菜单中长按以下更多选项，以获取更多选项。</b></string>
+    <string name="root_not_available">没有Root权限或权限被拒绝！</string>
+    <string name="nfc_no_root">您可以长按NFC控件以打开设置并手动切换NFC。</string>
+    <string name="data_no_root">您可以长按“数据”控件以打开“数据使用情况”页面并手动将其打开。</string>
+    <string name="new_message">收到新消息！</string>
+    <string name="view">查看</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">权限</string>
+    <string name="can_write">可以修改设置</string>
+    <string name="can_overdraw">可以显示在上层</string>
+    <string name="accessibility_granted">授予了使用情况访问权限</string>
+
+    <!--menu.xml-->
+    <string name="about">关于应用</string>
+    <string name="translate">翻译应用</string>
+    <string name="app_intro">应用介绍</string>
+    <string name="rate_app">评价应用</string>
+    <string name="changelog">更新日志</string>
+    <string name="contact_telegram">联系我们</string>
+    <string name="check_on_xda">XDA帖子</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">你想帮忙翻译吗?</string>
+    <string name="translation_available_at">strings.xml 文件位于项目:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    按照README文件说明来提交翻译
+    </string>
+    <string name="translators">翻译提供人员</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: 西班牙语\n
+        <b>@vladrevers</b>: 俄语, 乌克兰语\n
+        <b>@atfmxyl</b>: 简体中文\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">跳过</string>
+    <string name="finish">完成</string>
+    <string name="next">下一步</string>
+    <string name="prev">上一步</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">你好!</string>
+    <string name="desc_0_0">这是这个软件应该怎么样使用的简单教程!</string>
+    <string name="desc_0_1">单击 下一步 继续,或者点 跳过 以关闭本教程。 您以后可以随时观看。</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">步骤 1: Select the controls</string>
+    <string name="desc_1_0">在应用程序的主屏幕中，选择所需的控件</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">步骤 2: 添加到电源菜单</string>
+    <string name="desc_2_0">1. 长按电源按钮。</string>
+    <string name="desc_2_0_0">如果您以前从未添加过控件，请单击突出显示的蓝色框区域</string>
+    <string name="desc_2_0_1">然后转到步骤4。</string>
+    <string name="desc_2_1_0">如果已经存在一些控件：</string>
+    <string name="desc_2_1">2. 单击3点菜单.</string>
+    <string name="desc_2_2">3. 点击“添加控件"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">步骤 3: 添加到电源菜单</string>
+    <string name="desc_3_0">点击其它app</string>
+    <string name="desc_3_1">仅当您在安装此应用之前已在电源菜单中添加了一些控件时，才会显示此屏幕。 否则，继续下一步。</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">步骤 4: 启用控件</string>
+    <string name="desc_4_0">1. 点击此应用名称</string>
+    <string name="desc_4_1">2. 选中控件框。</string>
+    <string name="desc_4_2">3. 完成，点击“保存”。</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">完成!</string>
+    <string name="desc_5_0">您现在可以返回主屏幕。 如果长按电源菜单，则应该看到控件。</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Android Studio开发</string>\
+    <string name="version">版本:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">首选项</string>
+    <string name="brightness_algo">亮度滑块算法</string>
+    <string-array name="brighness_algo_values">
+        <item>线性的</item>
+        <item>对数</item>
+    </string-array>
+    <string name="screenshot_delay">分屏延迟(输入一个秒数)</string>
+    <string name="split_screen_delay">分屏延迟(输入一个秒数)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">屏幕自动关闭时间</string>
+    <string name="turn_off_wakelock_desc">如果手动关闭了屏幕,请关闭唤醒锁</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">消息 / 公告内容</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">没有消息!</string>    
+</resources>
