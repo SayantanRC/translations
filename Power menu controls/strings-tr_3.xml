@@ -1,0 +1,239 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Versiyon 1.0</string>
+    <string name="version_1.0_content"># İlk sürüm</string>
+    <string name="version_2.0" >Versiyon 2.0</string>
+    <string name="version_2.0_content">
+        # Ekran görüntüsü eklendi\n
+        # Bluetooth açma kapama ayarı eklendi\n
+        # Ekran bölme eklendi\n
+        # Hint kullanıcılar için Paytm QR taraması eklendi\n
+        # [Root gerekli] NFC açma kapama ayarı eklendi\n
+        # [Root gerekli] Mobil veri açma kapama ayarı eklendi\n
+        # Önemli duyurular için mesaj merkezi eklendi\n
+        # Tercihler ekranı eklendi\n
+        # XDA sayfasına bağlantı eklendi\n
+        # [Hata düzeltmesi] Rahatsız etmeyin modundaki tam sessizlikte uygulamanın çökmesi\n
+        # [Hata düzeltmesi] Zil sesinin kapatılamaması\n
+        # Çevirilerde yardımcı olmak için link eklendi\n
+        # Ekran kilitliyken cihazın kapatılmasının zamanlanması. Tercihler ekranından devre dışı bırakılabilir.\n
+        # Kontrole uzun basılarak durum ayarının değiştirilmesi\n
+    </string>
+
+    <string name="settings_structure">Telefon ayarları</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Parlaklık</string>
+    <string name="brightness_desc">Ekran parlaklığı</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Otomatik parlaklık</string>
+    <string name="enabled">Etkin</string>
+    <string name="disabled">Devre dışı</string>
+
+    <!--Flash.kt-->
+    <string name="flash">El feneri</string>
+    <string name="flash_desc">Kameranın flaşını el feneri olarak kullan</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Tamamen sessiz</string>
+    <string name="total_silence_desc">Tüm sesleri devre dışı bırak</string>
+    <string name="do_not_disturb_active">Rahatsız etmeyin modu etkin</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Ekranın kapanması</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Dönme kilidi</string>
+    <string name="rotation_lock_desc">Ekranın yönünü kilitle</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Uyandırma kilidi</string>
+    <string name="wakelock_desc">Cihazın ekranını uyanık tut</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Medya sesi</string>
+    <string name="media_volume_desc">Müzik akışı ses düzeyi</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Alarm sesi</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Zil sesi</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Pil gücü düzeyi</string>
+    <string name="battery_desc">Pil yüzdesi, pil tasarruf modunun durumu</string>
+    <string name="charging">Şarj oluyor</string>
+    <string name="discharging">Boşaltılıyor</string>
+    <string name="battery_saver">Pil tasarrufu</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Ödemesi</string>
+    <string name="paytm_pay_india">Paytm (Hindistan)</string>
+    <string name="scan_and_pay">Kare kodu okut ve öde</string>
+    <string name="loading">Yükleniyor… Lütfen bekle</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Ekran görüntüsü</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Seçenekler için basılı tut</string>
+    <string name="please_wait">Lütfen bekle…</string>
+
+    <!--Data.kt-->
+    <string name="data">Mobil veri</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Ekran bölmeyi aç</string>
+    <string name="split_screen">Bölünmüş ekran</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Bluetooth'u aç/kapat. Root gerekmez.</string>
+
+    <string name="muted">Sessiz</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Genel kontroller</string>
+    <string name="generic_control_desc">Kontrollerle ilgili açıklamalar</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Sistemde değişiklik için izin gerekli.</string>
+    <string name="modify_system_permission_desc">\"Devam\" tıklayarak ayarları aç ve izin ver.</string>
+    <string name="overlay_permission">Üstünde gösterme izni gerekli.</string>
+    <string name="overlay_permission_desc">\"Devam\" tıklayarak diğer uygulamaların üzerinde görüntüleme izni ver.</string>
+    <string name="battery_inaccurate">Pil hizmeti doğru olmayabilir.</string>
+    <string name="battery_inaccurate_desc">Pil gücü düzeyi, pil tasarruf durumu, şarj dorumu bazı markaların bazı cihazları için yanlış gösterilebilir.\n\n
+        Buradaki ayar pil tasarrufunu açıp kapatmaz. Basılı tutup ayarları aç ve oradan ayarla.\n\n
+        \"Devam\" tıklayarak bu seçeneği etkinleştir.</string>
+    <string name="proceed">Devam</string>
+    <string name="rate_dialog_title">Görüşlerin önemlidir</string>
+    <string name="rate_dialog_message">Bu uygulama işine yaradıysa bir inceleme veya yorum yazarak değerlendir.</string>
+    <string name="sure">Hayhay</string>
+    <string name="thank_you">Teşekkürler!</string>
+    <string name="specific_apps">Hızlı uygulamalar</string>
+    <string name="specific_apps_disclaimer">Aşağıdaki uygulamalar hak sahibi örgütlere veya geliştiricilere aittir.\nUygulamanın geliştiricisi veya Google tarafından talep edilirse bu uygulamalar kaldırılabilir\n
+    </string>
+    <string name="request_accessibility">Erişililebilirlik hizmetini etkinleştir.</string>
+    <string name="request_accessibility_desc">Bu izin olmazsa uygulama ekranı çalışmaz.\n\n\"Devam\" tıklayıp ayarları açarak izin ver.</string>
+    <string name="paytm_not_installed">Paytm uygulaması kurulmamış.</string>
+    <string name="kindly_install_from_store">Google Play mağazasından indirip yükleyin.</string>
+    <!--<string name="google_lens_not_installed">Google Lens kurulmamış.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (Hindistan) kurulmamış.</string>-->
+    <string name="screenshot_accessibility_desc">Bu izin olmazsa ekranın kaydı alınamaz.</string>
+    <string name="split_screen_accessibility_desc">Bu izin bölünmüş ekran içindir.</string>
+    <string name="root_options">Root seçenekleri</string>
+    <string name="root_options_desc">Cihazı root erişimli olan kullanıcılar için faydalı.\n<b>Cihazınız root değilse aşağıdaki seçeneklere basılı tutarak daha fazla seçenek görebilirsiniz.</b></string>
+    <string name="root_not_available">Root yok veya izin verilmemiş!</string>
+    <string name="nfc_no_root">NFC kontrolüne basılı tutarak ayarları aç ve NFC'yi oradan aç/kapat.</string>
+    <string name="data_no_root">Mobil veri kontrolüne basılı tutarak veri kullanımı ekranını aç ve oradan etkinleştir.</string>
+    <string name="new_message">Yeni mesaj alındı!</string>
+    <string name="view">Göster</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Permissions</string>
+    <string name="can_write">Ayarları değiştirebilir</string>
+    <string name="can_overdraw">Uygulamaların üzerinde görüntülenebilir</string>
+    <string name="accessibility_granted">Erişilebilirlik izni var</string>
+
+    <!--menu.xml-->
+    <string name="about">Hakkında</string>
+    <string name="translate">Çeviriye katkı yap</string>
+    <string name="app_intro">Uygulama tanıtımı</string>
+    <string name="rate_app">Uygulamayı değerlendir</string>
+    <string name="changelog">Güncelleme kaydı</string>
+    <string name="contact_telegram">Telegram'dan iletişime geç</string>
+    <string name="check_on_xda">XDA'da görüntüle</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Tercüme etmek mi istiyorsun?</string>
+    <string name="translation_available_at">strings.xml dosyası şurada:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    BENİOKU yöngerelerini izleyerek çeviri gönder..
+    </string>
+    <string name="translators">Çevirmenler</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Spanish\n
+        <b>@vladrevers</b>: Russian, Ukrainian\n
+        <b>@atfmxyl</b>: Simplified Chinese\n
+        <b>@ugurcansayan</b>: Turkish\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Atla</string>
+    <string name="finish">Bitir</string>
+    <string name="next">İleri</string>
+    <string name="prev">Geri</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Selam!</string>
+    <string name="desc_0_0">Bu uygulamayı tanıtmak için küçük bir gezintiye hoş geldin</string>
+    <string name="desc_0_1">Devam etmek için ileriye bas. Çıkmak için atlaya bas. İstersen buna daha sonra da bakabilirsin.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">1. adım: Kontrolleri seç</string>
+    <string name="desc_1_0">Uygulamanın ana ekranında gösterilecek kontrolleri seç</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">2. adım: Güç menüsüne ekle</string>
+    <string name="desc_2_0">1. Güç düğmesini basılı tut.</string>
+    <string name="desc_2_0_0">Daha önce hiç kontrol eklemediysen maviyle vurgulanmış alana tıkla.</string>
+    <string name="desc_2_0_1">Sonra 4. adıma geç.</string>
+    <string name="desc_2_1_0">Eğer bazı kontroller zaten varsa:</string>
+    <string name="desc_2_1">2. Üç noktalı menüyü aç.</string>
+    <string name="desc_2_2">3. "Kontrolleri ekle" tıkla.</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">3. adım: Güç menüsüne ekle</string>
+    <string name="desc_3_0">Diğer uygulamalara tıkla</string>
+    <string name="desc_3_1">Eğer güç menüsüne daha önceden birtakım kontroller eklemişsen bu ekran görünür. Eğer görünmüyorsa sonraki adıma geç.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">4. adım: Kontrolleri etkinleştir</string>
+    <string name="desc_4_0">1. Uygulamanın adına tıkla</string>
+    <string name="desc_4_1">2. Kontrollerin kutucuklarını işaretle.</string>
+    <string name="desc_4_2">3. Kaydederek bitir işi.</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Tamamdır!</string>
+    <string name="desc_5_0">Şimdi ana ekrana dönebilirsin. Güç menüsüne uzun basınca bu kontroller görünecek.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Android Studio ile yapıldı</string>\
+    <string name="version">Versiyon:</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Tercihler</string>
+    <string name="brightness_algo">Parlaklık düzeyi algoritması</string>
+    <string-array name="brighness_algo_values">
+        <item>Doğrusal</item>
+        <item>Logaritmik</item>
+    </string-array>
+    <string name="screenshot_delay">Ekran görüntüsü için bekleme süresi (milisaniye cinsinden)</string>
+    <string name="split_screen_delay">Ekranı bölme için bekleme süresi (milisaniye cinsinden)</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">Otomatik uyandırma kapalıAuto wakelock off</string>
+    <string name="turn_off_wakelock_desc">Ekranı kullanıcı kapatmışsa uyandırma kilidini kapat.</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Mesajlar / Duyurular</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Mesaj yok</string>    
+</resources>
