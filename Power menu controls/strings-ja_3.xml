@@ -163,11 +163,11 @@
     </string>
     <string name="translators">shacho36p</string>
     <string name="translators_list">
-        <b>@peter9811</b>: Spanish\n
-        <b>@vladrevers</b>: Russian, Ukrainian\n
-        <b>@atfmxyl</b>: Simplified Chinese\n
-        <b>@ugurcansayan</b>: Turkish\n
-        <b>@shacho36p</b>: Japanese\n
+        <b>@peter9811</b>: スペイン語\n
+        <b>@vladrevers</b>: ロシア語・ウクライナ語\n
+        <b>@atfmxyl</b>: 中国語 (簡体字)\n
+        <b>@ugurcansayan</b>: トルコ語\n
+        <b>@shacho36p</b>: 日本語\n
     </string>
 
     <!--app_intro.xml-->
