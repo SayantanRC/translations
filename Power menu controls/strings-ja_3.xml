@@ -1,0 +1,239 @@
+<resources>
+    <string name="current_version_name">2.0</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Version 1.0</string>
+    <string name="version_1.0_content"># Initial release</string>
+    <string name="version_2.0" >Version 2.0</string>
+    <string name="version_2.0_content">
+        # Add screenshot\n
+        # Add bluetooth toggle\n
+        # Add split screen\n
+        # Add Paytm QR scan for Indian users\n
+        # [Root needed] Add NFC toggle\n
+        # [Root needed] Add Data toggle\n
+        # Add Message center for important announcements.\n
+        # Add Preferences screen\n
+        # Link to XDA page\n
+        # [Bug fix] App crash on Total silence in DND\n
+        # [Bug fix] Ringtone not muting\n
+        # Link added to help with translations\n
+        # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
+        # Update status when changed from long pressing the control\n
+    </string>
+
+    <string name="settings_structure">携帯電話の設定</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">明るさ</string>
+    <string name="brightness_desc">画面の明るさ</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">明るさの自動調整</string>
+    <string name="enabled">有効</string>
+    <string name="disabled">無効</string>
+
+    <!--Flash.kt-->
+    <string name="flash">フラッシュライト</string>
+    <string name="flash_desc">携帯電話のライトを有効化する</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">マナーモード</string>
+    <string name="total_silence_desc">すべてのサウンドを無効化</string>
+    <string name="do_not_disturb_active">おやすみ時間モードが有効です！</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">スリープ時間</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">画面の回転</string>
+    <string name="rotation_lock_desc">回転の向きを固定する</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Wake lock</string>
+    <string name="wakelock_desc">Keep screen awake</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">メディアの音量</string>
+    <string name="media_volume_desc">音楽再生時の音量</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">アラームの音量</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">着信音と通知音の音量</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">バッテリー残量</string>
+    <string name="battery_desc">バッテリー残量・バッテリーセーバーの状態</string>
+    <string name="charging">充電中</string>
+    <string name="discharging">放電中</string>
+    <string name="battery_saver">バッテリーセーバー</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (インド)</string>
+    <string name="scan_and_pay">QRをスキャンして決済</string>
+    <string name="loading">読込中…しばらくお待ち下さい。</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google レンズ</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (インド)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">スクリーンショット</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">有効化のために長押ししてください。</string>
+    <string name="please_wait">しばらくお待ち下さい…</string>
+
+    <!--Data.kt-->
+    <string name="data">モバイルデータ</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">画面分割の開始</string>
+    <string name="split_screen">画面分割</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Bluetoothを切り替えます。root化は不要です。</string>
+
+    <string name="muted">ミュート</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">一般設定</string>
+    <string name="generic_control_desc">一般的な設定の説明</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">「システム設定の変更」を有効化してください。</string>
+    <string name="modify_system_permission_desc">設定を開き、システム設定を変更する許可を与えてください。</string>
+    <string name="overlay_permission">画面オーバーレイの許可が必要です。</string>
+    <string name="overlay_permission_desc">設定を開き、他のアプリの上に重ねて表示をする許可を与えてください。</string>
+    <string name="battery_inaccurate">バッテリー情報が正確でない可能性があります。</string>
+    <string name="battery_inaccurate_desc">バッテリー残量、バッテリーセーバーの状態、充電状態は、端末メーカーによっては正しく表示されない場合があります。\n\n
+        このコントロールでは、バッテリーセーバーの状態を切り替えることはできません。長押しして設定を開き、切り替えてください。\n\n
+        このトグルを有効にするには、\"進む\"をクリックしてください。</string>
+    <string name="proceed">進む</string>
+    <string name="rate_dialog_title">あなたのご意見は大切です。</string>
+    <string name="rate_dialog_message">このアプリがお役に立ちましたら、評価やレビューをご検討ください。</string>
+    <string name="sure">確認した</string>
+    <string name="thank_you">ありがとうございます!</string>
+    <string name="specific_apps">クイックアプリ</string>
+    <string name="specific_apps_disclaimer">以下のアプリは、それぞれの組織・開発者に帰属します。\nこれらのアプリは、アプリ開発者やGoogleからの要請があれば、将来的に削除される可能性があります。\n
+    </string>
+    <string name="request_accessibility">「ユーザー補助」を有効にします。</string>
+    <string name="request_accessibility_desc">この許可がないと、アプリの画面がブロックされてしまいます。\n\n設定を開き、ユーザー補助の許可を与えてください。</string>
+    <string name="paytm_not_installed">Paytm アプリがインストールされていません。</string>
+    <string name="kindly_install_from_store">Google Play ストアからインストールしてください。</string>
+    <!--<string name="google_lens_not_installed">Google Lens がインストールされていません。</string>
+    <string name="google_pay_tez_not_installed">Google Pay (インド) がインストールされていません。</string>-->
+    <string name="screenshot_accessibility_desc">この許可がないと、システムにスクリーンショットのリクエストを送ることができません。</string>
+    <string name="split_screen_accessibility_desc">この許可を得ることで、分割画面を実行することができます。</string>
+    <string name="root_options">root オプション</string>
+    <string name="root_options_desc">root化された端末をお持ちの方に便利な機能です。\n<b>root化されていない場合、以下のオプションの多くはメニューを長押しすることで実行することができます。</b></string>
+    <string name="root_not_available">root権限がない、もしくは許可が付与されていません。</string>
+    <string name="nfc_no_root">NFCコントロールを長押しして設定を開き、NFCを手動で切り替えることができます。</string>
+    <string name="data_no_root">データコントロールを長押しすると、設定のデータ使用量のページが表示され、手動でオンにすることができます。</string>
+    <string name="new_message">新しいメッセージを受信しました！</string>
+    <string name="view">表示</string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">権限</string>
+    <string name="can_write">システム設定の変更が可能</string>
+    <string name="can_overdraw">画面オーバーレイが可能</string>
+    <string name="accessibility_granted">ユーザー補助が有効</string>
+
+    <!--menu.xml-->
+    <string name="about">アプリ情報</string>
+    <string name="translate">アプリの翻訳に貢献する</string>
+    <string name="app_intro">App intro</string>
+    <string name="rate_app">アプリを評価する</string>
+    <string name="changelog">更新履歴g</string>
+    <string name="contact_telegram">Telegramで連絡する</string>
+    <string name="check_on_xda">XDAにアクセスする</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">翻訳したいですか?</string>
+    <string name="translation_available_at">strings.xml ファイルは以下のリンクから取得できます :\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    README の指示に従って、翻訳ファイルを提出してください。
+    </string>
+    <string name="translators">shacho36p</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Spanish\n
+        <b>@vladrevers</b>: Russian, Ukrainian\n
+        <b>@atfmxyl</b>: Simplified Chinese\n
+        <b>@ugurcansayan</b>: Turkish\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">スキップ</string>
+    <string name="finish">終了</string>
+    <string name="next">次へ</string>
+    <string name="prev">戻る</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">ようこそ！</string>
+    <string name="desc_0_0">このアプリの使い方を簡単にご紹介します。</string>
+    <string name="desc_0_1">「次へ」をタップして進みます。または「スキップ」からこのチュートリアルを終了します。このチュートリアルは後でいつでもご覧いただけます。</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">ステップ 1: コントロールの選択</string>
+    <string name="desc_1_0">アプリのメイン画面で、必要なコントロールを選択します。</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">ステップ 2: 電源メニューへの追加</string>
+    <string name="desc_2_0">1. 端末の電源ボタンを長押しします。</string>
+    <string name="desc_2_0_0">初めてコントロールを追加した場合には、青くハイライトされたエリアをタップします。</string>
+    <string name="desc_2_0_1">ステップ 4に進みます。</string>
+    <string name="desc_2_1_0">コントロールを既に追加したことがある場合 :</string>
+    <string name="desc_2_1">2. 3ドットメニューをタップします。.</string>
+    <string name="desc_2_2">3. 「コントロールを追加」をタップします。</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">ステップ 3: 電源メニューへの追加</string>
+    <string name="desc_3_0">「その他アプリを表示」をタップします。</string>
+    <string name="desc_3_1">この画面は、このアプリをインストールする前に電源メニューにデバイスコントロールを追加している場合にのみ表示されます。それ以外の場合は、次のステップに進んでください。</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">ステップ 4: デバイスコントロールの有効化</string>
+    <string name="desc_4_0">1. アプリ名をタップします。</string>
+    <string name="desc_4_1">2. 追加したいコントロールのチェックボックスをオンにします。</string>
+    <string name="desc_4_2">3. 最後に「保存」をタップします。</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">完了しました！</string>
+    <string name="desc_5_0">これでホーム画面に戻ることができます。電源メニューを長押しすると、デバイスコントロールが表示されます。</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Android Studio にて制作</string>\
+    <string name="version">バージョン :</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">環境設定</string>
+    <string name="brightness_algo">明るさ設定の変更方法</string>
+    <string-array name="brighness_algo_values">
+        <item>スライダー</item>
+        <item>数字</item>
+    </string-array>
+    <string name="screenshot_delay">スクリーンショットの遅延（単位：ミリ秒）</string>
+    <string name="split_screen_delay">画面分割の遅延（単位：ミリ秒）</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="turn_off_wakelock">画面を自動的に消灯</string>
+    <string name="turn_off_wakelock_desc">手動で画面をオフにすると、この設定は解除されます。</string>
+
+    <!--messages_activity.xml-->
+    <string name="messages">メッセージ / お知らせ</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">メッセージはありません！</string>    
+</resources>
