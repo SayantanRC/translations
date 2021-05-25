@@ -134,7 +134,13 @@
     Siga las instrucciones del README para enviar una traducción.
     </string>
     <string name="translators">Traductores</string>
-    <string name="translators_list"></string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Español\n
+        <b>@vladrevers</b>: Ruso, Ucraniano\n
+        <b>@maicol07</b>: Italiano\n
+        <b>@atfmxyl</b>: Chino simplificado\n
+        <b>@ugurcansayan</b>: Turco
+    </string>
     <!--app_intro.xml-->
     <string name="skip">Omitir</string>
     <string name="finish">Finalizar</string>
