@@ -25,11 +25,11 @@
     <string name="settings_structure">携帯電話の設定</string>
 
     <!--Brightness.kt-->
-    <string name="brightness">明るさ</string>
-    <string name="brightness_desc">画面の明るさ</string>
+    <string name="brightness">明るさのレベル</string>
+    <string name="brightness_desc">画面の明るさの調節</string>
 
     <!--AutoBrightness.kt-->
-    <string name="auto_brightness">明るさの自動調整</string>
+    <string name="auto_brightness">明るさの自動調節</string>
     <string name="enabled">有効</string>
     <string name="disabled">無効</string>
 
