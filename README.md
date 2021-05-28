@@ -10,8 +10,8 @@ For locale codes, check here: https://stackoverflow.com/questions/7973023/what-i
 4. To submit a new translation, make a new strings file with locale code, followed by the `nn` value. For example, if you are making turkish translation make a file `strings-tr_nn.xml` and put your translations in that file.
 5. <b>Tip</b>: To provide an update to a previous translation, open the main `strings_nn.xml` file and click on top right `History` icon to see what strings have been added, deleted, changed. You can then compare with the string file of your language.
 6. The original `strings_nn.xml` and your `strings-xx_nn.xml` must be under the same directory.
-7. <b>Important</b>: In the main strings file, a string is `translators_list` is present. Please help yourself and add your name in it to show that you contributed. :wink:
+7. <b>Important</b>: In the main strings file, a string is `translators_list` is present. Please help yourself and add your name in it to show that you contributed. 😉 😬
 8. After translating, submit a pull request.
 	<b>Important</b>: Please check other pull requests before open yours in order to minimize asynchronous translations
 
-Thank you.
+Thank you. 😁
