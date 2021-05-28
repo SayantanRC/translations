@@ -50,8 +50,8 @@
     <string name="rotation_lock_desc">回転の向きを固定する</string>
 
     <!--WakeLock.kt-->
-    <string name="wakelock">Wake lock</string>
-    <string name="wakelock_desc">Keep screen awake</string>
+    <string name="wakelock">ウェイクロック</string>
+    <string name="wakelock_desc">画面を表示したままにする</string>
 
     <!--MediaVolume.kt-->
     <string name="media_volume">メディアの音量</string>
