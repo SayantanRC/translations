@@ -128,7 +128,7 @@
     <!--KeyboardChanger.kt-->
     <string name="change_keyboard">キーボードの変更</string>
 
-    <string name="long_press_in_power_menu">パワーメニューで長押しすると、より多くのオプションが表示されます。</string>
+    <string name="long_press_in_power_menu">電源メニューで長押しすると、より多くのオプションを表示することができます。</string>
     <string name="muted">ミュート</string>
 
     <!--shortcut_toggle_view.xml-->
