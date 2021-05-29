@@ -1,10 +1,26 @@
 <resources>
 
     <string name="app_name">Migrate helper</string>
-    <string name="current_version_name">3.0.1_release</string>
+    <string name="current_version_name">3.1.1_release</string>
+
+    <!--changelog-->
+    <string name="changelog">Changelog</string>
+    <string name="version_3_1">Versi 3.1</string>
+    <string name="version_3_1_content">
+        \u2022 Perbaikan tidak ada data untuk dipulihkan\n
+        \u2022 Deteksi error pada pemulihan aplikasi\n
+        \u2022 Perbaikan ketika memuat daftar aplikasi\n
+        \u2022 Jugas hapus apk sistem jika terinstall sebagai aplikasi pengguna\n
+        \u2022 Gunakan root untuk mengekstrak twrp uninstall zip, jika akses file itolak\n
+        \u2022 Ditambahkan opsi changelog dan kontak\n
+    </string>
+    <string name="version_3_1_1">Versi 3.1.1</string>
+    <string name="version_3_1_1_content">
+        \u2022 Perbaikan aplikasi dengan simbol\n
+    </string>
 
     <!--activity_main.xml-->
-    <string name="restore_main">Pulihkan aplikadi dan data</string>
+    <string name="restore_main">Pulihkan aplikasi dan data</string>
     <string name="uninstallFromSystem">Copot dari sistem</string>
     <string name="uninstall_or_finalize">Copot app/akhiri pemulihan</string>
     <string name="temporary_disable">Nonaktifkan sementara</string>
@@ -12,11 +28,15 @@
     <string name="please_use_magisk">Pastikan menggunakan Magisk</string>
     <string name="lastLog">Log terakhir</string>
     <string name="preferences">Preferensi</string>
+    <string name="contact_on_telegram">Hubungi melalui Telegram</string>
     <string name="uninstall_by_twrp">Copot dari twrp.</string>
 
     <!--MainActivityKotlin.kt-->
     <string name="storage_perm_needed">Diperlukan izin penyimpanan</string>
-    <string name="grant">Iiznkan</string>
+    <string name="grant">Izinkan</string>
+    <string name="contact_desc">Grup Telegram kami memiliki banyak anggota, Anda akan mendapatkan bantuan yang lebih cepat di grup. Jika masalah Anda tidak teratasi, silakan hubungi pengembang.</string>
+    <string name="contact_developer">Hubungi pengembang</string>
+    <string name="contact_group">Kirim pesan di grup</string>
 
     <!--last_log_report.xml-->
     <string name="seeProgressLog">Lihat log proses</string>
@@ -35,11 +55,11 @@
     <string name="too_fast_desc">Aplikasi belum diuji secara eksplisit pada versi Android di atas 10.\n\nSilakan kirimkan tanggapan Anda apakah aplikasi berfungsi atau tidak.</string>
     <string name="dont_show_again">Jangan tampilkan lagi</string>
     <string name="apps_will_be_closed">Aplikasi akan ditutup</string>
-    <string name="do_not_use_desc">Aplikasi akan ditutup saat memulihkan. Tolong jangan gunakan perangkat untuk menghindari crash.
+    <string name="do_not_use_desc">Aplikasi akan ditutup saat pemulihan. Tolong jangan gunakan perangkat untuk menghindari crash.
          \n\nAnda akan mendapat opsi untuk meminimalkan aplikasi, tetapi tidak disarankan.</string>
-    <string name="later">Bagaimanapun, saya akan memulihkan nanti.</string>
+    <string name="later">Pulihkan nanti.</string>
     <string name="sure">Yakin?</string>
-    <string name="howToRestore">Menghapus instalan membutuhkan root. Anda juga perlu menginstal ulang migrate zip untuk mengembalikan data di lain waktu.</string>
+    <string name="howToRestore">Menghapus aplikasi membutuhkan root. Anda juga perlu menginstal ulang migrate zip untuk mengembalikan data di lain waktu.</string>
     <string name="goAhead">Lanjutkan</string>
     <string name="unsupported_device">Perangkat tidak didukung.</string>
     <string name="cpu_arch_is">Arsitektur CPU anda:</string>
@@ -55,8 +75,8 @@
     <string name="waiting_for_contacts_desc">Migrate helper telah mendeteksi bahwa Anda telah memilih untuk memulihkan kontak yang menangani aplikasi yang mungkin bertentangan dengan operasi pemulihan kontak yang sedang berjalan.\n\n
      Pemulihan aplikasi akan dilanjutkan setelah kontak dipulihkan.
     </string>
-    <string name="abort_title">Ini sangat tidak disarankan!</string>
-    <string name="abort_desc">Ini dapat membuat semua aplikasi tidak dapat digunakan dan reset pabrik mungkin diperlukan</string>
+    <string name="abort_title">Sangat tidak disarankan!</string>
+    <string name="abort_desc">Dapat membuat semua aplikasi tidak dapat digunakan dan reset pabrik mungkin diperlukan</string>
     <string name="let_it_continue">Lanjutkan</string>
     <string name="abort_anyway">Batalkan</string>
     <!--<string name="change_dpi_and_reboot_desc">Your DPI will be changed. Your device will be automatically rebooted to effect changes.</string>
@@ -177,9 +197,6 @@
     <!--ComposeSmsActivity.kt-->
     <string name="please_change_sms_app">\"Migrate helper\" tidal berarti digunakan untuk aplikasi sms. Silakan ubah aplikasi pesan default</string>
 
-    <!--GetAppPackets.kt-->
-    <string name="path_not_valid_directory">direktori tidak valid</string>
-
     <!--RootCopyTask.kt-->
     <string name="no_busybox">Busybox tidak ditemukan!</string>
 
@@ -187,11 +204,11 @@
     <string name="loading">Memuat…</string>
 
     <!--RestoreServiceKotlin.kt-->
-    <string name="cancelling">Mmebatalkan…</string>
+    <string name="cancelling">Membatalkan…</string>
     <string name="errorStartingRestore">Eror memulai Pemulihan (onStartCommand).</string>
 
     <!--AppRestoreAdapter.kt-->
-    <string name="packageName">Paket :</string>
+    <string name="packageName">Nama Paket :</string>
     <string name="versionName">Versi :</string>
     <string name="installer">Penginstall: </string>
     <string name="play_store">Play Store</string>
@@ -200,6 +217,7 @@
     <string name="system_size">Ukuran Sistem :</string>
 
     <!--ParentGetter.kt-->
+    <string name="path_not_valid_directory">direktori tidak valid</string>
     <string name="getting_apps">Mendapatkan app</string>
     <string name="getting_contacts">Mendapatkan kontak</string>
     <string name="getting_sms">Mendapatkan sms</string>
@@ -213,6 +231,7 @@
     <string name="share_error_logs">Bagikan log eror</string>
     <string name="share_file_lists">Bagikan daftar file yang dicadangkan</string>
     <string name="share_script">Bagikan skrip</string>
+    <string name="share_raw_lists">Bagikan daftar file</string>
     <string name="share_package_data">Bagikan packet-data</string>
     <string name="send_to_tg">Kirim ke Telegram</string>
     <string name="agree_and_send">Setuju dan kirim</string>
@@ -241,6 +260,7 @@
     <string name="error_log_does_not_exist">\"errorLog\" tidak ada</string>
     <string name="package_data_does_not_exist">\"package-data\" tidak ada</string>
     <string name="file_lists_does_not_exist">Daftar file tidak ada</string>
+    <string name="raw_lists_does_not_exist">Daftar berkas mentah tidak ada</string>
     <string name="tg_not_installed">Grup Telegram kami membantu mendapatkan solusi cepat untuk masalah.</string>
     <string name="tg_not_installed_desc">Silakan pasang Telegram dan bergabung dengan grup kami.</string>
     <string name="install_tg">Pasang Telegram</string>
@@ -339,13 +359,17 @@
     <string name="track_restore_finished">Lacak pemulihan selesai</string>
     <string name="track_restore_finished_desc">Lacak ketika pemulihan selesai agar tidak menampilkan kembali aktivitas proses. Jangan menonaktifkan kecuali Anda yakin.</string>
     <string name="remount_all_to_uninstall">Remount semua untuk menghapus instalan</string>
+    <string name="remove_system_apk">Hapus aplikasi sistem (jika ada)</string>
     <string name="remount_all_to_uninstall_desc">Jika gagal mencopot, pasang kembali semua mount point dan coba lagi otomatis.</string>
+    <string name="load_multiple_icons">Memuat beberapa ikon aplikasi.</string>
+    <string name="load_multiple_icons_desc">Memuat ikon aplikasi sebanyak mungkin di layar pemilih aplikasi. Dapat mengakibatkan crash.</string>
+    <string name="check_low_memory_icons">Periksa memori rendah sebelum memuat ikon</string>
     <string name="clear_to_reset">Bersihkan dan tekan OK untuk mengatur ulang ke nilai default</string>
     <string name="manual_cache">Tentukan jalur ke migrate_cache</string>
     <string name="manual_metadata_holder">Tentukan jalur ke metadata holder</string>
-    
+
     <!--uninstall_activity.xml-->
-    <string name="uninstall_desc">Jika tidak berhasil, hapus direktori di atas. Opsi ini juga menghapus migrate_cache.</string>
+    <string name="uninstall_desc">Jika tidak berhasil, hapus direktori di atas.</string>
     <string name="temporary_disable_desc">Aplikasi akan berhenti memberi notifikasi, tetapi tetap dipasang.</string>
     <string name="delete_migrate_cache">Hapus migrate_cache (disarankan)</string>
     <string name="reboot">Reboot (disarankan)</string>
@@ -383,6 +407,8 @@
     <string name="zip_only_helper">Copot helper saja</string>
     <string name="zip_helper_cache">Copot helper + migrate_cache</string>
     <string name="extracted_under">Diekstrak di: [Penyimpanan Internal]/Migrate/</string>
+    <string name="unpack_failed">Ekstark gagal</string>
+    <string name="use_root_to_unpack">Izin berkas ditolak. root?</string>
 
     <!--Do not change!!-->
     <string name="actionSu" translatable="false">Migrate_helper_fix_SU</string>
