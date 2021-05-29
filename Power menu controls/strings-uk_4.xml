@@ -1,5 +1,6 @@
 <resources>
-    <string name="current_version_name">2.0</string>
+    <string name="app_name">Power menu controls</string>
+    <string name="current_version_name">3.0</string>
 
     <!--changelog--> <!-- original translate -->
     <string name="version_1.0" >Version 1.0</string>
@@ -20,6 +21,19 @@
         # Link added to help with translations\n
         # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
         # Update status when changed from long pressing the control\n
+    </string>
+    <string name="version_3.0" >Version 3.0</string>
+    <string name="version_3.0_content">
+        # Added translations.
+        # [Bug fix] Hopefully fix battery stat control\n
+        # Show warning message to Xiaomi MIUI and Samsung One UI users.\n
+        # Battery control now fills up to how much battery is left.\n
+        # Long press WakeLock tile for bright/dim wakelock.\n
+        # Long press WakeLock tile for auto-timeout wakelock.\n
+        # New Page editor for control tiles across multiple pages.\n
+        # New tile to change keyboard.\n
+        # New tile to open Shazam to search for music.\n
+        # [Root needed] New tile to kill the currently open app.\n
     </string>
 
     <string name="settings_structure">Налаштування телефону</string>
@@ -52,10 +66,12 @@
     <!--WakeLock.kt-->
     <string name="wakelock">Блокування сплячого режиму</string>
     <string name="wakelock_desc">Не вимикати екран</string>
+    <string name="long_press_options">Тривале натискання: опції</string>
+    <string name="bright_short">Яскр.</string>
 
     <!--MediaVolume.kt-->
     <string name="media_volume">Гучність музики</string>
-    <string name="media_volume_desc">Громкость музыкального потока</string>
+    <string name="media_volume_desc">Гучність медіа потоку</string>
 
     <!--AlarmVolume.kt-->
     <string name="alarm_volume">Гучність будильника</string>
@@ -75,6 +91,14 @@
     <string name="paytm_pay_india">Paytm (India)</string>
     <string name="scan_and_pay">Відсканувати QR і оплатити</string>
     <string name="loading">Завантаження</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">Використовуйте Shazam для визначення музики, що вас оточує</string>
+
+    <!--KillApp.kt-->
+    <string name="kill_app">Зупинити додаток</string>
+    <string name="kill_app_desc">Зупинити поточний відкритий додаток.</string>
 
     <!--GoogleLens.kt-->
     <!--<string name="google_lens">Google lens</string>-->
@@ -101,11 +125,38 @@
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_desc">Перемикач bluetooth. Немає необхідності в root-доступі.</string>
 
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">Змінити клавіатуру</string>
+
+    <string name="long_press_in_power_menu">Тривале натискання в меню живлення для відображення додаткових опцій</string>
     <string name="muted">Приглушено</string>
 
     <!--shortcut_toggle_view.xml-->
     <string name="generic_control">Загальні елементи керування</string> <!-- Not sure if this is correct -->
     <string name="generic_control_desc">Опис загальних елементів керування</string> <!-- Not sure if this is correct -->
+
+    <!--WakelockOptions.kt-->
+    <string name="wakelock_on">Увімкнено блокування сну</string>
+    <string name="wakelock_off">Блокування сну відключено</string>
+    <string name="bright">Яскравий</string>
+    <string name="dim">Затухаючий</string>
+    <string name="wakelock_type">Тип блокування сну</string>
+    <string name="bright_wakelock_desc"><b>Яскравий</b>: Яскравість екрану не буде знижуватися при неактивності <b>(не рекомендується)</b></string>
+    <string name="dim_wakelock_desc"><b>Затухаючий</b>: Яскравість екрану буде знижуватися на час неактивності.</string>
+    <string name="wakelock_time">Час відключення екрану</string>
+    <string name="wakelock_time_desc">Автоматично зняти блокування сну при закінченні цього часу.\n
+        Виберіть <b>Вручну</b>, щоб екран залишався включеним поки ви самі його не вимкнете.</string>
+    <string name="min5">5 хвилин</string>
+    <string name="min10">10 хвилин</string>
+    <string name="min30">30 хвилин</string>
+    <string name="manual">Вручну</string>
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">Домашній екран не можна зупинити</string>
+    <string name="cannot_kill_self">Не можу себе зупинити :)</string>
+    <string name="killed">Зупинено</string>
+    <string name="failed_to_kill">Не вдалося зупинити.</string>
+    <string name="expired_shazam">Не вдалось (Shazam).</string> <!-- Not sure if this is correct -->
 
     <!--MainActivity.kt-->
     <string name="modify_system_permission">Необхідний дозвіл на зміну налаштувань системи.</string>
@@ -113,7 +164,7 @@
     <string name="overlay_permission">Необхідний дозвіл на показ поверх додатків.</string>
     <string name="overlay_permission_desc">Натисніть кнопку \"Продовжити\", щоб надати дозвіл на показ поверх додатків.</string>
     <string name="battery_inaccurate">Сервіс батареї може бути неточним.</string>
-    <string name="battery_inaccurate_desc">Відсоток заряду батареї, стан енергозбереження та зарядки, що відображається елементом управління, може бути правильним не для всіх пристроїв і виробників.\n\n
+    <string name="battery_inaccurate_desc">Відсоток заряду батареї, стан енергозбереження та зарядки, що відображається елементом керування, може бути правильним не для всіх пристроїв і виробників.\n\n
         Цей елемент керування не може перемикати режим економії заряду батареї. Будь ласка, довго натискайте на нього, щоб самостійно переключити в Налаштуваннях.\n\n
         Натисніть кнопку \"Продовжити\", щоб увімкнути цей перемикач.</string>
     <string name="proceed">Продовжити</string>
@@ -126,19 +177,37 @@
     </string>
     <string name="request_accessibility">Увімкніть сервіс спеціальних можливостей.</string>
     <string name="request_accessibility_desc">Без цього дозволу блокується екран додатку.\n\nНатисніть кнопку \"Продовжити\", щоб відкрити налаштування і надати дозвіл.</string> <!-- Not sure if this is correct -->
-    <string name="paytm_not_installed">Додаток Paytm не встановлено.</string>
+    <string name="paytm_not_installed">Paytm не встановлено.</string>
+    <string name="shazam_not_installed">Shazam не встановлено.</string>
     <string name="kindly_install_from_store">Будь ласка, встановіть його з Google Play Store.</string>
     <!--<string name="google_lens_not_installed">Google Lens не установлен.</string>
     <string name="google_pay_tez_not_installed">Google Pay (India) не установлен.</string>-->
     <string name="screenshot_accessibility_desc">Без цього дозволу неможливо надіслати запит до системи на отримання знімку екрану.</string>
     <string name="split_screen_accessibility_desc">Додаток може запросити поділ екрану тільки з цим дозволом.</string>
+    <string name="accessibility_to_close_power_menu">Сервіс спеціальних можливостей необхідний для автоматичного закриття меню живлення.</string>
     <string name="root_options">Параметри з root-доступом</string>
     <string name="root_options_desc">Корисно для людей з root-доступом на пристрої.\n<b>Якщо у вас немає root-доступу, багато з наведених нижче параметрів можна відкрити тривалим натисканням по ним в меню живлення, для отримання додаткових параметрів.</b></string>
     <string name="root_not_available">Немає або відмовлено в root-доступі!</string>
     <string name="nfc_no_root">Ви можете утримувати кнопку управління NFC, щоб перейти в системні налаштування і самостійно перемкнути стан NFC.</string>
     <string name="data_no_root">Ви можете утримувати кнопку управління даними, щоб перейти в системні налаштування і самостійно ввімкнути використання даних (мобільний інтернет).</string>
+    <string name="kill_app_accessibility_desc">Дозвіл спеціальних можливостей необхідний для закриття меню живлення і визначення поточного додатку.</string>
+    <string name="kill_app_no_root">Необхідний root-доступ, без нього ця опція не може працювати.</string>
     <string name="new_message">Отримано нове повідомлення!</string>
     <string name="view">Переглянути</string>
+    <string name="one_ui_disclaimer">Може не працювати на Samsung (One UI). Вибач! &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        Додаток може працювати некоректно після модифікацій системи Android компанією Samsung.\n\n
+        Може (або не може) працювати на One UI 3.1 і вище. Ви можете додати перемикачі в панелі сповіщень, а не в меню живлення.\n\n
+        Додаток відмінно працює на кастомних прошивках.\n\n
+        Будь ласка, зрозумійте, що це не вина цього додатку. &#128557;
+    </string>
+    <string name="miui_disclaimer">Може не працювати на Xiaomi (MIUI). Вибач! &#128546;</string>
+    <string name="miui_disclaimer_desc">
+        Додаток може працювати некоректно після модифікацій системи Android компанією Xiaomi\n\n
+        Може (або не може) працювати на MIUI 12 і вище. Ви можете додати перемикачі в панелі сповіщень, а не в меню живлення.\n\n
+        Додаток відмінно працює на кастомних прошивках.\n\n
+        Будь ласка, зрозумійте, що це не вина цього додатку. &#128557;
+    </string>
 
 
     <!--header_view.xml-->
@@ -146,6 +215,9 @@
     <string name="can_write">Зміна налаштувань системи</string>
     <string name="can_overdraw">Показ поверх додатків</string>
     <string name="accessibility_granted">Сервіс спеціальних можливостей працює</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">Для закриття натисніть в будь-якому місці екрану, або використайте кнопку/жест назад.</string>
 
     <!--menu.xml-->
     <string name="about">Про додаток</string>
@@ -167,7 +239,8 @@
         <b>@vladrevers</b>: Російська, Українська\n
         <b>@maicol07</b>: Італійська\n
         <b>@atfmxyl</b>: Китайська (спрощена)\n
-        <b>@ugurcansayan</b>: Турецька
+        <b>@ugurcansayan</b>: Турецька\n
+        <b>@shacho36p</b>: Японська
     </string>
 
     <!--app_intro.xml-->
@@ -213,6 +286,37 @@
     <string name="made_with_android_studio">Зроблено в Android Studio</string>\
     <string name="version">Версія:</string>
 
+    <!--page_item.xml-->
+    <string name="comma_not_allowed">Не можна використовувати коми.</string>
+    <string name="default_page">Сторінка за замовчуванням</string>
+    <string name="same_page_exists">Така сторінка вже існує.</string>
+
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">Повторювання імен сторінок не допускається.</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">Редагувати сторінки</string>
+    <string name="save">Зберегти</string>
+    <string name="what_is_this">Що це?</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">Сторінка змінюється не відразу.</string>
+    <string name="no_immediate_effect_desc">Система не відразу сприймає зміну сторінки.\n
+    - Спробуйте відкрити і закрити меню живлення кілька разів.\n
+    - Якщо це не допомогло, спробуйте перезавантажити пристрій.</string>
+    <string name="dont_show_again">Не показувати знову</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">Що таке\"Сторінка\"?</string>
+    <string name="what_is_a_page_desc">\"Сторінка\" - це група елементів керування з довільним ім'ям.</string>
+    <string name="page_example_1">Ось два елементи керування, встановлених на сторінці з іменем \"Звуки\".</string>
+    <string name="page_example_2">В меню живлення вона відображається в окремому спадному списку з ім'ям \"Звуки\", а не з усіма іншими елементами керування.</string>
+    <string name="how_to_add_a_page">Як додати сторінку?</string>
+    <string name="how_to_add_a_page_1">Щоб додати сторінку, натисніть внизу на кнопку \"Редагувати сторінки\".</string>
+    <string name="how_to_add_a_page_2">Потім натисніть на знак плюс і введіть ім'я нової сторінки. Імена раніше створених сторінок також можна редагувати, просто натиснувши на них. Натисніть на червону іконку сміттєвого кошика, щоб видалити сторінку. \"Сторінка за замовчуванням\" не редагується.</string>
+    <string name="how_to_add_a_page_3">Для необхідних елементів керування, натисніть на спадний список і виберіть їм сторінки.</string>
+    <string name="how_to_add_a_page_4">Готово, натисніть кнопку \"Зберегти\" внизу.</string>
+
     <!--preferences.xml-->
     <string name="preferences">Налаштування</string>
     <string name="brightness_algo">Алгоритм повзунка яскравості</string>
@@ -222,6 +326,10 @@
     </string-array>
     <string name="screenshot_delay">Затримка зняття скріншоту (в мілісекундах)</string>
     <string name="split_screen_delay">Затримка розділення екрана (в мілісекундах)</string>
+    <string name="kill_app_delay">Затримка зупинки програми (в мілісекундах) [root]</string>
+    <string name="kill_app_delay_desc">Чекає зазначений час перед зупинкою програми</string>
+    <string name="change_keyboard_delay">Затримка зміни клавіатури (в мілісекундах)</string>
+    <string name="change_keyboard_delay_desc">Чекає зазначений час перед відображенням вікна з вибором клавіатури</string>
     <string-array name="delay_ms">
         <item>200</item>
         <item>350</item>
@@ -229,12 +337,23 @@
         <item>1000</item>
         <item>1500</item>
     </string-array>
+    <string name="dont_kill_launcher">Не зупиняти домашній екран [root]</string>
+    <string name="dont_kill_launcher_desc">Запобігання закриття домашнього екрану за замовчуванням.</string>
     <string name="turn_off_wakelock">Автоматичне відключення блокування сплячого режиму</string>
     <string name="turn_off_wakelock_desc">Відключати блокування сплячого режиму, якщо екран вимкнено самостійно.</string>
+    <string name="force_battery_update">Примусове оновлення рівня заряду батареї</string>
+    <string name="force_battery_update_desc">Оновлювати відсоток заряду батареї кожні 30 секунд.</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
 
     <!--messages_activity.xml-->
     <string name="messages">Повідомлення / Оголошення</string>
 
     <!--MessagesView.kt-->
-    <string name="no_messages">Немає повідомлень!</string>    
+    <string name="no_messages">Немає повідомлень!</string>
 </resources>

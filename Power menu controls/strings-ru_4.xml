@@ -1,5 +1,6 @@
 <resources>
-    <string name="current_version_name">2.0</string>
+    <string name="app_name">Power menu controls</string>
+    <string name="current_version_name">3.0</string>
 
     <!--changelog--> <!-- original translate -->
     <string name="version_1.0" >Version 1.0</string>
@@ -20,6 +21,19 @@
         # Link added to help with translations\n
         # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
         # Update status when changed from long pressing the control\n
+    </string>
+    <string name="version_3.0" >Version 3.0</string>
+    <string name="version_3.0_content">
+        # Added translations.
+        # [Bug fix] Hopefully fix battery stat control\n
+        # Show warning message to Xiaomi MIUI and Samsung One UI users.\n
+        # Battery control now fills up to how much battery is left.\n
+        # Long press WakeLock tile for bright/dim wakelock.\n
+        # Long press WakeLock tile for auto-timeout wakelock.\n
+        # New Page editor for control tiles across multiple pages.\n
+        # New tile to change keyboard.\n
+        # New tile to open Shazam to search for music.\n
+        # [Root needed] New tile to kill the currently open app.\n
     </string>
 
     <string name="settings_structure">Настройки устройства</string>
@@ -52,6 +66,8 @@
     <!--WakeLock.kt-->
     <string name="wakelock">Блокировка сна</string>
     <string name="wakelock_desc">Не отключать экран</string>
+    <string name="long_press_options">Длительное нажатие: опции</string>
+    <string name="bright_short">Ярк.</string>
 
     <!--MediaVolume.kt-->
     <string name="media_volume">Громкость музыки</string>
@@ -75,6 +91,14 @@
     <string name="paytm_pay_india">Paytm (India)</string>
     <string name="scan_and_pay">Отсканировать QR и оплатить</string>
     <string name="loading">Загрузка…</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">Используйте Shazam для определения окружающей вас музыки</string>
+
+    <!--KillApp.kt-->
+    <string name="kill_app">Остановить приложение</string>
+    <string name="kill_app_desc">Остановить текущее открытое приложение.</string>
 
     <!--GoogleLens.kt-->
     <!--<string name="google_lens">Google lens</string>-->
@@ -101,11 +125,38 @@
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_desc">Переключатель bluetooth. Нет необходимости в root-доступе.</string>
 
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">Сменить клавиатуру</string>
+
+    <string name="long_press_in_power_menu">Длительное нажатие в меню питания для отображения дополнительных опций</string>
     <string name="muted">Приглушенно</string>
 
     <!--shortcut_toggle_view.xml-->
     <string name="generic_control">Общие элементы управления</string> <!-- Not sure if this is correct -->
     <string name="generic_control_desc">Описание общих элементов управления</string> <!-- Not sure if this is correct -->
+
+    <!--WakelockOptions.kt-->
+    <string name="wakelock_on">Включена блокировка сна</string>
+    <string name="wakelock_off">Блокировка сна отключена</string>
+    <string name="bright">Яркий</string>
+    <string name="dim">Тусклый</string>
+    <string name="wakelock_type">Тип блокировки сна</string>
+    <string name="bright_wakelock_desc"><b>Яркий</b>: Яркость экрана не будет снижаться при бездействии <b>(Не рекомендуется)</b></string>
+    <string name="dim_wakelock_desc"><b>Тусклый</b>: Яркость экрана будет снижаться на время бездействия.</string>
+    <string name="wakelock_time">Время отключения экрана</string>
+    <string name="wakelock_time_desc">Автоматически снять блокировку сна при истечении этого времени.\n
+        Установите значение <b>Вручную</b>, чтобы экран оставался включенным пока вы сами его не выключите.</string>
+    <string name="min5">5 минут</string>
+    <string name="min10">10 минут</string>
+    <string name="min30">30 минут</string>
+    <string name="manual">Вручную</string>
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">Домашний экран нельзя остановить</string>
+    <string name="cannot_kill_self">Не могу себя остановить :)</string>
+    <string name="killed">Остановлено</string>
+    <string name="failed_to_kill">Не удалось остановить.</string>
+    <string name="expired_shazam">Не удалось (Shazam).</string> <!-- Not sure if this is correct -->
 
     <!--MainActivity.kt-->
     <string name="modify_system_permission">Необходимо разрешение на изменение системных настроек.</string>
@@ -126,19 +177,37 @@
     </string>
     <string name="request_accessibility">Включите сервис специальных возможностей.</string>
     <string name="request_accessibility_desc">Без этого разрешения блокируется экран приложения.\n\nНажмите кнопку \"Продолжить\", чтобы открыть настройки и предоставить разрешение.</string> <!-- Not sure if this is correct -->
-    <string name="paytm_not_installed">Приложение Paytm не установлено.</string>
+    <string name="paytm_not_installed">Paytm не установлено.</string>
+    <string name="shazam_not_installed">Shazam не установлено.</string>
     <string name="kindly_install_from_store">Пожалуйста, установите его из Google Play Store.</string>
     <!--<string name="google_lens_not_installed">Google Lens не установлен.</string>
     <string name="google_pay_tez_not_installed">Google Pay (India) не установлен.</string>-->
     <string name="screenshot_accessibility_desc">Без этого разрешения невозможно отправить запрос в систему на получение снимка экрана.</string>
     <string name="split_screen_accessibility_desc">Приложение может запросить разделение экрана только с этим разрешением.</string>
+    <string name="accessibility_to_close_power_menu">Служба специальных возможностей необходима для автоматического закрытия меню питания.</string>
     <string name="root_options">Параметры с root-доступом</string>
-    <string name="root_options_desc">Полезно для людей с root-доступом на устройстве.\n<b>Если у вас НЕТ root-доступа, многие из приведенных ниже параметров можно открыть длительным нажатием по ним в меню питания, для получения дополнительных параметров.</b></string>
+    <string name="root_options_desc">Полезно для людей с root-доступом на устройстве.\n<b>Если у вас НЕТ root-доступа, многие из приведенных ниже параметров можно открыть длительным нажатием по ним в меню питания.</b></string>
     <string name="root_not_available">Нет или отказано в root-доступе!</string>
     <string name="nfc_no_root">Вы можете удерживать кнопку управления NFC, чтобы перейти в системные настройки и вручную переключить состояние NFC.</string>
     <string name="data_no_root">Вы можете удерживать кнопку управления данными, чтобы перейти в системные настройки и вручную включить передачу данных.</string>
+    <string name="kill_app_accessibility_desc">Разрешение специальных возможностей необходимо для закрытия меню питания и определения текущего приложения.</string>
+    <string name="kill_app_no_root">Необходим root-доступ, без него эта опция не может работать.</string>
     <string name="new_message">Получено новое сообщение!</string>
     <string name="view">Посмотреть</string>
+    <string name="one_ui_disclaimer">Может не работать на Samsung (One UI). Прости! &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        Приложение может работать некорректно из-за модификаций системы Android компанией Samsung.\n\n
+        Может (или не может) работать на One UI 3.1 и выше. Вы можете добавить переключатели в панель уведомлений, а не в меню питания.\n\n
+        Приложение отлично работает на кастомных прошивках.\n\n
+        Пожалуйста, поймите, что это не вина приложения. &#128557;
+    </string>
+    <string name="miui_disclaimer">Может не работать на Xiaomi (MIUI). Прости! &#128546;</string>
+    <string name="miui_disclaimer_desc">
+        Приложение может работать некорректно из-за модификаций системы Android компанией Xiaomi\n\n
+        Может (или не может) работать на MIUI 12 и выше. Вы можете добавить переключатели в панель уведомлений, а не в меню питания.\n\n
+        Приложение отлично работает на кастомных прошивках.\n\n
+        Пожалуйста, поймите, что это не вина приложения. &#128557;
+    </string>
 
 
     <!--header_view.xml-->
@@ -146,6 +215,9 @@
     <string name="can_write">Изменения системных настроек</string>
     <string name="can_overdraw">Отображения поверх других приложений</string>
     <string name="accessibility_granted">Используется сервис спец. возможностей</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">Для закрытия нажмите в любом месте экрана, или используйте кнопку/жест назад.</string>
 
     <!--menu.xml-->
     <string name="about">О приложении</string>
@@ -167,7 +239,8 @@
         <b>@vladrevers</b>: Русский, Украинский\n
         <b>@maicol07</b>: Итальянский\n
         <b>@atfmxyl</b>: Китайский (упрощенный)\n
-        <b>@ugurcansayan</b>: Турецкий
+        <b>@ugurcansayan</b>: Турецкий\n
+        <b>@shacho36p</b>: Японский
     </string>
 
     <!--app_intro.xml-->
@@ -213,6 +286,37 @@
     <string name="made_with_android_studio">Сделано в Android Studio</string>\
     <string name="version">Версия:</string>
 
+    <!--page_item.xml-->
+    <string name="comma_not_allowed">Нельзя использовать запятые.</string>
+    <string name="default_page">Страница по умолчанию</string>
+    <string name="same_page_exists">Такая страница уже существует.</string>
+
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">Повторяющиеся имена страниц не допускаются.</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">Редактировать страницы</string>
+    <string name="save">Сохранить</string>
+    <string name="what_is_this">Что это?</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">Страница меняется не сразу.</string>
+    <string name="no_immediate_effect_desc">Система не сразу воспринимает смену страницы.\n
+    - Попробуйте открыть и закрыть меню питания несколько раз.\n
+    - Если это не помогло, попробуйте перезагрузить устройство.</string>
+    <string name="dont_show_again">Не показывать снова</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">Что такое \"Страница\"?</string>
+    <string name="what_is_a_page_desc">\"Страница\" - это группа элементов управления с произвольным именем.</string>
+    <string name="page_example_1">Вот два элемента управления, установленных на странице с именем \"Звуки\".</string>
+    <string name="page_example_2">В меню питания она отображается в отдельном раскрывающемся списке с именем \"Звуки\", а не со всеми другими элементами управления.</string>
+    <string name="how_to_add_a_page">Как добавить страницу?</string>
+    <string name="how_to_add_a_page_1">Чтобы добавить страницу, нажмите внизу на кнопку \"Редактировать страницы\".</string>
+    <string name="how_to_add_a_page_2">Затем нажмите на знак плюс и введите имя новой страницы. Имена ранее созданных страниц также можно редактировать, просто нажав на них. Нажмите на красную иконку мусорной корзины, чтобы удалить страницу. \"Страница по умолчанию\" не редактируется.</string>
+    <string name="how_to_add_a_page_3">Для необходимых элементов управления, щелкните на раскрывающийся список и выберите им страницы.</string>
+    <string name="how_to_add_a_page_4">Готово, нажмите кнопку \"Сохранить\" внизу.</string>
+
     <!--preferences.xml-->
     <string name="preferences">Настройки</string>
     <string name="brightness_algo">Алгоритм ползунка яркости</string>
@@ -222,6 +326,10 @@
     </string-array>
     <string name="screenshot_delay">Задержка снятия скриншота (в миллисекундах)</string>
     <string name="split_screen_delay">Задержка разделения экрана (в миллисекундах)</string>
+    <string name="kill_app_delay">Задержка остановки приложения (в миллисекундах) [root]</string>
+    <string name="kill_app_delay_desc">Ждёт указанное время перед остановкой приложения</string>
+    <string name="change_keyboard_delay">Задержка смены клавиатуры (в миллисекундах)</string>
+    <string name="change_keyboard_delay_desc">Ждёт указанное время перед отображением окна с выбором клавиатуры</string>
     <string-array name="delay_ms">
         <item>200</item>
         <item>350</item>
@@ -229,12 +337,23 @@
         <item>1000</item>
         <item>1500</item>
     </string-array>
+    <string name="dont_kill_launcher">Не останавливать домашний экран [root]</string>
+    <string name="dont_kill_launcher_desc">Предотвращение закрытия домашнего экрана по умолчанию.</string>
     <string name="turn_off_wakelock">Автоматическое отключения блокировки сна</string>
     <string name="turn_off_wakelock_desc">Отключать блокировку сна, если экран выключен вручную.</string>
+    <string name="force_battery_update">Принудительное обновление уровня заряда батареи</string>
+    <string name="force_battery_update_desc">Обновлять процент заряда батареи каждые 30 секунд.</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
 
     <!--messages_activity.xml-->
     <string name="messages">Сообщения / Объявления</string>
 
     <!--MessagesView.kt-->
-    <string name="no_messages">Нет сообщений!</string>    
+    <string name="no_messages">Нет сообщений!</string>
 </resources>
