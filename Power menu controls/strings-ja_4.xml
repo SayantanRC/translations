@@ -145,7 +145,7 @@
     <string name="dim_wakelock_desc"><b>暗</b> : 一定時間経過後に画面を暗くする</string>
     <string name="wakelock_time">ウェイクロック時間</string>
     <string name="wakelock_time_desc">ここで設定した時間が経過すると、自動的にウェイクロックが解除されます。\n
-        <b>手動<b> に設定すると、手動でオフにするまでずっと画面が表示され続けます。</string>
+        <b>手動</b> に設定すると、手動でオフにするまでずっと画面が表示され続けます。</string>
     <string name="min5">5 分</string>
     <string name="min10">10 分</string>
     <string name="min30">30 分</string>
