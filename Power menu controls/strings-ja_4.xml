@@ -24,7 +24,7 @@
     </string>
     <string name="version_3.0" >バージョン 3.0</string>
     <string name="version_3.0_content">
-        # 翻訳の追加
+        # 翻訳の追加\n
         # [バグ修正] バッテリー情報のエラー\n
         # Xiaomi MIUIとGalaxy One UIのユーザーに警告メッセージを表示\n
         # バッテリーコントロールにおいて、バッテリーの残量に合わせて変化する仕様に変更\n
