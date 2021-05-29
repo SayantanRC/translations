@@ -308,7 +308,7 @@
 
     <!--page_edit_what_is_this.xml-->
     <string name="what_is_a_page">Що таке\"Сторінка\"?</string>
-    <string name="what_is_a_page_desc">\"Сторінка\" - це група елементів керування з довільним ім'ям.</string>
+    <string name="what_is_a_page_desc">\"Сторінка\" - це група елементів керування з довільним ім\'ям.</string>
     <string name="page_example_1">Ось два елементи керування, встановлених на сторінці з іменем \"Звуки\".</string>
     <string name="page_example_2">В меню живлення вона відображається в окремому спадному списку з ім\'ям \"Звуки\", а не з усіма іншими елементами керування.</string>
     <string name="how_to_add_a_page">Як додати сторінку?</string>
