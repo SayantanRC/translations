@@ -24,7 +24,7 @@
     </string>
     <string name="version_3.0" >Version 3.0</string>
     <string name="version_3.0_content">
-        # Added translations.
+        # Added translations.\n
         # [Bug fix] Hopefully fix battery stat control\n
         # Show warning message to Xiaomi MIUI and Samsung One UI users.\n
         # Battery control now fills up to how much battery is left.\n
