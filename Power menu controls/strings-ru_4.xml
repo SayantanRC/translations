@@ -71,7 +71,7 @@
 
     <!--MediaVolume.kt-->
     <string name="media_volume">Громкость музыки</string>
-    <string name="media_volume_desc">Громкость музыкального потока</string>
+    <string name="media_volume_desc">Громкость музыки на устройстве</string>
 
     <!--AlarmVolume.kt-->
     <string name="alarm_volume">Громкость будильника</string>
@@ -83,7 +83,7 @@
     <string name="battery_percentage">Процент заряда батареи</string>
     <string name="battery_desc">Процент заряда батареи, состояние энергосбережения</string>
     <string name="charging">Идет зарядка</string>
-    <string name="discharging">Разряжение</string>
+    <string name="discharging">Разрядка</string>
     <string name="battery_saver">Режим энергосбережения</string>
 
     <!--PaytmQR.kt-->
