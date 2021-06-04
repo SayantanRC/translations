@@ -197,7 +197,7 @@
     <string name="one_ui_disclaimer">May not work on Samsung One UI. Sorry! &#128546;</string>
     <string name="one_ui_disclaimer_desc">
         Because of software modifications by Samsung, this app may not work correctly.\n\n
-        It may (or may not) work on One UI above version 3.1. You may get the controls from notification shade and not power menu.\n\n
+        It may (or may not) work on One UI above version 3.1. You may get the controls from notification shade <b>(Media and Devices)</b> and not power menu.\n\n
         The app may also work fine on all custom ROMs.\n\n
         Please understand this is not a fault of this app. &#128557;
     </string>
