@@ -70,14 +70,14 @@
     <string name="bright_short">Яскр.</string>
 
     <!--MediaVolume.kt-->
-    <string name="media_volume">Гучність музики</string>
-    <string name="media_volume_desc">Гучність медіа потоку</string>
+    <string name="media_volume">Гучність медіа</string>
+    <string name="media_volume_desc">Музики, відео, ігр</string>
 
     <!--AlarmVolume.kt-->
     <string name="alarm_volume">Гучність будильника</string>
 
     <!--RingtoneVolume.kt-->
-    <string name="ringtone_volume">Гучність рингтону</string>
+    <string name="ringtone_volume">Гучність дзвінків</string>
 
     <!--Battery.kt-->
     <string name="battery_percentage">Відсоток заряду батареї</string>
