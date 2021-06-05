@@ -22,7 +22,7 @@
         # Desligar o modo Cafeína se a tela manualmente estiver bloqueada. Pode ser desativado na tela de preferências.\n
         # Atualizar o status quando alterado após pressionar longamente o controle\n
     </string>
-    <string name="version_3.0" >Version 3.0</string>
+    <string name="version_3.0" >Versão 3.0</string>
     <string name="version_3.0_content">
         # Traduções adicionadas.\n
         # [Correção de bug] Corrigido o controle de estatísticas da bateria\n
