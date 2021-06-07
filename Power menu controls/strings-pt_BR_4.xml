@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Power menu controls</string>
+    <string name="app_name">Power Menu Controles</string>
     <string name="current_version_name">3.0</string>
 
     <!--changelog-->
@@ -36,7 +36,7 @@
         # [Root necessário] Novo card para fechar o aplicativo atualmente aberto.\n
     </string>
 
-    <string name="settings_structure">Configurações do dispositivo</string>
+    <string name="settings_structure">Controles do dispositivo</string>
 
     <!--Brightness.kt-->
     <string name="brightness">Brilho</string>
@@ -44,12 +44,12 @@
 
     <!--AutoBrightness.kt-->
     <string name="auto_brightness">Brilho automático</string>
-    <string name="enabled">Ativar</string>
-    <string name="disabled">Desativar</string>
+    <string name="enabled">Ativado</string>
+    <string name="disabled">Desativado</string>
 
     <!--Flash.kt-->
     <string name="flash">Lanterna</string>
-    <string name="flash_desc">Ativar o flash</string>
+    <string name="flash_desc">O flash é ativado</string>
 
     <!--TotalSilence.kt-->
     <string name="total_silence">Silêncio total</string>
@@ -60,18 +60,18 @@
     <string name="screen_timeout">Tempo limite da tela</string>
 
     <!--RotationLock.kt-->
-    <string name="rotation_lock">Bloqueio de rotação</string>
-    <string name="rotation_lock_desc">Desativar rotação</string>
+    <string name="rotation_lock">Orientação</string>
+    <string name="rotation_lock_desc">Bloquear rotação</string>
 
     <!--WakeLock.kt-->
     <string name="wakelock">Cafeína</string>
     <string name="wakelock_desc">Mantém a tela acesa</string>
-    <string name="long_press_options">Pressione para mais opções</string>
+    <string name="long_press_options">Pressione: Opções</string>
     <string name="bright_short">Brt.</string>
 
     <!--MediaVolume.kt-->
-    <string name="media_volume">Controle de volume</string>
-    <string name="media_volume_desc">Nível de volume</string>
+    <string name="media_volume">Volume de mídia</string>
+    <string name="media_volume_desc">Ajuste o nível</string>
 
     <!--AlarmVolume.kt-->
     <string name="alarm_volume">Volume do alarme</string>
@@ -80,11 +80,11 @@
     <string name="ringtone_volume">Volume do toque</string>
 
     <!--Battery.kt-->
-    <string name="battery_percentage">Porcentagem da bateria</string>
-    <string name="battery_desc">Nível da bateria e modo de economia</string>
+    <string name="battery_percentage">Status da bateria</string>
+    <string name="battery_desc">Nível da bateria e status</string>
     <string name="charging">Carregando</string>
     <string name="discharging">Descarregado</string>
-    <string name="battery_saver">Economia de bateria</string>
+    <string name="battery_saver">Economia ativada</string>
 
     <!--PaytmQR.kt-->
     <string name="paytm_pay">Paytm Pay</string>
@@ -111,7 +111,7 @@
 
     <!--Nfc.kt-->
     <string name="nfc">NFC</string>
-    <string name="hold_for_options">Pressione para mais opções</string>
+    <string name="hold_for_options">Pressione: Opções</string>
     <string name="please_wait">Por favor aguarde…</string>
 
     <!--Data.kt-->
@@ -123,10 +123,10 @@
 
     <!--Bluetooth.kt-->
     <string name="bluetooth">Bluetooth</string>
-    <string name="bluetooth_desc">Alternar bluetooth. Não é necessário Root.</string>
+    <string name="bluetooth_desc">Alternar bluetooth. Não é necessário Root!</string>
 
     <!--KeyboardChanger.kt-->
-    <string name="change_keyboard">Métodos de entrada</string>
+    <string name="change_keyboard">Mudar teclado</string>
 
     <string name="long_press_in_power_menu">Pressione e segure no menu de energia para mais opções</string>
     <string name="muted">Silenciado</string>
@@ -136,8 +136,8 @@
     <string name="generic_control_desc">Descrição genérica de controle</string>
 
     <!--WakelockOptions.kt-->
-    <string name="wakelock_on">Cafeína ativada</string>
-    <string name="wakelock_off">Cafeína desativada</string>
+    <string name="wakelock_on">Cafeína ativado</string>
+    <string name="wakelock_off">Cafeína desativado</string>
     <string name="bright">Brilho total</string>
     <string name="dim">Brilho baixo</string>
     <string name="wakelock_type">Opções</string>
@@ -241,7 +241,7 @@
         <b>@atfmxyl</b>: Chinês simplificado\n
         <b>@ugurcansayan</b>: Turco\n
         <b>@shacho36p</b>: Japones\n
-		<b>@daviemanuel1</b>: Português (Brasil)\n
+	<b>@daviemanuel1</b>: Português (Brasil)\n
     </string>
 
     <!--app_intro.xml-->
