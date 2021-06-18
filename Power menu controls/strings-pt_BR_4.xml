@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Power Menu Controles</string>
-    <string name="current_version_name">3.0</string>
+    <string name="current_version_name">3.0.1</string>
 
     <!--changelog-->
     <string name="version_1.0" >Versão 1.0</string>
