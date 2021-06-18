@@ -40,7 +40,7 @@
 
     <!--Brightness.kt-->
     <string name="brightness">Brilho</string>
-    <string name="brightness_desc">Brilho da tela</string>
+    <string name="brightness_desc">Nível de brilho</string>
 
     <!--AutoBrightness.kt-->
     <string name="auto_brightness">Brilho automático</string>
@@ -186,10 +186,10 @@
     <string name="split_screen_accessibility_desc">Só podemos dividir a tela com essa permissão.</string>
     <string name="accessibility_to_close_power_menu">O serviço de acessibilidade é necessário para fechar o menu de energia.</string>
     <string name="root_options">Opções com root</string>
-    <string name="root_options_desc">Útil para dispositivos enraizados.\n<b>Se você NÃO tiver root, muitas das opções abaixo podem ser pressionadas por um tempo no menu de energia para abrir outras opções.</b></string>
+    <string name="root_options_desc">Útil para dispositivos enraizados.\n<b>Se você NÃO tiver root, algumas das opções a seguir podem ser ativadas, mas será necessário serem feitas manualmente ao pressionar o card no menu de energia.</b></string>
     <string name="root_not_available">Root não disponível ou permissão negada!</string>
-    <string name="nfc_no_root">Você pode pressionar longamente o controle NFC para abrir as configurações e alternar manualmente o NFC.</string>
-    <string name="data_no_root">Você pode pressionar longamente o controle de Dados móveis para abrir a página de uso de dados e ativá-lo manualmente.</string>
+    <string name="nfc_no_root">Você pode pressionar longamente o card de controle NFC para abrir as configurações e alterá-lo manualmente.</string>
+    <string name="data_no_root">Você pode pressionar longamente o card de controle de Dados móveis para abrir as configurações e alterá-lo manualmente.</string>
     <string name="kill_app_accessibility_desc">A permissão de acessibilidade é necessária para fechar o menu de energia e detectar o aplicativo atual.</string>
     <string name="kill_app_no_root">O root é necessário! Essa opção não pode ser executada sem o root.</string>
     <string name="new_message">Nova mensagem recebida!</string>
