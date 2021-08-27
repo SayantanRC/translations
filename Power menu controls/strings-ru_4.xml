@@ -212,8 +212,8 @@
 
     <!--header_view.xml-->
     <string name="permissions">Разрешения</string>
-    <string name="can_write">Изменения системных настроек</string>
-    <string name="can_overdraw">Отображения поверх других приложений</string>
+    <string name="can_write">Изменение системных настроек</string>
+    <string name="can_overdraw">Отображение поверх других приложений</string>
     <string name="accessibility_granted">Используется сервис спец. возможностей</string>
 
     <!--keyboard_change_dummy_layout.xml-->
@@ -225,8 +225,8 @@
     <string name="app_intro">Вступительный экран</string>
     <string name="rate_app">Оценить приложение</string>
     <string name="changelog">Список изменений</string>
-    <string name="contact_telegram">Связаться через Telegram</string>
-    <string name="check_on_xda">XDA</string>
+    <string name="contact_telegram">Группа в Telegram</string>
+    <string name="check_on_xda">Тема на XDA</string>
 
     <!--translation_layout.xml-->
     <string name="want_to_translate">Хотите перевести на свой язык?</string>
