@@ -1,5 +1,6 @@
 <resources>
-    <string name="current_version_name">2.0</string>
+    <string name="app_name">电源菜单控制</string>
+    <string name="current_version_name">3.0.1</string>
 
     <!--changelog-->
     <string name="version_1.0" >版本 1.0</string>
@@ -20,6 +21,19 @@
          ＃添加链接以帮助翻译\n
          ＃如果手动屏幕锁定，则关闭唤醒锁。 可以从首选项屏幕禁用。\n
          ＃从长按控件更改状态时更新状态\n
+    </string>
+    <string name="version_3.0" >Version 3.0</string>
+    <string name="version_3.0_content">
+        # 添加了翻译\n
+        # [BUG修复] 希望能修复电池状态控制\n
+        # 向MIUI和One UI用户显示警告信息\n
+        # 电池控制现在填上了剩余的电池数量\n
+        # 长按 "唤醒" 磁贴，以获得亮/暗色的唤醒状态\n
+        # 长按 "唤醒" 磁贴，可自动超时唤醒\n
+        # 新的页面编辑器用于控制多个页面的磁贴\n
+        # 新的磁贴可以改变键盘\n
+        # 新的磁贴可以打开Shazam来搜索音乐\n
+        # [需要Root权限] 新的磁贴可以关闭当前打开的应用程序\n
     </string>
 
     <string name="settings_structure">手机 设置</string>
@@ -52,6 +66,8 @@
     <!--WakeLock.kt-->
     <string name="wakelock">唤醒锁</string>
     <string name="wakelock_desc">跳过屏幕唤醒锁</string>
+    <string name="long_press_options">长按：选项</string>
+    <string name="bright_short">暂时唤醒.</string>
 
     <!--MediaVolume.kt-->
     <string name="media_volume">媒体音量</string>
@@ -73,8 +89,16 @@
     <!--PaytmQR.kt-->
     <string name="paytm_pay">Paytm 支付</string>
     <string name="paytm_pay_india">Paytm (印度)</string>
-    <string name="scan_and_pay">扫描QR并付款</string>
-    <string name="loading">加载中... 请等待</string>
+    <string name="scan_and_pay">扫码支付</string>
+    <string name="loading">加载中... 请稍等</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">使用Shazam来识别周围的音乐</string>
+
+        <!--KillApp.kt-->
+    <string name="kill_app">关闭</string>
+    <string name="kill_app_desc">关闭当前打开的App</string>
 
     <!--GoogleLens.kt-->
     <!--<string name="google_lens">Google lens</string>-->
@@ -99,13 +123,40 @@
 
     <!--Bluetooth.kt-->
     <string name="bluetooth">蓝牙</string>
-    <string name="bluetooth_desc">切换蓝牙,不需要root</string>
+    <string name="bluetooth_desc">无需Root切换蓝牙</string>
 
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">切换输入法</string>
+
+    <string name="long_press_in_power_menu">更多选项请长按电源菜单</string>
     <string name="muted">静音</string>
 
     <!--shortcut_toggle_view.xml-->
     <string name="generic_control">通用控制</string>
     <string name="generic_control_desc">通用控制描述</string>
+
+        <!--WakelockOptions.kt-->
+    <string name="wakelock_on">唤醒打开</string>
+    <string name="wakelock_off">唤醒关闭</string>
+    <string name="bright">亮</string>
+    <string name="dim">暗</string>
+    <string name="wakelock_type">唤醒类型</string>
+    <string name="bright_wakelock_desc"><b>亮</b>: 屏幕常亮 <b>(Not recommended)</b></string>
+    <string name="dim_wakelock_desc"><b>暗</b>: 一段时间后屏幕将变暗</string>
+    <string name="wakelock_time">唤醒时间</string>
+    <string name="wakelock_time_desc">在这段时间后自动解除唤醒\n设置为 <b>手动</b>除非手动关闭，否则将永远保持屏幕状态。</string>
+    <string name="min5">5 分钟</string>
+    <string name="min10">10 分钟</string>
+    <string name="min30">30 分钟</string>
+    <string name="manual">手动</string>
+
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">桌面 App 没有关闭</string>
+    <string name="cannot_kill_self">不能关闭App自己😅</string>
+    <string name="killed">关闭</string>
+    <string name="failed_to_kill">关闭失败</string>
+    <string name="expired_shazam">没有Shazam.</string>
 
     <!--MainActivity.kt-->
     <string name="modify_system_permission">需要"修改系统设置权限"</string>
@@ -127,18 +178,36 @@
     <string name="request_accessibility">启用辅助功能服务。</string>
     <string name="request_accessibility_desc">没有这个权限的发,软件运行时屏幕可能会锁上\n\n点击 \"继续\" 以打开设置并授予权限</string>
     <string name="paytm_not_installed">Paytm app 没有安装</string>
+    <string name="shazam_not_installed">Shazam App 没有安装</string>
     <string name="kindly_install_from_store">请从Google Play商店安装</string>
     <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
     <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
     <string name="screenshot_accessibility_desc">没有这个权限,程序将没有办法向系统发送截屏请求。</string>
     <string name="split_screen_accessibility_desc">我们只能在拥有此权限的情况下请求分屏显示。</string>
+    <string name="accessibility_to_close_power_menu">需要无障碍服务来关闭电源菜单。</string>
     <string name="root_options">Root 选项</string>
     <string name="root_options_desc">对于设备已经Root了的人很有用。\n<b>如果您没有Root权限，可以在电源菜单中长按以下更多选项，以获取更多选项。</b></string>
     <string name="root_not_available">没有Root权限或权限被拒绝！</string>
     <string name="nfc_no_root">您可以长按NFC控件以打开设置并手动切换NFC。</string>
     <string name="data_no_root">您可以长按“数据”控件以打开“数据使用情况”页面并手动将其打开。</string>
+    <string name="kill_app_accessibility_desc">关闭电源菜单和检测当前应用程序需要授权无障碍权限。</string>
+    <string name="kill_app_no_root">必须有 Root，没有 Root 这个选项不能运行。</string>
     <string name="new_message">收到新消息！</string>
     <string name="view">查看</string>
+    <string name="one_ui_disclaimer">可能无法在三星One UI上运行。对不起!  &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        由于三星的系统魔改，本应用程序可能无法正常工作。\n\n
+        他可能在高于 One UI 3.1的系统版本上不正常工作. 你可以从通知栏上 <b>(媒体和设备)</b> 而不是电源菜单中获得控件.\n\n
+        本应用程序也可以在所有自定义 ROM 上正常工作🤔\n\n
+        请理解这不是这个应用程序的错😅 &#128557;
+    </string>
+    <string name="miui_disclaimer">可能无法在 MIUI上运行。对不起! &#128546;</string>
+    <string name="miui_disclaimer_desc">
+        由于 Xiaomi 对MIUI的系统魔改,本应用程序可能无法正常工作。\n\n
+        他可能在高于 MIUI12 的系统版本上不正常工作. 您可以从通知栏而不是电源菜单中获得控件。\n\n
+        本应用程序也可以在所有自定义 ROM 上正常工作🤔\n\n
+        请理解这不是这个应用程序的错😅 &#128557;
+    </string>
 
 
     <!--header_view.xml-->
@@ -146,6 +215,9 @@
     <string name="can_write">可以修改设置</string>
     <string name="can_overdraw">可以显示在上层</string>
     <string name="accessibility_granted">授予了使用情况访问权限</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">点击任意位置来关闭，或使用返回按钮或手势。</string>
 
     <!--menu.xml-->
     <string name="about">关于应用</string>
@@ -168,6 +240,9 @@
         <b>@maicol07</b>: 意大利语\n
         <b>@atfmxyl</b>: 简体中文\n
         <b>@ugurcansayan</b>: 土耳其语
+        <b>@shacho36p</b>: 日语\n
+        <b>@DaviEmanuel1</b>: 巴西葡萄牙语\n
+        <b>@karolpeszek</b>: 波兰语\n
     </string>
 
     <!--app_intro.xml-->
@@ -213,6 +288,37 @@
     <string name="made_with_android_studio">Android Studio开发</string>\
     <string name="version">版本:</string>
 
+        <!--page_item.xml-->
+    <string name="comma_not_allowed">不允许有逗号。</string>
+    <string name="default_page">默认页面</string>
+    <string name="same_page_exists">存在相同的页面。</string>
+    
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">不允许有重复的页面名称。</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">编辑页面</string>
+    <string name="save">保存</string>
+    <string name="what_is_this">这是什么？</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">不会立即改变页面。</string>
+    <string name="no_immediate_effect_desc">系统不会立即捕捉到页面的变化。\n
+    - 尝试多次打开和关闭电源菜单。\n
+    - 如果这不起作用，尝试重新启动设备。</string>
+    <string name="dont_show_again">不再显示</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">什么是 \"页面\"?</string>
+    <string name="what_is_a_page_desc">\"页面\" 是在一个自定义名称下的一组控件。</string>
+    <string name="page_example_1">这里有两个控件，设置了一个名为 \"声音\"的页面。</string>
+    <string name="page_example_2">在电源菜单中，它被显示在一个单独的下拉菜单下，名为 \"声音\"，而不是与所有其他控制一起。</string>
+    <string name="how_to_add_a_page">如何添加一个页面?</string>
+    <string name="how_to_add_a_page_1">添加一个页面, 请点击底部的 \"编辑页面\" 按钮</string>
+    <string name="how_to_add_a_page_2">然后点击加号，添加一个页面名称。以前创建的页面的名称也可以通过简单的点击文本来编辑。点击红色垃圾桶，删除一个页面。 \"默认页面\" 不能被编辑</string>
+    <string name="how_to_add_a_page_3">然后对于需要的控制，点击下拉并选择页面。</string>
+    <string name="how_to_add_a_page_4">最后请点击底部的 \"保存\" 按钮</string>
+
     <!--preferences.xml-->
     <string name="preferences">首选项</string>
     <string name="brightness_algo">亮度滑块算法</string>
@@ -222,6 +328,10 @@
     </string-array>
     <string name="screenshot_delay">分屏延迟(输入一个秒数)</string>
     <string name="split_screen_delay">分屏延迟(输入一个秒数)</string>
+    <string name="kill_app_delay">关闭应用程序的延迟（以毫秒为单位） [root]</string>
+    <string name="kill_app_delay_desc">在关闭一个应用程序之前等待的超时时间</string>
+    <string name="change_keyboard_delay">修改输入法延迟（以毫秒为单位）。</string>
+    <string name="change_keyboard_delay_desc">等待这个时间来显示输入法选择器</string>
     <string-array name="delay_ms">
         <item>200</item>
         <item>350</item>
@@ -229,8 +339,19 @@
         <item>1000</item>
         <item>1500</item>
     </string-array>
+    <string name="dont_kill_launcher">不要关闭桌面 [root]</string>
+    <string name="dont_kill_launcher_desc">防止关闭默认桌面。</string>
     <string name="turn_off_wakelock">屏幕自动关闭时间</string>
     <string name="turn_off_wakelock_desc">如果手动关闭了屏幕,请关闭唤醒锁</string>
+    <string name="force_battery_update">强制更新电池等级</string>
+    <string name="force_battery_update_desc">每30秒更新一次电池百分比。</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
 
     <!--messages_activity.xml-->
     <string name="messages">消息 / 公告内容</string>
