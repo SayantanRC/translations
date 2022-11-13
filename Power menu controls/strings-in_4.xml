@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">Kontrol menu daya</string>
+    <string name="current_version_name">3.0.1</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Versi 1.0</string>
+    <string name="version_1.0_content"># Peluncuran pertama</string>
+    <string name="version_2.0" >Versi 2.0</string>
+    <string name="version_2.0_content">
+        # Menambahkan tangkapan layar\n
+        # Menambahkan toggle bluetooth \n
+        # Menambahkan layar split\n
+        # Menambahkan pemindai QR Paytm untuk pengguna India\n
+        # [Membutuhkan Root] Menambahkan toggle NFC\n
+        # [Membutuhkan Root] Menambahkan toggle Data\n
+        # Menambahkan Pusat pesan untuk pengunguman penting.\n
+        # Menambahkan layar Preferensi\n
+        # Tautan ke halaman XDA\n
+        # [Perbaikan Bug] Applikasi crash pada keheningan total saat Jangan Ganggu\n
+        # [Perbaikan Bug] Nada dering tidak mati / membisu\n
+        # Tautan ditambahkan untuk membantu terjemahan\n
+        # Matikan wakelock jika layar terkunci secara manual. Dapat dinonaktifkan dari layar preferensi.\n
+        # Perbarui status saat diubah dari menekan lama kontrol\n
+    </string>
+    <string name="version_3.0" >Versi 3.0</string>
+    <string name="version_3.0_content">
+        # Menambahkan terjemahan.\n
+        # [Perbaikan Bug] Mudah-mudahan memperbaiki kontrol status baterai\n
+        # Tampilkan pesan peringatan kepada pengguna Xiaomi MIUI dan Samsung One UI.\n
+        # Kontrol baterai sekarang mengisi hingga berapa banyak baterai yang tersisa.\n
+        # Tekan lama tombol WakeLock untuk wakelock terang/redup.\n
+        # Tekan lama tombol WakeLock untuk wakelock penguncian otomatis.\n
+        # Editor Halaman baru untuk kontrol tombol di beberapa halaman.\n
+        # Tombol baru untuk mengubah keyboard.\n
+        # Tombol baru untuk membuka Shazam untuk mencari musik.\n
+        # [Membutuhkan Root] Tombol baru untuk mematikan aplikasi yang sedang terbuka.\n
+    </string>
+
+    <string name="settings_structure">Pengaturan telepon</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Kecerahan</string>
+    <string name="brightness_desc">Kecerahan layar</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Kecerahan otomatis</string>
+    <string name="enabled">Aktifkan</string>
+    <string name="disabled">Nonaktifkan</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Senter obor</string>
+    <string name="flash_desc">Senter sebagai obor</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Keheningan total</string>
+    <string name="total_silence_desc">Nonaktifkan semua suara</string>
+    <string name="do_not_disturb_active">Jangan ganggu aktif!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Batas waktu layar</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Kunci rotasi</string>
+    <string name="rotation_lock_desc">Kunci orientasi</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Kunci bangun</string>
+    <string name="wakelock_desc">Jaga agar layar tetap terjaga</string>
+    <string name="long_press_options">Tekan lama: opsi</string>
+    <string name="bright_short">Brt.</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Volume media</string>
+    <string name="media_volume_desc">Volume streaming musik.</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Volume alarm</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Volume nada dering</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Persentase baterai</string>
+    <string name="battery_desc">Persentase baterai, status penghemat baterai</string>
+    <string name="charging">Pengisian</string>
+    <string name="discharging">Pengosongan</string>
+    <string name="battery_saver">Penghemat baterai</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (India)</string>
+    <string name="scan_and_pay">Pindai QR dan bayar</string>
+    <string name="loading">Sedang memuat… Harap tunggu</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">Gunakan Shazam untuk mendeteksi musik di sekitar</string>
+
+    <!--KillApp.kt-->
+    <string name="kill_app">Matikan aplikasi</string>
+    <string name="kill_app_desc">Matikan aplikasi yang terbuka saat ini.</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Tangkapan layar</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Tahan untuk opsi</string>
+    <string name="please_wait">Mohon tunggu…</string>
+
+    <!--Data.kt-->
+    <string name="data">Data</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Masuk ke layar split</string>
+    <string name="split_screen">Layar split</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Toggle bluetooth. Tidak memerlukan root.</string>
+
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">Ganti papan ketik</string>
+
+    <string name="long_press_in_power_menu">Tekan lama di menu daya untuk opsi lainnya</string>
+    <string name="muted">Membisukan</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Kontrol umum</string>
+    <string name="generic_control_desc">Deskripsi kontrol umum</string>
+
+    <!--WakelockOptions.kt-->
+    <string name="wakelock_on">WakeLock AKTIF</string>
+    <string name="wakelock_off">WakeLock MATI</string>
+    <string name="bright">Terang</string>
+    <string name="dim">Redup</string>
+    <string name="wakelock_type">Tipe wakeLock</string>
+    <string name="bright_wakelock_desc"><b>Terang</b>: Layar akan tetap menyala sepenuhnya <b>(Tidak disarankan)</b></string>
+    <string name="dim_wakelock_desc"><b>Redup</b>: Layar akan meredupkan kecerahan setelah beberapa waktu.</string>
+    <string name="wakelock_time">Waktu wakelock</string>
+    <string name="wakelock_time_desc">Lepaskan penguncian layar saat aktif secara otomatis setelah waktu ini.\n
+        Setel ke <b>Manual</b> agar layar tetap menyala selamanya kecuali dimatikan secara manual.</string>
+    <string name="min5">5 menit</string>
+    <string name="min10">10 menit</string>
+    <string name="min30">30 menit</string>
+    <string name="manual">Manual</string>
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">Aplikasi peluncur tidak terbunuh</string>
+    <string name="cannot_kill_self">Tidak bisa bunuh diri :)</string>
+    <string name="killed">Terbunuh</string>
+    <string name="failed_to_kill">Gagal membunuh.</string>
+    <string name="expired_shazam">Tidak bisa Shazam.</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Ubah izin sistem yang diperlukan.</string>
+    <string name="modify_system_permission_desc">Klik \"Lanjutkan\" untuk membuka pengaturan dan memberikan izin.</string>
+    <string name="overlay_permission">Izin overlay diperlukan.</string>
+    <string name="overlay_permission_desc">Klik \"Lanjutkan\" untuk memberikan izin untuk menggunakan aplikasi lain.</string>
+    <string name="battery_inaccurate">Layanan baterai mungkin tidak akurat.</string>
+    <string name="battery_inaccurate_desc">Persentase baterai, status penghemat baterai, status pengisian daya yang ditunjukkan oleh kontrol mungkin tidak benar untuk semua perangkat dari semua produsen.\n\n
+        Kontrol ini tidak dapat mengaktifkan mode hemat baterai. Harap tekan lama untuk membuka pengaturan dan mengaktifkannya.\n\n
+        Klik \"Lanjutkan\" untuk mengaktifkan toggle ini.</string>
+    <string name="proceed">Memproses</string>
+    <string name="rate_dialog_title">Pendapat Anda penting</string>
+    <string name="rate_dialog_message">Jika aplikasi ini telah membantu Anda, silakan pertimbangkan untuk memberikan peringkat dan / atau ulasan.</string>
+    <string name="sure">Tentu</string>
+    <string name="thank_you">Terima kasih!</string>
+    <string name="specific_apps">Aplikasi cepat</string>
+    <string name="specific_apps_disclaimer">Aplikasi yang tercantum di bawah ini milik masing-masing organisasi / pengembang. \nAplikasi ini mungkin dihapus di masa depan jika diminta oleh pengembang aplikasi atau Google. \n
+    </string>
+    <string name="request_accessibility">Aktifkan layanan aksesibilitas.</string>
+    <string name="request_accessibility_desc">Tanpa izin ini, layar aplikasi diblokir.\n\nKlik \"Lanjutkan \" untuk membuka pengaturan dan memberikan izin.</string>
+    <string name="paytm_not_installed">Aplikasi Paytm tidak diinstal.</string>
+    <string name="shazam_not_installed">Applikasi Shazam tidak diinstal.</string>
+    <string name="kindly_install_from_store">Mohon pasang dari Google Play Store.</string>
+    <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
+    <string name="screenshot_accessibility_desc">Tanpa izin ini, tidak dapat mengirim permintaan ke sistem untuk menangkap layar.</string>
+    <string name="split_screen_accessibility_desc">Kami hanya dapat meminta layar split dengan izin ini.</string>
+    <string name="accessibility_to_close_power_menu">Layanan aksesibilitas diperlukan untuk menutup menu daya.</string>
+    <string name="root_options">Opsi root</string>
+    <string name="root_options_desc">Berguna untuk orang dengan perangkat yang di-rooting.\n<b>Jika Anda tidak di-root, banyak opsi di bawah ini dapat lama ditekan dalam menu daya untuk opsi lebih lanjut.</b></string>
+    <string name="root_not_available">Root tidak tersedia atau izin ditolak!</string>
+    <string name="nfc_no_root">Anda dapat lama menekan kontrol NFC ke pengaturan terbuka dan secara manual beralih NFC.</string>
+    <string name="data_no_root">Anda dapat menekankan kontrol data untuk membuka halaman penggunaan data dan secara manual menyalakannya.</string>
+    <string name="kill_app_accessibility_desc">Diperlukan izin aksesibilitas untuk menutup menu daya dan mendeteksi aplikasi saat ini.</string>
+    <string name="kill_app_no_root">Root diperlukan, opsi ini tidak dapat berjalan tanpa root.</string>
+    <string name="new_message">Pesan baru diterima!</string>
+    <string name="view">Melihat</string>
+    <string name="one_ui_disclaimer">Mungkin tidak berfungsi pada Samsung One UI.Maaf! &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        Karena modifikasi perangkat lunak oleh Samsung, aplikasi ini mungkin tidak berfungsi dengan benar.\n\n
+        Ini mungkin (atau mungkin tidak) bekerja pada One UI di atas versi 3.1.Anda dapat mendapatkan kontrol dari notifikasi naungan <b> (media dan perangkat) </b> dan bukan menu daya.\n\n
+        Aplikasi ini juga dapat berfungsi dengan baik pada semua ROM kustom.\n\n
+        Harap mengerti ini bukan kesalahan dari aplikasi ini. &#128557;
+    </string>
+    <string name="miui_disclaimer">Mungkin tidak berfungsi pada Xiaomi MIUI.Maaf! &#128546;</string>
+    <string name="miui_disclaimer_desc">
+        Karena modifikasi perangkat lunak oleh Xiaomi, aplikasi ini mungkin tidak berfungsi dengan benar.\n\n
+        Ini mungkin (atau mungkin tidak) bekerja pada MIUI di atas versi 12. Anda mungkin mendapatkan kontrol dari naungan notifikasi dan bukan menu daya.\n\n
+        Aplikasi ini juga dapat berfungsi dengan baik pada semua ROM kustom.\n\n
+        Harap mengerti ini bukan kesalahan dari aplikasi ini. &#128557;
+    </string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Izin.</string>
+    <string name="can_write">Dapat memodifikasi pengaturan</string>
+    <string name="can_overdraw">Dapat menggambar di atas aplikasi</string>
+    <string name="accessibility_granted">Aksesibilitas diberikan</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">Ketuk di mana saja untuk memberhentikan, atau gunakan tombol Kembali / Gesture.</string>
+
+    <!--menu.xml-->
+    <string name="about">Tentang</string>
+    <string name="translate">Berkontribusi pada penerjemahan.</string>
+    <string name="app_intro">Intro aplikasi.</string>
+    <string name="rate_app">Nilai Applikasi</string>
+    <string name="changelog">Log perubahan.</string>
+    <string name="contact_telegram">Hubungi Telegram</string>
+    <string name="check_on_xda">Cek di XDA</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Ingin menerjemahkan?</string>
+    <string name="translation_available_at">File string.xml tersedia di:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Ikuti instruksi README untuk mengirimkan terjemahan.
+    </string>
+    <string name="translators">Penerjemah</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Spanish\n
+        <b>@vladrevers</b>: Russian, Ukrainian\n
+        <b>@maicol07</b>: Italian\n
+        <b>@atfmxyl</b>: Simplified Chinese\n
+        <b>@ugurcansayan</b>: Turkish\n
+        <b>@shacho36p</b>: Japanese\n
+        <b>@DaviEmanuel1</b>: Brazilian Portuguese\n
+        <b>@karolpeszek</b>: Polish\n
+        <b>@m.yudak</b>: Indonesia\n
+
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Melewatkan</string>
+    <string name="finish">Selesai</string>
+    <string name="next">Berikutnya</string>
+    <string name="prev">Sebelumnya</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Hello!</string>
+    <string name="desc_0_0">Ini adalah tur singkat tentang cara menggunakan aplikasi ini!</string>
+    <string name="desc_0_1">Klik Berikutnya untuk melanjutkan.Atau lewati untuk menutup tutorial ini.Anda selalu dapat menonton ini nanti.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Langkah 1: Pilih kontrol</string>
+    <string name="desc_1_0">Di layar utama aplikasi, pilih kontrol yang Anda butuhkan</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Langkah 2: Tambahkan ke menu Power</string>
+    <string name="desc_2_0">1. Tekan lama tombol daya.</string>
+    <string name="desc_2_0_0">Jika Anda belum pernah menambahkan kontrol sebelumnya, klik area kotak biru yang disorot</string>
+    <string name="desc_2_0_1">Lalu pergi ke langkah 4.</string>
+    <string name="desc_2_1_0">Jika beberapa kontrol sudah ada:</string>
+    <string name="desc_2_1">2. Klik menu 3 dot.</string>
+    <string name="desc_2_2">3. Klik "Tambah Kontrol"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Langkah 3: Tambahkan ke menu Power</string>
+    <string name="desc_3_0">Klik Aplikasi Lainnya</string>
+    <string name="desc_3_1">Layar ini hanya akan muncul jika Anda telah menambahkan beberapa kontrol ke menu power sebelum menginstal aplikasi ini.Lain lanjutkan ke langkah berikutnya.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Langkah 4: Aktifkan Kontrol</string>
+    <string name="desc_4_0">1. Klik nama aplikasi ini</string>
+    <string name="desc_4_1">2. Centang kotak kontrol.</string>
+    <string name="desc_4_2">3. Terakhir, klik Simpan.</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Selesai!</string>
+    <string name="desc_5_0">Anda sekarang dapat kembali ke layar beranda.Jika Anda lama menekan menu daya, Anda akan melihat kontrol.</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Dibuat dengan Studio Android</string>\
+    <string name="version">Versi:</string>
+
+    <!--page_item.xml-->
+    <string name="comma_not_allowed">Koma tidak diizinkan.</string>
+    <string name="default_page">Halaman default.</string>
+    <string name="same_page_exists">Halaman yang sama ada.</string>
+
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">Nama halaman duplikat tidak diizinkan.</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">Edit halaman</string>
+    <string name="save">Simpan</string>
+    <string name="what_is_this">Apa ini?</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">Tidak segera mengubah halaman.</string>
+    <string name="no_immediate_effect_desc">Sistem tidak segera mengambil perubahan halaman.\n
+    - Coba buka dan tutup menu daya beberapa kali.\n
+    - Jika itu tidak berhasil, coba restart perangkat.</string>
+    <string name="dont_show_again">Jangan tampilkan lagi</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">Apa itu \"halaman\"?</string>
+    <string name="what_is_a_page_desc">\"Halaman\" adalah sekelompok kontrol di bawah nama khusus.</string>
+    <string name="page_example_1">Berikut adalah dua kontrol yang diatur dengan halaman bernama \"Sounds\".</string>
+    <string name="page_example_2">Di menu Daya, ditampilkan di bawah drop-down terpisah bernama \"Sounds \", dan tidak dengan semua kontrol lainnya.</string>
+    <string name="how_to_add_a_page">Cara Menambahkan Halaman?</string>
+    <string name="how_to_add_a_page_1">Untuk menambahkan halaman, klik tombol \"Edit halaman\" di bagian bawah.</string>
+    <string name="how_to_add_a_page_2">Kemudian klik tanda plus, tambahkan nama halaman.Nama halaman yang dibuat sebelumnya juga dapat diedit dengan hanya mengklik pada teks.Klik dustbin merah untuk menghapus halaman.\ "Halaman default \" tidak dapat diedit.</string>
+    <string name="how_to_add_a_page_3">Kemudian untuk kontrol yang diperlukan, klik drop-down dan pilih halaman.</string>
+    <string name="how_to_add_a_page_4">Akhirnya klik tombol \ "Simpan \" di bagian bawah.</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Preferensi.</string>
+    <string name="brightness_algo">Algoritma slider kecerahan.</string>
+    <string-array name="brighness_algo_values">
+        <item>Linear.</item>
+        <item>Logaritma</item>
+    </string-array>
+    <string name="screenshot_delay">Delay tangkapan layar (dalam mili-detik)</string>
+    <string name="split_screen_delay">Delay layar split. (dalam mili-detik)</string>
+    <string name="kill_app_delay">Bunuh keterlambatan aplikasi (dalam mili-detik) [root]</string>
+    <string name="kill_app_delay_desc">Tunggu batas waktu ini sebelum membunuh aplikasi</string>
+    <string name="change_keyboard_delay">Ubah Keterlambatan Keyboard (dalam mili-detik)</string>
+    <string name="change_keyboard_delay_desc">Tunggu saat ini untuk menunjukkan pemilih keyboard</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="dont_kill_launcher">Jangan bunuh peluncur [root]</string>
+    <string name="dont_kill_launcher_desc">Mencegah pembunuhan peluncur default.</string>
+    <string name="turn_off_wakelock">Auto wakelock off</string>
+    <string name="turn_off_wakelock_desc">Matikan layar Wakelock jika dimatikan secara manual.</string>
+    <string name="force_battery_update">Force update battery level</string>
+    <string name="force_battery_update_desc">Perbarui persentase baterai setiap 30 detik.</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Pesan / Pengumuman</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Tidak ada pesan!</string>
+</resources>

@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">Przyciski menu zasilania</string>
+    <string name="current_version_name">3.0.1</string>
+
+    <!--changelog-->
+    <string name="version_1.0" >Wersja 1.0</string>
+    <string name="version_1.0_content"># Pierwsza wersja</string>
+    <string name="version_2.0" >Wersja 2.0</string>
+    <string name="version_2.0_content">
+        # Dodano przycisk screenshotów\n
+        # Dodano przełącznik Bluetooth\n
+        # Dodano podział ekranu\n
+        # Dodano Paytm QR dla użytkowników w Indiach\n
+        # [Root] Dodano przełącznik NFC\n
+        # [Root] Dodano przełącznik danych komórkowych\n
+        # Dodano centrum wiadomości dla ważnych powiadomień\n
+        # Dodano ustawienia\n
+        # Link do strony XDA\n
+        # [Naprawiono] Błąd aplikacji przy minimalnej głośności w trybie Nie przeszkadzać\n
+        # [Naprawiono] Dzwonek nie był wyciszony\n
+        # Dodano link pomocy w tłumaczeniach\n
+        # Wyłącz blokadę uśnięcia jeśli ekran został ręcznie zablokowany. Może być wyłączone w ustawieniach.\n
+        # Zaktualizuj status po przytrzymaniu włącznika\n
+    </string>
+    <string name="version_3.0" >Wersja 3.0</string>
+    <string name="version_3.0_content">
+        # Dodane tłumaczenia.\n
+        # [Naprawiono] Naprawiona kontrolka baterii\n
+        # Pokaż ostrzeżenie dla użytkowników MIUI oraz OneUI\n
+        # Kontrolka bateri teraz pokazuje ile naładowania zostało.\n
+        # Przytrzymaj przycisk blokady uśnięcia aby sterować czasem\n
+        # Przytrzymaj przycisk blokady uśnięcia aby ustawić automatyczny timer\n
+		# Nowy edytor dla kafelków z różnych stron
+        # Nowy kafelek do zmiany klawiatury\n
+        # Nowy kafelek otwierający Shazam\n
+        # [Root] Nowy kafelek do wymuszania zatrzymania aplikacji\n
+    </string>
+
+    <string name="settings_structure">Ustawienia telefonu</string>
+
+    <!--Brightness.kt-->
+    <string name="brightness">Jasność</string>
+    <string name="brightness_desc">Jasność ekranu</string>
+
+    <!--AutoBrightness.kt-->
+    <string name="auto_brightness">Automatyczna jasność</string>
+    <string name="enabled">Włączona</string>
+    <string name="disabled">Wyłączone</string>
+
+    <!--Flash.kt-->
+    <string name="flash">Latarka</string>
+    <string name="flash_desc">Lampa telefonu jako latarka</string>
+
+    <!--TotalSilence.kt-->
+    <string name="total_silence">Wyciszenie</string>
+    <string name="total_silence_desc">Wycisz wszystko</string>
+    <string name="do_not_disturb_active">Tryb nie przeszkadzać włączony!</string>
+
+    <!--ScreenTimeout.kt-->
+    <string name="screen_timeout">Wygaszanie ekranu</string>
+
+    <!--RotationLock.kt-->
+    <string name="rotation_lock">Blokada obrotu</string>
+    <string name="rotation_lock_desc">Zablokuj automatyczny obrót</string>
+
+    <!--WakeLock.kt-->
+    <string name="wakelock">Blockada uśnięcia</string>
+    <string name="wakelock_desc">Zapobiegaj uśpieniu telefonu</string>
+    <string name="long_press_options">Przytrzymaj po więcej opcji</string>
+    <string name="bright_short">Jasność</string>
+
+    <!--MediaVolume.kt-->
+    <string name="media_volume">Głośność multimediów</string>
+    <string name="media_volume_desc">Głośność multimediów</string>
+
+    <!--AlarmVolume.kt-->
+    <string name="alarm_volume">Głośność alarmów</string>
+
+    <!--RingtoneVolume.kt-->
+    <string name="ringtone_volume">Głośność dzwonka</string>
+
+    <!--Battery.kt-->
+    <string name="battery_percentage">Procent baterii</string>
+    <string name="battery_desc">Procent baterii, oszczędzanie energii</string>
+    <string name="charging">Ładowanie</string>
+    <string name="discharging">Rozładowywanie</string>
+    <string name="battery_saver">Oszczędzanie energii</string>
+
+    <!--PaytmQR.kt-->
+    <string name="paytm_pay">Paytm Pay</string>
+    <string name="paytm_pay_india">Paytm (Indie)</string>
+    <string name="scan_and_pay">Zeskanuj kod QR i zapłać</string>
+    <string name="loading">Ładowanie… Czekaj</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">Użyj Shazam aby rozpoznać muzykę</string>
+
+    <!--KillApp.kt-->
+    <string name="kill_app">Wymuś zatrzymanie</string>
+    <string name="kill_app_desc">Zamknij aktualnie otawrtą aplikację</string>
+
+    <!--GoogleLens.kt-->
+    <!--<string name="google_lens">Google lens</string>-->
+
+    <!--GooglePayTez.kt-->
+    <!--<string name="google_pay_tez">G-Pay (India)</string>-->
+
+    <!--Screenshot.kt-->
+    <string name="screenshot">Zrzut ekranu</string>
+
+    <!--Nfc.kt-->
+    <string name="nfc">NFC</string>
+    <string name="hold_for_options">Przytrzymaj po więcej opcji</string>
+    <string name="please_wait">Proszę czekać…</string>
+
+    <!--Data.kt-->
+    <string name="data">Dane komórkowe</string>
+
+    <!--SplitScreen.kt-->
+    <string name="split_screen_title">Podziel ekran</string>
+    <string name="split_screen">Otwórz widok dzielonego ekranu</string>
+
+    <!--Bluetooth.kt-->
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Przełącz Bluetooth</string>
+
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">Zmień klawiaturę</string>
+
+    <string name="long_press_in_power_menu">Przytrzymaj w manu zasilania po więcej opcji</string>
+    <string name="muted">Wyciszone</string>
+
+    <!--shortcut_toggle_view.xml-->
+    <string name="generic_control">Główne kontrolki</string>
+    <string name="generic_control_desc">Opis głównych kontrolek</string>
+
+    <!--WakelockOptions.kt-->
+    <string name="wakelock_on">Blokada uśnięcia włączona</string>
+    <string name="wakelock_off">Blokada uśnięcia wyłączona</string>
+    <string name="bright">Jasny</string>
+    <string name="dim">Ciemny</string>
+    <string name="wakelock_type">Opcje blokady</string>
+    <string name="bright_wakelock_desc"><b>Jasny</b>: Ekran pozostanie na pełnej jasności <b>(Nie rekomendowane)</b></string>
+    <string name="dim_wakelock_desc"><b>Ciemny</b>: Ekran stanie się ciemniejszy po pewnym czasie.</string>
+    <string name="wakelock_time">Czas blokady</string>
+    <string name="wakelock_time_desc">Automatycznie wyłącz blokadę po tym czasie\n
+        Ustaw na <b>Ręczny</b> aby pozostawić blokadę włączoną do czasu ręcznego wyłączenia</string>
+    <string name="min5">5 min</string>
+    <string name="min10">10 min</string>
+    <string name="min30">30 min</string>
+    <string name="manual">Ręcznie</string>
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">Nie zatrzymano aplikacji startowej</string>
+    <string name="cannot_kill_self">Nie można zatrzymać aplikacji</string>
+    <string name="killed">Zatrzymano</string>
+    <string name="failed_to_kill">Błąd zatrzymania</string>
+    <string name="expired_shazam">Błąd uruchamiania Shazam</string>
+
+    <!--MainActivity.kt-->
+    <string name="modify_system_permission">Wymagane uprawnienie modyfikacji ustawień systemu</string>
+    <string name="modify_system_permission_desc">Naciśnij \"Dalej\" aby otworzyć ustawienia i przyznać uprawnienie.</string>
+    <string name="overlay_permission">Wymagane uprawnienie wyświetlania się nad aplikacjami</string>
+    <string name="overlay_permission_desc">Naciśnij \"Dalej\" aby przyznać uprawnienie wyświetlania się nad innymi aplikacjami.</string>
+    <string name="battery_inaccurate">Usługa baterii może nie być dokładna</string>
+    <string name="battery_inaccurate_desc">Procent baterii, staus ładowania może nie być dokładny dla wszystkich producentów i modeli.\n\n
+        Ten przełącznik nie może przełączać trybu oszczędzania energii. Przytrzymaj, aby otworzyć ustawienia i go włączyć.\n\n
+        Naciśnij \"Dalej\" aby otworzyć ustawienia.</string>
+    <string name="proceed">Dalej</string>
+    <string name="rate_dialog_title">Twoja opinia jest ważna</string>
+    <string name="rate_dialog_message">Jeżeli aplikacja Ci się podoba rozważ pozostawinie opinii.</string>
+    <string name="sure">Pewnie!</string>
+    <string name="thank_you">Dziękuję.</string>
+    <string name="specific_apps">Szybkie aplikacje</string>
+    <string name="specific_apps_disclaimer">Poniższe aplikacje należą do ich deweloperów.\nTe aplikacje mogą w przyszłości być usunięte na prośbę ich deweloperów albo Google.\n
+    </string>
+    <string name="request_accessibility">Włącz usługę dostępności.</string>
+    <string name="request_accessibility_desc">Bez tego uprawnienia aplikacje zostanie zablokowana\n\nNaciśnij \"Dalej\" aby otworzyć ustawienia i przyznać uprawnienia.</string>
+    <string name="paytm_not_installed">Aplikacja Paytm nie jest zainstalowana</string>
+    <string name="shazam_not_installed">Aplikacja Shazam nie jest zainstalowana.</string>
+    <string name="kindly_install_from_store">Proszę zainstalować aplikację ze Sklepu Google Play</string>
+    <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
+    <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
+    <string name="screenshot_accessibility_desc">Bez tego uprawnienia aplikacja nie może nagrywać ekranu.</string>
+    <string name="split_screen_accessibility_desc">Z tym uprawnieniem możemy jedynie poprosić o podzielony ekran</string>
+    <string name="accessibility_to_close_power_menu">Uprawnienia dostępności wymagane aby zamknąć menu zasilania</string>
+    <string name="root_options">Root</string>
+    <string name="root_options_desc">Przydatne dla osób ze zrootowanymi urządzeniami.\n<b>If you are NOT rooted, many of the below options can be long pressed in power menu for further options.</b></string>
+    <string name="root_not_available">Brak uprawnień superużytkownika</string>
+    <string name="nfc_no_root">Możesz przytrzymać przełącznik NFC aby otworzyć ustawienia i ręcznie przełączyć NFC.</string>
+    <string name="data_no_root">Możesz przytrzymać przełącznik danych komórkowych aby otworzyć ustawienia i ręcznie przełączyć dane komórkowe.</string>
+    <string name="kill_app_accessibility_desc">Wymagane uprawnienia dostępności aby zamknąć menu zasilania i wykryć otwrtą aplikację.</string>
+    <string name="kill_app_no_root">Wymagane uprawnienia superużytkownika.</string>
+    <string name="new_message">Nowa wiadomość!</string>
+    <string name="view">Widok</string>
+    <string name="one_ui_disclaimer">Może nie działać na nakładce OneUI. Przepraszamy. &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        Z powodu modyfikacji dokonanych przez firmę Samsung w nakładce OneUI aplikacja może nie działać poprawnie.\n\n
+        Aplikacja może (albo nie) działać  nakładką OneUI 3.1. Możesz otworzyć panel sterowania z poziomu belki powiadomień <b>(Media and Devices)</b> a nie manu zasilania.\n\n
+        Aplikacja może również działać na własnych systemach\n\n
+        Proszę wziąć pod uwagę, że nie jest to wina aplikacji. &#128557;
+    </string>
+    <string name="miui_disclaimer">Może nie działać na MIUI. Przepraszamy. &#128546;</string>
+    <string name="miui_disclaimer_desc">
+		Z powodu modyfikacji dokonanych przez firmę Xiaomi w nakładce MIUI aplikacja może nie działać poprawnie.\n\n
+		Aplikacja może (albo nie) działać  nakładką MIUI 12. Możesz otworzyć panel sterowania z poziomu belki powiadomień a nie manu zasilania.\n\n
+		Aplikacja może również działać na własnych systemach\n\n
+		Proszę wziąć pod uwagę, że nie jest to wina aplikacji. &#128557;
+    </string>
+
+
+    <!--header_view.xml-->
+    <string name="permissions">Uprawnienia</string>
+    <string name="can_write">Modyfikacja ustawień systemowych</string>
+    <string name="can_overdraw">Wyświetlanie nad innymi aplikacjami</string>
+    <string name="accessibility_granted">Dostępność</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">Kliknij aby odrzucić lub użyj klawisza/gestu wstecz</string>
+
+    <!--menu.xml-->
+    <string name="about">O aplikacji</string>
+    <string name="translate">Pomóż w tłumaczeniu</string>
+    <string name="app_intro">Wprowadzenie</string>
+    <string name="rate_app">Oceń aplikację</string>
+    <string name="changelog">Lista zmian</string>
+    <string name="contact_telegram">Kontakt poprzez Telegram</string>
+    <string name="check_on_xda">Strona na XDA</string>
+
+    <!--translation_layout.xml-->
+    <string name="want_to_translate">Chcesz pomóc w tłumaczeniu?</string>
+    <string name="translation_available_at">Plik strings.xml jest dostępny na:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+   Wykonaj instrukcje z pliku README aby dodać tłumaczenia.
+    </string>
+    <string name="translators">Tłumacze</string>
+    <string name="translators_list">
+        <b>@peter9811</b>: Hiszpański\n
+        <b>@vladrevers</b>: Rosyjski, Ukraiński\n
+        <b>@maicol07</b>: Włoski\n
+        <b>@atfmxyl</b>: Uproszczony chiński\n
+        <b>@ugurcansayan</b>: Turecki\n
+        <b>@shacho36p</b>: Japoński\n
+		<b>@karolpeszek</b>: Polski\n
+    </string>
+
+    <!--app_intro.xml-->
+    <string name="skip">Pomiń</string>
+    <string name="finish">Zakończ</string>
+    <string name="next">Dalej</string>
+    <string name="prev">Wstecz</string>
+
+    <!--intro_0.xml-->
+    <string name="title_0">Witaj!</string>
+    <string name="desc_0_0">To jest szybkie wprowadzenie o tym jak używać aplikacji.</string>
+    <string name="desc_0_1">Naciśnij \"Dalej\" aby kontynuować albo naciśnij \"Pomiń\" aby zamknąć. Wprowadzenie możesz otworzyć później w menu aplikacji.</string>
+
+    <!--intro_1.xml-->
+    <string name="title_1">Krok 1: Wybierz kafelki</string>
+    <string name="desc_1_0">Na stronie głównej aplikacji wybierz kafelki, których chcesz używać</string>
+
+    <!--intro_2.xml-->
+    <string name="title_2">Krok 2: Dodaj do menu zasilania</string>
+    <string name="desc_2_0">11. Przytrzymaj przycisk zasilania</string>
+    <string name="desc_2_0_0">Jeżeli nie posiadasz jeszcze kafelków naciśnij duży prostokąt</string>
+    <string name="desc_2_0_1">Przejdź do kroku 4.</string>
+    <string name="desc_2_1_0">Jeżeli posiadasz już jakieś kafelki:</string>
+    <string name="desc_2_1">2. Naciśnij trzy ktopki</string>
+    <string name="desc_2_2">3. Naciśnij "Dodaj elementy sterujące"</string>
+
+    <!--intro_3.xml-->
+    <string name="title_3">Krok 3: Dodaj do menu zasilania</string>
+    <string name="desc_3_0">Naciśnij \"Wyświetl inne aplikacja\"</string>
+    <string name="desc_3_1">Ten ekran wyświelti się jedynie jeśli dodałeś już kafelki. W przeciwnym wypadku przejdź do następnego kroku.</string>
+
+    <!--intro_4.xml-->
+    <string name="title_4">Krok 4: Włącz kafelki</string>
+    <string name="desc_4_0">1. Naciśnij tą aplikację</string>
+    <string name="desc_4_1">2. Zaznacz kafelki</string>
+    <string name="desc_4_2">3. Naciśnij \"Zapisz\".</string>
+
+    <!--intro_5.xml-->
+    <string name="title_5">Gotowe!</string>
+    <string name="desc_5_0">Możesz wyjść na ekran początkowy. Przytrzymaj przycisk zasilania aby zobaczyć kafelki..</string>
+
+    <!--about_app.xml-->
+    <string name="made_with_android_studio">Zaprojektowane w Android Studio</string>\
+    <string name="version">Wersja:</string>
+
+    <!--page_item.xml-->
+    <string name="comma_not_allowed">Przecinek niedozwolony!</string>
+    <string name="default_page">Domyślna strona</string>
+    <string name="same_page_exists">Taka sama strona już istnieje</string>
+
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">Strony o tych samych imionach zabronione.</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">Edytuj grupy</string>
+    <string name="save">Zapisz</string>
+    <string name="what_is_this">Co to jest?</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">Nie zmienia strony natychmiast.</string>
+    <string name="no_immediate_effect_desc">System nie rozpoznaje zmian od razu.\n
+    - Spróbuj otworzyć i zmaknąć aplikację kilka razy\n
+    - Jeżeli to nie pomoże, uruchom ponownie telefon.</string>
+    <string name="dont_show_again">Nie pokazuj ponownie</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">Co to jest \"Grupa\"?</string>
+    <string name="what_is_a_page_desc">\"Grupa\" to zbiór kafelków w grupie o pewnej nazwie</string>
+    <string name="page_example_1">To są dwa kafelki w grupie o nazwie \"Dźwięk\".</string>
+    <string name="page_example_2">W manu zasilania jest to pokazane w rozwijanym menu z tytułem grupy.</string>
+    <string name="how_to_add_a_page">Jak dodać grupę?</string>
+    <string name="how_to_add_a_page_1">Aby dodać grupę naciśnij "Edytuj grupy" poniżej.</string>
+    <string name="how_to_add_a_page_2">Następniej naciśnij plus, wpisz imię i kliknij zapisz. Obecne grupy mogą być edytowane poprzez naciśnięcie na nie. Naciśnij na ikonkę kosza aby usunąć grupę. \"Domyślna strona\" nie może być edytowana.</string>
+    <string name="how_to_add_a_page_3">Następnie przy każdym kafelku zdecyduj do której grupy on należy.</string>
+    <string name="how_to_add_a_page_4">Na końcu kliknij \"Zapisz\" na dole.</string>
+
+    <!--preferences.xml-->
+    <string name="preferences">Ustawienia</string>
+    <string name="brightness_algo">Algorytm suwaka jasności</string>
+    <string-array name="brighness_algo_values">
+        <item>Liniowy</item>
+        <item>Logarytmiczny</item>
+    </string-array>
+    <string name="screenshot_delay">Opóźnienie zrzutu ekranu (w milisekundach)</string>
+    <string name="split_screen_delay">Opóźnienie dzielonego ekranu (w milisekundach)</string>
+    <string name="kill_app_delay">Opóźnienie zatrzymania aplikacji (w milisekundach) [root]</string>
+    <string name="kill_app_delay_desc">Odczekaj podany czas przed zatrzymaniem aplikacji.</string>
+    <string name="change_keyboard_delay">Opóźnienie zmiany klawiatury (w milisekundach)</string>
+    <string name="change_keyboard_delay_desc">Odczekaj tyle milisekund przed pokazaniem okienka zmiany klawiatury:</string>
+    <string-array name="delay_ms">
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="dont_kill_launcher">Nie zatrzymuj aplikacji startowej [root]</string>
+    <string name="dont_kill_launcher_desc">Zapobiegaj zatrzymywaniu domyślnej aplikacji ekranu startowego.</string>
+    <string name="turn_off_wakelock">Automatyczne zapobieganie uśpieniu wyłączone</string>
+    <string name="turn_off_wakelock_desc">Wyłącz zapobieganie uśpieniu kiedy ekran zostanie wyłączony.</string>
+    <string name="force_battery_update">Wymuś aktualizację poziomu baterii</string>
+    <string name="force_battery_update_desc">Aktualizuj poziom baterii co 30 sekund.</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <!--messages_activity.xml-->
+    <string name="messages">Wiadomośći / Ogłoszenia</string>
+
+    <!--MessagesView.kt-->
+    <string name="no_messages">Brak wiadomości!</string>
+</resources> 

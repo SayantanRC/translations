@@ -1,5 +1,6 @@
 <resources>
-    <string name="current_version_name">2.0</string>
+    <string name="app_name">Power menu controls</string>
+    <string name="current_version_name">3.0.1</string>
 
     <!--changelog-->
     <string name="version_1.0" >Version 1.0</string>
@@ -20,6 +21,19 @@
         # Link added to help with translations\n
         # Turn off wakelock if manually screen is locked. Can be disabled from preference screen.\n
         # Update status when changed from long pressing the control\n
+    </string>
+    <string name="version_3.0" >Version 3.0</string>
+    <string name="version_3.0_content">
+        # Added translations.\n
+        # [Bug fix] Hopefully fix battery stat control\n
+        # Show warning message to Xiaomi MIUI and Samsung One UI users.\n
+        # Battery control now fills up to how much battery is left.\n
+        # Long press WakeLock tile for bright/dim wakelock.\n
+        # Long press WakeLock tile for auto-timeout wakelock.\n
+        # New Page editor for control tiles across multiple pages.\n
+        # New tile to change keyboard.\n
+        # New tile to open Shazam to search for music.\n
+        # [Root needed] New tile to kill the currently open app.\n
     </string>
 
     <string name="settings_structure">Phone settings</string>
@@ -50,8 +64,10 @@
     <string name="rotation_lock_desc">Lock orientation</string>
 
     <!--WakeLock.kt-->
-    <string name="wakelock">Wake lock</string>
+    <string name="wakelock">WakeLock</string>
     <string name="wakelock_desc">Keep screen awake</string>
+    <string name="long_press_options">Long press: options</string>
+    <string name="bright_short">Brt.</string>
 
     <!--MediaVolume.kt-->
     <string name="media_volume">Media volume</string>
@@ -75,6 +91,14 @@
     <string name="paytm_pay_india">Paytm (India)</string>
     <string name="scan_and_pay">Scan QR and pay</string>
     <string name="loading">Loading… Please wait</string>
+
+    <!--Shazam.kt-->
+    <string name="shazam">Shazam</string>
+    <string name="shazam_desc">Use Shazam to detect music around</string>
+
+    <!--KillApp.kt-->
+    <string name="kill_app">Kill app</string>
+    <string name="kill_app_desc">Kill the current open app.</string>
 
     <!--GoogleLens.kt-->
     <!--<string name="google_lens">Google lens</string>-->
@@ -101,11 +125,38 @@
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_desc">Toggle bluetooth. No root needed.</string>
 
+    <!--KeyboardChanger.kt-->
+    <string name="change_keyboard">Change keyboard</string>
+
+    <string name="long_press_in_power_menu">Long press in power menu for more options</string>
     <string name="muted">Muted</string>
 
     <!--shortcut_toggle_view.xml-->
     <string name="generic_control">Generic control</string>
     <string name="generic_control_desc">Generic control description</string>
+
+    <!--WakelockOptions.kt-->
+    <string name="wakelock_on">WakeLock ON</string>
+    <string name="wakelock_off">WakeLock OFF</string>
+    <string name="bright">Bright</string>
+    <string name="dim">Dim</string>
+    <string name="wakelock_type">WakeLock types</string>
+    <string name="bright_wakelock_desc"><b>Bright</b>: Screen will stay fully lit up <b>(Not recommended)</b></string>
+    <string name="dim_wakelock_desc"><b>Dim</b>: Screen will dim brightness after some time.</string>
+    <string name="wakelock_time">Wakelock time</string>
+    <string name="wakelock_time_desc">Automatically release wake lock after this time.\n
+        Set to <b>Manual</b> to keep screen on forever unless manually turned off.</string>
+    <string name="min5">5 min</string>
+    <string name="min10">10 min</string>
+    <string name="min30">30 min</string>
+    <string name="manual">Manual</string>
+
+    <!--AppAccessibilityServices.kt-->
+    <string name="launcher_app_not_killed">Launcher app not killed</string>
+    <string name="cannot_kill_self">Cannot kill self :)</string>
+    <string name="killed">Killed</string>
+    <string name="failed_to_kill">Failed to kill.</string>
+    <string name="expired_shazam">Could not Shazam.</string>
 
     <!--MainActivity.kt-->
     <string name="modify_system_permission">Modify system permission needed.</string>
@@ -127,18 +178,36 @@
     <string name="request_accessibility">Enable accessibility service.</string>
     <string name="request_accessibility_desc">Without this permission, the app screen is blocked.\n\nClick \"Proceed\" to open settings and grant permission.</string>
     <string name="paytm_not_installed">Paytm app is not installed.</string>
+    <string name="shazam_not_installed">Shazam app is not installed.</string>
     <string name="kindly_install_from_store">Kindly install from Google Play Store.</string>
     <!--<string name="google_lens_not_installed">Google Lens is not installed.</string>
     <string name="google_pay_tez_not_installed">Google Pay (India) is not installed.</string>-->
     <string name="screenshot_accessibility_desc">Without this permission, cannot send request to system to capture screen.</string>
     <string name="split_screen_accessibility_desc">We can only request split screen with this permission.</string>
+    <string name="accessibility_to_close_power_menu">Accessibility service is needed to close the power menu.</string>
     <string name="root_options">Root options</string>
     <string name="root_options_desc">Useful for people with rooted devices.\n<b>If you are NOT rooted, many of the below options can be long pressed in power menu for further options.</b></string>
     <string name="root_not_available">Root not available or permission denied!</string>
     <string name="nfc_no_root">You can long press the NFC control to open settings and manually toggle NFC.</string>
     <string name="data_no_root">You can long press the Data control to open Data usage page and manually turn it on.</string>
+    <string name="kill_app_accessibility_desc">Accessibility permission is needed to close power menu and detect the current app.</string>
+    <string name="kill_app_no_root">Root is necessary, this option cannot run without root.</string>
     <string name="new_message">New message received!</string>
     <string name="view">View</string>
+    <string name="one_ui_disclaimer">May not work on Samsung One UI. Sorry! &#128546;</string>
+    <string name="one_ui_disclaimer_desc">
+        Because of software modifications by Samsung, this app may not work correctly.\n\n
+        It may (or may not) work on One UI above version 3.1. You may get the controls from notification shade <b>(Media and Devices)</b> and not power menu.\n\n
+        The app may also work fine on all custom ROMs.\n\n
+        Please understand this is not a fault of this app. &#128557;
+    </string>
+    <string name="miui_disclaimer">May not work on Xiaomi MIUI. Sorry! &#128546;</string>
+    <string name="miui_disclaimer_desc">
+        Because of software modifications by Xiaomi, this app may not work correctly.\n\n
+        It may (or may not) work on MIUI above version 12. You may get the controls from notification shade and not power menu.\n\n
+        The app may also work fine on all custom ROMs.\n\n
+        Please understand this is not a fault of this app. &#128557;
+    </string>
 
 
     <!--header_view.xml-->
@@ -146,6 +215,9 @@
     <string name="can_write">Can modify settings</string>
     <string name="can_overdraw">Can draw over apps</string>
     <string name="accessibility_granted">Accessibility granted</string>
+
+    <!--keyboard_change_dummy_layout.xml-->
+    <string name="tap_anywhere_to_dismiss">Tap anywhere to dismiss, or use Back button / gesture.</string>
 
     <!--menu.xml-->
     <string name="about">About</string>
@@ -165,7 +237,12 @@
     <string name="translators_list">
         <b>@peter9811</b>: Spanish\n
         <b>@vladrevers</b>: Russian, Ukrainian\n
+        <b>@maicol07</b>: Italian\n
         <b>@atfmxyl</b>: Simplified Chinese\n
+        <b>@ugurcansayan</b>: Turkish\n
+        <b>@shacho36p</b>: Japanese\n
+        <b>@DaviEmanuel1</b>: Brazilian Portuguese\n
+        <b>@karolpeszek</b>: Polish\n
     </string>
 
     <!--app_intro.xml-->
@@ -211,6 +288,37 @@
     <string name="made_with_android_studio">Made with Android Studio</string>\
     <string name="version">Version:</string>
 
+    <!--page_item.xml-->
+    <string name="comma_not_allowed">Comma not allowed.</string>
+    <string name="default_page">Default page</string>
+    <string name="same_page_exists">Same page exists.</string>
+
+    <!--PageEditLayout.kt-->
+    <string name="duplicate_pages_not_allowed">Duplicate page names not allowed.</string>
+
+    <!--page_select_activity.xml-->
+    <string name="edit_page">Edit Pages</string>
+    <string name="save">Save</string>
+    <string name="what_is_this">What is this?</string>
+
+    <!--PageSelectorActivity.kt-->
+    <string name="no_immediate_effect">Does not immediately change the page.</string>
+    <string name="no_immediate_effect_desc">The system does not immediately pick up the change of page.\n
+    - Try opening and closing the power menu multiple times.\n
+    - If that does not work, try restarting the device.</string>
+    <string name="dont_show_again">Don\'t show again</string>
+
+    <!--page_edit_what_is_this.xml-->
+    <string name="what_is_a_page">What is a \"Page\"?</string>
+    <string name="what_is_a_page_desc">\"Page\" is a group of controls under a custom name.</string>
+    <string name="page_example_1">Here are two controls set with a Page named \"Sounds\".</string>
+    <string name="page_example_2">In the power menu, it is shown under a separate drop-down named \"Sounds\", and not with all other controls.</string>
+    <string name="how_to_add_a_page">How to add a page?</string>
+    <string name="how_to_add_a_page_1">To add a page, click the \"Edit Pages\" button at the bottom.</string>
+    <string name="how_to_add_a_page_2">Then click the plus sign, add a page name. Names of previously created pages can also be edited by simply clicking on the text. Click the red dustbin to delete a page. The \"Default page\" cannot be edited.</string>
+    <string name="how_to_add_a_page_3">Then for the needed control, click the drop-down and select the Page.</string>
+    <string name="how_to_add_a_page_4">Finally click the \"Save\" button at the bottom.</string>
+
     <!--preferences.xml-->
     <string name="preferences">Preferences</string>
     <string name="brightness_algo">Brightness slider algorithm</string>
@@ -220,6 +328,10 @@
     </string-array>
     <string name="screenshot_delay">Screenshot delay (in milli-seconds)</string>
     <string name="split_screen_delay">Split screen delay (in milli-seconds)</string>
+    <string name="kill_app_delay">Kill app delay (in milli-seconds) [root]</string>
+    <string name="kill_app_delay_desc">Wait for this timeout before killing an app</string>
+    <string name="change_keyboard_delay">Change keyboard delay (in milli-seconds)</string>
+    <string name="change_keyboard_delay_desc">Wait for this time to show keyboard selector</string>
     <string-array name="delay_ms">
         <item>200</item>
         <item>350</item>
@@ -227,12 +339,23 @@
         <item>1000</item>
         <item>1500</item>
     </string-array>
+    <string name="dont_kill_launcher">Don\'t kill launcher [root]</string>
+    <string name="dont_kill_launcher_desc">Prevent killing of the default launcher.</string>
     <string name="turn_off_wakelock">Auto wakelock off</string>
     <string name="turn_off_wakelock_desc">Turn off wakelock if screen is manually turned off.</string>
+    <string name="force_battery_update">Force update battery level</string>
+    <string name="force_battery_update_desc">Update battery percentage every 30 seconds.</string>
+    <string-array name="delay_ms_keyboard">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
 
     <!--messages_activity.xml-->
     <string name="messages">Messages / Announcements</string>
 
     <!--MessagesView.kt-->
-    <string name="no_messages">No messages!</string>    
+    <string name="no_messages">No messages!</string>
 </resources>
